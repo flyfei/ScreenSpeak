@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"Kui TalkBack on sisse lülitatud, annab seade suulist tagasisidet pimedatele ja vaegnägijatele. Seade kirjeldab näiteks, mida puudutate, mille valite ja aktiveerite."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack on sisse lülitatud"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"TalkBacki seaded"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"Kui ScreenSpeak on sisse lülitatud, annab seade suulist tagasisidet pimedatele ja vaegnägijatele. Seade kirjeldab näiteks, mida puudutate, mille valite ja aktiveerite."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak on sisse lülitatud"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"ScreenSpeaki seaded"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Kõnesünteesi seaded"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Versioon <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Versioon <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Kohandatud siltide haldamine"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"Rakenduse <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g> siltide haldamine"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Praegu pole ühtegi kohandatud silti. Selle loomiseks navigeerige sildita kujutisele ja lisage silt kohalikust kontekstimenüüst."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Puudutusega uurimine"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Ühe puudutusega valimine"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Kontekstimenüü kuvamine loendina"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"Hämarda ekraan, kui TalkBack on lubatud"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"Hämarda ekraan, kui ScreenSpeak on lubatud"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Katseline) valimiseks puudutage praegu esile tõstetud üksust"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Raputamine pideva lugemise alustamiseks"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Liigutuste haldamine"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Halda kohandatud silte"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Klaviatuuri otseteede haldamine"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Avage TalkBack Play poes"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Praegune TalkBacki versioon: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Avage ScreenSpeak Play poes"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Praegune ScreenSpeaki versioon: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Teenusetingimused"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Privaatsuseeskirjad"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Otsetee liigutused"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Kodu"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Hiljutised rakendused"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Märguanded"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"TalkBacki peatamine"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"ScreenSpeaki peatamine"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Navigeerimisseaded"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Järgmine navigeerimisseade"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Eelmine navigeerimisseade"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Kõnele helile keskendumine"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Helitugevuse vähendamine rääkimise ajal"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Helitugevus"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Talkbacki peatamise ja jätkamise otsetee"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Screenspeaki peatamise ja jätkamise otsetee"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Mitmesugust"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Arendaja seaded"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Logi väljundi tase"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Sõlmepuu silumise lubamine"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Veebijuurdepääsu täiustamine"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Veebisisu juurdepääsuskriptide allalaadimine"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Peatatud olekust jätkamine"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Peatatud olekust jätkamine"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Ekraan hämardati"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Ekraani heledus taastati"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"TalkBacki juurdepääsetavuse teenus on ekraani tuhmistanud."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"ScreenSpeaki juurdepääsetavuse teenus on ekraani tuhmistanud."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Vajutage tagasivõtmiseks korraga kiiresti kolm korda helitugevuse suurendamise ja helitugevuse vähendamise klahve."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Ekraani tuhmistamist saab juhtida TalkBacki seadetes."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Ekraani tuhmistamist saab juhtida ScreenSpeaki seadetes."</string>
     <string name="axis_character" msgid="8528412412593489695">"Tähemärgi järgi navigeerimine."</string>
     <string name="axis_word" msgid="8823389407337076750">"Sõna järgi navigeerimine."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Lause järgi navigeerimine."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Nupp Avaekraan"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Ülevaate nupp"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Ava märguanded"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Ava üldine kontekstimenüü"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Ava üldine kontekstimenüü"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Ava kohalik kontekstimenüü"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Korda viimast lausungit"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Esita viimane lausung"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Nimeta alati sisestatud klahvid"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Ainult ekraanil kuvatavale klaviatuurile"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Ära nimeta kunagi sisestatud klahve"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBacki liigutusi on muudet."</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Puudutage, et vaadata üle juurdepääsuliigutuste muudatused"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack on peatatud"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Puudutage jätkamiseks."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"Kas peatada TalkBack?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Kas olete kindel? Teie seade ei esita tagasisidet ning funktsioon Puudutusega uurimine keelatakse. Saate TalkBacki kasutamist jätkata märguannetes, naastes lukustuskuvale või kasutades helitugevuse klahvi otseteed."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"Saate TalkBacki uuesti sisse lülitada märguandealalt."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"Saate TalkBacki uuesti sisse lülitada märguandealalt või ekraani sisse lülitades."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"Saate TalkBacki uuesti sisse lülitada märguandealalt või lukustuskuvale naastes."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeaki liigutusi on muudet."</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Puudutage, et vaadata üle juurdepääsuliigutuste muudatused"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak on peatatud"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Puudutage jätkamiseks."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"Kas peatada ScreenSpeak?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Kas olete kindel? Teie seade ei esita tagasisidet ning funktsioon Puudutusega uurimine keelatakse. Saate ScreenSpeaki kasutamist jätkata märguannetes, naastes lukustuskuvale või kasutades helitugevuse klahvi otseteed."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"Saate ScreenSpeaki uuesti sisse lülitada märguandealalt."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"Saate ScreenSpeaki uuesti sisse lülitada märguandealalt või ekraani sisse lülitades."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"Saate ScreenSpeaki uuesti sisse lülitada märguandealalt või lukustuskuvale naastes."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Kuva see hoiatus alati"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"Seda üksust ei saa sildistada."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Sildi lisamine"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Kas soovite kindlasti eemaldada sildi „<xliff:g id="LABEL">%1$s</xliff:g>”?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Kas soovite kindlasti eemaldada rakenduse <xliff:g id="APP_NAME">%2$s</xliff:g> sildi „<xliff:g id="LABEL">%1$s</xliff:g>”?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Sildi tekst"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"See TalkBacki versioon hõlmab muudatusi juurdepääsu vaikeliigutustele. Nende liigutustega seotud toiminguid saab kohandada TalkBacki seadetes. Kui on lubatud funktsioon Puudutusega uurimine, saate teatud toimingute jaoks kasutada järgmiseid liigutusi.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Helitugevuse suurendamise ja vähendamise klahvide pikk vajutus"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"See ScreenSpeaki versioon hõlmab muudatusi juurdepääsu vaikeliigutustele. Nende liigutustega seotud toiminguid saab kohandada ScreenSpeaki seadetes. Kui on lubatud funktsioon Puudutusega uurimine, saate teatud toimingute jaoks kasutada järgmiseid liigutusi.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Helitugevuse suurendamise ja vähendamise klahvide pikk vajutus"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Kas tuhmistada ekraan?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Kas soovite kindlasti ekraani hämardada?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"See TalkBacki versioon sisaldab juurdepääsu vaikeliigutuste muudatusi.\n\nÜlalt alla liigutus võimaldab liikuda ekraanil oleva esimese üksuse juurde ja alt üles liigutus viimase üksuse juurde.\n\nLugemise detailsust saab nüüd muuta, valides üksuse ja seejärel kohalikust kontekstimenüüst detailsuse.\n\nNende liigutustega sooritatavaid toiminguid saate muuta TalkBacki seadetes."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"See ScreenSpeaki versioon sisaldab juurdepääsu vaikeliigutuste muudatusi.\n\nÜlalt alla liigutus võimaldab liikuda ekraanil oleva esimese üksuse juurde ja alt üles liigutus viimase üksuse juurde.\n\nLugemise detailsust saab nüüd muuta, valides üksuse ja seejärel kohalikust kontekstimenüüst detailsuse.\n\nNende liigutustega sooritatavaid toiminguid saate muuta ScreenSpeaki seadetes."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Nõustu liigutustega"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Kohanda liigutusi"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"Kas keelata funktsioon Puudutusega uurimine?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Kas lubada sõlmepuu silumine?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Kas soovite kindlasti sõlmepuu silumise sisse lülitada?\n\nSõlmepuu silumisel avaldatakse ekraanil olev sisu seadme logidele, mida võivad lugeda teised rakendused."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"Veebisisu puhul ei ole funktsioon Puudutusega uurimine saadaval. Veebisisuga tutvumiseks lülitage juurdepääsuseadetes sisse eelistus <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g>."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"TalkBacki globaalne kontekstimenüü"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"TalkBacki juhtimine"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Lubab saata liigutusi TalkBackile ja jätkata esitatud tagasisidet."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"TalkBacki kohandatud siltide haldamine"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"Lubab hankida juurdepääsu TalkBacki esitatud kohandatud siltidele ning lubab neid muuta ja kustutada."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"ScreenSpeaki globaalne kontekstimenüü"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"ScreenSpeaki juhtimine"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Lubab saata liigutusi ScreenSpeakile ja jätkata esitatud tagasisidet."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"ScreenSpeaki kohandatud siltide haldamine"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"Lubab hankida juurdepääsu ScreenSpeaki esitatud kohandatud siltidele ning lubab neid muuta ja kustutada."</string>
     <string name="links" msgid="3448225474115458693">"Lingid"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Lõpp"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

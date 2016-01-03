@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"Όταν το Talkback είναι ενεργοποιημένο, η συσκευή σας παρέχει εκφωνούμενα σχόλια που διευκολύνουν τους χρήστες με προβλήματα όρασης. Για παράδειγμα, περιγράφει αυτό που αγγίζετε, επιλέγετε και ενεργοποιείτε."</string>
-    <string name="talkback_on" msgid="315529674405160699">"Talkback ενεργό"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"Ρυθμίσεις TalkBack"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"Όταν το Screenspeak είναι ενεργοποιημένο, η συσκευή σας παρέχει εκφωνούμενα σχόλια που διευκολύνουν τους χρήστες με προβλήματα όρασης. Για παράδειγμα, περιγράφει αυτό που αγγίζετε, επιλέγετε και ενεργοποιείτε."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"Screenspeak ενεργό"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"Ρυθμίσεις ScreenSpeak"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Ρυθμίσεις μετατροπής κειμένου σε ομιλία"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Έκδοση <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Έκδοση <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Διαχ. προσ/μένων ετικ."</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"Διαχείριση ετικετών για <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Δεν υπάρχουν προσαρμοσμένες ετικέτες αυτήν τη στιγμή. Μπορείτε να δημιουργήσετε μία, εάν πλοηγηθείτε σε μια εικόνα χωρίς ετικέτα και, στη συνέχεια, προσθέσετε μια ετικέτα από το τοπικό μενού περιβάλλοντος."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Εξερεύνηση μέσω αφής"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Επιλογή με ένα πάτημα"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Εμφάνιση μενού περιβάλλοντος με τη μορφή λίστας"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"Μείωση φωτεινότητας οθόνης όταν είναι ενεργοποιημένο το TalkBack"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"Μείωση φωτεινότητας οθόνης όταν είναι ενεργοποιημένο το ScreenSpeak"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Πειραματικό) Πατήστε το στοιχείο που επισημαίνεται αυτήν τη στιγμή για επιλογή"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Ανακίνηση για συνεχή ανάγνωση"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Διαχείριση κινήσεων"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Διαχ. προσ/μένων ετικ."</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Διαχείριση συντομεύσεων πληκτρολογίου"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Άνοιγμα του TalkBack στο Play Store"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Τρέχουσα έκδοση TalkBack: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Άνοιγμα του ScreenSpeak στο Play Store"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Τρέχουσα έκδοση ScreenSpeak: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Όροι Παροχής Υπηρεσιών"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Πολιτική Απορρήτου"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Κινήσεις συντόμευσης"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Αρχική οθόνη"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Πρόσφατες εφαρμογές"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Ειδοποιήσεις"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Παύση TalkBack"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Παύση ScreenSpeak"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Ρυθμίσεις πλοήγησης"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Επόμενη ρύθμιση πλοήγησης"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Προηγούμενη ρύθμιση πλοήγησης"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Εστίαση στον ήχο ομιλίας"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Μείωση της έντασης των άλλων ήχων κατά την ομιλία"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Ένταση ήχου"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Αναστολή Talkback και επανενεργοποίηση συντόμευσης"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Αναστολή Screenspeak και επανενεργοποίηση συντόμευσης"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Διάφορα"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Ρυθμίσεις προγραμματιστή"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Καταγραφή επιπέδου εξόδου"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Ενεργοποίηση εντοπισμού σφαλμάτων δέντρου κόμβου"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Βελτίωση προσβασιμότητας στον ιστό"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Λήψη σεναρίων προσβασιμότητας για περιεχόμενο ιστού"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Συνέχιση από την κατάσταση αναστολής"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Συνέχιση από την κατάσταση αναστολής"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Μειώθηκε η φωτεινότητα της οθόνης"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Έγινε επαναφορά της φωτεινότητας της οθόνης"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Η υπηρεσία προσβασιμότητας TalkBack μείωσε τη φωτεινότητα της οθόνης."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Η υπηρεσία προσβασιμότητας ScreenSpeak μείωσε τη φωτεινότητα της οθόνης."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Κάντε αναίρεση πατώντας γρήγορα τρεις φορές το πλήκτρο αύξησης έντασης και το πλήκτρο μείωσης έντασης ταυτόχρονα."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Μπορείτε να ελέγξετε τη μείωση φωτεινότητας της οθόνης από τις Ρυθμίσεις του TalkBack."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Μπορείτε να ελέγξετε τη μείωση φωτεινότητας της οθόνης από τις Ρυθμίσεις του ScreenSpeak."</string>
     <string name="axis_character" msgid="8528412412593489695">"Πλοήγηση βάσει χαρακτήρα."</string>
     <string name="axis_word" msgid="8823389407337076750">"Πλοήγηση βάσει λέξης."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Πλοήγηση βάσει πρότασης."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Κουμπί \"Αρχική οθόνη\""</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Κουμπί επισκόπησης"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Άνοιγμα ειδοποιήσεων"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Άνοιγμα καθολικού μενού περιβάλλοντος"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Άνοιγμα καθολικού μενού περιβάλλοντος"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Άνοιγμα τοπικού μενού περιβάλλοντος"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Επανάληψη τελευταίας εκφώνησης"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Συλλαβισμός τελευταίας εκφώνησης"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Να γίνεται πάντα εκφώνηση των πλήκτρων που πληκτρολογούνται"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Μόνο για το πληκτρολόγιο οθόνης"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Να μη γίνεται ποτέ εκφώνηση των πλήκτρων που πληκτρολογούνται"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"Οι κινήσεις TalkBack άλλαξαν"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Πατήστε για να ελέγξετε τις αλλαγές στις κινήσεις προσβασιμότητας"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"Η λειτουργία του TalkBack ανεστάλη"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Πατήστε για να συνεχίσετε."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"Αναστολή λειτουργίας TalkBack;"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Είστε βέβαιοι; Η συσκευή σας δεν θα παρέχει σχόλια και η λειτουργία \"Εξερεύνηση με άγγιγμα\" θα απενεργοποιηθεί. Μπορείτε να ενεργοποιήσετε ξανά το TalkBack από τις ειδοποιήσεις, επιστρέφοντας στην οθόνη κλειδώματος ή μέσω της συντόμευση του πλήκτρου έντασης."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"Μπορείτε να συνεχίσετε το TalkBack από το πλαίσιο σκίασης ειδοποιήσεων."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"Μπορείτε να συνεχίσετε το TalkBack από το πλαίσιο σκίασης ειδοποιήσεων ή ενεργοποιώντας την οθόνη."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"Μπορείτε να συνεχίσετε το TalkBack από το πλαίσιο σκίασης ειδοποιήσεων ή επιστρέφοντας στην οθόνη κλειδώματος."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"Οι κινήσεις ScreenSpeak άλλαξαν"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Πατήστε για να ελέγξετε τις αλλαγές στις κινήσεις προσβασιμότητας"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"Η λειτουργία του ScreenSpeak ανεστάλη"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Πατήστε για να συνεχίσετε."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"Αναστολή λειτουργίας ScreenSpeak;"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Είστε βέβαιοι; Η συσκευή σας δεν θα παρέχει σχόλια και η λειτουργία \"Εξερεύνηση με άγγιγμα\" θα απενεργοποιηθεί. Μπορείτε να ενεργοποιήσετε ξανά το ScreenSpeak από τις ειδοποιήσεις, επιστρέφοντας στην οθόνη κλειδώματος ή μέσω της συντόμευση του πλήκτρου έντασης."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"Μπορείτε να συνεχίσετε το ScreenSpeak από το πλαίσιο σκίασης ειδοποιήσεων."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"Μπορείτε να συνεχίσετε το ScreenSpeak από το πλαίσιο σκίασης ειδοποιήσεων ή ενεργοποιώντας την οθόνη."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"Μπορείτε να συνεχίσετε το ScreenSpeak από το πλαίσιο σκίασης ειδοποιήσεων ή επιστρέφοντας στην οθόνη κλειδώματος."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Να εμφανίζεται πάντα αυτή η προειδοποίηση"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"Δεν είναι δυνατή η προσθήκη ετικέτας σε αυτό το στοιχείο."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Προσθήκη ετικέτας"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Είστε βέβαιοι ότι θέλετε να καταργήσετε την ετικέτα \"<xliff:g id="LABEL">%1$s</xliff:g>\";"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Είστε βέβαιοι ότι θέλετε να καταργήσετε την ετικέτα \"<xliff:g id="LABEL">%1$s</xliff:g>\" από το <xliff:g id="APP_NAME">%2$s</xliff:g>;"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Κείμενο ετικέτας"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"Αυτή η έκδοση του TalkBack περιλαμβάνει αλλαγές στις προεπιλεγμένες κινήσεις προσβασιμότητας. Οι ενέργειες που συσχετίζονται με αυτές τις κινήσεις μπορούν να προσαρμοστούν μέσα από τις ρυθμίσεις του TalkBack. Όταν η \"Εξερεύνηση μέσω αφής\" είναι ενεργοποιημένη, μπορείτε να χρησιμοποιείτε τις ακόλουθες κινήσεις για να εκτελείτε ορισμένες ενέργειες.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Πιέστε παρατεταμένα το πλήκτρο αύξησης έντασης και το πλήκτρο μείωσης έντασης"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"Αυτή η έκδοση του ScreenSpeak περιλαμβάνει αλλαγές στις προεπιλεγμένες κινήσεις προσβασιμότητας. Οι ενέργειες που συσχετίζονται με αυτές τις κινήσεις μπορούν να προσαρμοστούν μέσα από τις ρυθμίσεις του ScreenSpeak. Όταν η \"Εξερεύνηση μέσω αφής\" είναι ενεργοποιημένη, μπορείτε να χρησιμοποιείτε τις ακόλουθες κινήσεις για να εκτελείτε ορισμένες ενέργειες.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Πιέστε παρατεταμένα το πλήκτρο αύξησης έντασης και το πλήκτρο μείωσης έντασης"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Μείωση φωτεινότητας οθόνης;"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Είστε σίγουροι ότι θέλετε να μειώσετε τη φωτεινότητα της οθόνης;"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"Αυτή η έκδοση του TalkBack συμπεριλαμβάνει αλλαγές στις προεπιλεγμένες κινήσεις προσβασιμότητας.\n\nΗ κίνηση επάνω και κάτω σάς δίνει τη δυνατότητα να μετακινηθείτε στο πρώτο στοιχείο της οθόνης και με την κίνηση κάτω και επάνω μετακινείστε στο τελευταίο στοιχείο.\n\nΗ ευαισθησία ανάγνωσης μπορεί τώρα να αλλάξει με την εστίαση σε ένα στοιχείο, και στη συνέχεια επιλέγοντας την ευαισθησία από το τοπικό μενού περιβάλλοντος.\n\nΜπορείτε να αλλάξετε τις ενέργειες που εκτελούνται από αυτές τις κινήσεις στις ρυθμίσεις του TalkBack."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"Αυτή η έκδοση του ScreenSpeak συμπεριλαμβάνει αλλαγές στις προεπιλεγμένες κινήσεις προσβασιμότητας.\n\nΗ κίνηση επάνω και κάτω σάς δίνει τη δυνατότητα να μετακινηθείτε στο πρώτο στοιχείο της οθόνης και με την κίνηση κάτω και επάνω μετακινείστε στο τελευταίο στοιχείο.\n\nΗ ευαισθησία ανάγνωσης μπορεί τώρα να αλλάξει με την εστίαση σε ένα στοιχείο, και στη συνέχεια επιλέγοντας την ευαισθησία από το τοπικό μενού περιβάλλοντος.\n\nΜπορείτε να αλλάξετε τις ενέργειες που εκτελούνται από αυτές τις κινήσεις στις ρυθμίσεις του ScreenSpeak."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Αποδοχή κινήσεων"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Προσαρμογή κινήσεων"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"Απενεργοποίηση \"Εξερεύνησης μέσω αφής\";"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Ενεργοποίηση εντοπισμού σφαλμάτων δέντρου κόμβου;"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Είστε βέβαιοι ότι θέλετε να ενεργοποιήσετε τον εντοπισμό σφαλμάτων του δέντρου του κόμβου;\n\nΟ εντοπισμός σφαλμάτων του δέντρου του κόμβου εκθέτει το περιεχόμενο της οθόνης σας στα αρχεία καταγραφής της συσκευής σας, η οποία μπορεί να αναγνωστεί από άλλες εφαρμογές."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"Η \"Εξερεύνηση μέσω αφής\" δεν είναι διαθέσιμη στο περιεχόμενο ιστού. Ενεργοποιήστε την προτίμηση <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> στις ρυθμίσεις Προσβασιμότητας για να εξερευνήσετε το περιεχόμενο ιστού."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"Καθολικό μενού περιβάλλοντος TalkBack"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"Έλεγχος TalkBack"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Άδεια αποστολής κινήσεων στο TalkBack και συνέχιση των εκφωνούμενων σχολίων."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"Διαχείριση των προσαρμοσμένων ετικετών του TalkBack"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"Άδεια πρόσβασης, τροποποίησης και διαγραφής των προσαρμοσμένων ετικετών που εκφωνούνται από το TalkBack."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"Καθολικό μενού περιβάλλοντος ScreenSpeak"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"Έλεγχος ScreenSpeak"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Άδεια αποστολής κινήσεων στο ScreenSpeak και συνέχιση των εκφωνούμενων σχολίων."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"Διαχείριση των προσαρμοσμένων ετικετών του ScreenSpeak"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"Άδεια πρόσβασης, τροποποίησης και διαγραφής των προσαρμοσμένων ετικετών που εκφωνούνται από το ScreenSpeak."</string>
     <string name="links" msgid="3448225474115458693">"Σύνδεσμοι"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Λήξη"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"Кога е вклучен TalkBack, уредот обезбедува говорни повратни информации за да им помогне на слепите лица и на корисниците со намален вид. На пример, опишува што допирате, што избирате и што активирате."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack е вклучен"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"Поставки на TalkBack"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"Кога е вклучен ScreenSpeak, уредот обезбедува говорни повратни информации за да им помогне на слепите лица и на корисниците со намален вид. На пример, опишува што допирате, што избирате и што активирате."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak е вклучен"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"Поставки на ScreenSpeak"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Поставки на „од текст во говор“"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Верзија <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Верзија <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Управувајте со приспособени етикети"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"Управувајте со етикети за <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Моментално нема приспособени етикети. Може да создадете една со движење на необележана слика, а потоа да додадете етикета од локалното контекстуално мени."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Истражување со допир"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Избор со единечен допир"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Прикажи го контекстуалното мени како список"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"Затемнете го екранот кога е овозможен TalkBack"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"Затемнете го екранот кога е овозможен ScreenSpeak"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Експериментално) Допрете на предметот што е моментално фокусиран за да изберете"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Протресете за да започне непрекинато читање"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Управувајте со движењата"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Управувајте со приспособени етикети"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Управувајте со кратенки на тастатурата"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Отворете го TalkBack во Play Store"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Тековна верзија на TalkBack: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Отворете го ScreenSpeak во Play Store"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Тековна верзија на ScreenSpeak: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Услови на користење"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Политика за приватност"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Скратени движења"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Почетна страница"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Скорешни апликации"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Известувања"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Паузирајте TalkBack"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Паузирајте ScreenSpeak"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Поставки за навигација"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Следна поставка за навигација"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Претходна поставка за навигација"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Фокусирајте аудио на говор"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Намалете ја јачината на другото аудио додека зборувате"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Јачина на звук"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Суспендирај Talkback и продолжи кратенка"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Суспендирај Screenspeak и продолжи кратенка"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Разно"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Поставки на програмерите"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Ниво на бележење излези"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Овозможете отстранување грешки на дрвото со јазли"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Подобрување на веб-пристапност"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Преземете скрипти за пристапност за веб-содржина"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Продолжете од прекинот"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Продолжете од прекинот"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Екранот е затемнет"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Осветленоста на екранот е обновена"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Услугата за пристапност до TalkBack го зaтемни екранот."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Услугата за пристапност до ScreenSpeak го зaтемни екранот."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Вратете со притискање на копчињата Volume Up и Volume Down заедно и брзо трипати."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Затемнувањето на екранот може да се контролира од Поставки за TalkBack."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Затемнувањето на екранот може да се контролира од Поставки за ScreenSpeak."</string>
     <string name="axis_character" msgid="8528412412593489695">"Навигација по знак."</string>
     <string name="axis_word" msgid="8823389407337076750">"Навигација по збор."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Навигација по реченица."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Копче Почеток"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Копче за краток преглед"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Отвори известувања"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Отворете го глобалното контекстуално мени"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Отворете го глобалното контекстуално мени"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Отвори локално контекстуално мени"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Повторете го последниот израз"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Изговорете го последниот израз по букви"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Секогаш изговорете ги отчуканите копчиња"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Само за тастатура на екранот"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Не изговарајте ги отчуканите копчиња"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"Променети се движењата на TalkBack"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Допрете за да се прегледаат промените на движењата за пристапност"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack е прекинат"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Допрете за да продолжите."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"Прекинете TalkBack?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Дали сте сигурни? Вашиот уред нема да обезбеди повратни информации и Истражувај со допир ќе биде оневозможено. Може да продолжите со TalkBack од известувањата со враќање на екранот за заклучување или преку кратенката за копчето за јачина на звук."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"Може да продолжите со TalkBack од таблата со известувања."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"Може да продолжите со TalkBack од таблата со известувања или со вклучување на екранот."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"Може да продолжите со TalkBack од таблата со известувања или со враќање на заклучениот екран."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"Променети се движењата на ScreenSpeak"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Допрете за да се прегледаат промените на движењата за пристапност"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak е прекинат"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Допрете за да продолжите."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"Прекинете ScreenSpeak?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Дали сте сигурни? Вашиот уред нема да обезбеди повратни информации и Истражувај со допир ќе биде оневозможено. Може да продолжите со ScreenSpeak од известувањата со враќање на екранот за заклучување или преку кратенката за копчето за јачина на звук."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"Може да продолжите со ScreenSpeak од таблата со известувања."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"Може да продолжите со ScreenSpeak од таблата со известувања или со вклучување на екранот."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"Може да продолжите со ScreenSpeak од таблата со известувања или со враќање на заклучениот екран."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Секогаш прикажувај го ова предупредување"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"Ставката не може да се означи."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Додај етикета"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Дали сте сигурни дека сакате да ја отстраните етикетата „<xliff:g id="LABEL">%1$s</xliff:g>“?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Дали сте сигурни дека сакате да ја отстраните етикетата „<xliff:g id="LABEL">%1$s</xliff:g>“ во <xliff:g id="APP_NAME">%2$s</xliff:g>?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Текст на етикета"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"Оваа верзија на TalkBack опфаќа промени на стандардните движења за пристапност. Дејствата поврзани со овие движења може да се приспособат во поставките на TalkBack. Кога ќе се овозможи Истражувај со допир, може да ги употребите следните движења за вршење одредени дејства.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Долго притискање на копчињата за намалување и зголемување јачина на звук"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"Оваа верзија на ScreenSpeak опфаќа промени на стандардните движења за пристапност. Дејствата поврзани со овие движења може да се приспособат во поставките на ScreenSpeak. Кога ќе се овозможи Истражувај со допир, може да ги употребите следните движења за вршење одредени дејства.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Долго притискање на копчињата за намалување и зголемување јачина на звук"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Затемнете го екранот?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Дали сте сигурни дека сакате да го затемните екранот?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"Оваа верзија на TalkBack опфаќа промени на стандардните движења за пристапност.\n\nДвижењето „нагоре, па надолу“ ќе ви дозволи да одите на првата ставка на екранот, а движењето „надолу, па нагоре“ ќе ве однесе на последната ставка.\n\nГрануларноста на читање сега може да се промени со фокусирање на ставката, а потоа со избирање грануларност од локалното контекстуално мени.\n\nМоже да ги промените дејствата што ги вршат овие движења во Поставки на TalkBack."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"Оваа верзија на ScreenSpeak опфаќа промени на стандардните движења за пристапност.\n\nДвижењето „нагоре, па надолу“ ќе ви дозволи да одите на првата ставка на екранот, а движењето „надолу, па нагоре“ ќе ве однесе на последната ставка.\n\nГрануларноста на читање сега може да се промени со фокусирање на ставката, а потоа со избирање грануларност од локалното контекстуално мени.\n\nМоже да ги промените дејствата што ги вршат овие движења во Поставки на ScreenSpeak."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Прифати движења"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Приспособи движења"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"Оневозможете Истражувај со допир?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Овозможете отстранување грешки на дрвото со јазли?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Дали сте сигурни дека сакате да го вклучите отстранувањето грешки на дрвото со јазли?\n\nОтстранувањето грешки на дрвото со јазли им ја открива содржината на екранот на дневниците на уредот, а нив може да ги читаат други апликации."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"Истражувањето со допир не е достапно во веб-содржина. Вклучете <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> во Поставки за пристапност за да се истражува веб-содржината."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"Глобално контекстуално мени TalkBack"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"Контролирајте го TalkBack"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Дозвола за испраќање движења до TalkBack и продолжување на говорните повратни информации."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"Управувајте со приспособените етикети на TalkBack"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"Дозвола за пристапување, менување и бришење на приспособени етикети изговорени од TalkBack."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"Глобално контекстуално мени ScreenSpeak"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"Контролирајте го ScreenSpeak"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Дозвола за испраќање движења до ScreenSpeak и продолжување на говорните повратни информации."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"Управувајте со приспособените етикети на ScreenSpeak"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"Дозвола за пристапување, менување и бришење на приспособени етикети изговорени од ScreenSpeak."</string>
     <string name="links" msgid="3448225474115458693">"Врски"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Заврши"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

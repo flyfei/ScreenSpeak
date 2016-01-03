@@ -37,7 +37,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 import com.android.switchaccess.KeyComboPreference;
 
 import org.junit.Before;

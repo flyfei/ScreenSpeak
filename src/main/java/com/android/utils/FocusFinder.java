@@ -26,7 +26,7 @@ import com.android.utils.traversal.NodeFocusFinder;
  * Functions to find focus.
  *
  * NOTE: To give a consistent behaviour, this code should be kept in sync with the relevant subset
- * of code in the {@code CursorController} class in TalkBack.
+ * of code in the {@code CursorController} class in ScreenSpeak.
  */
 public class FocusFinder {
 

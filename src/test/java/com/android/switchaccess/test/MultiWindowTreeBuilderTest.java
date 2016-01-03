@@ -28,7 +28,7 @@ import android.view.WindowManager;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.view.accessibility.AccessibilityWindowInfo;
 import com.android.switchaccess.*;
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -83,8 +83,8 @@ public class MultiWindowTreeBuilderTest {
     private final LinearScanTreeBuilder mMockLinearScanTreeBuilder =
             mock(LinearScanTreeBuilder.class);
     private final RowColumnTreeBuilder mMockRowColumnTreeBuilder = mock(RowColumnTreeBuilder.class);
-    private final TalkBackOrderNDegreeTreeBuilder mMockTalkBackOrderNDegreeTreeBuilder =
-            mock(TalkBackOrderNDegreeTreeBuilder.class);
+    private final ScreenSpeakOrderNDegreeTreeBuilder mMockScreenSpeakOrderNDegreeTreeBuilder =
+            mock(ScreenSpeakOrderNDegreeTreeBuilder.class);
 
     private MultiWindowTreeBuilder mMultiWindowTreeBuilderWithRealBuilders;
     private MultiWindowTreeBuilder mMultiWindowTreeBuilderWithMockBuilders;
@@ -129,10 +129,10 @@ public class MultiWindowTreeBuilderTest {
 
         mMultiWindowTreeBuilderWithRealBuilders = new MultiWindowTreeBuilder(mContext,
                 new LinearScanTreeBuilder(), new RowColumnTreeBuilder(),
-                new TalkBackOrderNDegreeTreeBuilder(mContext));
+                new ScreenSpeakOrderNDegreeTreeBuilder(mContext));
         mMultiWindowTreeBuilderWithMockBuilders = new MultiWindowTreeBuilder(mContext,
                 mMockLinearScanTreeBuilder, mMockRowColumnTreeBuilder,
-                mMockTalkBackOrderNDegreeTreeBuilder);
+                mMockScreenSpeakOrderNDegreeTreeBuilder);
     }
 
     @After
@@ -337,7 +337,7 @@ public class MultiWindowTreeBuilderTest {
                 (SwitchAccessNodeCompat) anyObject(), (OptionScanNode) anyObject());
         verify(mMockLinearScanTreeBuilder, never()).buildTreeFromNodeTree(
                 (SwitchAccessNodeCompat) anyObject(), (OptionScanNode) anyObject());
-        verifyNoMoreInteractions(mMockTalkBackOrderNDegreeTreeBuilder);
+        verifyNoMoreInteractions(mMockScreenSpeakOrderNDegreeTreeBuilder);
     }
 
     @Test
@@ -352,7 +352,7 @@ public class MultiWindowTreeBuilderTest {
                 (SwitchAccessNodeCompat) anyObject(), (OptionScanNode) anyObject());
         verify(mMockRowColumnTreeBuilder, never()).buildTreeFromNodeTree(
                 (SwitchAccessNodeCompat) anyObject(), (OptionScanNode) anyObject());
-        verifyNoMoreInteractions(mMockTalkBackOrderNDegreeTreeBuilder);
+        verifyNoMoreInteractions(mMockScreenSpeakOrderNDegreeTreeBuilder);
     }
 
     @Test
@@ -367,7 +367,7 @@ public class MultiWindowTreeBuilderTest {
                 (SwitchAccessNodeCompat) anyObject(), (OptionScanNode) anyObject());
         verify(mMockLinearScanTreeBuilder, never()).buildTreeFromNodeTree(
                 (SwitchAccessNodeCompat) anyObject(), (OptionScanNode) anyObject());
-        verifyNoMoreInteractions(mMockTalkBackOrderNDegreeTreeBuilder);
+        verifyNoMoreInteractions(mMockScreenSpeakOrderNDegreeTreeBuilder);
     }
 
     @Test
@@ -379,9 +379,9 @@ public class MultiWindowTreeBuilderTest {
         mMultiWindowTreeBuilderWithMockBuilders
                 .buildTreeFromWindowList(Arrays.asList(mWindows.get(0)), mSwitchControlService);
 
-        verify(mMockTalkBackOrderNDegreeTreeBuilder, times(1))
+        verify(mMockScreenSpeakOrderNDegreeTreeBuilder, times(1))
                 .buildContextMenuTree((List<OptionScanActionNode>) anyObject());
-        verify(mMockTalkBackOrderNDegreeTreeBuilder, times(1)).buildTreeFromWindowList(
+        verify(mMockScreenSpeakOrderNDegreeTreeBuilder, times(1)).buildTreeFromWindowList(
                 (List<SwitchAccessWindowInfo>) anyObject(), (OptionScanNode) anyObject());
         verify(mMockLinearScanTreeBuilder, never()).buildTreeFromNodeTree(
                 (SwitchAccessNodeCompat) anyObject(), (OptionScanNode) anyObject());

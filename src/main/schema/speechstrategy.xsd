@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema targetNamespace="http://www.google.android.marvin.talkback.com/speechstrategy"
+<schema targetNamespace="http://www.google.android.marvin.screenspeak.com/speechstrategy"
         elementFormDefault="qualified"
         attributeFormDefault="qualified"
         xmlns="http://www.w3.org/2001/XMLSchema"
-        xmlns:ss="http://www.google.android.marvin.talkback.com/speechstrategy">
+        xmlns:ss="http://www.google.android.marvin.screenspeak.com/speechstrategy">
 
   <simpleType name="queuingType">
     <restriction base="string">

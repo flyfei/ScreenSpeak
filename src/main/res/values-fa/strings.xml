@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"‏هنگامی که TalkBack روشن است، برای کمک به کاربران نابینا و کم‌بینا، دستگاهتان بازخورد گفتاری ارائه می‌دهد. به‌عنوان مثال، آنچه را که لمس، انتخاب و فعال می‌کنید، توضیح می‌دهد."</string>
-    <string name="talkback_on" msgid="315529674405160699">"‏TalkBack روشن"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"‏تنظیمات TalkBack"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"‏هنگامی که ScreenSpeak روشن است، برای کمک به کاربران نابینا و کم‌بینا، دستگاهتان بازخورد گفتاری ارائه می‌دهد. به‌عنوان مثال، آنچه را که لمس، انتخاب و فعال می‌کنید، توضیح می‌دهد."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"‏ScreenSpeak روشن"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"‏تنظیمات ScreenSpeak"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"تنظیمات نوشتار به گفتار"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"نسخه <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"نسخه <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"مدیریت برچسب‌های سفارشی"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"مدیریت برچسب‌ها برای <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"درحال حاضر برچسب سفارشی وجود ندارد. با پیمایش به تصویر بدون برچسب و سپس افزودن برچسبی از منوی بافت محلی، می‌توانید برچسبی ایجاد کنید."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"کاوش لمسی"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"انتخاب تک ضربه‌ای"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"نمایش منوی بافت به‌صورت فهرست"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"‏کم نور شدن صفحه‌نمایش وقتی TalkBack فعال است"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"‏کم نور شدن صفحه‌نمایش وقتی ScreenSpeak فعال است"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(آزمایشی) برای انتخاب روی موردی که فوکوس شده ضربه بزنید"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"تکان دادن برای شروع خواندن پیوسته"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"مدیریت اشاره‌ها"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"مدیریت برچسب‌های سفارشی"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"مدیریت میان‌برهای صفحه کلید"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"‏باز کردن TalkBack در فروشگاه Play"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"‏نسخه کنونی TalkBack‏: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"‏باز کردن ScreenSpeak در فروشگاه Play"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"‏نسخه کنونی ScreenSpeak‏: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"شرایط خدمات"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"خط‌مشی رازداری"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"اشاره‌های میان‌بر"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"صفحه اصلی"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"برنامه‌های اخیر"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"اعلان‌ها"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"‏توقف موقت TalkBack"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"‏توقف موقت ScreenSpeak"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"تنظیمات پیمایش"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"تنظیم پیمایش بعدی"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"تنظیم پیمایش قبلی"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"تمرکز روی صدای گفتاری"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"هنگام صحبت، صداهای دیگر را کم کنید"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"میزان صدا"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"‏میان‌بر از سرگیری و توقف Talkback"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"‏میان‌بر از سرگیری و توقف Screenspeak"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"متفرقه"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"تنظیمات برنامه‌نویس"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"سطح خروجی گزارش"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"فعال کردن اشکال زدایی سر شاخه"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"بهبود دسترس‌پذیری وب"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"اسکریپت‌های دسترس‌پذیری را برای محتوای وب دانلود کنید"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"‏ازسرگیری TalkBack"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"‏ازسرگیری ScreenSpeak"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"صفحه‌نمایش کم‌نور شد"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"روشنایی صفحه‌نمایش بازیابی شد"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"‏سرویس دسترس‌پذیری TalkBack صفحه‌نمایش را کم‌نور کرده است."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"‏سرویس دسترس‌پذیری ScreenSpeak صفحه‌نمایش را کم‌نور کرده است."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"با سه بار فشار دادن سریع کلیدهای افزایش و کاهش صدا با هم، واگرد کنید."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"‏کم‌نور شدن صفحه‌نمایش را می‌توانید از تنظیمات TalkBack کنترل کنید."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"‏کم‌نور شدن صفحه‌نمایش را می‌توانید از تنظیمات ScreenSpeak کنترل کنید."</string>
     <string name="axis_character" msgid="8528412412593489695">"پیمایش براساس نویسه."</string>
     <string name="axis_word" msgid="8823389407337076750">"پیمایش براساس کلمه."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"پیمایش براساس جمله."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"دکمه صفحه اصلی"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"دکمه نمای کلی"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"بازکردن اعلان‌ها"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"باز کردن منوی بافت کلی"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"باز کردن منوی بافت کلی"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"بازکردن منوی بافت محلی"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"تکرار آخرین گفته"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"هجی کردن آخرین گفته"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"هر کلیدی که زده می‌شود همیشه خوانده شود"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"فقط برای صفحه‌کلید روی صفحه"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"کلیدی که زده می‌شود هرگز خوانده نشود"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"‏اشاره‌‌های TalkBack تغییر کرد"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"برای مرور تغییرات اشاره‌‌های دسترس‌پذیری ضربه بزنید"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"‏TalkBack در حالت تعلیق است"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"برای ازسرگیری ضربه بزنید."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"‏TalkBack به حالت تعلیق درآید؟"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"‏مطمئنید؟ دستگاه شما بازخوردی ارائه نخواهد کرد و کاوش با لمس کردن غیرفعال می‌شود.می‌توانید با بازگشت به صفحه قفل یا از طریق میانبر کلید میزان صدا، TalkBack را از اعلان‌ها از سربگیرید."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"‏می‌توانید عملکرد TalkBack را از کشوی اعلانات ازسربگیرید."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"‏می‌توانید عملکرد TalkBack را از کشوی اعلانات یا با روشن کردن صفحه ازسربگیرید."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"‏‫می‌توانید عملکرد TalkBack را از کشوی اعلانات یا با بازگشت به صفحه در حالت قفل ازسربگیرید."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"‏اشاره‌‌های ScreenSpeak تغییر کرد"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"برای مرور تغییرات اشاره‌‌های دسترس‌پذیری ضربه بزنید"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"‏ScreenSpeak در حالت تعلیق است"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"برای ازسرگیری ضربه بزنید."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"‏ScreenSpeak به حالت تعلیق درآید؟"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"‏مطمئنید؟ دستگاه شما بازخوردی ارائه نخواهد کرد و کاوش با لمس کردن غیرفعال می‌شود.می‌توانید با بازگشت به صفحه قفل یا از طریق میانبر کلید میزان صدا، ScreenSpeak را از اعلان‌ها از سربگیرید."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"‏می‌توانید عملکرد ScreenSpeak را از کشوی اعلانات ازسربگیرید."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"‏می‌توانید عملکرد ScreenSpeak را از کشوی اعلانات یا با روشن کردن صفحه ازسربگیرید."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"‏‫می‌توانید عملکرد ScreenSpeak را از کشوی اعلانات یا با بازگشت به صفحه در حالت قفل ازسربگیرید."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"همیشه این اخطار نمایش داده شود"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"این مورد را نمی‌توان برچسب‌گذاری کرد."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"افزودن برچسب"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"مطمئنید می‌خواهید برچسب «<xliff:g id="LABEL">%1$s</xliff:g>» را حذف کنید؟"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"مطمئنید می‌خواهید برچسب «<xliff:g id="LABEL">%1$s</xliff:g>» را در «<xliff:g id="APP_NAME">%2$s</xliff:g>» حذف کنید؟"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"نوشتار برچسب"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"‏این نسخه از TalkBack حاوی تغییراتی در اشاره‌های دسترس‌پذیری پیش‌فرض است. عملکردهای مرتبط با این اشاره‌ها می‌توانند در تنظیمات TalkBack سفارشی شوند. هنگامی که کاوش با لمس کردن فعال است، می‌توانید از حرکات زیر برای اجرای عملکردهای خاصی استفاده کنید.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"فشار طولانی مدت بر کلید‌های کاهش و افزایش صدا"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"‏این نسخه از ScreenSpeak حاوی تغییراتی در اشاره‌های دسترس‌پذیری پیش‌فرض است. عملکردهای مرتبط با این اشاره‌ها می‌توانند در تنظیمات ScreenSpeak سفارشی شوند. هنگامی که کاوش با لمس کردن فعال است، می‌توانید از حرکات زیر برای اجرای عملکردهای خاصی استفاده کنید.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"فشار طولانی مدت بر کلید‌های کاهش و افزایش صدا"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"صفحه‌نمایش کم‌نور شود؟"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"آیا مطمئنید می‌خواهید نور صفحه‌نمایش را کم کنید؟"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"‏‫این نسخه TalkBack حاوی تغییراتی در اشاره‌های پیش‌فرض دسترس‌پذیری است.\n\nبا اشاره به بالا و سپس پایین می‌توانید به اولین مورد در صفحه نمایش بروید و با اشاره به پایین و سپس بالا می‌توانید به آخرین مورد بروید.\n\nبا تمرکز روی یک مورد و سپس انتخاب جزئیات از منوی بافت محلی، اکنون جزئیات خواندن می‌تواند تغییر کند.\n\nمی‌توانید عملکرد این اشاره‌ها را در تنظیمات TalkBack تغییر دهید."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"‏‫این نسخه ScreenSpeak حاوی تغییراتی در اشاره‌های پیش‌فرض دسترس‌پذیری است.\n\nبا اشاره به بالا و سپس پایین می‌توانید به اولین مورد در صفحه نمایش بروید و با اشاره به پایین و سپس بالا می‌توانید به آخرین مورد بروید.\n\nبا تمرکز روی یک مورد و سپس انتخاب جزئیات از منوی بافت محلی، اکنون جزئیات خواندن می‌تواند تغییر کند.\n\nمی‌توانید عملکرد این اشاره‌ها را در تنظیمات ScreenSpeak تغییر دهید."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"پذیرفتن اشاره‌ها"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"سفارشی کردن اشاره‌ها"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"کاوش با لمس را غیرفعال می‌کنید؟"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"اشکال‌زدایی سر شاخه را فعال می‌کنید؟"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"مطمئنید می‌خواهید اشکال‌زدایی سرشاخه را روشن کنید؟\n\nاشکال‌زدایی سرشاخه محتوای صفحه نمایش شما را در گزارش‌های دستگاهتان نمایش می‌دهد که ممکن است سایر برنامه‌ها آن را بخوانند."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"کاوش با لمس در محتوای وب در دسترس نیست. برای کاوش محتوای وب، <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> را در تنظیمات دسترس‌پذیری فعال کنید."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"‏منوی بافت کلی TalkBack"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"‏کنترل TalkBack"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"‏اجازه ارسال اشاره‌ها به TalkBack و ازسرگیری بازخورد گفتاری."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"‏مدیریت برچسب‌های سفارشی TalkBack"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"‏اجازه دسترسی، تغییر و حذف برچسب‌های سفارشی که TalkBack گفته است."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"‏منوی بافت کلی ScreenSpeak"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"‏کنترل ScreenSpeak"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"‏اجازه ارسال اشاره‌ها به ScreenSpeak و ازسرگیری بازخورد گفتاری."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"‏مدیریت برچسب‌های سفارشی ScreenSpeak"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"‏اجازه دسترسی، تغییر و حذف برچسب‌های سفارشی که ScreenSpeak گفته است."</string>
     <string name="links" msgid="3448225474115458693">"پیوندها"</string>
     <string name="end_of_text" msgid="3595733062526019550">"پایان"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

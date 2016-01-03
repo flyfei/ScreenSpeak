@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"启用“话语提示”服务后，您的设备可为盲人和视力不好的用户提供语音反馈。例如，设备会读出您所触摸、选择和激活的内容。"</string>
-    <string name="talkback_on" msgid="315529674405160699">"话语提示已开启"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"“话语提示”服务设置"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"启用“话语提示”服务后，您的设备可为盲人和视力不好的用户提供语音反馈。例如，设备会读出您所触摸、选择和激活的内容。"</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"话语提示已开启"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"“话语提示”服务设置"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"文字转语音设置"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"<xliff:g id="VERSION_NAME">%1$s</xliff:g> 版"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"<xliff:g id="VERSION_NAME">%1$s</xliff:g> 版"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"管理自定义标签"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"管理 <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g> 的标签"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"目前没有任何自定义标签。要创建自定义标签，请先找到某个未加标签的图片，然后通过本地上下文菜单添加标签。"</string>
@@ -109,7 +109,7 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"触摸浏览"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"点按一次即选中"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"以列表形式显示上下文菜单"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"启用“话语提示”时调暗屏幕"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"启用“话语提示”时调暗屏幕"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"（实验性功能）点按焦点所在的项可将其选中"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"摇动手机可开始连续朗读"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"管理手势"</string>
@@ -167,7 +167,7 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"启用“节点树调试”功能"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"增强网页无障碍功能"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"下载适用于网页内容的无障碍脚本"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"从暂停状态恢复启用"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"从暂停状态恢复启用"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"已调暗屏幕"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"已恢复屏幕亮度"</string>
     <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"“话语提示”无障碍服务已将屏幕调暗。"</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"“主屏幕”按钮"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"概览按钮"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"打开通知栏"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"打开全局上下文菜单"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"打开全局上下文菜单"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"打开本地上下文菜单"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"重复上一条语音提示"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"拼出上一条语音提示"</string>
@@ -290,12 +290,12 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"始终读出所敲击的键"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"仅限于屏幕键盘"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"不读出所敲击的键"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"“话语提示”服务的手势已更改"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"点按可查看无障碍手势方面的变化"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"“话语提示”服务已暂停"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"点按可恢复启用。"</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"要暂停“话语提示”服务吗？"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"您确定要暂停吗？暂停该服务后，设备将不再提供语音反馈，并且“触摸浏览”功能也将一并停用。如要恢复启用“话语提示”，您可以通过通知栏或通过返回锁定屏幕来操作，或者使用音量按键快捷方式。"</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"“话语提示”服务的手势已更改"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"点按可查看无障碍手势方面的变化"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"“话语提示”服务已暂停"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"点按可恢复启用。"</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"要暂停“话语提示”服务吗？"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"您确定要暂停吗？暂停该服务后，设备将不再提供语音反馈，并且“触摸浏览”功能也将一并停用。如要恢复启用“话语提示”，您可以通过通知栏或通过返回锁定屏幕来操作，或者使用音量按键快捷方式。"</string>
     <string name="message_resume_manual" msgid="6522293510722570646">"您可以通过通知栏来恢复启用“话语提示”服务。"</string>
     <string name="message_resume_screen_on" msgid="9016720947126938212">"您可以通过通知栏或通过打开屏幕来恢复启用“话语提示”服务。"</string>
     <string name="message_resume_keyguard" msgid="6721228114050709276">"您可以通过通知栏或通过返回锁定屏幕来恢复启用“话语提示”服务。"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"确定要移除“<xliff:g id="LABEL">%1$s</xliff:g>”标签吗？"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"确定要移除 <xliff:g id="APP_NAME">%2$s</xliff:g> 中的“<xliff:g id="LABEL">%1$s</xliff:g>”标签吗？"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"标签文字"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"此版本的“话语提示”服务对默认的无障碍手势进行了一些更改。您可以在“话语提示”服务设置中自定义与这些手势关联的操作。启用“触摸浏览”功能后，您可以使用以下手势执行某些操作。\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"长按音量调高和音量调低键"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"此版本的“话语提示”服务对默认的无障碍手势进行了一些更改。您可以在“话语提示”服务设置中自定义与这些手势关联的操作。启用“触摸浏览”功能后，您可以使用以下手势执行某些操作。\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"长按音量调高和音量调低键"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"要将屏幕调暗吗？"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"确定要调暗屏幕吗？"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"此版本的“话语提示”服务对默认的无障碍手势进行了一些更改。\n\n先向上再向下的手势现在可让您直接跳到屏幕上显示的第一项内容，而先向下再向上的手势则可让您跳到屏幕上显示的最后一项内容。\n\n现在，如果要更改朗读单位，您可以先聚焦于某项内容，然后从本地上下文菜单中选择朗读单位。\n\n您可以在“话语提示”服务设置中更改这些手势对应的操作。"</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"此版本的“话语提示”服务对默认的无障碍手势进行了一些更改。\n\n先向上再向下的手势现在可让您直接跳到屏幕上显示的第一项内容，而先向下再向上的手势则可让您跳到屏幕上显示的最后一项内容。\n\n现在，如果要更改朗读单位，您可以先聚焦于某项内容，然后从本地上下文菜单中选择朗读单位。\n\n您可以在“话语提示”服务设置中更改这些手势对应的操作。"</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"接受手势"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"自定义手势"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"要停用“触摸浏览”功能吗？"</string>
@@ -320,9 +320,9 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"要启用“节点树调试”功能吗？"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"确定要启用“节点树调试”功能吗？\n\n启用该功能后，系统会将屏幕上的内容记录在您设备的日志中，而其他应用可能能够读取这些日志。"</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"“触摸浏览”功能不适用于网页内容。要浏览网页内容，请在“无障碍”设置中开启“<xliff:g id="PREFERENCE_NAME">%1$s</xliff:g>”。"</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"“话语提示”服务的全局上下文菜单"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"控制“话语提示”服务"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"可向“话语提示”服务发送手势并恢复启用语音反馈功能。"</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"“话语提示”服务的全局上下文菜单"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"控制“话语提示”服务"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"可向“话语提示”服务发送手势并恢复启用语音反馈功能。"</string>
     <string name="permission_labeling_label" msgid="2956001661481169498">"管理“话语提示”服务的自定义标签"</string>
     <string name="permission_labeling_desc" msgid="8065967887484901473">"可查看、修改和删除由“话语提示”服务读出的自定义标签。"</string>
     <string name="links" msgid="3448225474115458693">"链接"</string>

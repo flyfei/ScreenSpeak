@@ -22,7 +22,7 @@ import android.annotation.TargetApi;
 import android.graphics.Rect;
 import android.os.Build;
 import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 import com.android.utils.PerformActionUtils;
 
 import java.util.Collections;

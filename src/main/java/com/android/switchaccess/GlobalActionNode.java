@@ -19,7 +19,7 @@ package com.android.switchaccess;
 import android.accessibilityservice.AccessibilityService;
 import android.content.Context;
 import android.graphics.Rect;
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 
 import java.util.*;
 

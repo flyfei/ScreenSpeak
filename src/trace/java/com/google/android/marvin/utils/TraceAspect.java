@@ -30,7 +30,7 @@ import org.aspectj.lang.reflect.MethodSignature;
 
 
 /**
- * Define the pointcuts of talkback application and default tracing behavior
+ * Define the pointcuts of screenspeak application and default tracing behavior
  */
 @Aspect
 @SuppressWarnings("unused")
@@ -44,9 +44,9 @@ public class TraceAspect {
     private static final String POINTCUT_CONSTRUCTOR =
             "execution(@com.google.android.marvin.utils.DebugTrace *.new(..))";
 
-    // Define the point cut the under the package of talkback
+    // Define the point cut the under the package of screenspeak
     private static final String POINTCUT_TALKBACK_METHOD =
-            "execution(* com.google.android.marvin.talkback..*.*(..))";
+            "execution(* com.google.android.marvin.screenspeak..*.*(..))";
 
     @Pointcut(POINTCUT_METHOD)
     public void methodAnnotatedWithDebugTrace() {}
@@ -55,7 +55,7 @@ public class TraceAspect {
     public void constructorAnnotatedDebugTrace() {}
 
     @Pointcut(POINTCUT_TALKBACK_METHOD)
-    public void talkbackAllMethods() {}
+    public void screenspeakAllMethods() {}
 
 
     // Only generate logs for methods that takes longer than the value in ms
@@ -66,7 +66,7 @@ public class TraceAspect {
 
 
     @Around("methodAnnotatedWithDebugTrace() " +
-            "|| talkbackAllMethods()  " +
+            "|| screenspeakAllMethods()  " +
             "||  constructorAnnotatedDebugTrace()")
     public Object weaveJoinPoint(ProceedingJoinPoint joinPoint) throws Throwable {
         final Stopwatch stopWatch = new Stopwatch();

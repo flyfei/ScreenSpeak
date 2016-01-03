@@ -26,7 +26,7 @@ import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 
 import java.util.ArrayList;
 import java.util.HashSet;

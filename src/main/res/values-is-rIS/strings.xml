@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"Þegar kveikt er á TalkBack veitir tækið raddsvörun til að hjálpa blindum og sjónskertum notendum. Það lýsir til dæmis því sem þú snertir, velur og gerir virkt."</string>
-    <string name="talkback_on" msgid="315529674405160699">"Kveikt á TalkBack"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"Stillingar TalkBack"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"Þegar kveikt er á ScreenSpeak veitir tækið raddsvörun til að hjálpa blindum og sjónskertum notendum. Það lýsir til dæmis því sem þú snertir, velur og gerir virkt."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"Kveikt á ScreenSpeak"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"Stillingar ScreenSpeak"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Stillingar upplesturs"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Útgáfa <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Útgáfa <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Stjórna sérsniðnum skýringum"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"Stjórna skýringum fyrir <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Engar sérsniðnar skýringar fyrir hendi sem stendur. Þú getur búið til skýringu með því að fletta að ómerktri mynd og bæta skýringu við úr sértæku samhengisvalmyndinni."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Snertikönnun"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Val með því að ýta einu sinni"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Sýna samhengisvalmynd sem lista"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"Dekkja skjáinn þegar TalkBack er virkt"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"Dekkja skjáinn þegar ScreenSpeak er virkt"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Tilraunaeiginleiki) Ýttu á atriði með fókus til að velja það"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Hrista til að hefja samfelldan upplestur"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Stjórna bendingum"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Stjórna sérsniðnum skýringum"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Stjórna flýtilyklum"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Opna TalkBack í Play Store"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Núverandi útgáfa TalkBack: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Opna ScreenSpeak í Play Store"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Núverandi útgáfa ScreenSpeak: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Þjónustuskilmálar"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Persónuverndarstefna"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Flýtibendingar"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Heim"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Nýleg forrit"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Tilkynningar"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Gera hlé á TalkBack"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Gera hlé á ScreenSpeak"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Flettistillingar"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Stilling fyrir flettingu á næsta"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Stilling fyrir flettingu á fyrra"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Leggja áherslu á talhljóð"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Lækka styrk annars hljóðs þegar talað er"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Hljóðstyrkur"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Flýtileið til að slökkva og kveikja á TalkBack"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Flýtileið til að slökkva og kveikja á ScreenSpeak"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Ýmislegt"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Forritarastillingar"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Stig skráningarúttaks"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Kveikja á villuleit í hnútatré"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Auka vefaðgengi"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Sækja aðgengisskriftur fyrir vefefni"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Halda áfram eftir lokun"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Halda áfram eftir lokun"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Skjárinn dekktur"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Birtustig skjás endurstillt"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Aðgengisþjónusta TalkBack hefur myrkvað skjáinn."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Aðgengisþjónusta ScreenSpeak hefur myrkvað skjáinn."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Afturkallaðu með því að ýta þrisvar sinnum með stuttu millibili á báða hljóðstyrkstakkana í einu."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Hægt er að stjórna myrkvun skjásins í stillingum TalkBack."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Hægt er að stjórna myrkvun skjásins í stillingum ScreenSpeak."</string>
     <string name="axis_character" msgid="8528412412593489695">"Fletta eftir staf."</string>
     <string name="axis_word" msgid="8823389407337076750">"Fletta eftir orði."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Fletta eftir setningu."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Heimahnappur"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Yfirlitshnappur"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Opna tilkynningar"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Opna altæka samhengisvalmynd"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Opna altæka samhengisvalmynd"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Opna sértæka samhengisvalmynd"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Endurtaka það sem síðast var sagt"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Stafa það sem síðast var sagt"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Lesa innslátt alltaf upphátt"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Aðeins fyrir skjályklaborðið"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Lesa innslátt aldrei upphátt"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBack bendingum breytt"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Ýttu til að fara yfir breytingar á aðgengisbendingum"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"Lokað fyrir TalkBack"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Ýttu til að halda áfram."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"Loka fyrir TalkBack?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Ertu viss? Tækið mun ekki bjóða upp á svörun og snertikönnun verður gerð óvirk. Þú getur gert TalkBack virkt aftur úr tilkynningum, með því að fara aftur á lásskjáinn eða með flýtileið hljóðstyrkstakkanna."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"Þú getur ræst TalkBack aftur á tilkynningasvæðinu."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"Þú getur ræst TalkBack aftur á tilkynningasvæðinu eða með því að kveikja á skjánum."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"Þú getur ræst TalkBack aftur á tilkynningasvæðinu eða með því að fara aftur á lásskjáinn."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeak bendingum breytt"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Ýttu til að fara yfir breytingar á aðgengisbendingum"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"Lokað fyrir ScreenSpeak"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Ýttu til að halda áfram."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"Loka fyrir ScreenSpeak?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Ertu viss? Tækið mun ekki bjóða upp á svörun og snertikönnun verður gerð óvirk. Þú getur gert ScreenSpeak virkt aftur úr tilkynningum, með því að fara aftur á lásskjáinn eða með flýtileið hljóðstyrkstakkanna."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"Þú getur ræst ScreenSpeak aftur á tilkynningasvæðinu."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"Þú getur ræst ScreenSpeak aftur á tilkynningasvæðinu eða með því að kveikja á skjánum."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"Þú getur ræst ScreenSpeak aftur á tilkynningasvæðinu eða með því að fara aftur á lásskjáinn."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Birta alltaf þessa viðvörun"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"Ekki er hægt að bæta skýringu við þetta atriði."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Bæta við skýringu"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Ertu viss um að þú viljir fjarlægja skýringuna „<xliff:g id="LABEL">%1$s</xliff:g>“?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Ertu viss um að þú viljir fjarlægja skýringuna „<xliff:g id="LABEL">%1$s</xliff:g>“ innan <xliff:g id="APP_NAME">%2$s</xliff:g>?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Skýringartexti"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"Þessi útgáfa af TalkBack inniheldur breytingar á sjálfgefnum aðgengisbendingum. Aðgerðirnar sem tengdar eru þessum bendingum má sérsníða í stillingum TalkBack. Þegar kveikt er á snertikönnun geturðu notað eftirfarandi bendingar til að framkvæma tilteknar aðgerðir.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Halda báðum hljóðstyrkstökkum inni"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"Þessi útgáfa af ScreenSpeak inniheldur breytingar á sjálfgefnum aðgengisbendingum. Aðgerðirnar sem tengdar eru þessum bendingum má sérsníða í stillingum ScreenSpeak. Þegar kveikt er á snertikönnun geturðu notað eftirfarandi bendingar til að framkvæma tilteknar aðgerðir.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Halda báðum hljóðstyrkstökkum inni"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Myrkva skjáinn?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Ert þú viss um að þú viljir myrkva skjáinn?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"Þessi útgáfa af TalkBack inniheldur breytingar á sjálfgefnum aðgengisbendingum.\n\nBendingin upp-og-svo-niður gerir þér kleift að fara að fyrsta atriði á skjánum og bendingin niður-og-svo-upp fer að síðasta atriðinu.\n\nNú er hægt að breyta niðurskiptingu fyrir lestur með því að setja fókus á atriði og velja síðan niðurskiptingu af sértæku samhengisvalmyndinni.\n\nÞú getur breytt aðgerðunum sem framkvæmdar eru við þessar bendingar í stillingum TalkBack."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"Þessi útgáfa af ScreenSpeak inniheldur breytingar á sjálfgefnum aðgengisbendingum.\n\nBendingin upp-og-svo-niður gerir þér kleift að fara að fyrsta atriði á skjánum og bendingin niður-og-svo-upp fer að síðasta atriðinu.\n\nNú er hægt að breyta niðurskiptingu fyrir lestur með því að setja fókus á atriði og velja síðan niðurskiptingu af sértæku samhengisvalmyndinni.\n\nÞú getur breytt aðgerðunum sem framkvæmdar eru við þessar bendingar í stillingum ScreenSpeak."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Samþykkja bendingar"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Sérsníða bendingar"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"Slökkva á snertikönnun?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Kveikja á villuleit í hnútatré?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Ertu viss um að þú viljir kveikja á villuleit í hnútatré?\n\nVilluleit í hnútatré gerir það sem er á skjánum aðgengilegt annálum tækisins sem önnur forrit gætu lesið."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"Snertikönnun er ekki í boði fyrir vefefni. Kveiktu á <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> í aðgengisstillingum til að skoða vefefni."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"Altæk samhengisvalmynd TalkBack"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"Stjórna TalkBack"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Leyfi til að senda bendingar til TalkBack og halda raddsvörun áfram."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"Stjórna sérsniðnum skýringum TalkBack"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"Leyfi til að opna, breyta og eyða sérsniðnum skýringum sem TalkBack les upp."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"Altæk samhengisvalmynd ScreenSpeak"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"Stjórna ScreenSpeak"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Leyfi til að senda bendingar til ScreenSpeak og halda raddsvörun áfram."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"Stjórna sérsniðnum skýringum ScreenSpeak"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"Leyfi til að opna, breyta og eyða sérsniðnum skýringum sem ScreenSpeak les upp."</string>
     <string name="links" msgid="3448225474115458693">"Tenglar"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Lok"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

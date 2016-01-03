@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright 2014 Google Inc. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.talkback.test"
+    package="com.android.screenspeak.test"
     android:sharedUserId="com.google.android.marvin.feedback">
 
     <uses-sdk

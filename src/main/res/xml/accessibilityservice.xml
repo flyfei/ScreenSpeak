@@ -7,6 +7,6 @@
     android:canRequestFilterKeyEvents="true"
     android:canRequestTouchExplorationMode="true"
     android:canRetrieveWindowContent="true"
-    android:description="@string/talkback_service_description"
+    android:description="@string/screenspeak_service_description"
     android:notificationTimeout="0"
-    android:settingsActivity="com.android.talkback.TalkBackPreferencesActivity" />
+    android:settingsActivity="com.android.screenspeak.ScreenSpeakPreferencesActivity" />

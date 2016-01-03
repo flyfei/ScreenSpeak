@@ -1,4 +1,4 @@
-To build TalkBack sources you will need:
+To build ScreenSpeak sources you will need:
 1) Download android sdk from https://developer.android.com/sdk/installing/index.html?pkg=tools
 2) Set ANDROID_HOME to the path of Android sdk folder
 3) Open Android SDK manager and install
@@ -7,7 +7,7 @@ To build TalkBack sources you will need:
   - Extras/Android Support Repository
   - Extras/Google Repository
 
-TalkBack uses gradle as build system.
+ScreenSpeak uses gradle as build system.
 Here are commands to build, install and test the project from command line:
 1) Assemble debug and release apks: ./gradlew assemble
 2) Assemble only debug apk: ./gradlew assembleDebug

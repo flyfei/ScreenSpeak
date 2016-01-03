@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"‏جب TalkBack آن ہوتا ہے تو آپ کا آلہ اندھے اور کمزور بصارت والے صارفین کی مدد کرنے کیلئے بول کر تاثرات فراہم کرتا ہے۔ مثلاً، یہ بیان کرتا ہے کہ آپ کیا ٹچ، منتخب اور فعال کرتے ہیں۔"</string>
-    <string name="talkback_on" msgid="315529674405160699">"‏TalkBack آن ہے"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"‏TalkBack کی ترتیبات"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"‏جب ScreenSpeak آن ہوتا ہے تو آپ کا آلہ اندھے اور کمزور بصارت والے صارفین کی مدد کرنے کیلئے بول کر تاثرات فراہم کرتا ہے۔ مثلاً، یہ بیان کرتا ہے کہ آپ کیا ٹچ، منتخب اور فعال کرتے ہیں۔"</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"‏ScreenSpeak آن ہے"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"‏ScreenSpeak کی ترتیبات"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"ٹیکسٹ ٹو اسپیچ کی ترتیبات"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"ورژن <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"ورژن <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"حسب ضرورت لیبلز کا نظم کریں"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"<xliff:g id="APPLICATIONLABEL">%1$s</xliff:g> کیلئے لیبلز کا نظم کریں"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"فی الحال کوئی حسب ضرورت لیبلز موجود نہیں ہیں۔ آپ بغیر لیبل والی ایک تصویر پر نیویگیٹ کرکے ایک لیبل بنا سکتے ہیں اور پھر مقامی سیاق و سباق کے مینو سے ایک لیبل شامل کر سکتے ہیں۔"</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"دریافت بذریعہ ٹچ"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"ایک بار تھپتھپا کر انتخاب"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"سیاق و سباق کے مینو کو بطور فہرست دکھائیں"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"‏TalkBack فعال ہونے پر اسکرین مدھم کریں"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"‏ScreenSpeak فعال ہونے پر اسکرین مدھم کریں"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(تجرباتی) منتخب کرنے کیلئے فی الحال فوکس کیے گئے آئٹم پر تھپتھپائیں"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"مسلسل پڑھنا شروع کرنے کیلئے ہلائیں"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"اشاروں کا نظم کریں"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"حسب ضرورت لیبلز کا نظم کریں"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"کی بورڈ شارٹ کٹس کا نظم کریں"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"‏Play اسٹور میں TalkBack کھولیں"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"‏موجودہ TalkBack ورژن: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"‏Play اسٹور میں ScreenSpeak کھولیں"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"‏موجودہ ScreenSpeak ورژن: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"سروس کی شرائط"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"رازداری کی پالیسی"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"شارٹ کٹ اشارے"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"ہوم"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"حالیہ ایپس"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"اطلاعات"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"‏TalkBack موقوف کریں"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"‏ScreenSpeak موقوف کریں"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"نیویگیشن ترتیبات"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"اگلی نیویگیشن ترتیب"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"سابقہ نیویگیشن ترتیب"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"اسپیچ آڈیو پر فوکس کریں"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"بولتے ہوئے دیگر آڈیو والیوم کو کم کریں"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"آواز کا والیوم"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"‏Talkback معطل اور دوبارہ شروع کرنے کا شارٹ کٹ"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"‏Screenspeak معطل اور دوبارہ شروع کرنے کا شارٹ کٹ"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"متفرقات"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"ڈیولپر کی ترتیبات"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"لاگ آؤٹ پٹ کی سطح"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"نوڈ ٹری ڈیبگ کرنے کو فعال کریں"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"‏ویب accessibility کو بہتر بنائیں"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"‏ویب مواد کیلئے accessibility اسکرپٹس ڈاؤن لوڈ کریں"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"معطل سے دوبارہ شروع کریں"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"معطل سے دوبارہ شروع کریں"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"اسکرین مدھم کر دی گئی"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"اسکرین کی چمک بحال کر دی گئی"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"‏TalkBack کی accessibility سروس نے اسکرین کو مدھم کر دیا۔"</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"‏ScreenSpeak کی accessibility سروس نے اسکرین کو مدھم کر دیا۔"</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"والیوم بڑھانے اور والیوم کم کرنے کی کلیدوں کو ایک ساتھ تیزی سے تین بار دبا کر کالعدم کریں۔"</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"‏اسکرین مدھم کرنے کو TalkBack کی ترتیبات سے کنٹرول کیا جا سکتا ہے۔"</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"‏اسکرین مدھم کرنے کو ScreenSpeak کی ترتیبات سے کنٹرول کیا جا سکتا ہے۔"</string>
     <string name="axis_character" msgid="8528412412593489695">"حرف کے لحاظ سے نیویگیٹ کریں۔"</string>
     <string name="axis_word" msgid="8823389407337076750">"لفظ کے لحاظ سے نیویگیٹ کریں۔"</string>
     <string name="axis_sentence" msgid="4398740201672273541">"جملے کے لحاظ سے نیویگیٹ کریں۔"</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"ہوم بٹن"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"عمومی جائزہ کا بٹن"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"اطلاعات کھولیں"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"عالمی سیاق و سباق کا مینو کھولیں"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"عالمی سیاق و سباق کا مینو کھولیں"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"مقامی سیاق و سباق کا مینو کھولیں"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"آخری الفاظ دہرائیں"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"آخری الفاظ ہجے کریں"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"ہمیشہ ٹائپ کی گئی کلیدیں بولیں"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"صرف اسکرین پر موجود کی بورڈ کیلئے"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"کبھی بھی ٹائپ کی گئی کلیدیں نہ بولیں"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"‏TalkBack کے اشارے تبدیل ہو گئے"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"‏accessibility کے اشاروں کی تبدیلیوں کا جائزہ لینے کیلئے تھپتھپائیں"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"‏TalkBack معطل ہے"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"دوبارہ شروع کرنے کیلئے تھپتھپائیں."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"‏TalkBack معطل کریں؟"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"‏کیا آپ تیار ہیں؟ آپ کا آلہ تاثرات فراہم نہیں کرے گا اور ٹچ کر کے دریافت کریں خصوصیت غیر فعال ہو جائے گی۔ آپ اطلاعات سے، لاک اسکرین پر واپس جا کر یا والیوم کلید کے شارٹ کٹ کے ذریعہ دوبارہ TalkBack شروع کر سکتے ہیں۔"</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"‏آپ اطلاعات شیڈ سے TalkBack کو دوبارہ شروع کر سکتے ہیں۔"</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"‏آپ اطلاعات شیڈ سے یا اسکرین آن کرکے TalkBack کو دوبارہ شروع کر سکتے ہیں۔"</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"‏آپ اطلاعات شیڈ سے یا لاک اسکرین پر واپس جا کر TalkBack کو دوبارہ شروع کر سکتے ہیں۔"</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"‏ScreenSpeak کے اشارے تبدیل ہو گئے"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"‏accessibility کے اشاروں کی تبدیلیوں کا جائزہ لینے کیلئے تھپتھپائیں"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"‏ScreenSpeak معطل ہے"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"دوبارہ شروع کرنے کیلئے تھپتھپائیں."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"‏ScreenSpeak معطل کریں؟"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"‏کیا آپ تیار ہیں؟ آپ کا آلہ تاثرات فراہم نہیں کرے گا اور ٹچ کر کے دریافت کریں خصوصیت غیر فعال ہو جائے گی۔ آپ اطلاعات سے، لاک اسکرین پر واپس جا کر یا والیوم کلید کے شارٹ کٹ کے ذریعہ دوبارہ ScreenSpeak شروع کر سکتے ہیں۔"</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"‏آپ اطلاعات شیڈ سے ScreenSpeak کو دوبارہ شروع کر سکتے ہیں۔"</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"‏آپ اطلاعات شیڈ سے یا اسکرین آن کرکے ScreenSpeak کو دوبارہ شروع کر سکتے ہیں۔"</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"‏آپ اطلاعات شیڈ سے یا لاک اسکرین پر واپس جا کر ScreenSpeak کو دوبارہ شروع کر سکتے ہیں۔"</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"ہمیشہ یہ وارننگ دکھائیں"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"اس آئٹم پر لیبل نہیں لگایا جا سکتا ہے۔"</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"لیبل شامل کریں"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"کیا آپ واقعی \"<xliff:g id="LABEL">%1$s</xliff:g>\" لیبل ہٹانا چاہتے ہیں؟"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"کیا آپ واقعی <xliff:g id="APP_NAME">%2$s</xliff:g> میں سے \"<xliff:g id="LABEL">%1$s</xliff:g>\" لیبل ہٹانا چاہتے ہیں؟"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"لیبل کا متن"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"‏TalkBack کے اس ورژن میں ڈیفالٹ accessibility اشاروں کی تبدیلیاں شامل ہیں۔ ان اشاروں سے وابستہ کارروائیوں کو TalkBack ترتیبات میں حسب ضرورت بنایا جا سکتا ہے۔ ٹچ کرکے دریافت کریں فعال ہونے پر، آپ مخصوص کارروائیاں انجام دینے کیلئے مندرجہ ذیل اشاروں کا استعمال کر سکتے ہیں۔\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"والیوم بڑھانے اور کم کرنے کی کلیدیں دیر تک دبائیں"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"‏ScreenSpeak کے اس ورژن میں ڈیفالٹ accessibility اشاروں کی تبدیلیاں شامل ہیں۔ ان اشاروں سے وابستہ کارروائیوں کو ScreenSpeak ترتیبات میں حسب ضرورت بنایا جا سکتا ہے۔ ٹچ کرکے دریافت کریں فعال ہونے پر، آپ مخصوص کارروائیاں انجام دینے کیلئے مندرجہ ذیل اشاروں کا استعمال کر سکتے ہیں۔\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"والیوم بڑھانے اور کم کرنے کی کلیدیں دیر تک دبائیں"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"اسکرین مدھم کریں؟"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"کیا آپ واقعی اسکرین مدھم کرنا چاہتے ہیں؟"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"‏TalkBack کے اس ورژن میں ڈیفالٹ accessibility اشاروں کی تبدیلیاں شامل ہیں۔\n\nاوپر پھر نیچے اشارہ آپ کو اسکرین پر موجود پہلے آئٹم پر منتقل کرنے کی اجازت دے گا اور نیچے پھر اوپر اشارہ آخری آئٹم پر منتقل کرے گا۔\n\nپڑھنے والی گرینولیریٹی اب ایک آئٹم پر فوکس کرکے، پھر مقامی سیاق و سباق کے مینو سے ایک گرینولیریٹی منتخب کرکے تبدیل کی جا سکتی ہے۔\n\n آپ TalkBack ترتیبات میں ان اشاروں کے ذریعے انجام دی گئی کارروائیوں کو تبدیل کر سکتے ہیں۔"</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"‏ScreenSpeak کے اس ورژن میں ڈیفالٹ accessibility اشاروں کی تبدیلیاں شامل ہیں۔\n\nاوپر پھر نیچے اشارہ آپ کو اسکرین پر موجود پہلے آئٹم پر منتقل کرنے کی اجازت دے گا اور نیچے پھر اوپر اشارہ آخری آئٹم پر منتقل کرے گا۔\n\nپڑھنے والی گرینولیریٹی اب ایک آئٹم پر فوکس کرکے، پھر مقامی سیاق و سباق کے مینو سے ایک گرینولیریٹی منتخب کرکے تبدیل کی جا سکتی ہے۔\n\n آپ ScreenSpeak ترتیبات میں ان اشاروں کے ذریعے انجام دی گئی کارروائیوں کو تبدیل کر سکتے ہیں۔"</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"اشاروں کو قبول کریں"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"اشاروں کو حسب ضرورت بنائیں"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"ٹچ کرکے دریافت کریں کو غیر فعال کریں؟"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"نوڈ ٹری ڈیبگ کرنے کو فعال کریں؟"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"کیا آپ واقعی نوڈ ٹری ڈیبگ کرنے کو آن کرنا چاہتے ہیں؟\n\nنوڈ ٹری ڈیبگ کرنا آپ کے آلہ کے لاگز میں آپ کی اسکرین کا مواد دکھاتا ہے، جسے دیگر ایپلیکیشنز کے ذریعے پڑھا جا سکتا ہے۔"</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"‏ٹچ کر کے دریافت کریں ویب مواد میں دستیاب نہیں ہے۔ ویب مواد دریافت کرنے کیلئے Accessibility ترتیبات میں <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> آن کریں۔"</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"‏TalkBack کے عالمی سیاق و سباق کا مینو"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"‏TalkBack کو کنٹرول کریں"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"‏TalkBack کو اشارے بھیجنے اور بولے گئے تاثرات کو دوبارہ شروع کرنے کی اجازت۔"</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"‏TalkBack کے حسب ضرورت لیبلز کا نظم کریں"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"‏TalkBack کے ذریعے بولے گئے حسب ضرورت لیبلز تک رسائی، ان میں ترمیم اور انہیں حذف کرنے کی اجازت۔"</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"‏ScreenSpeak کے عالمی سیاق و سباق کا مینو"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"‏ScreenSpeak کو کنٹرول کریں"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"‏ScreenSpeak کو اشارے بھیجنے اور بولے گئے تاثرات کو دوبارہ شروع کرنے کی اجازت۔"</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"‏ScreenSpeak کے حسب ضرورت لیبلز کا نظم کریں"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"‏ScreenSpeak کے ذریعے بولے گئے حسب ضرورت لیبلز تک رسائی، ان میں ترمیم اور انہیں حذف کرنے کی اجازت۔"</string>
     <string name="links" msgid="3448225474115458693">"لنکس"</string>
     <string name="end_of_text" msgid="3595733062526019550">"اختتام"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

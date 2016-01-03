@@ -21,11 +21,11 @@ import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.test.suitebuilder.annotation.MediumTest;
 import android.view.View;
 import com.android.utils.AccessibilityNodeInfoUtils;
-import com.googlecode.eyesfree.testing.TalkBackInstrumentationTestCase;
+import com.googlecode.eyesfree.testing.ScreenSpeakInstrumentationTestCase;
 
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 
-public class OrderedTraversalControllerTest extends TalkBackInstrumentationTestCase {
+public class OrderedTraversalControllerTest extends ScreenSpeakInstrumentationTestCase {
 
     /**
      *          n1

@@ -22,7 +22,7 @@
     <string name="pref_tree_debug_key">pref_tree_debug</string>
     <string name="pref_tree_debug_reflect_key">pref_tree_debug_reflect</string>
     <string name="pref_web_scripts_key">pref_web_scripts</string>
-    <string name="pref_resume_talkback_key">pref_resume_talkback</string>
+    <string name="pref_resume_screenspeak_key">pref_resume_screenspeak</string>
     <string name="pref_caller_id_key">pref_caller_id</string>
     <string name="pref_phonetic_letters_key">pref_phonetic_letters</string>
     <string name="pref_a11y_hints_key">pref_a11y_hints</string>
@@ -31,7 +31,7 @@
     <string name="pref_auto_scroll_key">pref_auto_scroll</string>
     <string name="pref_single_tap_key">pref_single_tap</string>
     <string name="pref_show_context_menu_as_list_key">pref_show_context_menu_as_list_pref_key</string>
-    <string name="pref_dim_when_talkback_enabled_key">pref_dim_when_talkback_enabled_key</string>
+    <string name="pref_dim_when_screenspeak_enabled_key">pref_dim_when_screenspeak_enabled_key</string>
     <string name="pref_shake_to_read_key">pref_shake_to_read</string> <!-- Deprecated by pref_shake_to_read_threshold_key -->
     <string name="pref_shake_to_read_threshold_key">pref_shake_to_read_threshold</string>
     <string name="pref_tutorial_key">pref_tutorial</string>
@@ -175,7 +175,7 @@
     </string-array>
 
     <!-- Resume from suspend preference entries -->
-    <string-array name="pref_resume_talkback_entries">
+    <string-array name="pref_resume_screenspeak_entries">
         <item>@string/value_resume_screen_on</item>
         <item>@string/value_resume_keyguard</item>
         <item>@string/value_resume_manual</item>
@@ -187,7 +187,7 @@
 
     <!-- Resume from suspend preference values -->
     <!-- We depend on the order of these strings -->
-    <string-array name="pref_resume_talkback_values">
+    <string-array name="pref_resume_screenspeak_values">
         <item>@string/resume_screen_on</item>
         <item>@string/resume_screen_keyguard</item>
         <item>@string/resume_screen_manual</item>
@@ -224,7 +224,7 @@
         <item>@string/shortcut_home</item>
         <item>@string/shortcut_overview</item>
         <item>@string/shortcut_notifications</item>
-        <item>@string/shortcut_talkback_breakout</item>
+        <item>@string/shortcut_screenspeak_breakout</item>
         <item>@string/shortcut_local_breakout</item>
         <item>@string/shortcut_read_from_top</item>
         <item>@string/shortcut_read_from_current</item>
@@ -245,7 +245,7 @@
         <item>@string/shortcut_value_home</item>
         <item>@string/shortcut_value_overview</item>
         <item>@string/shortcut_value_notifications</item>
-        <item>@string/shortcut_value_talkback_breakout</item>
+        <item>@string/shortcut_value_screenspeak_breakout</item>
         <item>@string/shortcut_value_local_breakout</item>
         <item>@string/shortcut_value_read_from_top</item>
         <item>@string/shortcut_value_read_from_current</item>
@@ -265,7 +265,7 @@
     <string name="shortcut_value_home">HOME</string>
     <string name="shortcut_value_overview">OVERVIEW</string>
     <string name="shortcut_value_notifications">NOTIFICATIONS</string>
-    <string name="shortcut_value_talkback_breakout">TALKBACK_BREAKOUT</string>
+    <string name="shortcut_value_screenspeak_breakout">TALKBACK_BREAKOUT</string>
     <string name="shortcut_value_local_breakout">LOCAL_BREAKOUT</string>
     <string name="shortcut_value_read_from_top">READ_FROM_TOP</string>
     <string name="shortcut_value_read_from_current">READ_FROM_CURRENT</string>
@@ -315,7 +315,7 @@
     <bool name="pref_tts_overlay_default">false</bool>
     <bool name="pref_tree_debug_default">false</bool>
     <bool name="pref_web_scripts_default">true</bool>
-    <string name="pref_resume_talkback_default">@string/resume_screen_keyguard</string>
+    <string name="pref_resume_screenspeak_default">@string/resume_screen_keyguard</string>
     <bool name="pref_caller_id_default">true</bool>
     <bool name="pref_phonetic_letters_default">true</bool>
     <bool name="pref_a11y_hints_default">true</bool>
@@ -324,7 +324,7 @@
     <bool name="pref_single_tap_default">false</bool>
     <bool name="pref_show_menu_as_list">true</bool>
     <bool name="pref_resume_volume_buttons_long_click_default">true</bool>
-    <bool name="pref_dim_when_talkback_enabled_default">false</bool>
+    <bool name="pref_dim_when_screenspeak_enabled_default">false</bool>
     <bool name="pref_shake_to_read_default">false</bool>
     <string name="pref_shake_to_read_threshold_default">-1</string>
     <bool name="pref_show_suspension_confirmation_dialog_default">true</bool>
@@ -340,7 +340,7 @@
     <string name="pref_shortcut_up_and_left_default">@string/shortcut_value_home</string>
     <string name="pref_shortcut_up_and_right_default">@string/shortcut_value_local_breakout</string>
     <string name="pref_shortcut_down_and_left_default">@string/shortcut_value_back</string>
-    <string name="pref_shortcut_down_and_right_default">@string/shortcut_value_talkback_breakout</string>
+    <string name="pref_shortcut_down_and_right_default">@string/shortcut_value_screenspeak_breakout</string>
     <string name="pref_shortcut_right_and_down_default">@string/shortcut_value_notifications</string>
     <string name="pref_shortcut_right_and_up_default">@string/shortcut_value_unassigned</string>
     <string name="pref_shortcut_left_and_down_default">@string/shortcut_value_unassigned</string>
@@ -362,7 +362,7 @@
     <string name="settings_manager_market_uri">market://details?id=com.marvin.preferences</string>
 
     <!-- Intent ACTION for launching the gesture change notification activity -->
-    <string name="action_gesture_change_notification">com.google.android.marvin.talkback.NOTIFY_GESTURE_CHANGE</string>
+    <string name="action_gesture_change_notification">com.google.android.marvin.screenspeak.NOTIFY_GESTURE_CHANGE</string>
 
     <string name="dim_screen_timer">%1$d:%2$s</string>
 

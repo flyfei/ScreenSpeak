@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"Pokud je zapnuta funkce Talkback, poskytuje zařízení hlasovou zpětnou vazbu a pomáhá tak nevidomým nebo slabozrakým uživatelům. Popisuje například, čeho se dotýkáte, co vybíráte a aktivujete."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack – zapnuto"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"Nastavení aplikace TalkBack"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"Pokud je zapnuta funkce Screenspeak, poskytuje zařízení hlasovou zpětnou vazbu a pomáhá tak nevidomým nebo slabozrakým uživatelům. Popisuje například, čeho se dotýkáte, co vybíráte a aktivujete."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak – zapnuto"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"Nastavení aplikace ScreenSpeak"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Nastavení převodu textu na řeč"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Verze <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Verze <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Správa vlastních štítků"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"Správa štítků aplikace <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Aktuálně nemáte žádné vlastní štítky. Můžete je vytvořit tak, že přejdete na obrázek bez štítku a přidáte štítek z místní kontextové nabídky."</string>
@@ -111,14 +111,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Prozkoumání dotykem"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Výběr jedním klepnutím"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Kontextová nabídka jako seznam"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"Ztlumit obrazovku, když je aktivována aplikace TalkBack"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"Ztlumit obrazovku, když je aktivována aplikace ScreenSpeak"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Experimentální) Položku, která je právě aktivní, bude možné vybrat klepnutím"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Zatřesením spustit kontinuální čtení"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Správa gest"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Spravovat vlastní štítky"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Spravovat klávesové zkratky"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Otevřít TalkBack v Obchodě Play"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Aktuální verze aplikace TalkBack: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Otevřít ScreenSpeak v Obchodě Play"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Aktuální verze aplikace ScreenSpeak: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Smluvní podmínky"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Zásady ochrany soukromí"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Gesta pro zkratky"</string>
@@ -135,7 +135,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Plocha"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Poslední aplikace"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Oznámení"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Pozastavení aplikace TalkBack"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Pozastavení aplikace ScreenSpeak"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Nastavení navigace"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Následující nastavení navigace"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Předchozí nastavení navigace"</string>
@@ -161,7 +161,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Zvýraznit zvuk řeči"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Sníží hlasitost ostatních zvuků při hovoru"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Hlasitost zvuku"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Zkratka pro pozastavení a obnovení funkce TalkBack"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Zkratka pro pozastavení a obnovení funkce ScreenSpeak"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Různé"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Nastavení pro vývojáře"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Úroveň výstupu v protokolu"</string>
@@ -169,12 +169,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Zapnout ladění stromu uzlů"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Usnadnění přístupu k webu"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Stahovat skripty pro usnadnění přístupu pro webový obsah"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Obnovit z pozastavení"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Obnovit z pozastavení"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Obrazovka byla ztlumena"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Jas obrazovky byl obnoven"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Služba usnadnění TalkBack ztlumila obrazovku."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Služba usnadnění ScreenSpeak ztlumila obrazovku."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Tuto akci vrátíte zpět tak, že rychle třikrát po sobě stisknete současně tlačítka zvýšení a snížení hlasitosti."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Ztlumení obrazovky lze ovládat z nastavení aplikace TalkBack."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Ztlumení obrazovky lze ovládat z nastavení aplikace ScreenSpeak."</string>
     <string name="axis_character" msgid="8528412412593489695">"Navigovat po znacích."</string>
     <string name="axis_word" msgid="8823389407337076750">"Navigovat po slovech."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Navigovat po větách."</string>
@@ -203,7 +203,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Tlačítko Plocha"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Tlačítko přehledu"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Otevřít oznámení"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Otevřít globální kontextovou nabídku"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Otevřít globální kontextovou nabídku"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Otevřít místní kontextovou nabídku"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Zopakovat poslední výrok"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Hláskovat poslední výrok"</string>
@@ -292,15 +292,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Vždy vyslovit stisknuté klávesy"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Pouze pro softwarovou klávesnici"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Nikdy nevyslovovat stisknuté klávesy"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"Byla změněna gesta TalkBack"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Klepnutím zkontrolujete změny gest usnadnění"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"Aplikace TalkBack je pozastavena"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Pokračujte klepnutím."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"Pozastavit aplikaci TalkBack?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Jste si jisti? Zařízení nebude poskytovat zpětnou vazbu a bude zakázána funkce Prozkoumání dotykem. Funkci TalkBack můžete znovu spustit z oznámení, návratem na obrazovku uzamčení nebo pomocí klávesové zkratky s tlačítky ovládání hlasitosti."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"Funkci TalkBack můžete znovu spustit z panelu oznámení."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"Funkci TalkBack můžete znovu spustit z panelu oznámení nebo zapnutím obrazovky."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"Funkci TalkBack můžete znovu spustit z panelu oznámení nebo návratem na obrazovku uzamčení."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"Byla změněna gesta ScreenSpeak"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Klepnutím zkontrolujete změny gest usnadnění"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"Aplikace ScreenSpeak je pozastavena"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Pokračujte klepnutím."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"Pozastavit aplikaci ScreenSpeak?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Jste si jisti? Zařízení nebude poskytovat zpětnou vazbu a bude zakázána funkce Prozkoumání dotykem. Funkci ScreenSpeak můžete znovu spustit z oznámení, návratem na obrazovku uzamčení nebo pomocí klávesové zkratky s tlačítky ovládání hlasitosti."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"Funkci ScreenSpeak můžete znovu spustit z panelu oznámení."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"Funkci ScreenSpeak můžete znovu spustit z panelu oznámení nebo zapnutím obrazovky."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"Funkci ScreenSpeak můžete znovu spustit z panelu oznámení nebo návratem na obrazovku uzamčení."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Vždy zobrazovat toto upozornění"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"K této položce štítek přidat nelze."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Přidat štítek"</string>
@@ -310,11 +310,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Opravdu štítek <xliff:g id="LABEL">%1$s</xliff:g> chcete odstranit?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Opravdu štítek <xliff:g id="LABEL">%1$s</xliff:g> aplikace <xliff:g id="APP_NAME">%2$s</xliff:g> chcete odstranit?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Text štítku"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"V této verzi aplikace TalkBack byla změněna výchozí gesta pro usnadnění. Akce přiřazené k těmto gestům lze přizpůsobit v nastavení TalkBack. Když je zapnutá funkce Prozkoumání dotykem, můžete použít následující gesta k provádění určitých akcí.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Dlouhé stisknutí tlačítek zvýšení a snížení hlasitosti"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"V této verzi aplikace ScreenSpeak byla změněna výchozí gesta pro usnadnění. Akce přiřazené k těmto gestům lze přizpůsobit v nastavení ScreenSpeak. Když je zapnutá funkce Prozkoumání dotykem, můžete použít následující gesta k provádění určitých akcí.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Dlouhé stisknutí tlačítek zvýšení a snížení hlasitosti"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Ztlumit obrazovku?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Opravdu obrazovku chcete ztlumit?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"V této verzi aplikace TalkBack byla změněna výchozí gesta pro usnadnění.\n\nGestem „nahoru a potom dolů“ můžete přejít na první položku na obrazovce. Gestem „dolů a potom nahoru“ přejdete na poslední položku.\n\nÚroveň podrobnosti čtení lze nyní změnit tím, že na položku přepnete fokus a poté vyberete úroveň podrobnosti v kontextové nabídce.\n\nAkce odpovídající těmto gestům můžete změnit v nastavení aplikace TalkBack."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"V této verzi aplikace ScreenSpeak byla změněna výchozí gesta pro usnadnění.\n\nGestem „nahoru a potom dolů“ můžete přejít na první položku na obrazovce. Gestem „dolů a potom nahoru“ přejdete na poslední položku.\n\nÚroveň podrobnosti čtení lze nyní změnit tím, že na položku přepnete fokus a poté vyberete úroveň podrobnosti v kontextové nabídce.\n\nAkce odpovídající těmto gestům můžete změnit v nastavení aplikace ScreenSpeak."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Přijmout gesta"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Přizpůsobit gesta"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"Vypnout Prozkoumání dotykem?"</string>
@@ -322,11 +322,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Zapnout ladění stromu uzlů?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Opravdu chcete zapnout ladění stromu uzlů?\n\nLadění stromu uzlů odhalí obsah obrazovky protokolům zařízení, které mohou číst jiné aplikace."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"Procházení dotykem ve webovém obsahu není k dispozici. Chcete-li procházet webový obsah, zapněte v nastavení Usnadnění možnost <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g>."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"Globální kontextová nabídka aplikace TalkBack"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"Ovládání aplikace TalkBack"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Oprávnění odesílat gesta do aplikace TalkBack a získat mluvenou zpětnou vazbu."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"Správa vlastních štítků TalkBack"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"Oprávnění načítat, upravovat a mazat vlastní štítky vyslovované aplikací TalkBack."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"Globální kontextová nabídka aplikace ScreenSpeak"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"Ovládání aplikace ScreenSpeak"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Oprávnění odesílat gesta do aplikace ScreenSpeak a získat mluvenou zpětnou vazbu."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"Správa vlastních štítků ScreenSpeak"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"Oprávnění načítat, upravovat a mazat vlastní štítky vyslovované aplikací ScreenSpeak."</string>
     <string name="links" msgid="3448225474115458693">"Odkazy"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Konec"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g>krát <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

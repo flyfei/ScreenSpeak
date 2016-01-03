@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"Talkback ሲበራ መሳሪያዎ አይነ ስውራን እና የማየት ችግር ያላቸው ተጠቃሚዎችን ለመርዳት የንግግር ግብረመልስ ይሰጣል። ለምሳሌ፣ ምን እንደሚነኩ፣ እንደሚመርጡ እና ገቢር እንደሚያደርጉ ይገልጻል።"</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack በርቷል"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"የTalkBack ቅንብሮች"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"Screenspeak ሲበራ መሳሪያዎ አይነ ስውራን እና የማየት ችግር ያላቸው ተጠቃሚዎችን ለመርዳት የንግግር ግብረመልስ ይሰጣል። ለምሳሌ፣ ምን እንደሚነኩ፣ እንደሚመርጡ እና ገቢር እንደሚያደርጉ ይገልጻል።"</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak በርቷል"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"የScreenSpeak ቅንብሮች"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"የጽሑፍ ወደ ንግግር ቅንጅቶች"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"የ<xliff:g id="VERSION_NAME">%1$s</xliff:g> ስሪት"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"የ<xliff:g id="VERSION_NAME">%1$s</xliff:g> ስሪት"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"ብጁ መለያዎችን ያቀናብሩ"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"የ<xliff:g id="APPLICATIONLABEL">%1$s</xliff:g> መለያዎችን ያቀናብሩ"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"በአሁኑ ወቅት ምንም ብጁ መሰየሚያዎች የሉም። መሰየሚያ ወዳልተሰጠው ምስል በማሰስ እና ከዚያም ከአካባቢዊ ተገቢ ሁኔታ ምናሌው ውስጥ አንድ መሰየሚያ በማከል አንድ መፍጠር ይችላሉ።"</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"የንክኪ አሰሳ"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"በአንዲት-መታ ምርጫ"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"የአውድ ምናሌን እንደ ዝርዝር አሳይ"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"TalkBack በሚነቃበት ጊዜ ማያ ገጽን አጨልም"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"ScreenSpeak በሚነቃበት ጊዜ ማያ ገጽን አጨልም"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(የሙከራ) ለመምረጥ አሁን በተተኮረበት ንጥል ላይ መታ ያድርጉ።"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"ቀጣይነት ያለው ንባብን ለመጀመር ይነቅንቁት"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"የእጅ ምልክቶችን ያቀናብሩ"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"ብጁ መለያዎችን አቀናብር"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"የቁልፍ ሰሌዳ አቋራጮችን አቀናብር"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"TalkBackን በPlay መደብሩ ላይ ይክፈቱት"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"የአሁኑ የTalkBack ስሪት፦ <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"ScreenSpeakን በPlay መደብሩ ላይ ይክፈቱት"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"የአሁኑ የScreenSpeak ስሪት፦ <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"የአገልግሎት ውል"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"የግላዊነት መመሪያ"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"የአቋራጭ እጅ ምልክቶች"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"መነሻ"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"የቅርብ ጊዜ መተግበሪያዎች"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"ማሳወቂያዎች"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"TalkBackን ለአፍታ አቁም"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"ScreenSpeakን ለአፍታ አቁም"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"የዳሰሳ ቅንብሮች"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"ቀጣይ የዳሰሳ ቅንብር"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"ቀዳሚው የዳሰሳ ቅንብር"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"የንግግድ ድምጽ ላይ አተኩር"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"እየተናገረ ሳለ የሌላው ድምጽ ቀንስ"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"የድምጽ መጠን"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Talkback ማገጃ እና ካቆመበት ማስቀጠያ አቋራጭ"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Screenspeak ማገጃ እና ካቆመበት ማስቀጠያ አቋራጭ"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"የተለያዩ"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"የገንቢ ቅንብሮች"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"የውጽአት ደረጃን መዝግብ"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"የአንጓ ዛፍ ማረምን አንቃ"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"የድር ተደራሽነትን አሻሽል"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"ለድር ይዘት የተደራሽነት ስክሪፕቶችን ያውርዱ"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"ከተንጠለጠለበት ቀጥል"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"ከተንጠለጠለበት ቀጥል"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"ማያ ገጽ ጨልሟል"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"የማያ ገጽ ብሩህነት እንደነበረ ተመልሷል"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"የTalkBack ተደራሽነት አገልግሎት ማያ ገጹን አፍዝዞታል።"</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"የScreenSpeak ተደራሽነት አገልግሎት ማያ ገጹን አፍዝዞታል።"</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"የድምጽ ጨምር እና የድምጽ ቀንስ ቁልፎችን ሶስት ጊዜ በፍጥነት አንድ ላይ በመጫን ይቀልብሱ።"</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"ማያ ገጽን ማፍዘዝ ከTalkBack ቅንብሮች ሆኖ መቆጣጠር ይቻላል።"</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"ማያ ገጽን ማፍዘዝ ከScreenSpeak ቅንብሮች ሆኖ መቆጣጠር ይቻላል።"</string>
     <string name="axis_character" msgid="8528412412593489695">"በቁምፊ አስስ።"</string>
     <string name="axis_word" msgid="8823389407337076750">"በቃል አስስ።"</string>
     <string name="axis_sentence" msgid="4398740201672273541">"በአረፍተ ነገር አስስ።"</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"የመነሻ አዝራር"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"የአጠቃላይ እይታ አዝራር"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"ማሳወቂያዎችን ክፈት"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"ሁለንተናዊ አውድ ምናሌን ክፈት"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"ሁለንተናዊ አውድ ምናሌን ክፈት"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"የአካባቢያዊ አውድ ምናሌ ክፈት"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"የመጨረሻውን ንግግር ድገም"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"የመጨረሻውን ንግግር በፊደል ፃፍ"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"የተተየቡ ቁልፎችን ሁልጊዜ ተናገር"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"ለየማያ ገጽ ላይ ቁልፍ ሰሌዳ ብቻ"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"የተተየቡ ቃላትን በጭራሽ አትናገር"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"የTalkBack ምልክቶች ተቀይረዋል"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"የተደራሽነት ምልክቶች ላይ ያሉ ለውጦችን ለመገምገም መታ ያድርጉ"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack ታግዷል"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"ከቆመበት ለመቀጠል መታ ያድርጉ።"</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"TalkBack ይታገድ?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"እርግጠና ነዎት? የእርስዎ መሣሪያ ግብረመልስ አይሰጥም እንዲሁም በንኪ አሰሳ ይሰናከላል። ወደ ተቆላፊ ማያ ገጹ በመመለስ ወይም በድምጽ አቋራጭ ቁልፍ በኩል በመመለስ TalkBackን ከማሳወቂያዎች ላይ ካቆመበት ሊያስቀጥሉት ይችላሉ።"</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"TalkBackን ከማሳወቂያዎች ጥላ ሆነው ከቆመበት ማስቀጠል ይችላሉ።"</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"TalkBackን ከማሳወቂያዎች ጥላ ሆነው ወይም ማያ ገጹን በማብራት ከቆመበት ማስቀጠል ይችላሉ።"</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"TalkBackን ከማሳወቂያዎች ጥላ ሆነው ወይም ወደ የቁልፍ ማያ ገጽ በመመለስ ከቆመበት ማስቀጠል ይችላሉ።"</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"የScreenSpeak ምልክቶች ተቀይረዋል"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"የተደራሽነት ምልክቶች ላይ ያሉ ለውጦችን ለመገምገም መታ ያድርጉ"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak ታግዷል"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"ከቆመበት ለመቀጠል መታ ያድርጉ።"</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"ScreenSpeak ይታገድ?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"እርግጠና ነዎት? የእርስዎ መሣሪያ ግብረመልስ አይሰጥም እንዲሁም በንኪ አሰሳ ይሰናከላል። ወደ ተቆላፊ ማያ ገጹ በመመለስ ወይም በድምጽ አቋራጭ ቁልፍ በኩል በመመለስ ScreenSpeakን ከማሳወቂያዎች ላይ ካቆመበት ሊያስቀጥሉት ይችላሉ።"</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"ScreenSpeakን ከማሳወቂያዎች ጥላ ሆነው ከቆመበት ማስቀጠል ይችላሉ።"</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"ScreenSpeakን ከማሳወቂያዎች ጥላ ሆነው ወይም ማያ ገጹን በማብራት ከቆመበት ማስቀጠል ይችላሉ።"</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"ScreenSpeakን ከማሳወቂያዎች ጥላ ሆነው ወይም ወደ የቁልፍ ማያ ገጽ በመመለስ ከቆመበት ማስቀጠል ይችላሉ።"</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"ሁልጊዜ ይህንን ማስጠንቀቂያ አሳይ"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"ይህ ንጥል ሊሰረዝ አይችልም።"</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"መሰየሚያ ያክሉ"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"እርግጠኛ ነዎት የ«<xliff:g id="LABEL">%1$s</xliff:g>» መለያውን ማስወገድ ይፈልጋሉ?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"እርግጠኛ ነዎት በ<xliff:g id="APP_NAME">%2$s</xliff:g> ውስጥ ያለውን የ«<xliff:g id="LABEL">%1$s</xliff:g>» መለያውን ማስወገድ ይፈልጋሉ?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"የመሰየሚያ ጽሑፍ"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"ይህ የTalkBack ስሪት ወደ ነባሪው የተደራሽነት ጣት ምልክቶች ላይ የተደረጉ ለውጦችን ያካትታል። ከእነዚህ ምልክቶች ጋር የተጎዳኙ ምልክቶች በTalkBack ቅንብሮች ውስጥ ሊበጁ ይችላሉ። በንክኪ አስስ ሲነቃ የተወሰኑ እርምጃዎችን ለመፈጸም የሚከተሉትን ምልክቶች መጠቀም ይችላሉ።\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"የድምጽ መጨመሪያ እና መቀነሻ ቁልፎችን ረዥም መጫን"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"ይህ የScreenSpeak ስሪት ወደ ነባሪው የተደራሽነት ጣት ምልክቶች ላይ የተደረጉ ለውጦችን ያካትታል። ከእነዚህ ምልክቶች ጋር የተጎዳኙ ምልክቶች በScreenSpeak ቅንብሮች ውስጥ ሊበጁ ይችላሉ። በንክኪ አስስ ሲነቃ የተወሰኑ እርምጃዎችን ለመፈጸም የሚከተሉትን ምልክቶች መጠቀም ይችላሉ።\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"የድምጽ መጨመሪያ እና መቀነሻ ቁልፎችን ረዥም መጫን"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"ማያ ገጹ ይፍዘዝ?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"እርግጠኛ ነዎት ማያ ገጹን ማፍዘዝ ይፈልጋሉ?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"ይህ የTalkBack ስሪት በነባሪው የተደራሽነት የእጅ ምልክቶች ላይ የተደረጉ ለውጦችን ያካትታል።\n\nየላይ-ወደ-ታች እጅ ምልክት በማያ ገጹ ላይ ወዳለው የመጀመሪያ ንጥል እንዲሄዱ ያስችልዎታል፣ ከዚያ የታች-ወደ-ላይ እጅ ምልክት ወደ መጨረሻው ንጥል ይወስዳል።\n\nየተነባቢነት ጥራቱ አሁን በአንድ ንጥል ላይ በማተኮርና ከዚያ ከአካባቢያዊ የአውድ ምናሌ ውስጥ አንድ የጥራት ደረጃ በመምረጥ ሊቀየር ይችላል።\n\nበእነዚህ የእጅ ምልክቶች የሚሰሩ እርምጃዎች ላይ በTalkBack ቅንብሮች ውስጥ መቀየር ይችላሉ።"</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"ይህ የScreenSpeak ስሪት በነባሪው የተደራሽነት የእጅ ምልክቶች ላይ የተደረጉ ለውጦችን ያካትታል።\n\nየላይ-ወደ-ታች እጅ ምልክት በማያ ገጹ ላይ ወዳለው የመጀመሪያ ንጥል እንዲሄዱ ያስችልዎታል፣ ከዚያ የታች-ወደ-ላይ እጅ ምልክት ወደ መጨረሻው ንጥል ይወስዳል።\n\nየተነባቢነት ጥራቱ አሁን በአንድ ንጥል ላይ በማተኮርና ከዚያ ከአካባቢያዊ የአውድ ምናሌ ውስጥ አንድ የጥራት ደረጃ በመምረጥ ሊቀየር ይችላል።\n\nበእነዚህ የእጅ ምልክቶች የሚሰሩ እርምጃዎች ላይ በScreenSpeak ቅንብሮች ውስጥ መቀየር ይችላሉ።"</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"ምልክቶችን ተቀበል"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"ምልክቶችን አብጅ"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"በንኪኪ ማስስ ይሰናከል?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"የአንጓ ዛፍ ማረም ይንቃ?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"እርግጠኛ ነዎት የአንጓ ዛፉን ማረም ማብራት ይፈልጋሉ?\n\nየአንጓ ዛፍ ማረም የማያ ገጽ ይዘትዎን ለመሣሪያዎ ምዝግብ ማስታወሻዎች ያጋልጣቸዋል፣ እና ሌሎች መተግበሪያዎች ሊያነብቡት ይችላሉ።"</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"አስስ በመንካት በድር ይዘት ላይ አይገኝም። የድር ይዘትን ለማሰስ በተደራሽነት ቅንብሮች ውስጥ <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g>ን ያብሩት።"</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"የTalkBack ሁለንተናዊ አውድ ምናሌ"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"TalkBackን ይቆጣጠራል"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"የእጅ ምልክቶችን ለTalkBack የመላክ እና የሚነገሩ ግብረመልስ ከቆሙበት የማስቀጠል ፍቃድ።"</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"ብጁ የTalkBack መሰየሚያዎችን ያቀናብራል"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"በTalkBack የሚነገሩ ብጁ መሰየሚያዎችን የመድረስ፣ የመቀየር እና የመሰረዝ ፍቃድ።"</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"የScreenSpeak ሁለንተናዊ አውድ ምናሌ"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"ScreenSpeakን ይቆጣጠራል"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"የእጅ ምልክቶችን ለScreenSpeak የመላክ እና የሚነገሩ ግብረመልስ ከቆሙበት የማስቀጠል ፍቃድ።"</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"ብጁ የScreenSpeak መሰየሚያዎችን ያቀናብራል"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"በScreenSpeak የሚነገሩ ብጁ መሰየሚያዎችን የመድረስ፣ የመቀየር እና የመሰረዝ ፍቃድ።"</string>
     <string name="links" msgid="3448225474115458693">"አገናኞች"</string>
     <string name="end_of_text" msgid="3595733062526019550">"መጨረሻ"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g><xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

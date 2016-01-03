@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"Kun TalkBack on käytössä, laite auttaa sokeita ja heikkonäköisiä käyttäjiä puheen avulla. Laite esimerkiksi kertoo, mitä kohteita kosketat, valitset ja aktivoit."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack päällä"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"TalkBack-asetukset"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"Kun ScreenSpeak on käytössä, laite auttaa sokeita ja heikkonäköisiä käyttäjiä puheen avulla. Laite esimerkiksi kertoo, mitä kohteita kosketat, valitset ja aktivoit."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak päällä"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"ScreenSpeak-asetukset"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Tekstistä puheeksi -asetukset"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Versio <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Versio <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Hallinnoi omia tunnisteita"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"Hallinnoi sovelluksen <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g> tunnisteita"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Omia tunnisteita ei tällä hetkellä ole. Voit luoda tunnisteen siirtymällä merkitsemättömään kuvaan ja lisäämällä tunnisteen paikallisesta kontekstivalikosta."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Kosketuksella tutkiminen"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Valinta yhdellä napautuksella"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Näytä kontekstivalikko luettelona"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"Himmennä näyttö, kun TalkBack on käytössä."</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"Himmennä näyttö, kun ScreenSpeak on käytössä."</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Kokeellinen) Valitse kohdistettu kohde napauttamalla"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Aloita jatkuva lukeminen ravistamalla laitetta"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Eleiden hallinta"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Hallinnoi omia tunnisteita"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Hallitse pikanäppäimiä"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Avaa TalkBack Play Kaupassa"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Nykyinen TalkBack-versio: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Avaa ScreenSpeak Play Kaupassa"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Nykyinen ScreenSpeak-versio: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Käyttöehdot"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Tietosuojakäytäntö"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Pikaeleet"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Koti"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Viimeaikaiset sovellukset"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Ilmoitukset"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Keskeytä TalkBack"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Keskeytä ScreenSpeak"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Siirtymisasetukset"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Seuraava siirtymisasetus"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Edellinen siirtymisasetus"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Keskitä puheääneen"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Pienennä muiden sovelluksien äänenvoimakkuutta puhuttaessa"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Äänenvoimakkuus"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Talkbackin keskeytyksen ja jatkamisen pikanäppäin"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Screenspeakin keskeytyksen ja jatkamisen pikanäppäin"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Muut"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Kehittäjän asetukset"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Lokiin tallennuksen lähtötaso"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Solmupuun virheenkorjaus käyttöön"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Verkon esteettömyyden parantaminen"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Lataa esteettömyysohjelmia verkkosisällön käyttöön"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Jatka käyttöä"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Jatka käyttöä"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Näyttö on himmennetty."</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Näytön kirkkaus on palautettu."</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"TalkBackin esteettömyyspalvelu on himmentänyt näytön."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"ScreenSpeakin esteettömyyspalvelu on himmentänyt näytön."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Kumoa painamalla yhtä aikaa äänenvoimakkuuden lisäys- ja vähennyspainiketta nopeasti kolme kertaa."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Näytön himmennystä voi hallinnoida TalkBackin asetuksissa."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Näytön himmennystä voi hallinnoida ScreenSpeakin asetuksissa."</string>
     <string name="axis_character" msgid="8528412412593489695">"Navigoi merkin avulla."</string>
     <string name="axis_word" msgid="8823389407337076750">"Navigoi sanan avulla."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Navigoi lauseen avulla."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Etusivu-painike"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Viimeisimmät-painike"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Avaa ilmoitukset"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Avaa yleinen kontekstivalikko"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Avaa yleinen kontekstivalikko"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Avaa paikallinen kontekstivalikko"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Toista viimeinen lausahdus"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Tavaa viimeinen lausahdus"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Sano aina painetut näppäimet"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Vain näppäimistössä painetut"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Älä sano painettuja näppäimiä"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBack-eleitä on muutettu"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Tarkastele eleitä napauttamalla"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBackin käyttö on keskeytetty"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Jatka napauttamalla."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"Keskeytetäänkö TalkBackin käyttö?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Oletko varma? Laitteesi ei anna palautetta ja Kosketuksella tutkiminen poistetaan käytöstä. Voit ottaa TalkBackin uudelleen käyttöön ilmoitusalueelta, palaamalla lukitusnäyttöön tai äänenvoimakkuusnäppäimen avulla."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"Voit palauttaa TalkBackin käyttöön ilmoitusalueella."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"Voit palauttaa TalkBackin käyttöön ilmoitusalueella tai kytkemällä näytön päälle."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"Voit palauttaa TalkBackin käyttöön ilmoitusalueella tai palaamalla lukitusruutuun."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeak-eleitä on muutettu"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Tarkastele eleitä napauttamalla"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeakin käyttö on keskeytetty"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Jatka napauttamalla."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"Keskeytetäänkö ScreenSpeakin käyttö?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Oletko varma? Laitteesi ei anna palautetta ja Kosketuksella tutkiminen poistetaan käytöstä. Voit ottaa ScreenSpeakin uudelleen käyttöön ilmoitusalueelta, palaamalla lukitusnäyttöön tai äänenvoimakkuusnäppäimen avulla."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"Voit palauttaa ScreenSpeakin käyttöön ilmoitusalueella."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"Voit palauttaa ScreenSpeakin käyttöön ilmoitusalueella tai kytkemällä näytön päälle."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"Voit palauttaa ScreenSpeakin käyttöön ilmoitusalueella tai palaamalla lukitusruutuun."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Näytä tämä varoitus aina"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"Kohteeseen ei voi lisätä tunnistetta."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Lisää tunniste"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Haluatko varmasti poistaa tunnisteen <xliff:g id="LABEL">%1$s</xliff:g>?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Haluatko varmasti poistaa tunnisteen <xliff:g id="LABEL">%1$s</xliff:g> sovelluksessa <xliff:g id="APP_NAME">%2$s</xliff:g>?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Tunnisteteksti"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"Tämä TalkBackin versio sisältää muutoksia peruseleisiin. Eleisiin liittyviä toimintoja voi muokata TalkBack-asetuksissa. Kun kosketuksella tutkiminen on käytössä, voit suorittaa tiettyjä toimintoja seuraavilla eleillä.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Äänenvoimakkuuden lisäys- ja vähennyspainikkeiden pitkä painallus"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"Tämä ScreenSpeakin versio sisältää muutoksia peruseleisiin. Eleisiin liittyviä toimintoja voi muokata ScreenSpeak-asetuksissa. Kun kosketuksella tutkiminen on käytössä, voit suorittaa tiettyjä toimintoja seuraavilla eleillä.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Äänenvoimakkuuden lisäys- ja vähennyspainikkeiden pitkä painallus"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Himmennetäänkö näyttö?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Haluatko varmasti himmentää näytön?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"Tämä TalkBackin versio sisältää muutoksia oletusarvoisesti käytettäviin eleisiin.\n\nYlös-alas-eleen avulla voit siirtyä ruudun ensimmäiseen kohteeseen, alas-ylös siirtää sinut viimeiseen kohteeseen.\n\nLukemistarkkuutta voi nyt muuttaa kohdistamalla kohteeseen ja valitsemalla tarkkuuden paikallisesta kontekstivalikosta.\n\nVoit muuttaa eleiden toimintoja TalkBackin asetuksissa."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"Tämä ScreenSpeakin versio sisältää muutoksia oletusarvoisesti käytettäviin eleisiin.\n\nYlös-alas-eleen avulla voit siirtyä ruudun ensimmäiseen kohteeseen, alas-ylös siirtää sinut viimeiseen kohteeseen.\n\nLukemistarkkuutta voi nyt muuttaa kohdistamalla kohteeseen ja valitsemalla tarkkuuden paikallisesta kontekstivalikosta.\n\nVoit muuttaa eleiden toimintoja ScreenSpeakin asetuksissa."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Hyväksy eleet"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Mukauta eleitä"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"Poistetaanko kosketuksella tutkiminen käytöstä?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Käytetäänkö solmupuun virheenkorjausta?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Haluatko varmasti ottaa solmupuun virheenkorjauksen käyttöön?\n\nRuudun sisältö saattaa tällöin päätyä laitteen lokitiedostoihin, jotka saattavat olla muiden sovellusten luettavissa."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"Kosketuksella tutkiminen ei ole käytössä verkkosisällölle. Tutki verkkosisältöä ottamalla <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> käyttöön esteettömyysasetuksissa."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"TalkBackin yleinen kontekstivalikko"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"Hallitse TalkBackia"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Lupa lähettää eleitä TalkBackiin ja ottaa puhepalaute käyttöön."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"Hallitse TalkBackin omia tunnisteita"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"Lupa käyttää, muokata ja poistaa TalkBackin syöttämiä omia tunnisteita."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"ScreenSpeakin yleinen kontekstivalikko"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"Hallitse ScreenSpeakia"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Lupa lähettää eleitä ScreenSpeakiin ja ottaa puhepalaute käyttöön."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"Hallitse ScreenSpeakin omia tunnisteita"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"Lupa käyttää, muokata ja poistaa ScreenSpeakin syöttämiä omia tunnisteita."</string>
     <string name="links" msgid="3448225474115458693">"Linkit"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Loppu"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

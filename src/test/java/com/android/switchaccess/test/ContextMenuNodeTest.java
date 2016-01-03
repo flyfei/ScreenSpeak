@@ -16,7 +16,7 @@
 
 package com.android.switchaccess.test;
 
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 
 import android.annotation.TargetApi;
 import android.content.Context;

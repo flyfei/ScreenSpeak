@@ -21,7 +21,7 @@ import android.util.Log;
 import com.android.utils.LogUtils;
 
 /**
- * A table for storing custom TalkBack labels.
+ * A table for storing custom ScreenSpeak labels.
  */
 public class LabelsTable {
     public static final String TABLE_NAME = "labels";

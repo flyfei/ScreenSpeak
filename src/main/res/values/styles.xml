@@ -17,7 +17,7 @@
 
 <resources>
 
-    <style name="TalkBackSettings" parent="@android:style/Theme.Light" />
+    <style name="ScreenSpeakSettings" parent="@android:style/Theme.Light" />
 
     <style name="AccessibilityTutorialDivider">
         <item name="android:layout_width">match_parent</item>

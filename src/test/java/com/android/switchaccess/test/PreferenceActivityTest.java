@@ -26,7 +26,7 @@ import android.view.KeyEvent;
 
 import com.android.switchaccess.KeyComboPreference;
 import com.android.switchaccess.SwitchAccessPreferenceActivity;
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

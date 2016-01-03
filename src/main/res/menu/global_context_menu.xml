@@ -27,9 +27,9 @@
             android:orderInCategory="@integer/corner_NW"
             android:title="@string/shortcut_pause_feedback"/>
         <item
-                android:id="@+id/talkback_settings"
+                android:id="@+id/screenspeak_settings"
                 android:orderInCategory="@integer/corner_NE"
-                android:title="@string/talkback_preferences_title"/>
+                android:title="@string/screenspeak_preferences_title"/>
         <item
                 android:id="@+id/tts_settings"
                 android:orderInCategory="@integer/corner_SE"

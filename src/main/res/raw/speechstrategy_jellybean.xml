@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <ss:speechstrategy
-      xmlns:ss="http://www.google.android.marvin.talkback.com/speechstrategy"
+      xmlns:ss="http://www.google.android.marvin.screenspeak.com/speechstrategy"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.google.android.marvin.talkback.com/speechstrategy ../../schema/speechstrategy.xsd">
+      xsi:schemaLocation="http://www.google.android.marvin.screenspeak.com/speechstrategy ../../schema/speechstrategy.xsd">
 
   <!-- TYPE_VIEW_SELECTED -->
 
@@ -51,7 +51,7 @@
       <ss:platformSdk>&gt;=16</ss:platformSdk>
     </ss:filter>
     <ss:formatter>
-      <ss:custom>com.android.talkback.formatter.phone.InCallScreenFormatterJB</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.phone.InCallScreenFormatterJB</ss:custom>
     </ss:formatter>
   </ss:rule>
 

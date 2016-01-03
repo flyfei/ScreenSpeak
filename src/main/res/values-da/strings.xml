@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"Når TalkBack er aktiveret, læser enheden højt for at hjælpe blinde og svagtseende brugere. Den beskriver f.eks., hvad du trykker på, vælger og aktiverer."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack er slået til"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"Indstillinger for TalkBack"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"Når ScreenSpeak er aktiveret, læser enheden højt for at hjælpe blinde og svagtseende brugere. Den beskriver f.eks., hvad du trykker på, vælger og aktiverer."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak er slået til"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"Indstillinger for ScreenSpeak"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Indstillinger for oplæsning"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Version <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Version <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Administrer tilpassede etiketter"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"Administrer etiketter for <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Der er i øjeblikket ingen tilpassede etiketter. Du kan oprette en ved at navigere til et billede uden etiket og derefter tilføje en etiket fra den lokale genvejsmenu."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Udforskning ved berøring"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Valg med ét tryk"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Vis genvejsmenuen som en liste"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"Dæmp skærmens lysstyrke, når TalkBack er aktiveret"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"Dæmp skærmens lysstyrke, når ScreenSpeak er aktiveret"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Eksperimentel) Tryk på det element, der i øjeblikket fokuseres på, for at vælge det"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Ryst for at starte kontinuerlig læsning"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Administrer bevægelser"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Administrer tilpassede etiketter"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Administrer tastaturgenveje"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Åbn TalkBack i Play Butik"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Aktuel TalkBack-version: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Åbn ScreenSpeak i Play Butik"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Aktuel ScreenSpeak-version: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Servicevilkår"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Privatlivspolitik"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Genveje til bevægelser"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Startskærm"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Seneste apps"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Underretninger"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Sæt TalkBack på pause"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Sæt ScreenSpeak på pause"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Indstillinger for Navigation"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Næste indstilling for Navigation"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Forrige indstilling for Navigation"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Fokuser på talt lyd"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Skru ned for andre lyde, når der tales"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Lydstyrke"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Genvej for suspendering og genoptagelse af TalkBack"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Genvej for suspendering og genoptagelse af ScreenSpeak"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Diverse"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Indstillinger for udviklere"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Udgangsniveau for logføring"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Aktivér fejlfinding i træstruktur"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Forbedring af webhjælpefunktioner"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Download hjælpescripts til webindhold"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Fortsæt fra suspendering"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Fortsæt fra suspendering"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Skærmens lysstyrke er dæmpet"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Skærmens lysstyrke er genoprettet"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Tilgængelighedstjenesten TalkBack har dæmpet skærmens lysstyrke."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Tilgængelighedstjenesten ScreenSpeak har dæmpet skærmens lysstyrke."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Fortryd ved at trykke på Lydstyrke op og Lydstyrke ned samtidig hurtigt tre gange i træk."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Dæmpning af skærmens lysstyrke kan styres i indstillingerne for TalkBack."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Dæmpning af skærmens lysstyrke kan styres i indstillingerne for ScreenSpeak."</string>
     <string name="axis_character" msgid="8528412412593489695">"Naviger efter tegn."</string>
     <string name="axis_word" msgid="8823389407337076750">"Naviger efter ord."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Naviger efter sætning."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Knappen Startskærm"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Knappen Oversigt"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Åbn underretninger"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Åbn global genvejsmenu"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Åbn global genvejsmenu"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Åbn lokal genvejsmenu"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Gentag sidste udsagn"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Stav sidste udsagn"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Sig altid, hvilke taster der bruges"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Kun når tastaturet på skærmen bruges"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Sig aldrig, hvilke taster der bruges"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBack-bevægelser er ændret"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Tryk for at se ændringer af bevægelser for hjælpefunktioner"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack er suspenderet"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Tryk for at genoptage."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"Vil du suspendere TalkBack?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Er du sikker? Enheden vil ikke give feedback, og Udforsk ved berøring deaktiveres. Du kan genoptage TalkBack fra underretninger ved at gå tilbage til låseskærmen eller ved at bruge genvejstasten for lydstyrke."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"Du kan fortsætte med Talkback i underretningspanelet."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"Du kan fortsætte med TalkBack i underretningspanelet eller ved at tænde for skærmen."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"Du kan fortsætte med TalkBack i underretningspanelet eller ved at gå tilbage til låseskærmen."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeak-bevægelser er ændret"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Tryk for at se ændringer af bevægelser for hjælpefunktioner"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak er suspenderet"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Tryk for at genoptage."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"Vil du suspendere ScreenSpeak?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Er du sikker? Enheden vil ikke give feedback, og Udforsk ved berøring deaktiveres. Du kan genoptage ScreenSpeak fra underretninger ved at gå tilbage til låseskærmen eller ved at bruge genvejstasten for lydstyrke."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"Du kan fortsætte med Screenspeak i underretningspanelet."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"Du kan fortsætte med ScreenSpeak i underretningspanelet eller ved at tænde for skærmen."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"Du kan fortsætte med ScreenSpeak i underretningspanelet eller ved at gå tilbage til låseskærmen."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Vis altid denne advarsel"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"Du kan ikke give dette element en etiket."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Tilføj etiket"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Er du sikker på, at du vil fjerne etiketten \"<xliff:g id="LABEL">%1$s</xliff:g>\"?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Er du sikker på, at du vil fjerne etiketten \"<xliff:g id="LABEL">%1$s</xliff:g>\" i <xliff:g id="APP_NAME">%2$s</xliff:g>?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Etikettekst"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"I denne version af TalkBack er standardbevægelserne for hjælpefunktioner ændret. De handlinger, der knyttes til disse bevægelser, kan tilpasses i indstillingerne for TalkBack. Når Udforsk ved berøring er aktiveret, kan du bruge følgende bevægelser til at udføre bestemte handlinger.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Tryk på tasterne Lydstyrke op og ned, og hold dem nede"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"I denne version af ScreenSpeak er standardbevægelserne for hjælpefunktioner ændret. De handlinger, der knyttes til disse bevægelser, kan tilpasses i indstillingerne for ScreenSpeak. Når Udforsk ved berøring er aktiveret, kan du bruge følgende bevægelser til at udføre bestemte handlinger.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Tryk på tasterne Lydstyrke op og ned, og hold dem nede"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Vil du dæmpe skærmens lysstyrke?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Er du sikker på, at du vil dæmpe skærmen?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"Denne version af TalkBack har ændrede standardbevægelser for hjælpefunktioner.\n\nMed en bevægelse oppefra og ned kan du gå til det første emne på skærmen, og med en bevægelse nedefra og op kommer du til det sidste emne.\n\nLæsegranulariteten kan nu ændres ved at fokusere på et emne og derefter vælge en granularitet fra den lokale genvejsmenu.\n\nDu kan ændre de handlinger, der udføres af disse bevægelser, i indstillingerne for TalkBack."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"Denne version af ScreenSpeak har ændrede standardbevægelser for hjælpefunktioner.\n\nMed en bevægelse oppefra og ned kan du gå til det første emne på skærmen, og med en bevægelse nedefra og op kommer du til det sidste emne.\n\nLæsegranulariteten kan nu ændres ved at fokusere på et emne og derefter vælge en granularitet fra den lokale genvejsmenu.\n\nDu kan ændre de handlinger, der udføres af disse bevægelser, i indstillingerne for ScreenSpeak."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Acceptér bevægelser"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Tilpas bevægelser"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"Vil du deaktivere Udforsk ved berøring?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Vil du aktivere fejlfinding i træstruktur?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Er du sikker på, at du vil aktivere fejlfinding i træstruktur?\n\nFejlfinding i træstruktur medfører, at indholdet på din skærm kan ende i enhedens logfiler, som kan læses af andre applikationer."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"Udforsk med berøring kan ikke anvendes til webindhold. Aktivér <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> i indstillingerne for hjælpefunktioner for at udforske webindhold."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"Global genvejsmenu for TalkBack"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"Kontrollér TalkBack"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Tilladelse til at sende bevægelser til TalkBack og genoptage talt feedback."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"Administrer tilpassede TalkBack-etiketter"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"Tilladelse til at få adgang til, ændre og slette tilpassede etiketter, der fremsiges af TalkBack."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"Global genvejsmenu for ScreenSpeak"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"Kontrollér ScreenSpeak"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Tilladelse til at sende bevægelser til ScreenSpeak og genoptage talt feedback."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"Administrer tilpassede ScreenSpeak-etiketter"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"Tilladelse til at få adgang til, ændre og slette tilpassede etiketter, der fremsiges af ScreenSpeak."</string>
     <string name="links" msgid="3448225474115458693">"Links"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Afslut"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

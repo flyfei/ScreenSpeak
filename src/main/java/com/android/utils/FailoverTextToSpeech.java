@@ -16,7 +16,7 @@
 
 package com.android.utils;
 
-import com.android.talkback.SpeechController;
+import com.android.screenspeak.SpeechController;
 
 import android.annotation.TargetApi;
 import android.content.BroadcastReceiver;

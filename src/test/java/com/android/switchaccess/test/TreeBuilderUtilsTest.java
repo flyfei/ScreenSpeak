@@ -28,7 +28,7 @@ import com.android.switchaccess.OptionScanNode;
 import com.android.switchaccess.OptionScanSelectionNode;
 import com.android.switchaccess.SwitchAccessNodeCompat;
 import com.android.switchaccess.TreeBuilderUtils;
-import com.android.talkback.contextmenu.ContextMenu;
+import com.android.screenspeak.contextmenu.ContextMenu;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

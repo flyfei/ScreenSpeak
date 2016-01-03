@@ -25,7 +25,7 @@ import android.graphics.Rect;
 import android.os.Build;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 import android.view.Display;
 import android.view.WindowManager;
 import android.view.accessibility.AccessibilityWindowInfo;
@@ -43,7 +43,7 @@ public class MultiWindowTreeBuilder implements SharedPreferences.OnSharedPrefere
     private final LinearScanTreeBuilder mLinearScanTreeBuilder;
     private TreeBuilder mBuilderForViews;
     private TreeBuilder mBuilderForIMEs;
-    private TalkBackOrderNDegreeTreeBuilder mOptionScanTreeBuilder;
+    private ScreenSpeakOrderNDegreeTreeBuilder mOptionScanTreeBuilder;
     private boolean mOptionScanningEnabled = false;
 
     /**
@@ -52,7 +52,7 @@ public class MultiWindowTreeBuilder implements SharedPreferences.OnSharedPrefere
     public MultiWindowTreeBuilder(Context context,
             LinearScanTreeBuilder linearScanTreeBuilder,
             RowColumnTreeBuilder rowColumnTreeBuilder,
-            TalkBackOrderNDegreeTreeBuilder talkBackOrderNDegreeTreeBuilder) {
+            ScreenSpeakOrderNDegreeTreeBuilder talkBackOrderNDegreeTreeBuilder) {
         mContext = context;
         mLinearScanTreeBuilder = linearScanTreeBuilder;
         mRowColumnTreeBuilder = rowColumnTreeBuilder;

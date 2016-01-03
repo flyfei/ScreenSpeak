@@ -46,7 +46,7 @@ import java.util.Set;
  * Provides a series of utilities for interacting with AccessibilityNodeInfo
  * objects. NOTE: This class only recycles unused nodes that were collected
  * internally. Any node passed into or returned from a public method is retained
- * and TalkBack should recycle it when appropriate.
+ * and ScreenSpeak should recycle it when appropriate.
  */
 public class AccessibilityNodeInfoUtils {
     /**

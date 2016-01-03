@@ -22,7 +22,7 @@ import android.content.SharedPreferences;
 import android.os.Build;
 import android.view.KeyEvent;
 
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 import com.android.switchaccess.ActionProcessor;
 import com.android.switchaccess.KeyComboPreference;
 import com.android.switchaccess.KeyboardAction;

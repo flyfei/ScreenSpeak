@@ -30,18 +30,18 @@ public class LabelOperationUtils {
 
     // Intent values for launching LabelDialogActivity
     public static final String
-            ACTION_ADD_LABEL = "com.google.android.marvin.talkback.labeling.ADD_LABEL";
+            ACTION_ADD_LABEL = "com.google.android.marvin.screenspeak.labeling.ADD_LABEL";
     public static final String
-            ACTION_EDIT_LABEL = "com.google.android.marvin.talkback.labeling.EDIT_LABEL";
+            ACTION_EDIT_LABEL = "com.google.android.marvin.screenspeak.labeling.EDIT_LABEL";
     public static final String
-            ACTION_REMOVE_LABEL = "com.google.android.marvin.talkback.labeling.REMOVE_LABEL";
+            ACTION_REMOVE_LABEL = "com.google.android.marvin.screenspeak.labeling.REMOVE_LABEL";
     public static final String EXTRA_STRING_RESOURCE_NAME = "EXTRA_STRING_RESOURCE_NAME";
     public static final String EXTRA_RECT_VIEW_BOUNDS = "EXTRA_RECT_VIEW_BOUNDS";
     public static final String EXTRA_LONG_LABEL_ID = "EXTRA_LONG_LABEL_ID";
 
     // Intent values for broadcasts to CustomLabelManager
     public static final
-            String ACTION_REFRESH_LABEL_CACHE = "com.google.android.marvin.talkback.labeling.REFRESH_LABEL_CACHE";
+            String ACTION_REFRESH_LABEL_CACHE = "com.google.android.marvin.screenspeak.labeling.REFRESH_LABEL_CACHE";
     public static final String EXTRA_STRING_ARRAY_PACKAGES = "EXTRA_STRING_ARRAY_PACKAGES";
 
     private LabelOperationUtils() {

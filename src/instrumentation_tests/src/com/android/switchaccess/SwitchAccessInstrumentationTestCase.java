@@ -18,7 +18,7 @@ package com.android.switchaccess;
 
 import android.accessibilityservice.AccessibilityService;
 
-import com.android.talkback.BuildConfig;
+import com.android.screenspeak.BuildConfig;
 import com.googlecode.eyesfree.testing.BaseAccessibilityInstrumentationTestCase;
 
 /**

@@ -17,7 +17,7 @@
 package com.android.utils.labeling;
 
 /**
- * A model class for a custom view label that TalkBack can speak.
+ * A model class for a custom view label that ScreenSpeak can speak.
  */
 public class Label {
     /** The ID of a label that has not yet been stored in the database. */

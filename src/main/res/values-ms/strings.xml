@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="983212841294665356">"Apabila TalkBack dihidupkan, peranti anda menyediakan maklum balas bersuara untuk membantu pengguna yang buta dan mempunyai daya penglihatan rendah. Sebagai contoh, ia menggambarkan apa yang anda sentuh, pilih dan aktifkan."</string>
-    <string name="talkback_preferences_title" msgid="615685549632541311">"Tetapan TalkBack"</string>
+    <string name="screenspeak_service_description" msgid="983212841294665356">"Apabila ScreenSpeak dihidupkan, peranti anda menyediakan maklum balas bersuara untuk membantu pengguna yang buta dan mempunyai daya penglihatan rendah. Sebagai contoh, ia menggambarkan apa yang anda sentuh, pilih dan aktifkan."</string>
+    <string name="screenspeak_preferences_title" msgid="615685549632541311">"Tetapan ScreenSpeak"</string>
     <string name="label_manager_summary_title" msgid="6129629673621990309">"Urus Label Peribadi"</string>
     <string name="label_manager_package_title" msgid="5518823554025145373">"Urus Label untuk <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="2531887372542054600">"Tiada label peribadi pada masa ini. Anda boleh membuat label dengan menavigasi ke imej tidak berlabel dan kemudian tambahkan label dari Menu Konteks Setempat."</string>
@@ -99,7 +99,7 @@
     <string name="title_pref_tts_overlay" msgid="7821227047722471620">"Paparkan output pertuturan"</string>
     <string name="title_pref_web_scripts" msgid="4384237853588668209">"Tingkatkan kebolehaksesan web"</string>
     <string name="summary_pref_web_scripts" msgid="5271359440699022407">"Muat turun skrip kebolehaksesan untuk kandungan web"</string>
-    <string name="title_pref_resume_talkback" msgid="7672596366500481032">"Disambung dari penangguhan"</string>
+    <string name="title_pref_resume_screenspeak" msgid="7672596366500481032">"Disambung dari penangguhan"</string>
     <string name="axis_character" msgid="5059604520074645703">"Navigasi mengikut aksara."</string>
     <string name="axis_word" msgid="7745798763195184060">"Navigasi mengikut perkataan."</string>
     <string name="axis_sentence" msgid="5569363499210008882">"Navigasi mengikut ayat."</string>
@@ -123,7 +123,7 @@
     <string name="shortcut_back" msgid="8404153155835310379">"Butang kembali"</string>
     <string name="shortcut_home" msgid="3905505999818649470">"Butang laman utama"</string>
     <string name="shortcut_notifications" msgid="7234767026975704922">"Buka pemberitahuan"</string>
-    <string name="shortcut_talkback_breakout" msgid="568168492542718040">"Buka menu konteks global"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="568168492542718040">"Buka menu konteks global"</string>
     <string name="shortcut_local_breakout" msgid="6177140532797600317">"Buka menu konteks setempat"</string>
     <string name="shortcut_repeat_last_utterance" msgid="2063136654845335137">"Ulang sebutan terakhir"</string>
     <string name="shortcut_spell_last_utterance" msgid="106643257328883413">"Eja sebutan terakhir"</string>
@@ -181,15 +181,15 @@
     <string name="value_keyboard_echo_always" msgid="6227871839200687680">"Sentiasa sebut kekunci yang ditaip"</string>
     <string name="value_keyboard_echo_softkeys" msgid="6592352879887617590">"Hanya untuk papan kekunci pada skrin"</string>
     <string name="value_keyboard_echo_never" msgid="7272733066649438914">"Jangan sekali-kali sebut kekunci yang ditaip"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8384253637363301938">"Gerak isyarat TalkBack berubah"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="5639775622146513884">"Ketik untuk menyemak perubahan kepada gerak isyarat kebolehaksesan"</string>
-    <string name="notification_title_talkback_suspended" msgid="2185046615850691522">"TalkBack ditangguh"</string>
-    <string name="notification_message_talkback_suspended" msgid="3312683762001713772">"Ketik untuk menyambung semula."</string>
-    <string name="dialog_title_suspend_talkback" msgid="452536442417893349">"Tangguh TalkBack?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="7378497787526587410">"Adakah anda pasti anda mahu menangguhkan TalkBack?\n\nSemasa TalkBack ditangguhkan, peranti anda tidak akan memberikan maklum balas."</string>
-    <string name="message_resume_manual" msgid="4491108398618252430">"Anda boleh menyambung TalkBack dari bidai pemberitahuan."</string>
-    <string name="message_resume_screen_on" msgid="2080032080971819102">"Anda boleh menyambung semula TalkBack dari bidai pemberitahuan atau dengan menghidupkan skrin."</string>
-    <string name="message_resume_keyguard" msgid="8347218053451487513">"Anda boleh menyambung TalkBack dari bidai pemberitahuan atau dengan kembali ke skrin kunci."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8384253637363301938">"Gerak isyarat ScreenSpeak berubah"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="5639775622146513884">"Ketik untuk menyemak perubahan kepada gerak isyarat kebolehaksesan"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="2185046615850691522">"ScreenSpeak ditangguh"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="3312683762001713772">"Ketik untuk menyambung semula."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="452536442417893349">"Tangguh ScreenSpeak?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="7378497787526587410">"Adakah anda pasti anda mahu menangguhkan ScreenSpeak?\n\nSemasa ScreenSpeak ditangguhkan, peranti anda tidak akan memberikan maklum balas."</string>
+    <string name="message_resume_manual" msgid="4491108398618252430">"Anda boleh menyambung ScreenSpeak dari bidai pemberitahuan."</string>
+    <string name="message_resume_screen_on" msgid="2080032080971819102">"Anda boleh menyambung semula ScreenSpeak dari bidai pemberitahuan atau dengan menghidupkan skrin."</string>
+    <string name="message_resume_keyguard" msgid="8347218053451487513">"Anda boleh menyambung ScreenSpeak dari bidai pemberitahuan atau dengan kembali ke skrin kunci."</string>
     <string name="show_suspend_warning_label" msgid="2767993698595859057">"Sentiasa tunjukkan amaran ini"</string>
     <string name="label_dialog_title_add" msgid="5382481431231127704">"Tambah label"</string>
     <string name="label_dialog_title_edit" msgid="4092558174381892707">"Edit label"</string>
@@ -198,18 +198,18 @@
     <string name="label_remove_dialog_text" msgid="3934146603628571606">"Adakah anda pasti anda mahu memadam label \"<xliff:g id="LABEL">%1$s</xliff:g>\"?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="2384427835919655322">"Adakah anda pasti anda mahu memadam label \"<xliff:g id="LABEL">%1$s</xliff:g>\" dalam <xliff:g id="APP_NAME">%2$s</xliff:g>?"</string>
     <string name="label_dialog_edit_hint" msgid="1909934608642527277">"Teks label"</string>
-    <string name="talkback_gesture_change_details" msgid="2919155220372343154">"Versi TalkBack ini termasuk perubahan kepada gerak isyarat kebolehaksesan lalai. Tindakan yang dikaitkan dengan gerak balas ini boleh diperibadikan dalam tetapan TalkBack. Apabila Jelajah melalui sentuhan didayakan, anda boleh menggunakan gerak isyarat berikut untuk melakukan tindakan tertentu.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="1504489384911892122">"Versi TalkBack ini mengandungi perubahan pada gerak isyarat kebolehaksesan lalai.\n\nGerak isyarat atas kemudian bawah akan membolehkan anda beralih ke item pertama pada skrin dan gerak isyarat bawah kemudian atas akan beralih ke item terakhir.\n\nKebutiran bacaan kini boleh ditukar dengan memfokuskan satu item, kemudian memilih kebutiran dari menu konteks setempat.\n\nAnda boleh menukar tindakan yang dilakukan oleh gerak isyarat ini dalam Tetapan TalkBack."</string>
+    <string name="screenspeak_gesture_change_details" msgid="2919155220372343154">"Versi ScreenSpeak ini termasuk perubahan kepada gerak isyarat kebolehaksesan lalai. Tindakan yang dikaitkan dengan gerak balas ini boleh diperibadikan dalam tetapan ScreenSpeak. Apabila Jelajah melalui sentuhan didayakan, anda boleh menggunakan gerak isyarat berikut untuk melakukan tindakan tertentu.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="1504489384911892122">"Versi ScreenSpeak ini mengandungi perubahan pada gerak isyarat kebolehaksesan lalai.\n\nGerak isyarat atas kemudian bawah akan membolehkan anda beralih ke item pertama pada skrin dan gerak isyarat bawah kemudian atas akan beralih ke item terakhir.\n\nKebutiran bacaan kini boleh ditukar dengan memfokuskan satu item, kemudian memilih kebutiran dari menu konteks setempat.\n\nAnda boleh menukar tindakan yang dilakukan oleh gerak isyarat ini dalam Tetapan ScreenSpeak."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="3709582843147387025">"Terima gerak isyarat"</string>
     <string name="button_customize_gesture_mappings" msgid="6198453024008558647">"Peribadikan gerak isyarat"</string>
     <string name="dialog_title_disable_exploration" msgid="6318745977662978395">"Lumpuhkan Jelajah melalui sentuhan?"</string>
     <string name="dialog_message_disable_exploration" msgid="206632033549219529">"Adakah anda pasti anda mahu mematikan Jelajah melalui sentuhan?\n\nPeranti anda tidak akan bertindak balas kepada gerak isyarat pintasan atau menyebut item apabila anda menyentuh skrin."</string>
     <string name="hint_script_injection" msgid="2973894305173271874">"Jelajah melalui sentuhan tidak tersedia dalam kandungan web. Hidupkan <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> dalam tetapan Kebolehaksesan untuk menerokai kandungan web."</string>
-    <string name="label_talkback_context_menu" msgid="102441078934343795">"Menu kandungan global TalkBack"</string>
-    <string name="permission_talkback_label" msgid="7399199628843033396">"Kawal TalkBack"</string>
-    <string name="permission_talkback_desc" msgid="7998251777426211557">"Kebenaran untuk menghantar gerak isyarat kepada TalkBack dan menyambung semula maklum balas yang disebut."</string>
-    <string name="permission_labeling_label" msgid="1480122506788515888">"Urus label peribadi TalkBack"</string>
-    <string name="permission_labeling_desc" msgid="2506887117365155231">"Kebenaran untuk mengakses, mengubah suai dan memadam label peribadi yang disebut oleh TalkBack."</string>
+    <string name="label_screenspeak_context_menu" msgid="102441078934343795">"Menu kandungan global ScreenSpeak"</string>
+    <string name="permission_screenspeak_label" msgid="7399199628843033396">"Kawal ScreenSpeak"</string>
+    <string name="permission_screenspeak_desc" msgid="7998251777426211557">"Kebenaran untuk menghantar gerak isyarat kepada ScreenSpeak dan menyambung semula maklum balas yang disebut."</string>
+    <string name="permission_labeling_label" msgid="1480122506788515888">"Urus label peribadi ScreenSpeak"</string>
+    <string name="permission_labeling_desc" msgid="2506887117365155231">"Kebenaran untuk mengakses, mengubah suai dan memadam label peribadi yang disebut oleh ScreenSpeak."</string>
     <string name="links" msgid="5674175288909957654">"Pautan"</string>
     <string name="end_of_text" msgid="4039485166364049724">"Tamat"</string>
     <string name="character_collapse_template" msgid="6127861834252515898">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

@@ -24,8 +24,8 @@
 -dontnote com.leff.midi.MidiTrack
 
 # Keep all classes that might be used in XML speech rules.
--keep class * implements com.android.talkback.formatter.EventSpeechRule$AccessibilityEventFormatter
--keep class * implements com.android.talkback.formatter.EventSpeechRule$AccessibilityEventFilter
+-keep class * implements com.android.screenspeak.formatter.EventSpeechRule$AccessibilityEventFormatter
+-keep class * implements com.android.screenspeak.formatter.EventSpeechRule$AccessibilityEventFilter
 
 # Get weird errors about android support library
 -dontwarn android.**

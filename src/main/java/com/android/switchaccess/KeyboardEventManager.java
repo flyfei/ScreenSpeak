@@ -20,7 +20,7 @@ import android.accessibilityservice.AccessibilityService;
 import android.content.Context;
 import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.view.KeyEvent;
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -131,12 +131,12 @@
         <CheckBoxPreference
             android:defaultValue="@bool/pref_resume_volume_buttons_long_click_default"
             android:key="@string/pref_two_volume_long_press_key"
-            android:summary="@string/value_long_volume_pressed_suspend_talkback"
+            android:summary="@string/value_long_volume_pressed_suspend_screenspeak"
             android:title="@string/title_pref_two_volume_button_long_click" />
         <CheckBoxPreference
-            android:defaultValue="@bool/pref_dim_when_talkback_enabled_default"
-            android:key="@string/pref_dim_when_talkback_enabled_key"
-            android:title="@string/title_dim_screen_when_talkback_enabled" />
+            android:defaultValue="@bool/pref_dim_when_screenspeak_enabled_default"
+            android:key="@string/pref_dim_when_screenspeak_enabled_key"
+            android:title="@string/title_dim_screen_when_screenspeak_enabled" />
         <PreferenceScreen
             android:key="@string/pref_play_store_key"
             android:title="@string/title_pref_play_store">
@@ -150,13 +150,13 @@
             android:title="@string/title_pref_show_privacy_policy">
         </PreferenceScreen>
         <ListPreference
-            android:defaultValue="@string/pref_resume_talkback_default"
-            android:dialogTitle="@string/title_pref_resume_talkback"
-            android:entries="@array/pref_resume_talkback_entries"
-            android:entryValues="@array/pref_resume_talkback_values"
-            android:key="@string/pref_resume_talkback_key"
+            android:defaultValue="@string/pref_resume_screenspeak_default"
+            android:dialogTitle="@string/title_pref_resume_screenspeak"
+            android:entries="@array/pref_resume_screenspeak_entries"
+            android:entryValues="@array/pref_resume_screenspeak_values"
+            android:key="@string/pref_resume_screenspeak_key"
             android:summary="%s"
-            android:title="@string/title_pref_resume_talkback" />
+            android:title="@string/title_pref_resume_screenspeak" />
         <PreferenceScreen
             android:key="@string/pref_category_developer_key"
             android:title="@string/title_pref_category_developer_settings" >

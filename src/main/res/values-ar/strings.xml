@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"‏عندما يتم تشغيل Talkback، يوفر الجهاز تعليقات ناطقة لمساعدة المستخدمين المكفوفين وضعاف البصر. على سبيل المثال، فإنها تصف ما تلمسه وتحدده وتنشطه."</string>
-    <string name="talkback_on" msgid="315529674405160699">"‏تشغيل TalkBack"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"‏إعدادات TalkBack"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"‏عندما يتم تشغيل Screenspeak، يوفر الجهاز تعليقات ناطقة لمساعدة المستخدمين المكفوفين وضعاف البصر. على سبيل المثال، فإنها تصف ما تلمسه وتحدده وتنشطه."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"‏تشغيل ScreenSpeak"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"‏إعدادات ScreenSpeak"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"إعدادات تحويل النص إلى كلام"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"الإصدار <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"الإصدار <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"إدارة التصنيفات المخصصة"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"إدارة تصنيفات تطبيق <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"ليس هناك حاليًا أي تصنيفات مخصصة. ويمكنك إنشاء تصنيف من خلال الانتقال إلى صورة بدون تصنيف ثم إضافة تصنيف من قائمة السياق المحلية."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"الاستكشاف باللمس"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"التحديد بنقرة واحدة"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"عرض قائمة السياقات على شكل قائمة"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"‏تعتيم الشاشة عند تمكين TalkBack"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"‏تعتيم الشاشة عند تمكين ScreenSpeak"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(تجريبي) انقر على العنصر المركّز عليه حاليًا لتحديده"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"إحداث اهتزاز لبدء القراءة المستمرة"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"إدارة الإيماءات"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"إدارة التصنيفات المخصصة"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"إدارة اختصارات لوحة المفاتيح"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"‏فتح TalkBack في متجر Play"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"‏إصدار TalkBack الحالي: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"‏فتح ScreenSpeak في متجر Play"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"‏إصدار ScreenSpeak الحالي: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"بنود الخدمة"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"سياسة الخصوصية"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"إيماءات الاختصارات"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"الصفحة الرئيسية"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"التطبيقات الأخيرة"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"الإشعارات"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"‏إيقاف TalkBack مؤقتًا"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"‏إيقاف ScreenSpeak مؤقتًا"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"إعدادات التنقل"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"إعداد التنقل التالي"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"إعداد التنقل السابق"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"التركيز على صوت الكلام"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"خفض مستوى الصوت الآخر أثناء التحدث"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"مستوى الصوت"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"‏اختصار تعليق واستئناف Talkback"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"‏اختصار تعليق واستئناف Screenspeak"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"متنوعة"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"إعدادات مطوّر البرامج"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"مستوى مخرجات السجل"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"تمكين تصحيح أخطاء شجرة العقد"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"تحسين إمكانية الوصول إلى الويب"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"تنزيل النصوص البرمجية لإمكانية الوصول لمحتوى الويب"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"استئناف من التعليق"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"استئناف من التعليق"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"تم تعتيم الشاشة"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"تمت استعادة درجة سطوع الشاشة"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"‏أدت خدمة إمكانية الوصول في TalkBack إلى تعتيم الشاشة."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"‏أدت خدمة إمكانية الوصول في ScreenSpeak إلى تعتيم الشاشة."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"يمكنك التراجع من خلال الضغط على مفتاحي رفع الصوت وخفض الصوت في آن واحد سريعًا."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"‏يمكن التحكم في تعتيم الشاشة من خلال إعدادات TalkBack."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"‏يمكن التحكم في تعتيم الشاشة من خلال إعدادات ScreenSpeak."</string>
     <string name="axis_character" msgid="8528412412593489695">"التنقل بحسب الحرف."</string>
     <string name="axis_word" msgid="8823389407337076750">"التنقل بحسب الكلمة."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"التنقل بحسب الجملة."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"زر الشاشة الرئيسية"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"زر نظرة عامة"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"فتح الإشعارات"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"فتح قائمة السياق العامة"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"فتح قائمة السياق العامة"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"فتح قائمة السياق المحلية"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"تكرار آخر ما نطق به"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"تهجي آخر ما نطق به"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"نطق المفاتيح التي يُضغط عليها دائمًا"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"فقط للوحة المفاتيح على الشاشة"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"عدم نطق المفاتيح التي يُضغط عليها مطلقًا"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"‏تم تغيير إيماءات TalkBack"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"انقر لمراجعة التغييرات التي تم إدخالها على إيماءات إمكانية الوصول"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"‏تم تعليق TalkBack"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"انقر للاستئناف."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"‏هل تريد تعليق TalkBack؟"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"‏هل أنت متأكد؟ لن يقدم جهازك تعليقات وسيتم تعطيل ميزة \"الاستكشاف باللمس\". ويمكنك استئناف TalkBack من الإشعارات، أو عن طريق الرجوع إلى شاشة التأمين أو من خلال اختصار مفتاح مستوى الصوت."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"‏يمكنك استئناف عمل TalkBack من مركز الإشعارات."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"‏يمكنك استئناف عمل TalkBack من مركز الإشعارات أو عبر تشغيل الشاشة."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"‏يمكنك استئناف عمل TalkBack من مركز الإشعارات أو عبر العودة إلى شاشة التأمين."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"‏تم تغيير إيماءات ScreenSpeak"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"انقر لمراجعة التغييرات التي تم إدخالها على إيماءات إمكانية الوصول"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"‏تم تعليق ScreenSpeak"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"انقر للاستئناف."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"‏هل تريد تعليق ScreenSpeak؟"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"‏هل أنت متأكد؟ لن يقدم جهازك تعليقات وسيتم تعطيل ميزة \"الاستكشاف باللمس\". ويمكنك استئناف ScreenSpeak من الإشعارات، أو عن طريق الرجوع إلى شاشة التأمين أو من خلال اختصار مفتاح مستوى الصوت."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"‏يمكنك استئناف عمل ScreenSpeak من مركز الإشعارات."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"‏يمكنك استئناف عمل ScreenSpeak من مركز الإشعارات أو عبر تشغيل الشاشة."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"‏يمكنك استئناف عمل ScreenSpeak من مركز الإشعارات أو عبر العودة إلى شاشة التأمين."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"عرض هذا التحذير دائمًا"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"لا يمكن تصنيف هذا العنصر."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"إضافة تصنيف"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"هل تريد بالتأكيد إزالة التصنيف \"<xliff:g id="LABEL">%1$s</xliff:g>\"؟"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"هل تريد بالتأكيد إزالة التصنيف \"<xliff:g id="LABEL">%1$s</xliff:g>\" ضمن <xliff:g id="APP_NAME">%2$s</xliff:g>؟"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"نص التصنيف"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"‏يتضمن هذا الإصدار من TalkBack تغييرات في الإيماءات الافتراضية لإمكانية الوصول. يمكن تخصيص الإجراءات المقترنة بهذه الإيماءات ضمن إعدادات TalkBack. عندما يتم تمكين \"الاستكشاف باللمس\"، يمكنك استخدام الإيماءات التالية لتنفيذ إجراءات معينة.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"الضغط طويلاً على مفتاحي رفع وخفض الصوت"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"‏يتضمن هذا الإصدار من ScreenSpeak تغييرات في الإيماءات الافتراضية لإمكانية الوصول. يمكن تخصيص الإجراءات المقترنة بهذه الإيماءات ضمن إعدادات ScreenSpeak. عندما يتم تمكين \"الاستكشاف باللمس\"، يمكنك استخدام الإيماءات التالية لتنفيذ إجراءات معينة.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"الضغط طويلاً على مفتاحي رفع وخفض الصوت"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"هل تريد تعتيم الشاشة؟"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"هل تريد بالتأكيد تعتيم الشاشة؟"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"‏هذا الإصدار من TalkBack يتضمن تغييرات في الإيماءات الافتراضية لإمكانية الوصول.\n\nالإيماءة إلى أعلى ثم إلى أسفل تتيح لك الانتقال إلى العنصر الأول على الشاشة، أما الإيماءة إلى أسفل ثم إلى أعلى فتتيح الانتقال إلى العنصر الأخير.\n\nيمكن الآن تغيير دقة القراءة عبر التركيز على العنصر، ثم تحديد الدقة من قائمة السياق المحلية.\n\nيمكنك تغيير الإجراءات التي يتم تنفيذها من خلال هذه الإيماءات في إعدادات TalkBack."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"‏هذا الإصدار من ScreenSpeak يتضمن تغييرات في الإيماءات الافتراضية لإمكانية الوصول.\n\nالإيماءة إلى أعلى ثم إلى أسفل تتيح لك الانتقال إلى العنصر الأول على الشاشة، أما الإيماءة إلى أسفل ثم إلى أعلى فتتيح الانتقال إلى العنصر الأخير.\n\nيمكن الآن تغيير دقة القراءة عبر التركيز على العنصر، ثم تحديد الدقة من قائمة السياق المحلية.\n\nيمكنك تغيير الإجراءات التي يتم تنفيذها من خلال هذه الإيماءات في إعدادات ScreenSpeak."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"قبول الإيماءات"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"تخصيص الإيماءات"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"هل تريد تعطيل ميزة الاستكشاف باللمس؟"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"هل تريد تمكين تصحيح أخطاء شجرة العقد؟"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"هل تريد بالتأكيد تشغيل تصحيح أخطاء شجرة العقد؟\n\nيؤدي تصحيح أخطاء شجرة العقد إلى كشف محتوى شاشتك لسجلات الجهاز، التي يمكن أن تقرأها التطبيقات الأخرى."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"ميزة الاستكشاف باللمس ليس متوفرة في محتوى الويب. شغّل <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> في إعدادات \"إمكانية الوصول\" لاستكشاف محتوى الويب."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"‏قائمة سياق TalkBack العامة"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"‏التحكم في TalkBack"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"‏إذن لإرسال إيماءات إلى TalkBack واستئناف التعليقات المنطوقة."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"‏إدارة التصنيفات المخصصة في TalkBack"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"‏إذن للدخول إلى التصنيفات المخصصة المنطوقة في TalkBack وتعديلها وحذفها."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"‏قائمة سياق ScreenSpeak العامة"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"‏التحكم في ScreenSpeak"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"‏إذن لإرسال إيماءات إلى ScreenSpeak واستئناف التعليقات المنطوقة."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"‏إدارة التصنيفات المخصصة في ScreenSpeak"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"‏إذن للدخول إلى التصنيفات المخصصة المنطوقة في ScreenSpeak وتعديلها وحذفها."</string>
     <string name="links" msgid="3448225474115458693">"الروابط"</string>
     <string name="end_of_text" msgid="3595733062526019550">"النهاية"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

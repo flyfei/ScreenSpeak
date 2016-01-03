@@ -26,7 +26,7 @@ import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.when;
 
 import com.android.switchaccess.*;
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 
 import android.annotation.TargetApi;
 import android.content.Context;

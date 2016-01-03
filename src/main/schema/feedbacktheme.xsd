@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema targetNamespace="http://www.google.android.marvin.talkback.com/feedbacktheme"
+<schema targetNamespace="http://www.google.android.marvin.screenspeak.com/feedbacktheme"
         elementFormDefault="qualified"
         attributeFormDefault="unqualified"
         xmlns="http://www.w3.org/2001/XMLSchema"
-        xmlns:theme="http://www.google.android.marvin.talkback.com/feedbacktheme">
+        xmlns:theme="http://www.google.android.marvin.screenspeak.com/feedbacktheme">
 
   <simpleType name="auditoryResourceType">
     <restriction base="string">

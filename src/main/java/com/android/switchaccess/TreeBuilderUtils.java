@@ -108,13 +108,13 @@ public class TreeBuilderUtils {
     }
 
     /**
-     * Obtain a list of nodes in the order TalkBack would traverse them
+     * Obtain a list of nodes in the order ScreenSpeak would traverse them
      *
      * @param root The root of the tree to traverse
-     * @return The nodes in {@code root}'s subtree (including root) in the order TalkBack would
+     * @return The nodes in {@code root}'s subtree (including root) in the order ScreenSpeak would
      * traverse them.
      */
-    public static LinkedList<SwitchAccessNodeCompat> getNodesInTalkBackOrder(
+    public static LinkedList<SwitchAccessNodeCompat> getNodesInScreenSpeakOrder(
             SwitchAccessNodeCompat root) {
         LinkedList<SwitchAccessNodeCompat> outList = new LinkedList<>();
         OrderedTraversalController traversalController = new OrderedTraversalController();

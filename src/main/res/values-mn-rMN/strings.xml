@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"TalkBack идэвхтэй үед таны төхөөрөмж харааны бэрхшээлтэй хүмүүсийг дуут өгөгдлөөр хангана. Жишээ нь таны юунд хүрсэнийг, сонгосныг, идэвхжүүлсэнийг дуудаж өгнө."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack асаалттай"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"TalkBack Тохиргоо"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"ScreenSpeak идэвхтэй үед таны төхөөрөмж харааны бэрхшээлтэй хүмүүсийг дуут өгөгдлөөр хангана. Жишээ нь таны юунд хүрсэнийг, сонгосныг, идэвхжүүлсэнийг дуудаж өгнө."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak асаалттай"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"ScreenSpeak Тохиргоо"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Текст-ярианы тохиргоо"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Хувилбар <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Хувилбар <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Тусгай шошгуудыг удирдах"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"<xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>-н шошгыг удирдах"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Одоогоор тусгай шошго байхгүй байна. Та шошгогүй зурагт тусгай шошго үүсгэх боломжтой ба Локал Контекст Цэснээс шошгыг нэмэх боломжтой."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Хүрэлтээр таних"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Нэг-товшоод сонгох"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Context Menu жагсаалт хэлбэрээр харуул"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"TalkBack идэвхжих үед дэлгэцийг бүдгэрүүл"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"ScreenSpeak идэвхжих үед дэлгэцийг бүдгэрүүл"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Туршилт) Сонгох бол голлосон зүйлийг товшино уу"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Тасралтгүй уншихыг эхлүүлэх бол сэгсэрнэ"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Зангалтуудыг удирдах"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Тусгай шошгуудыг удирдах"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Гарын богино холбоосуудыг удирдах"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Play Store дээр TalkBack нээх"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Одоогийн TalkBack Хувилбар: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Play Store дээр ScreenSpeak нээх"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Одоогийн ScreenSpeak Хувилбар: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Үйлчилгээний Нөхцөл"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Нууцлалын Бодлого"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Товчлол зангалтууд"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Нүүр"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Сүүлийн апп"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Мэдэгдэл"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"TalkBack-ийг түр зогсоо"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"ScreenSpeak-ийг түр зогсоо"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Чиглүүлэгчийн тохиргоо"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Чиглүүлэгчийн дараагийн тохиргоо"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Чиглүүлэгчийн өмнөх тохиргоо"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Ярианы аудиог тодруулна"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Дуубайхдаа бусад аудионы хэмжээг багасгана уу"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Дууны хэмжээ"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Talkback идэвхгүйжүүлэх, сэргээх товчлуурын богино холбоос"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Screenspeak идэвхгүйжүүлэх, сэргээх товчлуурын богино холбоос"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Бусад"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Хөгжүүлэгчийн тохиргоо"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Лог гаргах төвшин"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Зангилаа модон дебаг-г идэвхжүүлэх"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Веб хандалтыг сайжруулах"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Веб контентын хандалтын скриптийг татаж авах"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Зогссоныг ажиллуулах"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Зогссоныг ажиллуулах"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Дэлгэц бүдгэрсэн"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Дэлгэцийн тодролыг сэргээсэн"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"TalkBack нэвтрэх үйлчилгээ нь дэлгэцийн гэрлийг бүдгэрүүлсэн байна."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"ScreenSpeak нэвтрэх үйлчилгээ нь дэлгэцийн гэрлийг бүдгэрүүлсэн байна."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Ихэсгэх, Багасгах товчлууруудыг хамтад нь гурван удаа хурдан дарж үйлдлийг буцаана."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"TalkBack тохиргооноос дэлгэцийн бүдгэрлийг хянаж болно."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"ScreenSpeak тохиргооноос дэлгэцийн бүдгэрлийг хянаж болно."</string>
     <string name="axis_character" msgid="8528412412593489695">"Тэмдэгтээр шилжих."</string>
     <string name="axis_word" msgid="8823389407337076750">"Үгээр шилжих."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Өгүүлбэрээр шилжих."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Нүүр товч"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Тоймлох товчлуур"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Мэдэгдэл нээх"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Глобал контекст цэс нээх"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Глобал контекст цэс нээх"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Локал контекст цэс нээх"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Сүүлийн хэллэгийг давтах"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Сүүлийн хэллэгийг үсэглэх"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Дарагдсан товчийг байнга дуудах"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Зөвхөн дэлгэцэн дээрх гарны хувьд"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Дарагдсан товчийг дуудахгүй"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBack дохио өөрчлөгдөв"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Хандалтын дохионы өөрчлөлтийг хянах бол товшино уу"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack зогссон"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Ажиллуулах бол товшино уу."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"TalkBack зогсоох уу?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Та итгэлтэй байна уу? Таны төхөөрөмж зөвлөмж харуулахаа болих бөгөөд Explore by Touch идэвхгүй болно. Түгжээний дэлгэц рүү буцах эсвэл дууны товчлуурын богино холбоосоор дамжуулан мэдэгдлээс TalkBack-ийг сэргээж болно"</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"Та Talkback-г мэдэгдлийн хураангуй самбараас ажиллуулах боломжтой."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"Та Talkback-г мэдэгдлийн хураангуй самбараас эсвэл дэлгэцийг асаан ажиллуулах боломжтой."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"Та Talkback-г мэдэгдлийн хураангуй самбараас эсвэл түгжих дэлгэцрүү буцан ажиллуулах боломжтой."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeak дохио өөрчлөгдөв"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Хандалтын дохионы өөрчлөлтийг хянах бол товшино уу"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak зогссон"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Ажиллуулах бол товшино уу."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"ScreenSpeak зогсоох уу?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Та итгэлтэй байна уу? Таны төхөөрөмж зөвлөмж харуулахаа болих бөгөөд Explore by Touch идэвхгүй болно. Түгжээний дэлгэц рүү буцах эсвэл дууны товчлуурын богино холбоосоор дамжуулан мэдэгдлээс ScreenSpeak-ийг сэргээж болно"</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"Та Screenspeak-г мэдэгдлийн хураангуй самбараас ажиллуулах боломжтой."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"Та Screenspeak-г мэдэгдлийн хураангуй самбараас эсвэл дэлгэцийг асаан ажиллуулах боломжтой."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"Та Screenspeak-г мэдэгдлийн хураангуй самбараас эсвэл түгжих дэлгэцрүү буцан ажиллуулах боломжтой."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Энэ анхааруулгыг байнга харуулах"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"Энэ зүйлийг шошголох боломжгүй."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Шошго нэмэх"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Та үнэхээр \"<xliff:g id="LABEL">%1$s</xliff:g>\" шошгыг устгах уу?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Та үнэхээр <xliff:g id="APP_NAME">%2$s</xliff:g> доторх \"<xliff:g id="LABEL">%1$s</xliff:g>\" шошгыг устгах уу?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Шошгоны текст"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"TalkBack-н энэ хувилбарт үндсэн хандалтын дохионууд өөрчлөгдсөн. Эдгээр дохиотой холбогдсон үйлдлүүдийг TalkBack тохиргооноос тохируулах боломжтой. Хүрч хайх идэвхжсэн үед та дараах дохионуудыг ашиглан тодорхой үйлдлийг гүйцэтгэх боломжтой.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Дууны дээш, доош товчлуурыг удаан дар"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"ScreenSpeak-н энэ хувилбарт үндсэн хандалтын дохионууд өөрчлөгдсөн. Эдгээр дохиотой холбогдсон үйлдлүүдийг ScreenSpeak тохиргооноос тохируулах боломжтой. Хүрч хайх идэвхжсэн үед та дараах дохионуудыг ашиглан тодорхой үйлдлийг гүйцэтгэх боломжтой.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Дууны дээш, доош товчлуурыг удаан дар"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Дэлгэцийг бүдгэрүүлэх үү?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Та дэлгэцийн гэрлийг бүдгэрүүлэхийг хүсч байгаадаа итгэлтэй байна уу?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"TalkBack-н энэ хувилбарт үндсэн хандалтын зангалтад оруулсан өөрчлөлтүүд багтсан.\n\nДээш-доош зангалтаар дэлгэцийн эхний зүйл рүү шилжих бөгөөд доош-дээш зангалтаар сүүлийн зүйл рүү шилжинэ.\n\nУнших масштабыг тухайн зүйлийг сонгосны дараа локал контекстын цэснээс масштабыг сонгох замаар өөрчилж болно.\n\nТа эдгээр зангалтаар гүйцэтгэх үйлдэлүүдийг TalkBack Тохиргоон дотроос өөрчилж болно."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"ScreenSpeak-н энэ хувилбарт үндсэн хандалтын зангалтад оруулсан өөрчлөлтүүд багтсан.\n\nДээш-доош зангалтаар дэлгэцийн эхний зүйл рүү шилжих бөгөөд доош-дээш зангалтаар сүүлийн зүйл рүү шилжинэ.\n\nУнших масштабыг тухайн зүйлийг сонгосны дараа локал контекстын цэснээс масштабыг сонгох замаар өөрчилж болно.\n\nТа эдгээр зангалтаар гүйцэтгэх үйлдэлүүдийг ScreenSpeak Тохиргоон дотроос өөрчилж болно."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Дохиог зөвшөөрөх"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Дохиог тохируулах"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"Хүрч хайх функцийг идэвхгүй болгох уу?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Зангилаа модон дебаг-г идэвхжүүлэх үү?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Та зангилаа модон дебаг-г идэвхжүүлэхдээ итгэлтэй байна уу?\n\nЗангилаа модон дебаг нь таны дэлгэцийн контентыг таны төхөөрөмжийн лог-т нээлттэй болгосноор өөр аппликешнүүдэд унших боломж олгоно."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"Хүрч хайх функц энэ веб контент дотор ажиллахгүй. Веб контентийг үзэх бол Хандалтын тохиргооны <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g>-г асаана уу."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"Talkback глобал контекст цэс"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"ТalkBack контрол"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Зангалтыг TalkBack руу илгээж, хэлэх хариултыг үргэлжлүүлэх зөвшөөрөл."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"TalkBack тохируулсан шошгуудыг удирдах"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"TalkBack-р хэлсэн, тохируулсан шошгуудад хандалт хийх, өөрчлөх болон устгах зөвшөөрөл."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"Screenspeak глобал контекст цэс"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"ТalkBack контрол"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Зангалтыг ScreenSpeak руу илгээж, хэлэх хариултыг үргэлжлүүлэх зөвшөөрөл."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"ScreenSpeak тохируулсан шошгуудыг удирдах"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"ScreenSpeak-р хэлсэн, тохируулсан шошгуудад хандалт хийх, өөрчлөх болон устгах зөвшөөрөл."</string>
     <string name="links" msgid="3448225474115458693">"Холбоос"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Төгсгөл"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

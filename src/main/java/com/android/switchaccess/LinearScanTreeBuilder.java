@@ -59,7 +59,7 @@ public class LinearScanTreeBuilder implements TreeBuilder {
             OptionScanNode treeToBuildOn) {
         OptionScanNode tree = (treeToBuildOn != null) ? treeToBuildOn : new ClearFocusNode();
         LinkedList<SwitchAccessNodeCompat> talkBackOrderList =
-                TreeBuilderUtils.getNodesInTalkBackOrder(root);
+                TreeBuilderUtils.getNodesInScreenSpeakOrder(root);
         Iterator<SwitchAccessNodeCompat> reverseListIterator =
                 talkBackOrderList.descendingIterator();
         while (reverseListIterator.hasNext()) {

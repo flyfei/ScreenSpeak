@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"TalkBack açıkken, cihazınız görme engelli ve az gören kullanıcılara yardımcı olmak üzere sesli geri bildirimler sağlar. Örneğin, dokunduğunuz, seçtiğiniz ve etkinleştirdiğiniz öğeyi açıklar."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack açık"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"TalkBack Ayarları"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"ScreenSpeak açıkken, cihazınız görme engelli ve az gören kullanıcılara yardımcı olmak üzere sesli geri bildirimler sağlar. Örneğin, dokunduğunuz, seçtiğiniz ve etkinleştirdiğiniz öğeyi açıklar."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak açık"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"ScreenSpeak Ayarları"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Metin Okuma Ayarları"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Sürüm <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Sürüm <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Özel Etiketleri Yönetin"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"<xliff:g id="APPLICATIONLABEL">%1$s</xliff:g> için Etiketleri Yönetin"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Şu anda özel etiket yok. Etiketsiz bir resme gidip Yerel Bağlam Menüsünden bir etiket ekleyerek özel etiket oluşturabilirsiniz."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Dokunarak araştırma"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Bir kez hafifçe dokunarak seçme"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"İçerik Menüsü\'nü liste olarak göster"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"TalkBack etkinken ekranı karart"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"ScreenSpeak etkinken ekranı karart"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Deneysel) Seçmek için, geçerli olarak odaklanılmış öğeye hafifçe dokunun"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Kesintisiz okumaya başlamak için salla"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Hareketleri yönet"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Özel etiketleri yönet"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Klavye kısayollarını yönet"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"TalkBack\'i Play Store\'da aç"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Geçerli TalkBack Sürümü: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"ScreenSpeak\'i Play Store\'da aç"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Geçerli ScreenSpeak Sürümü: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Hizmet Şartları"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Gizlilik Politikası"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Kısayol hareketleri"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Ana ekran"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Son uygulamalar"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Bildirimler"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"TalkBack\'i duraklat"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"ScreenSpeak\'i duraklat"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Gezinme ayarları"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Sonraki gezinme ayarı"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Önceki gezinme ayarı"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Konuşma sesine odaklan"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Konuşurken diğer sesleri kıs"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Ses düzeyi"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Talkback askıya alma ve devam ettirme kısayolu"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Screenspeak askıya alma ve devam ettirme kısayolu"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Çeşitli"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Geliştirici ayarları"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Günlük çıktı düzeyi"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Düğüm ağacı hata ayıkl. etkinleştir"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Web erişilebilirliğini geliştir"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Web içeriği için erişilebilirlik komut dosyalarını indir"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Askıya alma durumundan devam ettir"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Askıya alma durumundan devam ettir"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Ekran karartıldı"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Ekran parlaklığı eski haline getirildi"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"TalkBack erişilebilirlik hizmeti ekranı kararttı."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"ScreenSpeak erişilebilirlik hizmeti ekranı kararttı."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Sesi Açma ve Kısma düğmelerine aynı anda hızlıca üç kez basarak bu işlemi geri alın."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Ekranı karartma özelliği TalkBack Ayarları\'ndan kontrol edilebilir."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Ekranı karartma özelliği ScreenSpeak Ayarları\'ndan kontrol edilebilir."</string>
     <string name="axis_character" msgid="8528412412593489695">"Karakter bazında gezin."</string>
     <string name="axis_word" msgid="8823389407337076750">"Kelime bazında gezin."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Cümle bazında gezin."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Ana ekran düğmesi"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Genel Bakış düğmesi"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Bildirimleri aç"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Genel bağlam menüsünü aç"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Genel bağlam menüsünü aç"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Yerel bağlam menüsünü aç"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Son söyleneni tekrarla"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Son söyleneni hecele"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Basılan tuşları her zaman sesli olarak söyle"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Sadece ekran klavyesi için"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Basılan tuşları hiçbir zaman sesli olarak söyleme"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBack hareketleri değişti"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Erişilebilirlik hareketlerindeki değişiklikleri incelemek için dokunun"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack askıya alındı"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Devam ettirmek için hafifçe dokunun."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"TalkBack askıya alınsın mı?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Emin misiniz? Cihazınız geri bildirim sağlamayacak ve Dokunarak Keşfet devre dışı bırakılacaktır. Kilit ekranına dönerek veya ses tuşu kısayolunu kullanarak TalkBack\'i bildirimlerden devam ettirebilirsiniz."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"TalkBack\'i bildirimler gölgesinden devam ettirebilirsiniz."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"TalkBack\'i bildirimler gölgesinden veya ekranı açarak devam ettirebilirsiniz."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"TalkBack\'i bildirimler gölgesinden veya kilit ekranına dönerek devam ettirebilirsiniz."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeak hareketleri değişti"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Erişilebilirlik hareketlerindeki değişiklikleri incelemek için dokunun"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak askıya alındı"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Devam ettirmek için hafifçe dokunun."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"ScreenSpeak askıya alınsın mı?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Emin misiniz? Cihazınız geri bildirim sağlamayacak ve Dokunarak Keşfet devre dışı bırakılacaktır. Kilit ekranına dönerek veya ses tuşu kısayolunu kullanarak ScreenSpeak\'i bildirimlerden devam ettirebilirsiniz."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"ScreenSpeak\'i bildirimler gölgesinden devam ettirebilirsiniz."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"ScreenSpeak\'i bildirimler gölgesinden veya ekranı açarak devam ettirebilirsiniz."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"ScreenSpeak\'i bildirimler gölgesinden veya kilit ekranına dönerek devam ettirebilirsiniz."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Bu uyarıyı her zaman göster"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"Bu öğe etiketlenemez."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Etiket ekleyin"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"\"<xliff:g id="LABEL">%1$s</xliff:g>\" etiketini kaldırmak istediğinizden emin misiniz?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"<xliff:g id="APP_NAME">%2$s</xliff:g> içindeki \"<xliff:g id="LABEL">%1$s</xliff:g>\" etiketini kaldırmak istediğinizden emin misiniz?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Etiket metni"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"TalkBack\'in bu sürümü, varsayılan erişilebilirlik hareketlerinde değişiklikler içermektedir. Bu hareketlerle ilişkilendirilen işlemler TalkBack ayarlarından özelleştirilebilir. Dokunarak keşfetme özelliği etkin durumdayken, belirli işlemleri gerçekleştirmek için aşağıdaki hareketleri kullanabilirsiniz.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Sesi açma ve sesi kısma tuşlarına uzun basın"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"ScreenSpeak\'in bu sürümü, varsayılan erişilebilirlik hareketlerinde değişiklikler içermektedir. Bu hareketlerle ilişkilendirilen işlemler ScreenSpeak ayarlarından özelleştirilebilir. Dokunarak keşfetme özelliği etkin durumdayken, belirli işlemleri gerçekleştirmek için aşağıdaki hareketleri kullanabilirsiniz.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Sesi açma ve sesi kısma tuşlarına uzun basın"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Ekran karartılsın mı?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Ekranı karartmak istediğinizden emin misiniz?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"TalkBack\'in bu sürümünde, varsayılan erişilebilirlik hareketleriyle ilgili değişiklikler yapıldı.\n\nYukarı-sonra-aşağı hareketi artık ekrandaki ilk öğeye, aşağı-sonra-yukarı hareketi ise son öğeye gitmenizi sağlıyor.\n\nOkuma ayrıntı düzeyi artık bir öğeye odaklanıp sonra yerel bağlam menüsünden ayrıntı düzeyi seçilerek belirlenebilmektedir.\n\nBu hareketlerle gerçekleştirilen işlemleri TalkBack Ayarları\'ndan değiştirebilirsiniz."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"ScreenSpeak\'in bu sürümünde, varsayılan erişilebilirlik hareketleriyle ilgili değişiklikler yapıldı.\n\nYukarı-sonra-aşağı hareketi artık ekrandaki ilk öğeye, aşağı-sonra-yukarı hareketi ise son öğeye gitmenizi sağlıyor.\n\nOkuma ayrıntı düzeyi artık bir öğeye odaklanıp sonra yerel bağlam menüsünden ayrıntı düzeyi seçilerek belirlenebilmektedir.\n\nBu hareketlerle gerçekleştirilen işlemleri ScreenSpeak Ayarları\'ndan değiştirebilirsiniz."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Hareketleri kabul et"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Hareketleri özelleştir"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"Dokunarak Keşfetme özelliği devre dışı bırakılsın mı?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Düğüm Ağacı Hata Ayıklaması etkinleştirilsin mi?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Düğüm ağacı hata ayıklamasını açmak istediğinizden emin misiniz?\n\nDüğüm ağacı hata ayıklaması, ekranınızın içeriğini cihazınızın günlüklerine açar ve bu bilgiler diğer uygulamalar tarafından okunabilir."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"Web içeriğinde dokunarak keşfetme özelliği kullanılamaz. Web içeriğini keşfetmek için Erişilebilirlik ayarlarından <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> işlevini açın."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"TalkBack genel bağlam menüsü"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"TalkBack\'i denetle"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Hareketleri TalkBack\'e gönderme ve sesli söylenen geri bildirimi devam ettirme izni."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"TalkBack özel etiketlerini yönet"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"TalkBack tarafından sesli söylenen özel etiketlere erişme, bunları değiştirme ve silme izni."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"ScreenSpeak genel bağlam menüsü"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"ScreenSpeak\'i denetle"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Hareketleri ScreenSpeak\'e gönderme ve sesli söylenen geri bildirimi devam ettirme izni."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"ScreenSpeak özel etiketlerini yönet"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"ScreenSpeak tarafından sesli söylenen özel etiketlere erişme, bunları değiştirme ve silme izni."</string>
     <string name="links" msgid="3448225474115458693">"Bağlantılar"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Son"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

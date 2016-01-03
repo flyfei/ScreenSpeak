@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"TalkBack ಆನ್ ಆದಾಗ, ನಿಮ್ಮ ಸಾಧನವು ಅಂಧ ಮತ್ತು ದೃಷ್ಟಿದೋಷವಿರುವ ಬಳಕೆದಾರರಿಗೆ ಧ್ವನಿ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ನೀಡುತ್ತದೆ. ಉದಾಹರಣೆಗೆ, ಅದು ನೀವು ಯಾವುದನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತೀರಿ, ಆಯ್ಕೆ ಮಾಡುತ್ತೀರಿ ಹಾಗೂ ಸಕ್ರಿಯಗೊಳಿಸುತ್ತೀರಿ ಎಂಬುದನ್ನು ವಿವರಿಸುತ್ತದೆ."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack ಆನ್"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"TalkBack ಸೆಟ್ಟಿಂಗ್‍ಗಳು"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"ScreenSpeak ಆನ್ ಆದಾಗ, ನಿಮ್ಮ ಸಾಧನವು ಅಂಧ ಮತ್ತು ದೃಷ್ಟಿದೋಷವಿರುವ ಬಳಕೆದಾರರಿಗೆ ಧ್ವನಿ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ನೀಡುತ್ತದೆ. ಉದಾಹರಣೆಗೆ, ಅದು ನೀವು ಯಾವುದನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತೀರಿ, ಆಯ್ಕೆ ಮಾಡುತ್ತೀರಿ ಹಾಗೂ ಸಕ್ರಿಯಗೊಳಿಸುತ್ತೀರಿ ಎಂಬುದನ್ನು ವಿವರಿಸುತ್ತದೆ."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak ಆನ್"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"ScreenSpeak ಸೆಟ್ಟಿಂಗ್‍ಗಳು"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"ಪಠ್ಯದಿಂದ ಧ್ವನಿಗೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"ಆವೃತ್ತಿ <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"ಆವೃತ್ತಿ <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"ಕಸ್ಟಮ್ ಲೇಬಲ್‍ಗಳನ್ನು ನಿರ್ವಹಿಸು"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"<xliff:g id="APPLICATIONLABEL">%1$s</xliff:g> ಗೆ ಲೇಬಲ್‍ಗಳನ್ನು ನಿರ್ವಹಿಸಿ"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"ಪ್ರಸ್ತುತ ಯಾವುದೇ ಕಸ್ಟಮ್ ಲೇಬಲ್‍‍ಗಳಿಲ್ಲ. ನೀವು ಲೇಬಲ್ ಮಾಡಿರದ ಚಿತ್ರಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡುವ ಮೂಲಕ ಒಂದನ್ನು ರಚಿಸಬಹುದು. ನಂತರ ಸ್ಥಳೀಯ ಸಂದರ್ಭ ಮೆನುವಿನಿಂದ ಲೇಬಲ್ ಅನ್ನು ಸೇರಿಸಬಹುದು."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"ಪರಿಶೋಧನೆಯನ್ನು ಸ್ಪರ್ಶಿಸಿ"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"ಸಿಂಗಲ್-ಟ್ಯಾಪ್ ಆಯ್ಕೆ"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"ಸಂದರ್ಭ ಮೆನುವನ್ನು ಪಟ್ಟಿಯಂತೆ ತೋರಿಸಿ"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"TalkBack ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ ಪರದೆಯನ್ನು ಮುಸುಕು ಮಾಡಿ"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"ScreenSpeak ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ ಪರದೆಯನ್ನು ಮುಸುಕು ಮಾಡಿ"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(ಪ್ರಯೋಗಾತ್ಮಕವಾಗಿ) ಪ್ರಸ್ತುತ ಕೇಂದ್ರೀಕರಿಸಿದ ಐಟಂ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"ನಿರಂತರ ಓದುವಿಕೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ಅಲುಗಾಡಿಸಿ"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"ಸೂಚನೆಗಳನ್ನು ನಿರ್ವಹಿಸು"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"ಕಸ್ಟಮ್ ಲೇಬಲ್‍ಗಳನ್ನು ನಿರ್ವಹಿಸಿ"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"ಕೀಬೋರ್ಡ್‌ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸು"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"TalkBack ಅನ್ನು Play Store ನಲ್ಲಿ ತೆರೆ"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"ಪ್ರಸ್ತುತ TalkBack ಆವೃತ್ತಿ: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"ScreenSpeak ಅನ್ನು Play Store ನಲ್ಲಿ ತೆರೆ"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"ಪ್ರಸ್ತುತ ScreenSpeak ಆವೃತ್ತಿ: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"ಸೇವಾ ನಿಯಮಗಳು"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"ಗೌಪ್ಯತೆ ನೀತಿ"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"ಶಾರ್ಟ್‌ಕಟ್ ಸೂಚನೆಗಳು"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"ಮುಖಪುಟ"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"ಇತ್ತೀಚಿನ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"ಅಧಿಸೂಚನೆಗಳು"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"TalkBack ವಿರಾಮಗೊಳಿಸಿ"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"ScreenSpeak ವಿರಾಮಗೊಳಿಸಿ"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"ನ್ಯಾವಿಗೇಷನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"ಮುಂದಿನ ನ್ಯಾವಿಗೇಷನ್ ಸೆಟ್ಟಿಂಗ್"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"ಹಿಂದಿನ ನ್ಯಾವಿಗೇಷನ್ ಸೆಟ್ಟಿಂಗ್"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"ಮಾತನಾಡುವ ಆಡಿಯೊ ಕೇಂದ್ರೀಕರಿಸು"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"ಮಾತನಾಡುವಾಗ ಇತರ ಆಡಿಯೊ ವ್ಯಾಲೂಮ್ ಅನ್ನು ಕಡಿಮೆಗೊಳಿಸಿ"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"ಶಬ್ದ ವಾಲ್ಯೂಮ್‌"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Talkback ಅಮಾನತ್ತುಗೊಳಿಸಲಾಗಿದೆ ಮತ್ತು ಶಾರ್ಟ್‌ಕಟ್‌ ಪುನರಾರಂಭಿಸಿ"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Screenspeak ಅಮಾನತ್ತುಗೊಳಿಸಲಾಗಿದೆ ಮತ್ತು ಶಾರ್ಟ್‌ಕಟ್‌ ಪುನರಾರಂಭಿಸಿ"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"ಇತರೆ"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"ಡೆವಲಪರ್ ಸೆಟ್ಟಿಂಗ್‍ಗಳು"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"ಔಟ್‍ಪುಟ್ ಹಂತವನ್ನು ಲಾಗ್ ಮಾಡಿ"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"ನೋಡ್ ಟ್ರೀ ಡೀಬಗ್ ಸಕ್ರಿಯ"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"ವೆಬ್ ಪ್ರವೇಶಿಸುವಿಕೆಯನ್ನು ವರ್ಧಿಸು"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"ವೆಬ್ ವಿಷಯಕ್ಕಾಗಿ ಪ್ರವೇಶಿಸುವಿಕೆ ಸ್ಕ್ರಿಪ್ಟ್ ಅನ್ನು ಡೌನ್‍‍ಲೋಡ್ ಮಾಡಿ"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"ಸ್ಥಗಿತಗೊಂಡಲ್ಲಿಂದ ಪುನಾರಾರಂಭಿಸಿ"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"ಸ್ಥಗಿತಗೊಂಡಲ್ಲಿಂದ ಪುನಾರಾರಂಭಿಸಿ"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"ಪರದೆಯನ್ನು ಮುಸುಕು ಮಾಡಲಾಗಿದೆ"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"ಪರದೆ ಪ್ರಖರತೆಯನ್ನು ಮರುಸ್ಥಾಪಿಸಲಾಗಿದೆ"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"TalkBack ಪ್ರವೇಶಿಸುವಿಕೆ ಸೇವೆಯು ಪರದೆಯನ್ನು ಮಸುಕುಗೊಳಿಸಿದೆ."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"ScreenSpeak ಪ್ರವೇಶಿಸುವಿಕೆ ಸೇವೆಯು ಪರದೆಯನ್ನು ಮಸುಕುಗೊಳಿಸಿದೆ."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Volume Up ಮತ್ತು Volume Down ಕೀಗಳನ್ನು ಒಟ್ಟಿಗೆ ಮೂರು ಬಾರಿ ತ್ವರಿತವಾಗಿ ಒತ್ತುವ ಮೂಲಕ ರದ್ದುಗೊಳಿಸಿ."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"ಪರದೆ ಮಸುಕುಗೊಳಿಸುವಿಕೆಯನ್ನು TalkBack ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಂದ ನಿಯಂತ್ರಿಸಬಹುದು."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"ಪರದೆ ಮಸುಕುಗೊಳಿಸುವಿಕೆಯನ್ನು ScreenSpeak ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಂದ ನಿಯಂತ್ರಿಸಬಹುದು."</string>
     <string name="axis_character" msgid="8528412412593489695">"ಅಕ್ಷರದ ಮೂಲಕ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ."</string>
     <string name="axis_word" msgid="8823389407337076750">"ಪದದ ಮೂಲಕ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"ವಾಕ್ಯದ ಮೂಲಕ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"ಮುಖಪುಟ ಬಟನ್"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"ಅವಲೋಕನ ಬಟನ್"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"ಅಧಿಸೂಚನೆಗಳನ್ನು ತೆರೆಯಿರಿ"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"ಜಾಗತಿಕ ಸಂದರ್ಭ ಮೆನು ತೆರೆಯಿರಿ"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"ಜಾಗತಿಕ ಸಂದರ್ಭ ಮೆನು ತೆರೆಯಿರಿ"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"ಸ್ಥಳೀಯ ಸಂದರ್ಭ ಮೆನು ತೆರೆಯಿರಿ"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"ಹಿಂದಿನ ಹೇಳಿಕೆಯನ್ನು ಪುನರಾವರ್ತಿಸಿ"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"ಹಿಂದಿನ ಹೇಳಿಕೆಯನ್ನು ಉಚ್ಛರಿಸಿ"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"ಯಾವಾಗಲೂ ಟೈಪ್ ಮಾಡಲಾದ ಕೀಗಳನ್ನು ಮಾತನಾಡಿ"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"ಪರದೆ ಮೇಲಿನ ಕೀಬೋರ್ಡ್‌ಗಾಗಿ ಮಾತ್ರ"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"ಟೈಪ್ ಮಾಡಲಾದ ಕೀಗಳನ್ನು ಎಂದಿಗೂ ಮಾತನಾಡಬೇಡಿ"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBack ಸೂಚನೆಗಳು ಬದಲಾಗಿವೆ"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"ಪ್ರವೇಶಿಸುವಿಕೆ ಸೂಚನೆಗಳಿಗೆ ವಿಮರ್ಶೆಯನ್ನು ಬದಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack ಅಮಾನತುಗೊಂಡಿದೆ"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"ಪುನರಾರಂಭಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"TalkBack ಅನ್ನು ಅಮಾನತುಗೊಳಿಸುವುದೇ?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"ನೀವು ಖಚಿತವಾಗಿರುವಿರಾ? ನಿಮ್ಮ ಸಾಧನವು ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಒದಗಿಸುವುದಿಲ್ಲ ಮತ್ತು ಸ್ಪರ್ಶಿಸುವ ಮೂಲಕ ಅನ್ವೇಷಣೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ. ನೀವು ಪರದೆ ಲಾಕ್‌‌ಗೆ ಹಿಂತಿರುಗುವ ಮೂಲಕ ಅಥವಾ ವಾಲ್ಯೂಮ್‌ ಕೀ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳ ಮೂಲಕ ಅಧಿಸೂಚನೆಗಳಿಂದ TalkBack ಅನ್ನು ಪುನರಾರಂಭಿಸಬಹುದು."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"ನೀವು ಅಧಿಸೂಚನೆ ಶೇಡ್‌ನಿಂದ TalkBack ಅನ್ನು ಪುನರಾರಂಭಿಸಬಹುದು."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"ನೀವು ಅಧಿಸೂಚನೆಗಳ ಶೇಡ್ ಅಥವಾ ಪರದೆಯನ್ನು ಆನ್ ಮಾಡುವ ಮೂಲಕ TalkBack ಅನ್ನು ಪುನರಾರಂಭಿಸಬಹುದು."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"ನೀವು ಅಧಿಸೂಚನೆಗಳ ಶೇಡ್‌ನಿಂದ ಅಥವಾ ಲಾಕ್ ಪರದೆಗೆ ಹಿಂತಿರುಗುವ ಮೂಲಕ TalkBack ಅನ್ನು ಪುನರಾರಂಭಿಸಬಹುದು."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeak ಸೂಚನೆಗಳು ಬದಲಾಗಿವೆ"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"ಪ್ರವೇಶಿಸುವಿಕೆ ಸೂಚನೆಗಳಿಗೆ ವಿಮರ್ಶೆಯನ್ನು ಬದಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak ಅಮಾನತುಗೊಂಡಿದೆ"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"ಪುನರಾರಂಭಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"ScreenSpeak ಅನ್ನು ಅಮಾನತುಗೊಳಿಸುವುದೇ?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"ನೀವು ಖಚಿತವಾಗಿರುವಿರಾ? ನಿಮ್ಮ ಸಾಧನವು ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಒದಗಿಸುವುದಿಲ್ಲ ಮತ್ತು ಸ್ಪರ್ಶಿಸುವ ಮೂಲಕ ಅನ್ವೇಷಣೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ. ನೀವು ಪರದೆ ಲಾಕ್‌‌ಗೆ ಹಿಂತಿರುಗುವ ಮೂಲಕ ಅಥವಾ ವಾಲ್ಯೂಮ್‌ ಕೀ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳ ಮೂಲಕ ಅಧಿಸೂಚನೆಗಳಿಂದ ScreenSpeak ಅನ್ನು ಪುನರಾರಂಭಿಸಬಹುದು."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"ನೀವು ಅಧಿಸೂಚನೆ ಶೇಡ್‌ನಿಂದ ScreenSpeak ಅನ್ನು ಪುನರಾರಂಭಿಸಬಹುದು."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"ನೀವು ಅಧಿಸೂಚನೆಗಳ ಶೇಡ್ ಅಥವಾ ಪರದೆಯನ್ನು ಆನ್ ಮಾಡುವ ಮೂಲಕ ScreenSpeak ಅನ್ನು ಪುನರಾರಂಭಿಸಬಹುದು."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"ನೀವು ಅಧಿಸೂಚನೆಗಳ ಶೇಡ್‌ನಿಂದ ಅಥವಾ ಲಾಕ್ ಪರದೆಗೆ ಹಿಂತಿರುಗುವ ಮೂಲಕ ScreenSpeak ಅನ್ನು ಪುನರಾರಂಭಿಸಬಹುದು."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"ಈ ಎಚ್ಚರಿಕೆಯನ್ನು ಯಾವಾಗಲೂ ತೋರಿಸು"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"ಈ ಐಟಂ ಅನ್ನು ಲೇಬಲ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"ಲೇಬಲ್ ಸೇರಿಸಿ"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"\"<xliff:g id="LABEL">%1$s</xliff:g>\" ಲೇಬಲ್ ಅನ್ನು ತೆಗೆದುಹಾಕಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"<xliff:g id="APP_NAME">%2$s</xliff:g> ನಲ್ಲಿಯೇ \"<xliff:g id="LABEL">%1$s</xliff:g>\" ಲೇಬಲ್ ಅನ್ನು ತೆಗೆದುಹಾಕಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"ಲೇಬಲ್ ಪಠ್ಯ"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"TalkBack ನ ಈ ಆವೃತ್ತಿಯು ಡೀಫಾಲ್ಟ್ ಪ್ರವೇಶಿಸುವಿಕೆ ಸೂಚಕಗಳ ಬದಲಿಸುವಿಕೆಯನ್ನು ಒಳಗೊಂಡಿದೆ. ಈ ಸೂಚಕಗಳ ಜೊತೆಗೆ ಸಂಯೋಜಿತವಾಗಿರುವ ಕ್ರಮಗಳನ್ನು TalkBack ಸೆಟ್ಟಿಂಗ್‍‍ಗಳಲ್ಲಿಯೆ ಕಸ್ಟಮೈಸ್ ಮಾಡಬಹುದಾಗಿರುತ್ತದೆ. ಸ್ಪರ್ಶಿಸುವ ಮೂಲಕ ಎಕ್ಸ್‌ಪ್ಲೋರ್ ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ, ನಿರ್ದಿಷ್ಟ ಕ್ರಿಯೆಗಳನ್ನು ನಿರ್ವಹಿಸಲು ನೀವು ಈ ಮುಂದಿನ ಸೂಚಕಗಳನ್ನು ಬಳಸಬಹುದು.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"ವಾಲ್ಯೂಮ್ ಹೆಚ್ಚು ಮತ್ತು ಕಡಿಮೆ ಕೀಗಳನ್ನು ದೀರ್ಘವಾಗಿ ಒತ್ತಿ"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"ScreenSpeak ನ ಈ ಆವೃತ್ತಿಯು ಡೀಫಾಲ್ಟ್ ಪ್ರವೇಶಿಸುವಿಕೆ ಸೂಚಕಗಳ ಬದಲಿಸುವಿಕೆಯನ್ನು ಒಳಗೊಂಡಿದೆ. ಈ ಸೂಚಕಗಳ ಜೊತೆಗೆ ಸಂಯೋಜಿತವಾಗಿರುವ ಕ್ರಮಗಳನ್ನು ScreenSpeak ಸೆಟ್ಟಿಂಗ್‍‍ಗಳಲ್ಲಿಯೆ ಕಸ್ಟಮೈಸ್ ಮಾಡಬಹುದಾಗಿರುತ್ತದೆ. ಸ್ಪರ್ಶಿಸುವ ಮೂಲಕ ಎಕ್ಸ್‌ಪ್ಲೋರ್ ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ, ನಿರ್ದಿಷ್ಟ ಕ್ರಿಯೆಗಳನ್ನು ನಿರ್ವಹಿಸಲು ನೀವು ಈ ಮುಂದಿನ ಸೂಚಕಗಳನ್ನು ಬಳಸಬಹುದು.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"ವಾಲ್ಯೂಮ್ ಹೆಚ್ಚು ಮತ್ತು ಕಡಿಮೆ ಕೀಗಳನ್ನು ದೀರ್ಘವಾಗಿ ಒತ್ತಿ"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"ಪರದೆ ಮಸುಕುಗೊಳಿಸುವುದೇ?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"ನೀವು ಪರದೆಯನ್ನು ಮಸುಕುಗೊಳಿಸಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"TalkBack ನ ಈ ಆವೃತ್ತಿಯು ಡೀಫಾಲ್ಟ್ ಪ್ರವೇಶಿಸುವಿಕೆ ಸೂಚಕಗಳ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆ.\n\nಮೇಲೆ-ನಂತರ-ಕೆಳಗೆ ಸೂಚಕವು ಪರದೆ ಮೇಲಿನ ಮೊದಲ ಐಟಂಗೆ ಸರಿಸಲು ನಿಮಗೆ ಅವಕಾಶ ಮಾಡಿಕೊಡುತ್ತದೆ. ಕೆಳಗೆ ನಂತರ ಮೇಲಕ್ಕೆ ಸೂಚಕವು ಹಿಂದಿನ ಐಟಂಗೆ ಸರಿಯುತ್ತದೆ.\n\nಐಟಂ ಅನ್ನು ಕೇಂದ್ರೀಕರಿಸುವ ಮೂಲಕ ಓದುವಿಕೆಯ ರಚನೆಯನ್ನು ಇದೀಗ ಬದಲಿಸಬಹುದು, ನಂತರ ಸ್ಥಳೀಯ ಸಂದರ್ಭ ಮೆನುವಿನಿಂದ ರಚನೆಯನ್ನು ಆರಿಸಬೇಕು.\n\nನೀವು TalkBack ಸೆಟ್ಟಿಂಗ್‍‍ಗಳಲ್ಲಿ ಈ ಸೂಚಕಗಳ ಮೂಲಕ ಪ್ರದರ್ಶಿಸಿದ ಕ್ರಿಯೆಗಳನ್ನು ಬದಲಿಸಬಹುದು."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"ScreenSpeak ನ ಈ ಆವೃತ್ತಿಯು ಡೀಫಾಲ್ಟ್ ಪ್ರವೇಶಿಸುವಿಕೆ ಸೂಚಕಗಳ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆ.\n\nಮೇಲೆ-ನಂತರ-ಕೆಳಗೆ ಸೂಚಕವು ಪರದೆ ಮೇಲಿನ ಮೊದಲ ಐಟಂಗೆ ಸರಿಸಲು ನಿಮಗೆ ಅವಕಾಶ ಮಾಡಿಕೊಡುತ್ತದೆ. ಕೆಳಗೆ ನಂತರ ಮೇಲಕ್ಕೆ ಸೂಚಕವು ಹಿಂದಿನ ಐಟಂಗೆ ಸರಿಯುತ್ತದೆ.\n\nಐಟಂ ಅನ್ನು ಕೇಂದ್ರೀಕರಿಸುವ ಮೂಲಕ ಓದುವಿಕೆಯ ರಚನೆಯನ್ನು ಇದೀಗ ಬದಲಿಸಬಹುದು, ನಂತರ ಸ್ಥಳೀಯ ಸಂದರ್ಭ ಮೆನುವಿನಿಂದ ರಚನೆಯನ್ನು ಆರಿಸಬೇಕು.\n\nನೀವು ScreenSpeak ಸೆಟ್ಟಿಂಗ್‍‍ಗಳಲ್ಲಿ ಈ ಸೂಚಕಗಳ ಮೂಲಕ ಪ್ರದರ್ಶಿಸಿದ ಕ್ರಿಯೆಗಳನ್ನು ಬದಲಿಸಬಹುದು."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"ಸೂಚನೆಗಳನ್ನು ಸ್ವೀಕರಿಸಿ"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"ಸೂಚನೆಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"ಸ್ಪರ್ಶಿಸುವ ಮೂಲಕ ಎಕ್ಸ್‌ಪ್ಲೋರ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವುದೇ?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"ನೋಡ್ ಟ್ರೀ ಡೀಬಗ್ ಸಕ್ರಿಗೊಳಿಸುವುದೇ?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"ನೀವು ನೋಡ್ ಟ್ರೀ ಡೀಬಗ್ ಮಾಡುವುದನ್ನು ಆನ್ ಮಾಡಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?\n\nನೋಡ್ ಟ್ರೀ ಡೀಬಗ್ ಮಾಡುವಿಕೆ ಇತರ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಓದಬಹುದಾದ ನಿಮ್ಮ ಪರದೆಯ ವಿಷಯಗಳಿಂದ ನಿಮ್ಮ ಸಾಧನದ ಲಾಗ್‌ಗಳನ್ನು ತೆರೆದಿಡುತ್ತದೆ."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"ವೆಬ್ ವಿಷಯದಲ್ಲಿ ಸ್ಪರ್ಶಿಸುವ ಮೂಲಕ ಎಕ್ಸ್‌ಪ್ಲೋರ್ ಮಾಡುವಿಕೆಯು ಲಭ್ಯವಿಲ್ಲ. ವೆಬ್ ವಿಷಯವನ್ನು ಎಕ್ಸ್‌ಪ್ಲೋರ್ ಮಾಡಲು ಪ್ರವೇಶಿಸುವಿಕೆ ಸೆಟ್ಟಿಂಗ್‍‍ಗಳಲ್ಲಿ <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> ಅನ್ನು ಆನ್‌ ಮಾಡಿ."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"TalkBack ಜಾಗತಿಕ ಸಂದರ್ಭ ಮೆನು"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"TalkBack ನಿಯಂತ್ರಿಸು"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"TalkBack ಗೆ ಸೂಚನೆಗಳನ್ನು ಕಳುಹಿಸಲು ಮತ್ತು ಮಾತನಾಡುವ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಪುನರಾರಂಭಿಸಲು ಅನುಮತಿ."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"TalkBack ಕಸ್ಟಮ್ ಲೇಬಲ್‍ಗಳನ್ನು ನಿರ್ವಹಿಸು"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"TalkBack ನಿಂದ ಮಾತನಾಡುವ ಕಸ್ಟಮ್ ಲೇಬಲ್‍‍ಗಳನ್ನು ಪ್ರವೇಶಿಸಲು, ಮಾರ್ಪಡಿಸಲು ಮತ್ತು ಅಳಿಸಲು ಅನುಮತಿ."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"ScreenSpeak ಜಾಗತಿಕ ಸಂದರ್ಭ ಮೆನು"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"ScreenSpeak ನಿಯಂತ್ರಿಸು"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"ScreenSpeak ಗೆ ಸೂಚನೆಗಳನ್ನು ಕಳುಹಿಸಲು ಮತ್ತು ಮಾತನಾಡುವ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಪುನರಾರಂಭಿಸಲು ಅನುಮತಿ."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"ScreenSpeak ಕಸ್ಟಮ್ ಲೇಬಲ್‍ಗಳನ್ನು ನಿರ್ವಹಿಸು"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"ScreenSpeak ನಿಂದ ಮಾತನಾಡುವ ಕಸ್ಟಮ್ ಲೇಬಲ್‍‍ಗಳನ್ನು ಪ್ರವೇಶಿಸಲು, ಮಾರ್ಪಡಿಸಲು ಮತ್ತು ಅಳಿಸಲು ಅನುಮತಿ."</string>
     <string name="links" msgid="3448225474115458693">"ಲಿಂಕ್‌ಗಳು"</string>
     <string name="end_of_text" msgid="3595733062526019550">"ಅಂತ್ಯಗೊಳಿಸು"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

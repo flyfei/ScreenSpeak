@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"TalkBack සක්‍රිය කර ඇති විට, ඔබගේ උපාංගය අන්ධ සහ අඩු-දෘෂ්ටි පරිශීලකයන් වෙත උදව් කිරීමට කථා කරන ප්‍රතිපෝෂණ සපයයි. උදාහරණ ලෙස, එය ඔබ කුමක් ස්පර්ශ කරන්නේද, තෝරන්නේද, සහ සක්‍රිය කරන්නේද යන්න පිළිබඳව විස්තර කරයි."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack ක්‍රියාත්මකයි"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"TalkBack සැකසීම්"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"ScreenSpeak සක්‍රිය කර ඇති විට, ඔබගේ උපාංගය අන්ධ සහ අඩු-දෘෂ්ටි පරිශීලකයන් වෙත උදව් කිරීමට කථා කරන ප්‍රතිපෝෂණ සපයයි. උදාහරණ ලෙස, එය ඔබ කුමක් ස්පර්ශ කරන්නේද, තෝරන්නේද, සහ සක්‍රිය කරන්නේද යන්න පිළිබඳව විස්තර කරයි."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak ක්‍රියාත්මකයි"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"ScreenSpeak සැකසීම්"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"කථනයට පෙළ සැකසීම්"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"අනුවාදය <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"අනුවාදය <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"අභිරුචි ලේබල් කළමනාකරණය කරන්න"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"<xliff:g id="APPLICATIONLABEL">%1$s</xliff:g> සඳහා ලේබල් කළමනාකරණය කරන්න"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"දැන් එහි අභිරුචි ලේබල් නැත. ඔබට ලේබල නොකරන ලද රූපය වෙත සංචලනය කිරීමෙන් සහ පසුව අභ්‍යන්තර සන්දර්භ මෙනුවේ සිට ලේබල එකතු කිරීම මගින් එකක් සැදිය හැක."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"ගවේෂණය ස්පර්ශ කරන්න"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"තනි-තට්ටු කිරීමෙන් තේරීම"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"ලැයිස්තුවක් ලෙස ප්‍රකරණ මෙනුව පෙන්වන්න"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"TalkBack සබල විට තිර දීප්තිය අඩු කරන්න"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"ScreenSpeak සබල විට තිර දීප්තිය අඩු කරන්න"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(සම්පරික්ෂණාත්මක) තේරීමට දැනට නාභිගත අයිතම මත තට්ටු කරන්න"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"අඛණ්ඩ කියවීම ආරම්භ කිරීමට සොලවන්න"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"ඉංගිතයන් කළමනාකරණය කරන්න"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"අභිරුචි ලේබල් කළමනාකරණය කරන්න"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"යතුරු පුවරු කෙටිමං කළමනාකරණය කරන්න"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Play වෙළෙඳසැල TalkBack විවෘත කරන්න"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"දැන් තිබෙන TalkBack අනුවාදය: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Play වෙළෙඳසැල ScreenSpeak විවෘත කරන්න"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"දැන් තිබෙන ScreenSpeak අනුවාදය: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"සේවා කොන්දේසි"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"පෞද්ගලිකත්ව ප්‍රතිපත්තිය"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"කෙටිමං ඉංගිතයන්"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"නිවස"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"මෑත යෙදුම්"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"දැනුම්දීම්"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"TalkBack විරාමය"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"ScreenSpeak විරාමය"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"සංචාලන සැකසීම්"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"ඊළඟ සංචාලන සැකසීම"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"පෙර සංචාලන සැකසීම"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"කථන ශ්‍රව්‍යයට යොමුවන්න"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"කථා කරන අතරතුර වෙනත් ශ්‍රව්‍ය හඬ තීව්‍රතා අඩු කරන්න"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"හඬ ශබ්ද තීව්‍රතාවය"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Talkback අත්හිටුවීම් සහ නැවත පටන් ගැනීමේ කෙටිමඟ"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Screenspeak අත්හිටුවීම් සහ නැවත පටන් ගැනීමේ කෙටිමඟ"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"විවිධාකාර"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"වර්ධක සැකසීම්"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"ප්‍රතිදාන මට්ටම සටහන් කර ගන්න"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"නෝඩු රුක නිදොස් කිරීම සබල කරන්න"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"අන්තර්ජාලය වෙත ළඟාවීමේ හැකියාව වැඩිදියුණු කරන්න"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"වෙබ් අන්තර්ගතය සඳහා පිවිසුම් ස්ක්‍රිප්ට බාගන්න"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"අත්හිටුවීම වෙතින් නැවත පටන් ගන්න"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"අත්හිටුවීම වෙතින් නැවත පටන් ගන්න"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"තිර දීප්තිය අඩු කරන ලදී"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"තිර දීප්තිය ප්‍රතිස්ථාපනය කරන ලදී"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"TalkBack ප්‍රවේශ්‍යතා සේවාව තිරය අඳුරු කර ඇත."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"ScreenSpeak ප්‍රවේශ්‍යතා සේවාව තිරය අඳුරු කර ඇත."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"හඬ පරිමාව වැඩි කිරීමේ සහ හඬ පරිමාව අඩු කිරීමේ යතුරු තුන් වරක් ඉක්මනින් එබීමෙන් පසුගමනය කරන්න."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"තිරය අඳුරු කිරීම TalkBack සැකසීම් වෙතින් පාලනය කළ හැකිය."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"තිරය අඳුරු කිරීම ScreenSpeak සැකසීම් වෙතින් පාලනය කළ හැකිය."</string>
     <string name="axis_character" msgid="8528412412593489695">"අකුරු මගින් සංචාලනය කරන්න."</string>
     <string name="axis_word" msgid="8823389407337076750">"වචනය මගින් සංචාලනය කරන්න."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"වාක්‍යය මගින් සංචාලනය කරන්න."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"මුල් පිටු බොත්තම"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"සමාලෝචන බොත්තම"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"දැනුම්දීම් විවෘත කරන්න"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"ගෝලීය සන්දර්භ මෙනුව විවෘත කරන්න"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"ගෝලීය සන්දර්භ මෙනුව විවෘත කරන්න"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"ප්‍රාදේශීය සන්දර්භ මෙනුව විවෘත කරන්න"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"අවසාන කියමන පුනරාවර්තනය කරන්න"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"අවසන් කියමන උච්චාරණය කරන්න"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"සෑම විටම ටයිප් කළ යතුරු කියවයි"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"තිරමත යතුරු පුවරුව පමණි"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"කිසිවිටෙක ටයිප් කළ යතුරු නොකියවයි"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBack ඉංගිතයන් වෙනස් කෙරිණි"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"ප්‍රවේශ්‍යතා ඉංගිතයන් වලට වෙනස්කම් සමාලෝචනය කිරීමට තට්ටු කරන්න"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack අත්හිටුවන ලදී"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"නැවත පටන්ගැනීම තට්ටු කරන්න."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"TalkBack අත්හිටුවන්නද?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"ඔබට විශ්වාසද? ඔබගේ උපාංගය ප්‍රතිපෝෂණ ලබාදීම නවත්වන අතර ස්පර්ශය මගින් ගවේෂණය අබල කරනු ඇත. අගුළු තිරය වෙත නැවත ඒමෙන් හෝ හඬ යතුරු කෙටිමඟ භාවිතා කර ඔබට දැනුම්දීම් වෙතින් TalkBack යළි පටන් ගත හැකිය."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"දැනුම් දීම් තලය වෙතින් ඔබට TalkBack නැවත පටන් ගත හැක."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"දැනුම් දීම් තලය වෙතින් හෝ අගුළු තිරයට ආපසු පැමිණීමෙන් ඔබට TalkBack නැවත පටන් ගත හැක."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"දැනුම් දීම් තලය වෙතින් හෝ අගුළු තිරයට ආපසු පැමිණීමෙන් ඔබට TalkBack නැවත පටන් ගත හැක."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeak ඉංගිතයන් වෙනස් කෙරිණි"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"ප්‍රවේශ්‍යතා ඉංගිතයන් වලට වෙනස්කම් සමාලෝචනය කිරීමට තට්ටු කරන්න"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak අත්හිටුවන ලදී"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"නැවත පටන්ගැනීම තට්ටු කරන්න."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"ScreenSpeak අත්හිටුවන්නද?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"ඔබට විශ්වාසද? ඔබගේ උපාංගය ප්‍රතිපෝෂණ ලබාදීම නවත්වන අතර ස්පර්ශය මගින් ගවේෂණය අබල කරනු ඇත. අගුළු තිරය වෙත නැවත ඒමෙන් හෝ හඬ යතුරු කෙටිමඟ භාවිතා කර ඔබට දැනුම්දීම් වෙතින් ScreenSpeak යළි පටන් ගත හැකිය."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"දැනුම් දීම් තලය වෙතින් ඔබට ScreenSpeak නැවත පටන් ගත හැක."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"දැනුම් දීම් තලය වෙතින් හෝ අගුළු තිරයට ආපසු පැමිණීමෙන් ඔබට ScreenSpeak නැවත පටන් ගත හැක."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"දැනුම් දීම් තලය වෙතින් හෝ අගුළු තිරයට ආපසු පැමිණීමෙන් ඔබට ScreenSpeak නැවත පටන් ගත හැක."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"සැමවිට මෙම අනතුරු ඇඟවීම පෙන්වන්න"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"මෙම අයිතමය ලේබල කළ නොහැක."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"ලේබලය එකතු කරන්න"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"\"<xliff:g id="LABEL">%1$s</xliff:g>\" ලේබලය ඉවත් කිරීමට ඔබට අවශ්‍ය බව ඔබට සහතිකද?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"<xliff:g id="APP_NAME">%2$s</xliff:g> තුළ ඇති \"<xliff:g id="LABEL">%1$s</xliff:g>\" ලේබලය ඉවත් කිරීමට ඔබට අවශ්‍ය බව ඔබට සහතිකද?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"පෙළ ලේබලය"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"මෙම අනුවාදයේ TalkBack පෙරනිමි ප්‍රවේශ්‍යතා ඉංගිතයන් වෙත කළ වෙනස්කම් අඩංගුවේ. මෙම ඉංගිතයන් හා ආශ්‍රිත ක්‍රියා TalkBack සැකසීම් තුළ අභිමතකරණය කළ හැක. ස්පර්ශය මගින් ගවේෂණය කරන්න සබල විට, ඔබට නිශ්චිත ක්‍රියා සිදු කිරීමට පහත ඉංගිතයන් භාවිතා කළ හැක.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"හඬ වැඩි කිරීමේ සහ අඩු කිරීමේ යතුරු දිගටම එබීම"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"මෙම අනුවාදයේ ScreenSpeak පෙරනිමි ප්‍රවේශ්‍යතා ඉංගිතයන් වෙත කළ වෙනස්කම් අඩංගුවේ. මෙම ඉංගිතයන් හා ආශ්‍රිත ක්‍රියා ScreenSpeak සැකසීම් තුළ අභිමතකරණය කළ හැක. ස්පර්ශය මගින් ගවේෂණය කරන්න සබල විට, ඔබට නිශ්චිත ක්‍රියා සිදු කිරීමට පහත ඉංගිතයන් භාවිතා කළ හැක.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"හඬ වැඩි කිරීමේ සහ අඩු කිරීමේ යතුරු දිගටම එබීම"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"තිරය අඳුරු කරන්නද?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"ඔබට තිරය අඳුරු කිරීමට අවශ්‍ය බව සහතිකද?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"TalkBack හි මෙම අනුවාදයේ සුපුරුදු පිවිසීම් ඉංගිතයන් කළ වෙනස්කම් අනතර්ගතය.\n\nතිරයේ පළමු අයිතමය වෙත ඔබට චලනය වීමට ඉහළ-පහළ ඉංගිතය අවසර ලබා දෙන අතර පහළ-ඉහළ ඉංගිතය අවසාන අයිතමය වෙත චලනය වෙයි.\n\nඅයිතමය වෙතට අවධානය ගැනීමෙන් සහ, අභ්‍යන්තර අන්තර්ගත මෙනුවෙන් කොටසක් තේරීමෙන් කියවීම් කොටස වෙනස් කළ හැක.\n\nTalkBack සැකසීම්වල මෙම හැසිරීම් වලින් සිදුවන ක්‍රියාකාරකම් ඔබට වෙනස් කළ හැක."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"ScreenSpeak හි මෙම අනුවාදයේ සුපුරුදු පිවිසීම් ඉංගිතයන් කළ වෙනස්කම් අනතර්ගතය.\n\nතිරයේ පළමු අයිතමය වෙත ඔබට චලනය වීමට ඉහළ-පහළ ඉංගිතය අවසර ලබා දෙන අතර පහළ-ඉහළ ඉංගිතය අවසාන අයිතමය වෙත චලනය වෙයි.\n\nඅයිතමය වෙතට අවධානය ගැනීමෙන් සහ, අභ්‍යන්තර අන්තර්ගත මෙනුවෙන් කොටසක් තේරීමෙන් කියවීම් කොටස වෙනස් කළ හැක.\n\nScreenSpeak සැකසීම්වල මෙම හැසිරීම් වලින් සිදුවන ක්‍රියාකාරකම් ඔබට වෙනස් කළ හැක."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"ඉංගිතයන් පිළිගන්න"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"ඉංගිතයන් අභිමත කරන්න"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"ස්පර්ශය මගින් ගවේෂණය අබල කරන්නද?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"නෝඩු රුක් නිදොස් කිරීම සබල කරන්නද?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"ඔබට විශ්වාසද ඔබට නෝඩු රුක නිදොස් කිරීම සක්‍රිය කිරීමට අවශ්‍යද?\n\nනෝඩු රුක නිදොස් කිරීම ඔබගේ තීරයේ අන්තර්ගත වල සිට ඔබගේ උපංගයේ ලොග් දක්වා අනාවරණය කරයි, එය ඇතැම් විට වෙනත් යෙදුමකින් කියවනු ලැබේ."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"ස්පර්ශය මගින් ගවේෂණය වෙබ් අන්තර්ගතය තුළ ලබාගත නොහැක. වෙබ් අන්තර්ගත ගවේෂණය කිරීමට ප්‍රවේශ්‍යතා සැකසීම් තුළ <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> සක්‍රිය කරන්න."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"TalkBack ගෝලීය සන්දර්භ මෙනුව"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"TalkBack පාලනය කරන්න"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"TalkBack වෙත ඉඟි යැවීමට අවසරය සහ කථන ප්‍රතිපෝෂණය යළි ඇරඹීම"</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"TalkBack අභිමත ලේබල් කළමනාකරණය කරන්න"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"TalkBack විසින් කථනය කරන අභිමත ලේබල වෙත ප්‍රවේශ වීමට, වෙනස් කිරීමට සහ මැකීමට අවසරය."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"ScreenSpeak ගෝලීය සන්දර්භ මෙනුව"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"ScreenSpeak පාලනය කරන්න"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"ScreenSpeak වෙත ඉඟි යැවීමට අවසරය සහ කථන ප්‍රතිපෝෂණය යළි ඇරඹීම"</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"ScreenSpeak අභිමත ලේබල් කළමනාකරණය කරන්න"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"ScreenSpeak විසින් කථනය කරන අභිමත ලේබල වෙත ප්‍රවේශ වීමට, වෙනස් කිරීමට සහ මැකීමට අවසරය."</string>
     <string name="links" msgid="3448225474115458693">"සබැඳි"</string>
     <string name="end_of_text" msgid="3595733062526019550">"අවසානයි"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

@@ -21,7 +21,7 @@ import android.content.SharedPreferences;
 import android.preference.ListPreference;
 import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 
 import android.os.Bundle;
 import android.preference.Preference;

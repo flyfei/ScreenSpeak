@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!--The human-readable name of this service. Do not translate. -->
-    <string name="talkback_title" translatable="false">TalkBack</string>
+    <string name="screenspeak_title" translatable="false">ScreenSpeak</string>
     <!--
-      Source: A brief description of TalkBack.
+      Source: A brief description of ScreenSpeak.
       Description: This is presented to the user on the accessibility settings view. [CHAR LIMIT="NONE"]
     -->
-    <string name="talkback_service_description">When TalkBack is on, your device provides spoken feedback to help blind and low-vision users. For example, it describes what you touch, select, and activate.</string>
+    <string name="screenspeak_service_description">When ScreenSpeak is on, your device provides spoken feedback to help blind and low-vision users. For example, it describes what you touch, select, and activate.</string>
 
-    <string name="talkback_on">TalkBack on</string>
-    <string name="talkback_suspended">TalkBack suspended</string>
-    <string name="talkback_resumed">TalkBack resumed</string>
+    <string name="screenspeak_on">ScreenSpeak on</string>
+    <string name="screenspeak_suspended">ScreenSpeak suspended</string>
+    <string name="screenspeak_resumed">ScreenSpeak resumed</string>
     <!--
-      Source: Title for the activity that manages TalkBack settings.
-      Description: This is presented to the user when managing TalkBack settings. [CHAR LIMIT="NONE"]
+      Source: Title for the activity that manages ScreenSpeak settings.
+      Description: This is presented to the user when managing ScreenSpeak settings. [CHAR LIMIT="NONE"]
     -->
-    <string name="talkback_preferences_title">TalkBack Settings</string>
+    <string name="screenspeak_preferences_title">ScreenSpeak Settings</string>
     <!--
       Source: Title for the activity that manages Text to speech settings.
       Description: This is presented to the user when managing Text to speech settings. [CHAR LIMIT="NONE"]
     -->
     <string name="tts_preferences_title">Text to speech Settings</string>
     <!-- Subtitle for settings activity. Argument is version name. [CHAR_LIMIT="NONE"]-->
-    <string name="talkback_preferences_subtitle">Version <xliff:g id="version_name">%1$s</xliff:g></string>
+    <string name="screenspeak_preferences_subtitle">Version <xliff:g id="version_name">%1$s</xliff:g></string>
     <!--
-      Source: Title for the summary activity that manages TalkBack custom labels.
-      Description: This is presented to the user when viewing a summary of TalkBack custom labels. [CHAR LIMIT="NONE"]
+      Source: Title for the summary activity that manages ScreenSpeak custom labels.
+      Description: This is presented to the user when viewing a summary of ScreenSpeak custom labels. [CHAR LIMIT="NONE"]
     -->
     <string name="label_manager_summary_title">Manage Custom Labels</string>
     <!--
-      Source: Title for the activity that manages TalkBack custom labels for a specific package.
-      Description: This is presented to the user when managing TalkBack custom labels for a package. [CHAR LIMIT="NONE"]
+      Source: Title for the activity that manages ScreenSpeak custom labels for a specific package.
+      Description: This is presented to the user when managing ScreenSpeak custom labels for a package. [CHAR LIMIT="NONE"]
     -->
     <string name="label_manager_package_title">Manage Labels for <xliff:g id="applicationLabel" example="Gmail">%1$s</xliff:g></string>
     <!-- A message on the label manager package summary screen when there are no packages with labels. -->
@@ -344,7 +344,7 @@
       Description: Contains preferences for customizing when to speak. [CHAR LIMIT=25]
     -->
     <string name="title_pref_category_when_to_speak">Speech</string>
-    <!-- Title for preference that controls the volume of TalkBack's speech output. [CHAR LIMIT=25] -->
+    <!-- Title for preference that controls the volume of ScreenSpeak's speech output. [CHAR LIMIT=25] -->
     <string name="title_pref_speech_volume">Speech volume</string>
     <!--
       Source: Preference for customizing how to speak when the screen is off.
@@ -419,7 +419,7 @@
     -->
     <string name="title_pref_explore_by_touch">Explore by touch</string>
     <!--
-      Source: Preference for the auto scroll lists setting.  This setting lets TalkBack scroll lists for the user as they navigate through a list item-by-item.
+      Source: Preference for the auto scroll lists setting.  This setting lets ScreenSpeak scroll lists for the user as they navigate through a list item-by-item.
       Description: The user can check or not check this. [CHAR LIMIT=40]
     -->
     <string name="title_pref_auto_scroll">Automatically scroll lists</string>
@@ -429,22 +429,22 @@
     <string name="title_pref_single_tap">Single-tap selection</string>
     <!-- Preference for show context menu as list  selection. -->
     <string name="title_pref_show_context_menu_as_list">Show Context Menu as list</string>
-    <!-- Preference for dim screen when TalkBack is enabled. -->
-    <string name="title_dim_screen_when_talkback_enabled">Dim screen when TalkBack is enabled</string>
+    <!-- Preference for dim screen when ScreenSpeak is enabled. -->
+    <string name="title_dim_screen_when_screenspeak_enabled">Dim screen when ScreenSpeak is enabled</string>
     <!-- Summary sub-text for single-tap selection. When enabled, the user can place accessibility focus on an item and select it using a single tap, rather than the default double-tap. -->
     <string name="summary_pref_single_tap">(Experimental) Tap on currently focused item to select</string>
     <!-- Preference for shake to read.  When enabled, the user may shake the phone to initiate continuous reading from the current point. -->
     <string name="title_pref_shake_to_read_threshold">Shake to start continuous reading</string>
-    <!-- Label for the PreferenceScreen used to manage TalkBack's gesture mapping. [CHAR LIMIT=40] -->
+    <!-- Label for the PreferenceScreen used to manage ScreenSpeak's gesture mapping. [CHAR LIMIT=40] -->
     <string name="title_pref_category_manage_gestures">Manage gestures</string>
-    <!-- Label for the button to launch an activity for managing TalkBack's custom view labels. [CHAR LIMIT=40] -->
+    <!-- Label for the button to launch an activity for managing ScreenSpeak's custom view labels. [CHAR LIMIT=40] -->
     <string name="title_pref_manage_labels">Manage custom labels</string>
-    <!-- Label for the button to launch an activity for managing TalkBack's custom view labels. [CHAR LIMIT=40] -->
+    <!-- Label for the button to launch an activity for managing ScreenSpeak's custom view labels. [CHAR LIMIT=40] -->
     <string name="title_pref_manage_keyboard_shortcuts">Manage keyboard shortcuts</string>
     <!-- Label for the button to open the Play Store page. -->
-    <string name="title_pref_play_store">Open TalkBack at the Play Store</string>
+    <string name="title_pref_play_store">Open ScreenSpeak at the Play Store</string>
     <!-- Summary sub-text for the button to open the Play Store page. Argument is version number. -->
-    <string name="summary_pref_play_store">Current TalkBack Version: <xliff:g id="version_number">%1$s</xliff:g></string>
+    <string name="summary_pref_play_store">Current ScreenSpeak Version: <xliff:g id="version_number">%1$s</xliff:g></string>
     <!-- Label for the button to show terms of service [CHAR LIMIT=40] -->
     <string name="title_pref_show_tos">Terms of Service</string>
     <!-- Label for the button to show privacy policy [CHAR LIMIT=40] -->
@@ -479,8 +479,8 @@
     <string name="keycombo_menu_global_recent">Recent apps</string>
     <!-- Keyboard key combination assignment for Show Notifications action [CHAR LIMIT=40] -->
     <string name="keycombo_menu_global_notifications">Notifications</string>
-    <!-- Keyboard key combination assignment for Pause TalkBack action [CHAR LIMIT=40] -->
-    <string name="keycombo_menu_global_suspend">Pause TalkBack</string>
+    <!-- Keyboard key combination assignment for Pause ScreenSpeak action [CHAR LIMIT=40] -->
+    <string name="keycombo_menu_global_suspend">Pause ScreenSpeak</string>
     <!-- Navigation settings actions group name title [CHAR LIMIT=40] -->
     <string name="keycombo_menu_category_granularity">Navigation settings</string>
     <!-- Keyboard key combination assignment for next navigation action [CHAR LIMIT=40] -->
@@ -548,12 +548,12 @@
     -->
     <string name="title_pref_soundback">Sound feedback</string>
     <!--
-      Source: Title for the preference that causes TalkBack to decrease audio volume of other applications during speech output.
+      Source: Title for the preference that causes ScreenSpeak to decrease audio volume of other applications during speech output.
       Description: The user can check or not check this. [CHAR LIMIT=35]
      -->
     <string name="title_pref_use_audio_focus">Focus speech audio</string>
     <!--
-      Source: Description for the preference that causes TalkBack to decrease audio volume of other applications during speech output.
+      Source: Description for the preference that causes ScreenSpeak to decrease audio volume of other applications during speech output.
       Description: Hint text for this checkable user preference. [CHAR LIMIT=80]
      -->
      <string name="summary_pref_use_audio_focus">Decrease other audio volume while speaking</string>
@@ -563,8 +563,8 @@
     -->
     <string name="title_pref_soundback_volume">Sound volume</string>
 
-    <!-- Source: Preference to enable Talkback suspend/resume shortcut -->
-    <string name="title_pref_two_volume_button_long_click">Talkback suspend and resume shortcut</string>
+    <!-- Source: Preference to enable Screenspeak suspend/resume shortcut -->
+    <string name="title_pref_two_volume_button_long_click">Screenspeak suspend and resume shortcut</string>
 
     <!--
       Source: Preference category title.
@@ -603,9 +603,9 @@
     <string name="summary_pref_web_scripts">Download accessibility scripts for web content</string>
     <!--
       Source: Preference title.
-      Description: This preference allows the user to specify when TalkBack resumes from a suspended state
+      Description: This preference allows the user to specify when ScreenSpeak resumes from a suspended state
     -->
-    <string name="title_pref_resume_talkback">Resume from suspend</string>
+    <string name="title_pref_resume_screenspeak">Resume from suspend</string>
 
     <!--
       Source: A value for announcing screen has been dimmed.
@@ -621,9 +621,9 @@
     <!--
       Text that is temporary displayed on the screen when user chose screen dimming option.
     -->
-    <string name="screen_dimming_exit_instruction_line1">TalkBack accessibility service has dimmed the screen.</string>
+    <string name="screen_dimming_exit_instruction_line1">ScreenSpeak accessibility service has dimmed the screen.</string>
     <string name="screen_dimming_exit_instruction_line2">Undo by pressing Volume Up and Volume Down keys together three times quickly.</string>
-    <string name="screen_dimming_exit_instruction_line3">Screen dim can be controlled from TalkBack Settings.</string>
+    <string name="screen_dimming_exit_instruction_line3">Screen dim can be controlled from ScreenSpeak Settings.</string>
 
     <!-- AXIS  -->
     <!--
@@ -713,14 +713,14 @@
     <!-- Label for the shortcut that opens the notifications shade. [CHAR_LIMIT=40] -->
     <string name="shortcut_notifications">Open notifications</string>
     <!-- Label for the shortcut that opens the global context breakout menu [CHAR_LIMIT=50] -->
-    <string name="shortcut_talkback_breakout">Open global context menu</string>
+    <string name="shortcut_screenspeak_breakout">Open global context menu</string>
     <!-- Label for the shortcut that opens the local context breakout menu [CHAR_LIMIT=50] -->
     <string name="shortcut_local_breakout">Open local context menu</string>
-    <!-- Label for the shortcut that repeats aloud the last thing that TalkBack spoke as a result of user action. [CHAR_LIMIT=50] -->
+    <!-- Label for the shortcut that repeats aloud the last thing that ScreenSpeak spoke as a result of user action. [CHAR_LIMIT=50] -->
     <string name="shortcut_repeat_last_utterance">Repeat last utterance</string>
-    <!-- Label for the shortcut that spells aloud the last thing that TalkBack spoke aloud. [CHAR_LIMIT=50] -->
+    <!-- Label for the shortcut that spells aloud the last thing that ScreenSpeak spoke aloud. [CHAR_LIMIT=50] -->
     <string name="shortcut_spell_last_utterance">Spell last utterance</string>
-    <!-- Label for the shortcut that pauses all feedback from TalkBack. [CHAR_LIMIT=40] -->
+    <!-- Label for the shortcut that pauses all feedback from ScreenSpeak. [CHAR_LIMIT=40] -->
     <string name="shortcut_pause_feedback">Pause feedback</string>
     <!-- Label for menu item that reads all on-screen content, starting from the top of the screen. [CHAR_LIMIT=40] -->
     <string name="shortcut_read_from_top">Read from top</string>
@@ -739,7 +739,7 @@
 
     <!-- Title for dialog with actions related to currently focused item -->
     <string name="local_context_menu_title">Local Context Menu</string>
-    <!-- Title for dialog with general TalkBack actions -->
+    <!-- Title for dialog with general ScreenSpeak actions -->
     <string name="global_context_menu_title">Global Context Menu</string>
 
     <!-- Label for the local breakout menu when it contains no other items. -->
@@ -875,11 +875,11 @@
     <!-- Label for preference specifying a volume that's 25% of the system media volume. -->
     <string name="value_volume_25_percent" formatted="false">25% of media volume</string>
 
-    <!-- Label for preference specifying that TalkBack resumes from a suspended state when the screen turns on. -->
+    <!-- Label for preference specifying that ScreenSpeak resumes from a suspended state when the screen turns on. -->
     <string name="value_resume_screen_on">When screen turns on</string>
-    <!-- Label for preference specifying that TalkBack resumes from a suspended state when the lock screen is shown. -->
+    <!-- Label for preference specifying that ScreenSpeak resumes from a suspended state when the lock screen is shown. -->
     <string name="value_resume_keyguard">When lock screen is shown</string>
-    <!-- Label for preference specifying that TalkBack resumes from a suspended state only when the user manually turns it back on. -->
+    <!-- Label for preference specifying that ScreenSpeak resumes from a suspended state only when the user manually turns it back on. -->
     <string name="value_resume_manual">From notification only</string>
 
     <!-- Label for the preference specifying that the shake to read feature is disabled. -->
@@ -895,41 +895,41 @@
     <!-- Label for the preference specifying a very large amount of shake force is required to initiate the shake to read feature. -->
     <string name="value_shake_to_read_threshold_very_hard">Very hard</string>
 
-    <!-- Label for preference specifying that TalkBack should always speak keys that the user types. -->
+    <!-- Label for preference specifying that ScreenSpeak should always speak keys that the user types. -->
     <string name="value_keyboard_echo_always">Always speak typed keys</string>
-    <!-- Label for preference specifying that TalkBack should only speak keys that the user types with an on-screen (e.g. not physical) keyboard. -->
+    <!-- Label for preference specifying that ScreenSpeak should only speak keys that the user types with an on-screen (e.g. not physical) keyboard. -->
     <string name="value_keyboard_echo_softkeys">Only for on-screen keyboard</string>
-    <!-- Label for preference specifying that TalkBack should never speak keys that the user types. -->
+    <!-- Label for preference specifying that ScreenSpeak should never speak keys that the user types. -->
     <string name="value_keyboard_echo_never">Never speak typed keys</string>
 
     <!--
-      Source: Title of a notification that TalkBack's gestures have been changed.
+      Source: Title of a notification that ScreenSpeak's gestures have been changed.
       Description: Displays a more detailed notification with information about gesture changes [CHAR_LIMIT=30]
     -->
-    <string name="notification_title_talkback_gestures_changed">TalkBack gestures changed</string>
+    <string name="notification_title_screenspeak_gestures_changed">ScreenSpeak gestures changed</string>
 
     <!--
-      Source: Description of a notification that TalkBack's gestures have been changed.
+      Source: Description of a notification that ScreenSpeak's gestures have been changed.
       Description: Displays a more detailed notification with information about gesture changes [CHAR_LIMIT=70]
     -->
-    <string name="notification_message_talkback_gestures_changed">Tap to review changes to accessibility gestures</string>
+    <string name="notification_message_screenspeak_gestures_changed">Tap to review changes to accessibility gestures</string>
 
 
-    <!-- Title of the notification displayed when TalkBack has been temporarily paused. -->
-    <string name="notification_title_talkback_suspended">TalkBack is suspended</string>
-    <!-- Message of the notification displayed when TalkBack has been temporarily paused. The user can tap the notification to resume TalkBack. -->
-    <string name="notification_message_talkback_suspended">Tap to resume.</string>
+    <!-- Title of the notification displayed when ScreenSpeak has been temporarily paused. -->
+    <string name="notification_title_screenspeak_suspended">ScreenSpeak is suspended</string>
+    <!-- Message of the notification displayed when ScreenSpeak has been temporarily paused. The user can tap the notification to resume ScreenSpeak. -->
+    <string name="notification_message_screenspeak_suspended">Tap to resume.</string>
 
-    <!-- Title for the alert shown when a user attempts to suspend TalkBack. -->
-    <string name="dialog_title_suspend_talkback">Suspend TalkBack?</string>
-    <!-- Message for the alert shown when a user attempts to suspend TalkBack. -->
-    <string name="dialog_message_suspend_talkback">Are you sure? Your device will not provide feedback and Explore by Touch will be disabled. You can resume TalkBack from notifications, by returning to the lockscreen, or through the volume key shortcut.</string>
-    <!-- Instructions for resuming TalkBack from suspend in "manual" resume mode, where the user can only resume from the notifications shade. -->
-    <string name="message_resume_manual">You can resume TalkBack from the notifications shade.</string>
-    <!-- Instructions for resuming TalkBack from suspend in "screen on" resume mode, where the user can also resume by turning the screen on. -->
-    <string name="message_resume_screen_on">You can resume TalkBack from the notifications shade or by turning the screen on.</string>
-    <!-- Instructions for resuming TalkBack from suspend in "keyguard" resume mode, where the user can also resume by showing the lock screen. -->
-    <string name="message_resume_keyguard">You can resume TalkBack from the notifications shade or by returning to the lock screen.</string>
+    <!-- Title for the alert shown when a user attempts to suspend ScreenSpeak. -->
+    <string name="dialog_title_suspend_screenspeak">Suspend ScreenSpeak?</string>
+    <!-- Message for the alert shown when a user attempts to suspend ScreenSpeak. -->
+    <string name="dialog_message_suspend_screenspeak">Are you sure? Your device will not provide feedback and Explore by Touch will be disabled. You can resume ScreenSpeak from notifications, by returning to the lockscreen, or through the volume key shortcut.</string>
+    <!-- Instructions for resuming ScreenSpeak from suspend in "manual" resume mode, where the user can only resume from the notifications shade. -->
+    <string name="message_resume_manual">You can resume ScreenSpeak from the notifications shade.</string>
+    <!-- Instructions for resuming ScreenSpeak from suspend in "screen on" resume mode, where the user can also resume by turning the screen on. -->
+    <string name="message_resume_screen_on">You can resume ScreenSpeak from the notifications shade or by turning the screen on.</string>
+    <!-- Instructions for resuming ScreenSpeak from suspend in "keyguard" resume mode, where the user can also resume by showing the lock screen. -->
+    <string name="message_resume_keyguard">You can resume ScreenSpeak from the notifications shade or by returning to the lock screen.</string>
     <!-- Checkbox label for the preference in the suspend dialog that keeps the warning shown for future suspensions. -->
     <string name="show_suspend_warning_label">Always show this warning</string>
 
@@ -951,13 +951,13 @@
     <string name="label_dialog_edit_hint">Label text</string>
 
     <!--
-      Source: Description of a notification that TalkBack's gestures have been changed.
+      Source: Description of a notification that ScreenSpeak's gestures have been changed.
       Description: Displays a more detailed notification with information about gesture changes [CHAR LIMIT=NONE]
      -->
-    <string name="talkback_gesture_change_details">This version of TalkBack includes changes to the default accessibility gestures.  The actions associated with these gestures can be customized within TalkBack settings.  When Explore by touch is enabled, you can use the following gestures to perform certain actions.\n\n<xliff:g id="mappings">%1$s</xliff:g></string>
+    <string name="screenspeak_gesture_change_details">This version of ScreenSpeak includes changes to the default accessibility gestures.  The actions associated with these gestures can be customized within ScreenSpeak settings.  When Explore by touch is enabled, you can use the following gestures to perform certain actions.\n\n<xliff:g id="mappings">%1$s</xliff:g></string>
 
     <!-- Label for preference specifying Suspend/Resume action is assigned for long press 2 volume buttons. -->
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false">Long press volume up and down keys</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false">Long press volume up and down keys</string>
 
     <!-- Title for the alert shown when a user attempts to set option that dims the screen. -->
     <string name="dialog_title_dim_screen">Dim the screen?</string>
@@ -966,10 +966,10 @@
 
 
     <!--
-      Source: Description of a notification that some of TalkBack's built-in gestures have been changed.
+      Source: Description of a notification that some of ScreenSpeak's built-in gestures have been changed.
       Description: Displays a more detailed notification with information about gesture changes [CHAR LIMIT=NONE]
      -->
-    <string name="talkback_built_in_gesture_change_details">This version of TalkBack includes changes to the default accessibility gestures.\n\nThe up-then-down gesture will allow you to move to the first item on the screen, and the down-then-up gesture will move to the last item.\n\nThe reading granularity can now be changed by focusing an item, then selecting a granularity from the local context menu.\n\nYou can change the actions performed by these gestures in TalkBack Settings.</string>
+    <string name="screenspeak_built_in_gesture_change_details">This version of ScreenSpeak includes changes to the default accessibility gestures.\n\nThe up-then-down gesture will allow you to move to the first item on the screen, and the down-then-up gesture will move to the last item.\n\nThe reading granularity can now be changed by focusing an item, then selecting a granularity from the local context menu.\n\nYou can change the actions performed by these gestures in ScreenSpeak Settings.</string>
 
     <!-- Label for the gesture change notificaiton dialog button to accept the suggested gesture mapping -->
     <string name="button_accept_changed_gesture_mappings">Accept gestures</string>
@@ -990,20 +990,20 @@
     <!-- Hint text spoken when a user attempts to interact with web content but the enhanced web accessibility setting is disabled. -->
     <string name="hint_script_injection">Explore by touch is not available in web content. Turn on <xliff:g id="preference_name" example="Enhance web accessibility">%1$s</xliff:g> in Accessibility settings to explore web content.</string>
 
-    <!-- Label for shortcut action that opens the TalkBack global context menu. -->
-    <string name="label_talkback_context_menu">TalkBack global context menu</string>
+    <!-- Label for shortcut action that opens the ScreenSpeak global context menu. -->
+    <string name="label_screenspeak_context_menu">ScreenSpeak global context menu</string>
 
-    <!-- Label for the permission that allows an application to control TalkBack. -->
-    <string name="permission_talkback_label">Control TalkBack</string>
+    <!-- Label for the permission that allows an application to control ScreenSpeak. -->
+    <string name="permission_screenspeak_label">Control ScreenSpeak</string>
 
-    <!-- Description for the permission that allows an application to control TalkBack. -->
-    <string name="permission_talkback_desc">Permission to send gestures to TalkBack and resume spoken feedback.</string>
+    <!-- Description for the permission that allows an application to control ScreenSpeak. -->
+    <string name="permission_screenspeak_desc">Permission to send gestures to ScreenSpeak and resume spoken feedback.</string>
 
-    <!-- Label for the permission that allows an application to store and retrieve custom view labels used in TalkBack. -->
-    <string name="permission_labeling_label">Manage TalkBack custom labels</string>
+    <!-- Label for the permission that allows an application to store and retrieve custom view labels used in ScreenSpeak. -->
+    <string name="permission_labeling_label">Manage ScreenSpeak custom labels</string>
 
-    <!-- Description for the permission that allows an application to store and retrieve custom view labels used in TalkBack. [CHAR LIMIT=150] -->
-    <string name="permission_labeling_desc">Permission to access, modify, and delete custom labels spoken by TalkBack.</string>
+    <!-- Description for the permission that allows an application to store and retrieve custom view labels used in ScreenSpeak. [CHAR LIMIT=150] -->
+    <string name="permission_labeling_desc">Permission to access, modify, and delete custom labels spoken by ScreenSpeak.</string>
 
     <!-- Label for the sub-menu that contains URLs and email addresses extracted from the currently focused text. -->
     <string name="links">Links</string>
@@ -1018,7 +1018,7 @@
     <string name="row_index_template">Row <xliff:g id="row" example="1">%1$d</xliff:g></string>
     <!-- Spoken out to indicate the column index of a cell -->
     <string name="column_index_template">Column <xliff:g id="col" example="1">%1$d</xliff:g></string>
-    <!-- Attached to the text spoken out by TalkBack if the item is a heading -->
+    <!-- Attached to the text spoken out by ScreenSpeak if the item is a heading -->
     <string name="heading_template">Heading</string>
     <!-- Spoken out to indicate the index of a list item -->
     <string name="item_index_template">Item <xliff:g id="item" example="1">%1$d</xliff:g></string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.android.talkback"
+    package="com.android.screenspeak"
     android:installLocation="internalOnly"
     android:sharedUserId="com.google.android.marvin.feedback"
     android:versionCode="40301002">
@@ -9,14 +9,14 @@
     <!-- Permission used to restrict sending gestures and resuming feedback. -->
     <permission
         android:name="com.google.android.marvin.feedback.permission.TALKBACK"
-        android:description="@string/permission_talkback_desc"
+        android:description="@string/permission_screenspeak_desc"
         android:icon="@drawable/icon"
-        android:label="@string/permission_talkback_label"
+        android:label="@string/permission_screenspeak_label"
         android:protectionLevel="signature" />
 
     <!-- Permission used to restrict storing and retrieving custom view labels. -->
     <permission
-        android:name="com.google.android.marvin.talkback.permission.LABELING"
+        android:name="com.google.android.marvin.screenspeak.permission.LABELING"
         android:description="@string/permission_labeling_desc"
         android:icon="@drawable/icon"
         android:label="@string/permission_labeling_label"
@@ -38,7 +38,7 @@
     <uses-permission android:name="com.google.android.marvin.feedback.permission.TALKBACK" />
 
     <!-- Required for labeling. -->
-    <uses-permission android:name="com.google.android.marvin.talkback.permission.LABELING" />
+    <uses-permission android:name="com.google.android.marvin.screenspeak.permission.LABELING" />
 
     <!-- Required for managing audio levels on GB. -->
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
@@ -59,7 +59,7 @@
 
     <application
         android:icon="@drawable/icon"
-        android:label="@string/talkback_title"
+        android:label="@string/screenspeak_title"
         android:supportsRtl="true">
 
         <receiver android:name=".BootReceiver">
@@ -75,11 +75,11 @@
                 android:launchMode="singleTop" >
         </activity>
 
-        <!-- TalkBack -->
+        <!-- ScreenSpeak -->
         <service
-            android:name="com.google.android.marvin.talkback.TalkBackService"
+            android:name="com.google.android.marvin.screenspeak.ScreenSpeakService"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
-            android:settingsActivity="com.android.talkback.TalkBackPreferencesActivity" >
+            android:settingsActivity="com.android.screenspeak.ScreenSpeakPreferencesActivity" >
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
 
@@ -93,13 +93,13 @@
                 android:resource="@xml/accessibilityservice" />
         </service>
 
-        <!-- TalkBack Preferences -->
+        <!-- ScreenSpeak Preferences -->
         <activity
-            android:name=".TalkBackPreferencesActivity"
-            android:label="@string/talkback_preferences_title"
+            android:name=".ScreenSpeakPreferencesActivity"
+            android:label="@string/screenspeak_preferences_title"
             android:launchMode="singleTop"
-            android:taskAffinity="com.android.talkback.SettingsAffinity"
-            android:theme="@style/TalkBackSettings"
+            android:taskAffinity="com.android.screenspeak.SettingsAffinity"
+            android:theme="@style/ScreenSpeakSettings"
             tools:ignore="ExportedActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -108,26 +108,26 @@
             </intent-filter>
         </activity>
 
-        <!-- TalkBack Gesture Shortcut Preferences -->
+        <!-- ScreenSpeak Gesture Shortcut Preferences -->
         <activity
-            android:name=".TalkBackShortcutPreferencesActivity"
-            android:label="@string/talkback_preferences_title"
+            android:name=".ScreenSpeakShortcutPreferencesActivity"
+            android:label="@string/screenspeak_preferences_title"
             android:launchMode="singleTop"
-            android:taskAffinity="com.android.talkback.SettingsAffinity"
-            android:theme="@style/TalkBackSettings"
+            android:taskAffinity="com.android.screenspeak.SettingsAffinity"
+            android:theme="@style/ScreenSpeakSettings"
             tools:ignore="ExportedActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
 
-        <!-- TalkBack Keyboard Shortcut Preferences -->
+        <!-- ScreenSpeak Keyboard Shortcut Preferences -->
         <activity
-            android:name=".TalkBackKeyboardShortcutPreferencesActivity"
-            android:label="@string/talkback_preferences_title"
+            android:name=".ScreenSpeakKeyboardShortcutPreferencesActivity"
+            android:label="@string/screenspeak_preferences_title"
             android:launchMode="singleTop"
-            android:taskAffinity="com.android.talkback.SettingsAffinity"
-            android:theme="@style/TalkBackSettings"
+            android:taskAffinity="com.android.screenspeak.SettingsAffinity"
+            android:theme="@style/ScreenSpeakSettings"
             tools:ignore="ExportedActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -151,12 +151,12 @@
             android:excludeFromRecents="true"
             android:theme="@android:style/Theme.NoDisplay"
             android:launchMode="singleInstance"
-            android:permission="com.google.android.marvin.talkback.permission.LABELING"
+            android:permission="com.google.android.marvin.screenspeak.permission.LABELING"
             tools:ignore="ExportedActivity" >
             <intent-filter>
-                <action android:name="com.google.android.marvin.talkback.labeling.ADD_LABEL" />
-                <action android:name="com.google.android.marvin.talkback.labeling.EDIT_LABEL" />
-                <action android:name="com.google.android.marvin.talkback.labeling.REMOVE_LABEL" />
+                <action android:name="com.google.android.marvin.screenspeak.labeling.ADD_LABEL" />
+                <action android:name="com.google.android.marvin.screenspeak.labeling.EDIT_LABEL" />
+                <action android:name="com.google.android.marvin.screenspeak.labeling.REMOVE_LABEL" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -167,15 +167,15 @@
             android:name=".labeling.LabelManagerSummaryActivity"
             android:label="@string/label_manager_summary_title"
             android:launchMode="singleTop"
-            android:theme="@style/TalkBackSettings"
-            android:taskAffinity="com.android.talkback.SettingsAffinity" />
+            android:theme="@style/ScreenSpeakSettings"
+            android:taskAffinity="com.android.screenspeak.SettingsAffinity" />
 
         <!-- Custom Label Manager - Package Activity -->
         <activity
             android:name=".labeling.LabelManagerPackageActivity"
             android:label="@string/label_manager_package_title"
             android:launchMode="singleTop"
-            android:taskAffinity="com.android.talkback.SettingsAffinity" />
+            android:taskAffinity="com.android.screenspeak.SettingsAffinity" />
 
         <!-- Gesture Change Notification Activity -->
         <activity
@@ -202,7 +202,7 @@
             android:name=".ShortcutProxyActivity"
             android:enabled="false"
             android:excludeFromRecents="true"
-            android:label="@string/label_talkback_context_menu"
+            android:label="@string/label_screenspeak_context_menu"
             android:launchMode="singleTask"
             android:theme="@android:style/Theme.NoDisplay"
             tools:ignore="ExportedActivity" >
@@ -222,8 +222,8 @@
             android:name=".labeling.LabelProvider"
             android:authorities="${applicationId}.providers.LabelProvider"
             android:exported="true"
-            android:readPermission="com.google.android.marvin.talkback.permission.LABELING"
-            android:writePermission="com.google.android.marvin.talkback.permission.LABELING" />
+            android:readPermission="com.google.android.marvin.screenspeak.permission.LABELING"
+            android:writePermission="com.google.android.marvin.screenspeak.permission.LABELING" />
 
         <service
             android:label="@string/switch_service_name"
@@ -244,7 +244,7 @@
         <activity
             android:name="com.android.switchaccess.SwitchAccessPreferenceActivity"
             android:label="@string/switch_access_preferences_title"
-            android:theme="@style/TalkBackSettings"
+            android:theme="@style/ScreenSpeakSettings"
             android:enabled="@bool/atLeastL" >
         </activity>
 

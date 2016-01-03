@@ -16,6 +16,6 @@
 -->
 
 <resources>
-    <style name="TalkBackSettings" parent="@android:style/Theme.Holo" />
+    <style name="ScreenSpeakSettings" parent="@android:style/Theme.Holo" />
     <style name="DialogStyle" parent="@android:style/Theme.Holo.Dialog" />
 </resources>

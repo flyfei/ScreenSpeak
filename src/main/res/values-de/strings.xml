@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"Wenn TalkBack aktiviert ist, gibt das Gerät blinden Nutzern und Nutzern mit geringem Sehvermögen gesprochenes Feedback. So werden etwa die Elemente beschrieben, die Sie berühren, auswählen und aktivieren."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack aktiviert"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"TalkBack-Einstellungen"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"Wenn ScreenSpeak aktiviert ist, gibt das Gerät blinden Nutzern und Nutzern mit geringem Sehvermögen gesprochenes Feedback. So werden etwa die Elemente beschrieben, die Sie berühren, auswählen und aktivieren."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak aktiviert"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"ScreenSpeak-Einstellungen"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Text-in-Sprache-Einstellungen"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Version <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Version <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Benutzerdefinierte Labels verwalten"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"Labels für <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g> verwalten"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Zurzeit sind keine benutzerdefinierten Labels vorhanden. Sie können eines erstellen, indem Sie zu einem Bild ohne Label navigieren und über das lokale Kontextmenü ein Label hinzufügen."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Tippen &amp; Entdecken"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Auswahl durch einmaliges Tippen"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Kontextmenü als Liste anzeigen"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"Beim Aktivieren von TalkBack Display dimmen"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"Beim Aktivieren von ScreenSpeak Display dimmen"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Experimentell) Zum Auswählen auf das Element tippen, auf dem momentan der Fokus liegt"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Für kontinuierliches Lesen schütteln"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Bewegungen verwalten"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Benutzerdefinierte Labels verwalten"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Tastaturkürzel verwalten"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"TalkBack im Play Store öffnen"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Aktuelle TalkBack-Version: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"ScreenSpeak im Play Store öffnen"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Aktuelle ScreenSpeak-Version: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Nutzungsbedingungen"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Datenschutzerklärung"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Bewegungskürzel"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Startseite"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Zuletzt aktive Apps"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Benachrichtigungen"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"TalkBack pausieren"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"ScreenSpeak pausieren"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Navigationseinstellungen"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Nächste Navigationseinstellung"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Vorherige Navigationseinstellung"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Fokus auf Sprachaudio"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Andere Audioquellen während der Spracheingabe leiser stellen"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Tonlautstärke"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Talkback sperren und über Tastenkombination erneut starten"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Screenspeak sperren und über Tastenkombination erneut starten"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Sonstiges"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Entwicklereinstellungen"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Ebene für Protokollausgabe"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Knotenstruktur-Debugging aktivieren"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Web-Bedienung verbessern"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Skripts für Bedienungshilfen für Webinhalte herunterladen"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Aus Sperre erneut starten"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Aus Sperre erneut starten"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Display gedimmt"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Displayhelligkeit wiederhergestellt"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Die TalkBack-Bedienungshilfe hat das Display gedimmt."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Die ScreenSpeak-Bedienungshilfe hat das Display gedimmt."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Sie können dies rückgängig machen, indem Sie die Lautstärketasten \"Lauter\" und \"Leiser\" dreimal schnell hintereinander gleichzeitig drücken."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Der Displaydimmer kann über die TalkBack-Einstellungen gesteuert werden."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Der Displaydimmer kann über die ScreenSpeak-Einstellungen gesteuert werden."</string>
     <string name="axis_character" msgid="8528412412593489695">"Von einem Zeichen zum nächsten navigieren"</string>
     <string name="axis_word" msgid="8823389407337076750">"Von einem Wort zum nächsten navigieren"</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Von einem Satz zum nächsten navigieren"</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Schaltfläche \"Startbildschirm\""</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Schaltfläche \"Übersicht\""</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Benachrichtigungen öffnen"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Globales Kontextmenü öffnen"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Globales Kontextmenü öffnen"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Lokales Kontextmenü öffnen"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Letzte Äußerung wiederholen"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Letzte Äußerung buchstabieren"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Angeschlagene Tasten immer sprechen"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Nur für Bildschirmtastatur"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Angeschlagene Tasten nie sprechen"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBack-Bewegungen geändert"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Berühren, um geänderte Bewegungen für Bedienungshilfen zu überprüfen"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack ist gesperrt"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Zum Fortfahren tippen"</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"TalkBack sperren?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Möchten Sie TalkBack wirklich sperren? Ihr Gerät gibt dann kein Feedback und \"Tippen &amp; Entdecken\" ist deaktiviert. Sie können TalkBack in der Benachrichtigungsleiste oder über die Lautstärketasten erneut starten oder indem Sie zum Sperrbildschirm zurückkehren."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"Sie können TalkBack über die Benachrichtigungsleiste erneut starten."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"Sie können TalkBack über die Benachrichtigungsleiste oder durch Aktivieren des Bildschirms erneut starten."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"Sie können TalkBack über die Benachrichtigungsleiste oder den Sperrbildschirm erneut starten."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeak-Bewegungen geändert"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Berühren, um geänderte Bewegungen für Bedienungshilfen zu überprüfen"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak ist gesperrt"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Zum Fortfahren tippen"</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"ScreenSpeak sperren?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Möchten Sie ScreenSpeak wirklich sperren? Ihr Gerät gibt dann kein Feedback und \"Tippen &amp; Entdecken\" ist deaktiviert. Sie können ScreenSpeak in der Benachrichtigungsleiste oder über die Lautstärketasten erneut starten oder indem Sie zum Sperrbildschirm zurückkehren."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"Sie können ScreenSpeak über die Benachrichtigungsleiste erneut starten."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"Sie können ScreenSpeak über die Benachrichtigungsleiste oder durch Aktivieren des Bildschirms erneut starten."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"Sie können ScreenSpeak über die Benachrichtigungsleiste oder den Sperrbildschirm erneut starten."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Diese Warnung immer anzeigen"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"Dieses Element kann nicht benannt werden."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Label hinzufügen"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Möchten Sie das Label \"<xliff:g id="LABEL">%1$s</xliff:g>\" wirklich entfernen?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Möchten Sie das Label \"<xliff:g id="LABEL">%1$s</xliff:g>\" in <xliff:g id="APP_NAME">%2$s</xliff:g> wirklich entfernen?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Labeltext"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"Diese Version von TalkBack enthält Änderungen an den Standardbewegungen der Bedienungshilfen. Die Aktionen, die diesen Bewegungen zugewiesen sind, können in den TalkBack-Einstellungen angepasst werden. Wenn \"Tippen &amp; Entdecken\" aktiviert ist, können Sie die folgenden Bewegungen einsetzen, um bestimmte Aktionen auszuführen.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Lautstärketasten \"Lauter\" und \"Leiser\" lange drücken"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"Diese Version von ScreenSpeak enthält Änderungen an den Standardbewegungen der Bedienungshilfen. Die Aktionen, die diesen Bewegungen zugewiesen sind, können in den ScreenSpeak-Einstellungen angepasst werden. Wenn \"Tippen &amp; Entdecken\" aktiviert ist, können Sie die folgenden Bewegungen einsetzen, um bestimmte Aktionen auszuführen.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Lautstärketasten \"Lauter\" und \"Leiser\" lange drücken"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Display dimmen?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Möchten Sie das Display wirklich dimmen?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"Diese Version von TalkBack beinhaltet Änderungen an den Standardbewegungen der Bedienungshilfen.\n\nMithilfe der Bewegung \"nach oben, dann nach unten\" gelangen Sie zum ersten Element auf dem Bildschirm, mit der Bewegung \"nach unten, nach oben\" zum letzten Element.\n\nDie Leseeinheit können Sie jetzt ändern, indem Sie den Fokus auf ein Element setzen und anschließend die Einheit aus dem entsprechenden Kontextmenü auswählen.\n\nSie können die Aktionen zu diesen Bewegungen in den TalkBack-Einstellungen ändern."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"Diese Version von ScreenSpeak beinhaltet Änderungen an den Standardbewegungen der Bedienungshilfen.\n\nMithilfe der Bewegung \"nach oben, dann nach unten\" gelangen Sie zum ersten Element auf dem Bildschirm, mit der Bewegung \"nach unten, nach oben\" zum letzten Element.\n\nDie Leseeinheit können Sie jetzt ändern, indem Sie den Fokus auf ein Element setzen und anschließend die Einheit aus dem entsprechenden Kontextmenü auswählen.\n\nSie können die Aktionen zu diesen Bewegungen in den ScreenSpeak-Einstellungen ändern."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Bewegungen übernehmen"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Bewegungen anpassen"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"\"Tippen &amp; Entdecken\" deaktivieren?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Knotenstruktur-Debugging aktivieren?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Soll das Knotenstruktur-Debugging wirklich aktiviert werden?\n\nDadurch werden Ihre Bildschirminhalte in den Geräteprotokollen gespeichert, die möglicherweise von anderen Apps eingesehen werden."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"\"Tippen &amp; Entdecken\" ist für Webinhalte nicht verfügbar. Aktivieren Sie \"<xliff:g id="PREFERENCE_NAME">%1$s</xliff:g>\" in den Einstellungen für Bedienungshilfen, um Webinhalte zu erkunden."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"Globales Kontextmenü für TalkBack"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"TalkBack steuern"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Berechtigung zum Senden von Bewegungen an TalkBack und Fortsetzen des gesprochenen Feedbacks"</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"Benutzerdefinierte TalkBack-Labels verwalten"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"Berechtigung zum Abrufen, Ändern und Löschen von benutzerdefinierten Labels, die von TalkBack gesprochen werden"</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"Globales Kontextmenü für ScreenSpeak"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"ScreenSpeak steuern"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Berechtigung zum Senden von Bewegungen an ScreenSpeak und Fortsetzen des gesprochenen Feedbacks"</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"Benutzerdefinierte ScreenSpeak-Labels verwalten"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"Berechtigung zum Abrufen, Ändern und Löschen von benutzerdefinierten Labels, die von ScreenSpeak gesprochen werden"</string>
     <string name="links" msgid="3448225474115458693">"Links"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Ende"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

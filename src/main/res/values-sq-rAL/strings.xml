@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"Kur TalkBack-u aktivizohet, pajisja jote ofron komanda të folura për të ndihmuar përdoruesit e verbër dhe me shikim të dobët. Për shembull, ky funksion përshkruan se çfarë prek, zgjedh ose aktivizon përdoruesi."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack është aktiv"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"Cilësimet e TalkBack-ut"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"Kur ScreenSpeak-u aktivizohet, pajisja jote ofron komanda të folura për të ndihmuar përdoruesit e verbër dhe me shikim të dobët. Për shembull, ky funksion përshkruan se çfarë prek, zgjedh ose aktivizon përdoruesi."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak është aktiv"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"Cilësimet e ScreenSpeak-ut"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Cilësimet e tekstit në ligjërim"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Versioni <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Versioni <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Etiketat e personalizuara"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"Menaxho etiketat për <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Aktualisht, nuk ka etiketa të personalizuara. Mund ta krijosh një etiketë duke u orientuar te një imazh pa etiketë dhe më pas të shtosh një etiketë nga \"Menyja kontekstuale lokale\"."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Eksplorimi me prekje"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Zgjedhja e trokitjes një herë"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Shfaq Menynë kontekstuale si listë"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"Zbehe ekranin kur aktivizohet TalkBack-u"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"Zbehe ekranin kur aktivizohet ScreenSpeak-u"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Eksperimentale) Trokit në artikullin e fokusuar për të pëzgjedhur"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Tundja për të aktivizuar leximin të vazhdojë"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Menaxho gjestet"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Menaxho etiketat e personalizuara"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Shkurtoret e tastierës"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Hape TalkBack-un te Dyqani \"Luaj\""</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Versioni aktual i TalkBack-ut: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Hape ScreenSpeak-un te Dyqani \"Luaj\""</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Versioni aktual i ScreenSpeak-ut: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Kushtet e shërbimit"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Politika e privatësisë"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Cakto shkurtoret e gjesteve"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Kreu"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Aplikacionet e fundit"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Njoftimet"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Vendos TalkBack-un në pauzë"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Vendos ScreenSpeak-un në pauzë"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Cilësimet e lundrimit"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Cilësimi i lundrimit të radhës"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Cilësimi i lundrimit të mëparshëm"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Fokuso audion e ligjërimit"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Ule volumin e audiove të tjera kur flet"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Volumi i zërit"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Shkurtorja e pezullimit dhe rifillimit të Talkback-ut"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Shkurtorja e pezullimit dhe rifillimit të Screenspeak-ut"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Të ndryshëm"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Cilësimet e zhvilluesit"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Niveli i daljes së regjistrit"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Korrigjimi i pemës së nyjave"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Përmirëso qasshmërinë në ueb"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Shkarko skriptet e qasshmërisë për përmbajtjen e uebit"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Rifillo prej ku u pezullua"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Rifillo prej ku u pezullua"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Ekrani u zbeh"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Ndriçimi i ekranit u restaurua"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Shërbimi i mundësisë së qasjes së TalkBack-ut e ka zbehur ekranin."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Shërbimi i mundësisë së qasjes së ScreenSpeak-ut e ka zbehur ekranin."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Zhbëje duke shtypur bashkë tastet \"Volumi lart\" dhe \"Volumi poshtë\" tre herë me shpejtësi."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Zbehja e ekranit mund të kontrollohet nga Cilësimet e TalkBack-ut."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Zbehja e ekranit mund të kontrollohet nga Cilësimet e ScreenSpeak-ut."</string>
     <string name="axis_character" msgid="8528412412593489695">"Orientohu sipas karakterit."</string>
     <string name="axis_word" msgid="8823389407337076750">"Orientohu sipas fjalëve."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Orientohu sipas fjalisë."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Butoni \"Kreu\""</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Butoni i pëmbledhjes"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Hap njoftimet"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Hap \"Menynë kontekstuale globale\""</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Hap \"Menynë kontekstuale globale\""</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Hap \"Menynë kontekstuale lokale\""</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Përsërit shprehjen e fundit"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Thuaj shprehjen e fundit"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Lexo gjithmonë tastet e shtypura"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Vetëm për tastierën në ekran"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Mos i lexo asnjëherë tastet e shtypura"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"Gjestet e TalkBack-ut u ndryshuan"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Trokit për të rishikuar ndryshimet në gjestet e qasshmërisë"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack-u është pezulluar"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Trokit për të vazhduar."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"Të pezullohet TalkBack-u?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Je i sigurt? Pajisja nuk do të japë informacion dhe \"Eksploro me prekje\" do të çaktivizohet. Mund ta rifillosh TalkBack-un nga njoftimet duke u kthyer te ekrani i kyçjes ose përmes shkurtores së tastit të volumit."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"Mund të vazhdosh përdorimin e TalkBack-ut nga hija e njoftimeve."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"Mund të vazhdosh përdorimin e TalkBack-ut nga hija e njoftimeve ose duke ndezur ekranin."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"Mund të vazhdosh përdorimin e TalkBack-ut nga hija e njoftimeve ose duke u kthyer tek ekrani i kyçjes."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"Gjestet e ScreenSpeak-ut u ndryshuan"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Trokit për të rishikuar ndryshimet në gjestet e qasshmërisë"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak-u është pezulluar"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Trokit për të vazhduar."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"Të pezullohet ScreenSpeak-u?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Je i sigurt? Pajisja nuk do të japë informacion dhe \"Eksploro me prekje\" do të çaktivizohet. Mund ta rifillosh ScreenSpeak-un nga njoftimet duke u kthyer te ekrani i kyçjes ose përmes shkurtores së tastit të volumit."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"Mund të vazhdosh përdorimin e ScreenSpeak-ut nga hija e njoftimeve."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"Mund të vazhdosh përdorimin e ScreenSpeak-ut nga hija e njoftimeve ose duke ndezur ekranin."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"Mund të vazhdosh përdorimin e ScreenSpeak-ut nga hija e njoftimeve ose duke u kthyer tek ekrani i kyçjes."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Shfaqe gjithmonë këtë paralajmërim"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"Ky artikull nuk mund të etiketohet."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Shto një etiketë"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Je i sigurt që dëshiron ta heqësh etiketën \"<xliff:g id="LABEL">%1$s</xliff:g>\"?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Je i sigurt që dëshiron ta heqësh etiketën \"<xliff:g id="LABEL">%1$s</xliff:g>\" në <xliff:g id="APP_NAME">%2$s</xliff:g>?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Teksti i etiketës"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"Ky version i TalkBack-ut përfshin ndryshime te gjestet e parazgjedhura të qasshmërisë. Veprimet e lidhura me këto gjeste mund të personalizohen brenda cilësimeve të TalkBack-ut. Kur aktivizohet funksioni \"Eksploro me prekje\", mund të kryesh gjestet e mëposhtme për të kryer veprime të caktuara.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Shtyp gjatë tastet e ngritjes dhe uljes së volumit"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"Ky version i ScreenSpeak-ut përfshin ndryshime te gjestet e parazgjedhura të qasshmërisë. Veprimet e lidhura me këto gjeste mund të personalizohen brenda cilësimeve të ScreenSpeak-ut. Kur aktivizohet funksioni \"Eksploro me prekje\", mund të kryesh gjestet e mëposhtme për të kryer veprime të caktuara.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Shtyp gjatë tastet e ngritjes dhe uljes së volumit"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Të zbehet ekrani?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Je i sigurt që dëshiron ta zbehësh ekranin?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"Ky version i TalkBack-ut përfshin ndryshime në gjestet e parazgjedhura të qasshmërisë.\n\nGjesti lart-poshtë do të të lejojë të lëvizësh tek artikulli i parë në ekran, ndërsa me gjestin poshtë-lart do të lëvizësh tek artikulli i fundit.\n\nShkalla e detajeve të leximit tani mund të ndryshohet duke e fokusuar një artikull dhe duke zgjedhur më pas një shkallë të detajeve nga menyja kontekstuale lokale.\n\nVeprimet e kryera nga këto gjeste mund t\'i ndryshosh te \"Cilësimet e TalkBack-ut\"."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"Ky version i ScreenSpeak-ut përfshin ndryshime në gjestet e parazgjedhura të qasshmërisë.\n\nGjesti lart-poshtë do të të lejojë të lëvizësh tek artikulli i parë në ekran, ndërsa me gjestin poshtë-lart do të lëvizësh tek artikulli i fundit.\n\nShkalla e detajeve të leximit tani mund të ndryshohet duke e fokusuar një artikull dhe duke zgjedhur më pas një shkallë të detajeve nga menyja kontekstuale lokale.\n\nVeprimet e kryera nga këto gjeste mund t\'i ndryshosh te \"Cilësimet e ScreenSpeak-ut\"."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Prano gjestet"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Personalizo gjestet"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"Të çaktivizohet funksioni \"Eksploro me prekje\"?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Të aktivizohet Korrigjimi i pemës së nyjave?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Je i sigurt që dëshiron ta aktivizosh korrigjimin e pemës së nyjave?\n\nKorrigjimi i pemës së nyjave e ekspozon përmbajtjen e ekranit tënd te regjistrat e pajisjes, të cilat mund të lexohen nga aplikacione të tjera."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"Funksioni \"Eksploro me prekje\" nuk mundësohet në përmbajtjen e uebit. Aktivizo <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> në cilësimet e \"Qasshmërisë\" për të eksploruar përmbajtjen e uebit."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"Menyja kontekstuale globale e TalkBack-ut"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"Kontrollo TalkBack-un"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Leja për të dërguar gjestet te TalkBack-u dhe për të vazhduar reagimet me të folur."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"Menaxho etiketat e personalizuara të TalkBack-ut"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"Leja për t\'u qasur, për të modifikuar dhe fshirë etiketat e personalizuara të lexuara nga TalkBack-u."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"Menyja kontekstuale globale e ScreenSpeak-ut"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"Kontrollo ScreenSpeak-un"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Leja për të dërguar gjestet te ScreenSpeak-u dhe për të vazhduar reagimet me të folur."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"Menaxho etiketat e personalizuara të ScreenSpeak-ut"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"Leja për t\'u qasur, për të modifikuar dhe fshirë etiketat e personalizuara të lexuara nga ScreenSpeak-u."</string>
     <string name="links" msgid="3448225474115458693">"Lidhjet"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Fundi"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

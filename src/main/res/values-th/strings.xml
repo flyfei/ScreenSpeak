@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"เมื่อเปิด TalkBack อุปกรณ์ของคุณจะให้การตอบสนองด้วยเสียงพูดเพื่อช่วยเหลือผู้ใช้ที่พิการทางสายตาและผู้ที่มีปัญหาทางสายตา ตัวอย่างเช่น อุปกรณ์จะอธิบายว่าคุณแตะ เลือก และเปิดใช้งานสิ่งใด"</string>
-    <string name="talkback_on" msgid="315529674405160699">"เปิด TalkBack"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"การตั้งค่า TalkBack"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"เมื่อเปิด ScreenSpeak อุปกรณ์ของคุณจะให้การตอบสนองด้วยเสียงพูดเพื่อช่วยเหลือผู้ใช้ที่พิการทางสายตาและผู้ที่มีปัญหาทางสายตา ตัวอย่างเช่น อุปกรณ์จะอธิบายว่าคุณแตะ เลือก และเปิดใช้งานสิ่งใด"</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"เปิด ScreenSpeak"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"การตั้งค่า ScreenSpeak"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"การตั้งค่าการอ่านออกเสียงข้อความ"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"เวอร์ชัน <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"เวอร์ชัน <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"จัดการป้ายกำกับที่กำหนดเอง"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"จัดการป้ายกำกับสำหรับ <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"ไม่มีป้ายกำกับที่กำหนดเองในขณะนี้ คุณสามารถสร้างโดยนำทางไปยังรูปภาพที่ไม่มีป้ายกำกับ แล้วเพิ่มป้ายกำกับจากเมนูบริบทเฉพาะพื้นที่"</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"การสำรวจด้วยการแตะ"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"การเลือกแบบแตะครั้งเดียว"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"แสดงเมนูตามบริบทเป็นรายการ"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"ทำให้หน้าจอสลัวเมื่อเปิดใช้ TalkBack"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"ทำให้หน้าจอสลัวเมื่อเปิดใช้ ScreenSpeak"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(ทดลอง) แตะรายการที่โฟกัสอยู่ในขณะนี้เพื่อเลือก"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"เขย่าเพื่อเริ่มต้นการอ่านอย่างต่อเนื่อง"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"จัดการท่าทางสัมผัส"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"จัดการป้ายกำกับที่กำหนดเอง"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"จัดการแป้นพิมพ์ลัด"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"เปิด TalkBack ที่ Play สโตร์"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"เวอร์ชัน TalkBack ปัจจุบัน: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"เปิด ScreenSpeak ที่ Play สโตร์"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"เวอร์ชัน ScreenSpeak ปัจจุบัน: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"ข้อกำหนดในการให้บริการ"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"นโยบายส่วนบุคคล"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"ทางลัดของท่าทางสัมผัส"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"หน้าแรก"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"แอปล่าสุด"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"การแจ้งเตือน"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"หยุด TalkBack ชั่วคราว"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"หยุด ScreenSpeak ชั่วคราว"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"การตั้งค่าการนำทาง"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"การตั้งค่าการนำทางถัดไป"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"การตั้งค่าการนำทางก่อนหน้า"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"เน้นที่เสียงพูด"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"ลดระดับเสียงอื่นๆ ขณะพูด"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"ระดับเสียง"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"ทางลัดการหยุด TalkBack และการกลับมาทำงานต่อ"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"ทางลัดการหยุด ScreenSpeak และการกลับมาทำงานต่อ"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"เบ็ดเตล็ด"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"การตั้งค่าสำหรับนักพัฒนาซอฟต์แวร์"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"ระดับของการบันทึกเอาต์พุต"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"เปิดใช้การแก้ไขข้อบกพร่องของโหนดทรี"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"การปรับปรุงการเข้าถึงเว็บให้ดีขึ้น"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"ดาวน์โหลดสคริปต์การเข้าถึงเนื้อหาเว็บ"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"กลับมาทำงานอีกครั้งจากการหยุดใช้งาน"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"กลับมาทำงานอีกครั้งจากการหยุดใช้งาน"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"ทำให้หน้าจอสลัวแล้ว"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"คืนค่าความสว่างหน้าจอแล้ว"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"บริการการเข้าถึงของ TalkBack ได้หรี่แสงหน้าจอลง"</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"บริการการเข้าถึงของ ScreenSpeak ได้หรี่แสงหน้าจอลง"</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"เลิกทำโดยกดแป้นเพิ่มระดับเสียงและลดระดับเสียงพร้อมกัน 3 ครั้งเร็วๆ"</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"สามารถควบคุมการหรี่แสงหน้าจอได้จากการตั้งค่า TalkBack"</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"สามารถควบคุมการหรี่แสงหน้าจอได้จากการตั้งค่า ScreenSpeak"</string>
     <string name="axis_character" msgid="8528412412593489695">"นำทางตามอักขระ"</string>
     <string name="axis_word" msgid="8823389407337076750">"นำทางตามคำ"</string>
     <string name="axis_sentence" msgid="4398740201672273541">"นำทางตามประโยค"</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"ปุ่มหน้าหลัก"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"ปุ่มภาพรวม"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"เปิดการแจ้งเตือน"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"เปิดเมนูบริบทส่วนกลาง"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"เปิดเมนูบริบทส่วนกลาง"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"เปิดเมนูบริบทเฉพาะพื้นที่"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"พูดคำสุดท้ายอีกครั้ง"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"สะกดคำสุดท้ายที่พูด"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"พูดแป้นที่กดเสมอ"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"เฉพาะสำหรับแป้นพิมพ์บนหน้าจอ"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"ไม่พูดแป้นที่กดเลย"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"ท่าทางสัมผัส TalkBack เปลี่ยน"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"แตะเพื่อตรวจสอบการเปลี่ยนแปลงของท่าทางสัมผัสในการเข้าถึง"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"หยุดใช้งาน TalkBack แล้ว"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"แตะเพื่อดำเนินการต่อ"</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"หยุดใช้งาน TalkBack ใช่ไหม"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"คุณแน่ใจไหม อุปกรณ์ของคุณจะไม่ตอบกลับและระบบจะปิดใช้การแตะเพื่อสำรวจ คุณสามารถใช้งาน TalkBack ต่อได้จากการแจ้งเตือน โดยการกลับไปที่หน้าจอล็อก หรือโดยใช้ทางลัดแป้นปรับระดับเสียง"</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"คุณสามารถกลับไปใช้งาน TalkBack จากหน้าต่างการแจ้งเตือน"</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"คุณสามารถกลับไปใช้งาน TalkBack จากหน้าต่างการแจ้งเตือน หรือโดยการเปิดหน้าจอ"</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"คุณสามารถกลับไปใช้งาน TalkBack จากหน้าต่างการแจ้งเตือน หรือโดยการกลับไปที่หน้าจอล็อก"</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ท่าทางสัมผัส ScreenSpeak เปลี่ยน"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"แตะเพื่อตรวจสอบการเปลี่ยนแปลงของท่าทางสัมผัสในการเข้าถึง"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"หยุดใช้งาน ScreenSpeak แล้ว"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"แตะเพื่อดำเนินการต่อ"</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"หยุดใช้งาน ScreenSpeak ใช่ไหม"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"คุณแน่ใจไหม อุปกรณ์ของคุณจะไม่ตอบกลับและระบบจะปิดใช้การแตะเพื่อสำรวจ คุณสามารถใช้งาน ScreenSpeak ต่อได้จากการแจ้งเตือน โดยการกลับไปที่หน้าจอล็อก หรือโดยใช้ทางลัดแป้นปรับระดับเสียง"</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"คุณสามารถกลับไปใช้งาน ScreenSpeak จากหน้าต่างการแจ้งเตือน"</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"คุณสามารถกลับไปใช้งาน ScreenSpeak จากหน้าต่างการแจ้งเตือน หรือโดยการเปิดหน้าจอ"</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"คุณสามารถกลับไปใช้งาน ScreenSpeak จากหน้าต่างการแจ้งเตือน หรือโดยการกลับไปที่หน้าจอล็อก"</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"แสดงคำเตือนนี้ทุกครั้ง"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"ไม่สามารถติดป้ายกำกับรายการนี้ได้"</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"เพิ่มป้ายกำกับ"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"คุณแน่ใจไหมว่าต้องการนำป้ายกำกับ \"<xliff:g id="LABEL">%1$s</xliff:g>\" ออก"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"คุณแน่ใจไหมว่าต้องการนำป้ายกำกับ \"<xliff:g id="LABEL">%1$s</xliff:g>\" ภายใน <xliff:g id="APP_NAME">%2$s</xliff:g> ออก"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"ข้อความป้ายกำกับ"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"TalkBack เวอร์ชันนี้มีการเปลี่ยนแปลงของท่าทางสัมผัสในการเข้าถึงเริ่มต้น โดยสามารถกำหนดค่าการทำงานต่างๆ ที่เชื่อมโยงกับท่าทางสัมผัสเหล่านี้ได้จากภายในการตั้งค่า TalkBack เมื่อมีการเปิดใช้ \"แตะเพื่อสำรวจ\" คุณสามารถใช้ท่าทางสัมผัสต่อไปนี้เพื่อทำงานบางอย่างได้\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"กดแป้นเพิ่มระดับเสียงและลดระดับเสียงค้างไว้"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"ScreenSpeak เวอร์ชันนี้มีการเปลี่ยนแปลงของท่าทางสัมผัสในการเข้าถึงเริ่มต้น โดยสามารถกำหนดค่าการทำงานต่างๆ ที่เชื่อมโยงกับท่าทางสัมผัสเหล่านี้ได้จากภายในการตั้งค่า ScreenSpeak เมื่อมีการเปิดใช้ \"แตะเพื่อสำรวจ\" คุณสามารถใช้ท่าทางสัมผัสต่อไปนี้เพื่อทำงานบางอย่างได้\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"กดแป้นเพิ่มระดับเสียงและลดระดับเสียงค้างไว้"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"ต้องการหรี่แสงหน้าจอใช่ไหม"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"คุณแน่ใจไหมว่าต้องการทำให้หน้าจอสลัว"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"TalkBack เวอร์ชันนี้มีการเปลี่ยนแปลงค่าเริ่มต้นของท่าทางสัมผัสเพื่อการเข้าถึง\n\nท่าทางสัมผัสแบบขึ้นแล้วลงจะช่วยให้คุณย้ายไปยังรายการแรกบนหน้าจอ และท่าทางสัมผัสแบบลงแล้วขึ้นจะย้ายคุณไปยังรายการสุดท้าย\n\nรายละเอียดการอ่านในตอนนี้สามารถเปลี่ยนแปลงได้โดยการโฟกัสไปที่รายการ แล้วเลือกรายละเอียดจากเมนูบริบทเฉพาะพื้นที่\n\nคุณสามารถเปลี่ยนการทำงานที่เกิดจากท่าทางสัมผัสเหล่านี้ได้ในการตั้งค่า TalkBack"</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"ScreenSpeak เวอร์ชันนี้มีการเปลี่ยนแปลงค่าเริ่มต้นของท่าทางสัมผัสเพื่อการเข้าถึง\n\nท่าทางสัมผัสแบบขึ้นแล้วลงจะช่วยให้คุณย้ายไปยังรายการแรกบนหน้าจอ และท่าทางสัมผัสแบบลงแล้วขึ้นจะย้ายคุณไปยังรายการสุดท้าย\n\nรายละเอียดการอ่านในตอนนี้สามารถเปลี่ยนแปลงได้โดยการโฟกัสไปที่รายการ แล้วเลือกรายละเอียดจากเมนูบริบทเฉพาะพื้นที่\n\nคุณสามารถเปลี่ยนการทำงานที่เกิดจากท่าทางสัมผัสเหล่านี้ได้ในการตั้งค่า ScreenSpeak"</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"ยอมรับท่าทางสัมผัส"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"กำหนดค่าท่าทางสัมผัส"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"ปิดการแตะเพื่อสำรวจใช่ไหม"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"เปิดใช้การแก้ไขข้อบกพร่องของโหนดทรีใช่ไหม"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"คุณแน่ใจไหมว่าต้องการเปิดการแก้ไขข้อบกพร่องของโหนดทรี\n\nการแก้ไขข้อบกพร่องของโหนดทรีจะเปิดเผยเนื้อหาของหน้าจอในไฟล์บันทึกของอุปกรณ์ ซึ่งแอปพลิเคชันอื่นอาจสามารถอ่านได้"</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"ไม่สามารถใช้การแตะเพื่อสำรวจในเนื้อหาเว็บ เปิด <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> ในการตั้งค่าการเข้าถึงเพื่อสำรวจเนื้อหาเว็บ"</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"เมนูบริบทส่วนกลางของ TalkBack"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"ควบคุม TalkBack"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"สิทธิ์ในการส่งท่าทางสัมผัสไปยัง TalkBack และกลับไปใช้งานเสียงพูดตอบรับ"</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"จัดการป้ายกำกับที่กำหนดเองของ TalkBack"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"สิทธิ์ในการเข้าถึง แก้ไข และลบป้ายกำกับที่กำหนดเองที่พูดโดย TalkBack"</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"เมนูบริบทส่วนกลางของ ScreenSpeak"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"ควบคุม ScreenSpeak"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"สิทธิ์ในการส่งท่าทางสัมผัสไปยัง ScreenSpeak และกลับไปใช้งานเสียงพูดตอบรับ"</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"จัดการป้ายกำกับที่กำหนดเองของ ScreenSpeak"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"สิทธิ์ในการเข้าถึง แก้ไข และลบป้ายกำกับที่กำหนดเองที่พูดโดย ScreenSpeak"</string>
     <string name="links" msgid="3448225474115458693">"ลิงก์"</string>
     <string name="end_of_text" msgid="3595733062526019550">"สิ้นสุด"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

@@ -16,5 +16,5 @@
 -->
 
 <resources>
-    <style name="TalkBackSettings" parent="@android:style/Theme.DeviceDefault.Settings" />
+    <style name="ScreenSpeakSettings" parent="@android:style/Theme.DeviceDefault.Settings" />
 </resources>

@@ -31,7 +31,7 @@ import android.view.KeyEvent;
 import android.view.accessibility.AccessibilityEvent;
 import com.android.utils.LogUtils;
 import com.android.utils.widget.SimpleOverlay;
-import com.google.android.marvin.talkback.TalkBackService;
+import com.google.android.marvin.screenspeak.ScreenSpeakService;
 
 
 /**
@@ -57,7 +57,7 @@ public class SwitchAccessService extends AccessibilityService
     private OptionManager mOptionManager;
     private KeyboardEventManager mKeyboardEventManager;
     private MultiWindowTreeBuilder mMultiWindowTreeBuilder;
-    private TalkBackOrderNDegreeTreeBuilder mTalkBackOrderNDegreeTreeBuilder;
+    private ScreenSpeakOrderNDegreeTreeBuilder mScreenSpeakOrderNDegreeTreeBuilder;
 
     @Override
     public void onCreate() {
@@ -66,9 +66,9 @@ public class SwitchAccessService extends AccessibilityService
         mOverlayController = new OverlayController(new SimpleOverlay(this));
         mOverlayController.configureOverlay();
         mOptionManager = new OptionManager(mOverlayController);
-        mTalkBackOrderNDegreeTreeBuilder = new TalkBackOrderNDegreeTreeBuilder(this);
+        mScreenSpeakOrderNDegreeTreeBuilder = new ScreenSpeakOrderNDegreeTreeBuilder(this);
         mMultiWindowTreeBuilder = new MultiWindowTreeBuilder(this, new LinearScanTreeBuilder(),
-                new RowColumnTreeBuilder(), mTalkBackOrderNDegreeTreeBuilder);
+                new RowColumnTreeBuilder(), mScreenSpeakOrderNDegreeTreeBuilder);
         AutoScanController autoScanController =
                 new AutoScanController(mOptionManager, new Handler(), this);
         mKeyboardEventManager = new KeyboardEventManager(this, mOptionManager, autoScanController);
@@ -106,7 +106,7 @@ public class SwitchAccessService extends AccessibilityService
     /**
      * Intended to mimic the behavior of onKeyEvent if this were the only service running.
      * It will be called from onKeyEvent, both from this service and from others in this apk
-     * (TalkBack). This method must not block, since it will block onKeyEvent as well.
+     * (ScreenSpeak). This method must not block, since it will block onKeyEvent as well.
      * @param keyEvent A key event
      * @return {@code true} if the event is handled, {@code false} otherwise.
      */
@@ -149,7 +149,7 @@ public class SwitchAccessService extends AccessibilityService
             mOptionManager.clearFocusIfNewTree(
                     mMultiWindowTreeBuilder.buildTreeFromWindowList(getWindows(), this));
         }
-        TalkBackService talkBackService = TalkBackService.getInstance();
+        ScreenSpeakService talkBackService = ScreenSpeakService.getInstance();
         if (talkBackService != null) {
             keyHandled = talkBackService.onKeyEventShared(keyEvent) || keyHandled;
         }
@@ -160,7 +160,7 @@ public class SwitchAccessService extends AccessibilityService
     public void onSharedPreferenceChanged(SharedPreferences prefs, String key) {
         LogUtils.log(this, Log.DEBUG, "A shared preference changed: %s", key);
         mKeyboardEventManager.reloadPreferences(this);
-        mTalkBackOrderNDegreeTreeBuilder.reloadPreferences(this);
+        mScreenSpeakOrderNDegreeTreeBuilder.reloadPreferences(this);
     }
 
     @Override

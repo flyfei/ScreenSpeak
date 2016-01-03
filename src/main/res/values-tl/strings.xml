@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"Kapag naka-on ang Talkback, nagbibigay ng mga pasalitang feedback ang iyong device upang tulungan ang mga user na bulag at may kapansanan sa paningin. Halimbawa, inilalarawan nito kung ano ang iyong pinindot, pinili at na-activate."</string>
-    <string name="talkback_on" msgid="315529674405160699">"Naka-on ang TalkBack"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"Mga Setting ng TalkBack"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"Kapag naka-on ang Screenspeak, nagbibigay ng mga pasalitang feedback ang iyong device upang tulungan ang mga user na bulag at may kapansanan sa paningin. Halimbawa, inilalarawan nito kung ano ang iyong pinindot, pinili at na-activate."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"Naka-on ang ScreenSpeak"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"Mga Setting ng ScreenSpeak"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Mga Setting ng Text to speech"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Bersyon na <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Bersyon na <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Pamahalaan ang Mga Custom na Label"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"Pamahalaan ang mga Label para sa <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Walang mga custom na label sa kasalukuyan. Makakagawa ka ng isa sa pamamagitan ng pagna-navigate sa isang larawang walang label at pagkatapos ay pagdaragdag ng isang label mula sa Lokal na Menu ng Konteksto."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Pag-explore sa pagpindot"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Isahang pag-tap na pagpili"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Ipakita ang Menu ng Konteksto bilang listahan"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"I-dim ang screen kapag naka-enable ang TalkBack"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"I-dim ang screen kapag naka-enable ang ScreenSpeak"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Pang-eksperimento) Mag-tap sa kasalukuyang nakatuon na item upang pumili"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Alugin upang simulan ang tuluy-tuloy na pagbabasa"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Pamahalaan ang galaw"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Pamahalaan ang mga custom na label"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Pamahalaan ang mga shortcut sa keyboard"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Buksan ang TalkBack sa Play Store"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Kasalukuyang Bersyon ng TalkBack: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Buksan ang ScreenSpeak sa Play Store"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Kasalukuyang Bersyon ng ScreenSpeak: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Mga Tuntunin ng Serbisyo"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Patakaran sa Privacy"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Mga shortcut na galaw"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Home"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Mga kamakailang app"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Mga Notification"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"I-pause ang TalkBack"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"I-pause ang ScreenSpeak"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Mga setting ng navigation"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Susunod na setting ng navigation"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Nakaraang setting ng navigation"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Ituon sa audio ng pagsasalita"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Bawasan ang iba pang volume ng audio habang nagsasalita"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Volume ng tunog"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Shortcut sa pagsususpinde at pagpapatuloy ng Talkback"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Shortcut sa pagsususpinde at pagpapatuloy ng Screenspeak"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Miscellaneous"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Mga setting ng developer"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Antas ng output ng log"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"I-enable ang pagde-debug ng node tree"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Pahusayin ang accessibility sa web"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"I-download ang mga script ng accessibility para sa content sa web"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Magpatuloy mula sa pagkakasuspinde"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Magpatuloy mula sa pagkakasuspinde"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Naka-dim ang screen"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Ibinalik ang brightness ng screen"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Ang screen ay na-dim ng serbisyo sa accessibility ng TalkBack."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Ang screen ay na-dim ng serbisyo sa accessibility ng ScreenSpeak."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"I-undo sa pamamagitan ng magkasabay na pagpindot sa mga key na Lakasan ang Volume at Hinaan ang Volume nang tatlong beses nang mabilis."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Makokontrol ang pag-dim ng screen mula sa Mga Setting ng TalkBack."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Makokontrol ang pag-dim ng screen mula sa Mga Setting ng ScreenSpeak."</string>
     <string name="axis_character" msgid="8528412412593489695">"Mag-navigate ayon sa character."</string>
     <string name="axis_word" msgid="8823389407337076750">"Mag-navigate ayon sa salita."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Mag-navigate ayon sa pangungusap."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Button na Home"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Button na Pangkalahatang-ideya"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Buksan ang mga notification"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Buksan ang pangkalahatang menu ng konteksto"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Buksan ang pangkalahatang menu ng konteksto"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Buksan ang lokal na menu ng konteksto"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Ulitin ang huling binigkas"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"I-spell ang huling binigkas"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Palaging sabihin ang mga tina-type na key"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Para lang sa on-screen na keyboard"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Huwag kailanman sabihin ang mga tina-type na key"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"Nabago ang galaw sa TalkBack"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Mag-tap upang suriin ang mga pagbabago sa mga galaw sa accessibility"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"Nasuspinde ang TalkBack"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Mag-tap upang magpatuloy."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"Sususpindihin ang TalkBack?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Sigurado ka ba? Hindi magbibigay ng feedback ang iyong device at idi-disable ang Explore by Touch. Maaari mong ipagpatuloy ang TalkBack mula sa mga notification, sa pamamagitan ng pagbalik sa lockscreen, o sa pamamagitan ng volume key shortcut."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"Maaari mong ipagpatuloy ang TalkBack mula sa shade ng mga notification."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"Maaari mong ipagpatuloy ang TalkBack mula sa shade ng mga notification o sa pamamagitan ng pag-o-on ng screen."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"Maaari mong ipagpatuloy ang TalkBack mula sa shade ng mga notification o sa pamamagitan ng pagbalik sa lock screen."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"Nabago ang galaw sa ScreenSpeak"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Mag-tap upang suriin ang mga pagbabago sa mga galaw sa accessibility"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"Nasuspinde ang ScreenSpeak"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Mag-tap upang magpatuloy."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"Sususpindihin ang ScreenSpeak?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Sigurado ka ba? Hindi magbibigay ng feedback ang iyong device at idi-disable ang Explore by Touch. Maaari mong ipagpatuloy ang ScreenSpeak mula sa mga notification, sa pamamagitan ng pagbalik sa lockscreen, o sa pamamagitan ng volume key shortcut."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"Maaari mong ipagpatuloy ang ScreenSpeak mula sa shade ng mga notification."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"Maaari mong ipagpatuloy ang ScreenSpeak mula sa shade ng mga notification o sa pamamagitan ng pag-o-on ng screen."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"Maaari mong ipagpatuloy ang ScreenSpeak mula sa shade ng mga notification o sa pamamagitan ng pagbalik sa lock screen."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Palaging ipakita ang babalang ito"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"Hindi maaaring lagyan ng label ang item na ito."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Magdagdag ng label"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Sigurado ka bang gusto mong alisin ang label na \"<xliff:g id="LABEL">%1$s</xliff:g>\"?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Sigurado ka bang gusto mong alisin ang label na \"<xliff:g id="LABEL">%1$s</xliff:g>\" na nasa <xliff:g id="APP_NAME">%2$s</xliff:g>?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Text ng label"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"Kabilang sa bersyong ito ng TalkBack ang mga pagbabago sa mga default na galaw sa accessibility. Maaaring i-customize ang mga pagkilos na nauugnay sa mga galaw na ito sa loob ng mga setting ng TalkBack. Kapag naka-enable ang Explore by touch, maaari mong gamitin ang mga sumusunod na galaw upang magsagawa ng ilang partikular na pagkilos.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Matagal na pagpindot sa mga key sa pagpapalakas at pagpapahina ng volume"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"Kabilang sa bersyong ito ng ScreenSpeak ang mga pagbabago sa mga default na galaw sa accessibility. Maaaring i-customize ang mga pagkilos na nauugnay sa mga galaw na ito sa loob ng mga setting ng ScreenSpeak. Kapag naka-enable ang Explore by touch, maaari mong gamitin ang mga sumusunod na galaw upang magsagawa ng ilang partikular na pagkilos.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Matagal na pagpindot sa mga key sa pagpapalakas at pagpapahina ng volume"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"I-dim ang screen?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Sigurado ka bang gusto mong diliman ang screen?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"Kabilang sa bersyong ito ng TalkBack ang mga pagbabago sa mga default na galaw sa accessibility.\n\nMagbibigay-daan sa iyo ang galaw na pataas pagkatapos ay pababa na lumipat sa unang item sa screen, at lilipat naman ang galaw na pababa pagkatapos ay pataas sa huling item.\n\nMaaari na ngayong palitan ang granularity ng pagbabasa sa pamamagitan ng pagtuon sa isang item, pagkatapos ay pagpili ng granularity mula sa lokal na menu ng konteksto.\n\nMapapalitan mo ang mga pagkilos na isinasagawa ng mga galaw na ito sa Mga Setting ng TalkBack."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"Kabilang sa bersyong ito ng ScreenSpeak ang mga pagbabago sa mga default na galaw sa accessibility.\n\nMagbibigay-daan sa iyo ang galaw na pataas pagkatapos ay pababa na lumipat sa unang item sa screen, at lilipat naman ang galaw na pababa pagkatapos ay pataas sa huling item.\n\nMaaari na ngayong palitan ang granularity ng pagbabasa sa pamamagitan ng pagtuon sa isang item, pagkatapos ay pagpili ng granularity mula sa lokal na menu ng konteksto.\n\nMapapalitan mo ang mga pagkilos na isinasagawa ng mga galaw na ito sa Mga Setting ng ScreenSpeak."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Tanggapin ang mga galaw"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"I-customize ang mga galaw"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"Idi-disable ang Explore by touch?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Ie-enable ang Pagde-debug ng Node Tree?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Sigurado ka bang gusto mong i-on ang pagde-debug ng node tree?\n\nInilalantad ng pagde-debug ng node tree ang content ng iyong screen sa mga log ng iyong device, na maaaring mabasa ng iba pang mga application."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"Hindi available sa content sa web ang Explore by touch. I-on ang <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> sa mga setting ng Accessibility upang i-explore ang content sa web."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"Pangkalahatang menu ng konteksto ng TalkBack"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"Kontrolin ang TalkBack"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Pahintulot na magpadala ng mga galaw sa TalkBack at ipagpatuloy ang binibigkas na feedback."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"Pamahalaan ang mga custom na label ng TalkBack"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"Pahintulot na mag-access, magbago at mag-delete ng mga custom na label na binibigkas ng TalkBack."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"Pangkalahatang menu ng konteksto ng ScreenSpeak"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"Kontrolin ang ScreenSpeak"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Pahintulot na magpadala ng mga galaw sa ScreenSpeak at ipagpatuloy ang binibigkas na feedback."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"Pamahalaan ang mga custom na label ng ScreenSpeak"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"Pahintulot na mag-access, magbago at mag-delete ng mga custom na label na binibigkas ng ScreenSpeak."</string>
     <string name="links" msgid="3448225474115458693">"Mga Link"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Dulo"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

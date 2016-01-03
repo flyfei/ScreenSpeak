@@ -16,7 +16,7 @@
 
 package com.googlecode.eyesfree.testing;
 
-import com.android.talkback.Utterance;
+import com.android.screenspeak.Utterance;
 import com.android.utils.StringBuilderUtils;
 
 import java.util.LinkedList;

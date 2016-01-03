@@ -111,7 +111,7 @@ public class RowColumnTreeBuilder  implements TreeBuilder {
         SortedMap<RowBounds, SortedMap<Integer, SwitchAccessNodeCompat>> nodesByXYCoordinate =
                 new TreeMap<>(ROW_BOUNDS_COMPARATOR);
         List<SwitchAccessNodeCompat> talkBackOrderList =
-                TreeBuilderUtils.getNodesInTalkBackOrder(root);
+                TreeBuilderUtils.getNodesInScreenSpeakOrder(root);
         Rect boundsInScreen = new Rect();
         for (SwitchAccessNodeCompat node : talkBackOrderList) {
             /* Only add the node to list if it will be added to the tree */

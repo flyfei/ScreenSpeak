@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"TalkBack ఆన్ చేయబడినప్పుడు, మీ పరికరం అంధులైన మరియు స్పష్టమైన దృష్టి కలిగి లేని వినియోగదారులకు సహాయపడటానికి చదివి వినిపించే అభిప్రాయాన్ని అందిస్తుంది. ఉదాహరణకు, ఇది మీరు తాకే, ఎంచుకునే మరియు సక్రియం చేసే వాటిని వివరిస్తుంది."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack ఆన్‌లో ఉంది"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"TalkBack సెట్టింగ్‌లు"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"ScreenSpeak ఆన్ చేయబడినప్పుడు, మీ పరికరం అంధులైన మరియు స్పష్టమైన దృష్టి కలిగి లేని వినియోగదారులకు సహాయపడటానికి చదివి వినిపించే అభిప్రాయాన్ని అందిస్తుంది. ఉదాహరణకు, ఇది మీరు తాకే, ఎంచుకునే మరియు సక్రియం చేసే వాటిని వివరిస్తుంది."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak ఆన్‌లో ఉంది"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"ScreenSpeak సెట్టింగ్‌లు"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"వచన ప్రసంగం సెట్టింగ్‌లు"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"సంస్కరణ <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"సంస్కరణ <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"అనుకూల లేబుల్‌లను నిర్వహించండి"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"<xliff:g id="APPLICATIONLABEL">%1$s</xliff:g> కోసం లేబుల్‌లను నిర్వహించండి"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"ప్రస్తుతం అనుకూల లేబుల్‌లు ఏవీ లేవు. మీరు లేబుల్ చేయని చిత్రానికి నావిగేట్ చేసి, ఆపై స్థానిక సందర్భ మెను నుండి లేబుల్‌ను జోడించడం ద్వారా ఒకదాన్ని సృష్టించవచ్చు."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"స్పర్శ విశ్లేషణ"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"ఒకసారి నొక్కే ఎంపిక"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"సందర్భ మెనుని జాబితాగా చూపు"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"TalkBack ప్రారంభించినప్పుడు స్క్రీన్‌ను కాంతిహీనంగా మార్చు"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"ScreenSpeak ప్రారంభించినప్పుడు స్క్రీన్‌ను కాంతిహీనంగా మార్చు"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(ప్రయోగాత్మకం) ఎంచుకోవడానికి ప్రస్తుతం దృష్టి కేంద్రీకరించిన అంశంపై నొక్కండి"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"నిరంతరంగా చదవడాన్ని ప్రారంభించడానికి షేక్ చేయండి"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"సంజ్ఞలను నిర్వహించు"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"అనుకూల లేబుల్‌లను నిర్వహించు"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"కీబోర్డ్ సత్వరమార్గాలను నిర్వహించు"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Play Storeలోని TalkBackని తెరువు"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"ప్రస్తుత TalkBack సంస్కరణ: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Play Storeలోని ScreenSpeakని తెరువు"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"ప్రస్తుత ScreenSpeak సంస్కరణ: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"సేవా నిబంధనలు"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"గోప్యతా విధానం"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"సత్వరమార్గ సంజ్ఞలు"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"హోమ్"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"ఇటీవలి అనువర్తనాలు"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"నోటిఫికేషన్‌లు"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"TalkBackను పాజ్ చేయి"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"ScreenSpeakను పాజ్ చేయి"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"నావిగేషన్ సెట్టింగ్‌లు"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"తదుపరి నావిగేషన్ సెట్టింగ్"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"మునుపటి నావిగేషన్ సెట్టింగ్"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"ప్రసంగ ఆడియోపై దృష్టి కేంద్రీకరించండి"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"చదివి వినిపించేటప్పుడు ఇతర ఆడియో వాల్యూమ్‌ను తగ్గించండి"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"ధ్వని వాల్యూమ్"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Talkback తాత్కాలిక ఆపివేత మరియు పునఃప్రారంభ సత్వరమార్గం"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Screenspeak తాత్కాలిక ఆపివేత మరియు పునఃప్రారంభ సత్వరమార్గం"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"ఇతరం"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"డెవలపర్ సెట్టింగ్‌లు"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"లాగ్ అవుట్‌పుట్ స్థాయి"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"బిందుసూచిత వృక్ష పటం డీబగ్గింగ్‌ను ప్రారంభించండి"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"వెబ్ ప్రాప్యతను మెరుగుపరచండి"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"వెబ్ కంటెంట్ కోసం ప్రాప్యత స్క్రిప్ట్‌లను డౌన్‌లోడ్ చేయండి"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"తాత్కాలిక నిలిపివేత ముగించి పునఃప్రారంభించాల్సిన సమయం"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"తాత్కాలిక నిలిపివేత ముగించి పునఃప్రారంభించాల్సిన సమయం"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"స్క్రీన్ కాంతిహీనమైంది"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"స్క్రీన్ ప్రకాశం పునరుద్ధరించబడింది"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"TalkBack ప్రాప్యత సేవ స్క్రీన్‌ను కాంతిహీనం చేసింది."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"ScreenSpeak ప్రాప్యత సేవ స్క్రీన్‌ను కాంతిహీనం చేసింది."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"వాల్యూమ్ అప్ మరియు వాల్యూమ్ డౌన్ కీలు రెండింటినీ వెంటవెంటనే మూడుసార్లు నొక్కడం ద్వారా చర్యరద్దు చేయండి."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"స్క్రీన్ కాంతిహీనతను TalkBack సెట్టింగ్‌ల నుండి నియంత్రించవచ్చు."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"స్క్రీన్ కాంతిహీనతను ScreenSpeak సెట్టింగ్‌ల నుండి నియంత్రించవచ్చు."</string>
     <string name="axis_character" msgid="8528412412593489695">"అక్షరం వారీగా నావిగేట్ చేయండి."</string>
     <string name="axis_word" msgid="8823389407337076750">"పదం వారీగా నావిగేట్ చేయండి."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"వాక్యం వారీగా నావిగేట్ చేయండి."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"హోమ్ బటన్"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"స్థూలదృష్టి బటన్"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"నోటిఫికేషన్‌లను తెరువు"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"సార్వజనీన సందర్భ మెనుని తెరువు"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"సార్వజనీన సందర్భ మెనుని తెరువు"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"స్థానిక సందర్భ మెనుని తెరువు"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"చివరి ఉచ్ఛారణను మళ్లీ ఉచ్ఛరించు"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"చివరి ఉచ్ఛారణ అక్షరక్రమాన్ని చెప్పు"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"టైప్ చేసిన కీలను ఎల్లప్పుడూ చదివి వినిపించు"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"ఆన్-స్క్రీన్ కీబోర్డ్ కోసం మాత్రమే"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"టైప్ చేసిన కీలను ఎప్పుడూ చదివి వినిపించవద్దు"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBack సంజ్ఞలు మారాయి"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"ప్రాప్యతా సంజ్ఞలకు చేసిన మార్పులను సమీక్షించడానికి నొక్కండి"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack తాత్కాలికంగా నిలిపివేయబడింది"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"పునఃప్రారంభించడానికి నొక్కండి."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"TalkBackను తాత్కాలికంగా నిలిపివేయాలా?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"మీరు ఖచ్చితంగా చేయాలనుకుంటున్నారా? మీ పరికరం అభిప్రాయం అందించదు మరియు తాకడం ద్వారా విశ్లేషణ నిలిపివేయబడుతుంది. మీరు లాక్‌స్క్రీన్‌కి తిరిగి వెళ్లడం ద్వారా లేదా వాల్యూమ్ కీ సత్వరమార్గం ద్వారా TalkBackను నోటిఫికేషన్‌ల నుండి పునఃప్రారంభించవచ్చు."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"మీరు నోటిఫికేషన్‌ల షేడ్ నుండి TalkBackను పునఃప్రారంభించవచ్చు."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"మీరు నోటిఫికేషన్‌ల షేడ్ నుండి లేదా స్క్రీన్‌ను ఆన్ చేయడం ద్వారా TalkBackను పునఃప్రారంభించవచ్చు."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"మీరు నోటిఫికేషన్‌ల షేడ్ నుండి లేదా లాక్ స్క్రీన్‌కి తిరిగి రావడం ద్వారా TalkBackను పునఃప్రారంభించవచ్చు."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeak సంజ్ఞలు మారాయి"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"ప్రాప్యతా సంజ్ఞలకు చేసిన మార్పులను సమీక్షించడానికి నొక్కండి"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak తాత్కాలికంగా నిలిపివేయబడింది"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"పునఃప్రారంభించడానికి నొక్కండి."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"ScreenSpeakను తాత్కాలికంగా నిలిపివేయాలా?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"మీరు ఖచ్చితంగా చేయాలనుకుంటున్నారా? మీ పరికరం అభిప్రాయం అందించదు మరియు తాకడం ద్వారా విశ్లేషణ నిలిపివేయబడుతుంది. మీరు లాక్‌స్క్రీన్‌కి తిరిగి వెళ్లడం ద్వారా లేదా వాల్యూమ్ కీ సత్వరమార్గం ద్వారా ScreenSpeakను నోటిఫికేషన్‌ల నుండి పునఃప్రారంభించవచ్చు."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"మీరు నోటిఫికేషన్‌ల షేడ్ నుండి ScreenSpeakను పునఃప్రారంభించవచ్చు."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"మీరు నోటిఫికేషన్‌ల షేడ్ నుండి లేదా స్క్రీన్‌ను ఆన్ చేయడం ద్వారా ScreenSpeakను పునఃప్రారంభించవచ్చు."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"మీరు నోటిఫికేషన్‌ల షేడ్ నుండి లేదా లాక్ స్క్రీన్‌కి తిరిగి రావడం ద్వారా ScreenSpeakను పునఃప్రారంభించవచ్చు."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"ఎల్లప్పుడూ ఈ హెచ్చరికను చూపు"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"ఈ అంశం లేబుల్ చేయబడదు."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"లేబుల్‌ను జోడించండి"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"మీరు ఖచ్చితంగా \"<xliff:g id="LABEL">%1$s</xliff:g>\" లేబుల్‌ను తీసివేయాలనుకుంటున్నారా?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"మీరు ఖచ్చితంగా <xliff:g id="APP_NAME">%2$s</xliff:g>లోని \"<xliff:g id="LABEL">%1$s</xliff:g>\" లేబుల్‌ను తీసివేయాలనుకుంటున్నారా?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"వచనాన్ని లేబుల్ చేయండి"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"ఈ TalkBack సంస్కరణ డిఫాల్ట్ ప్రాప్యత సంజ్ఞలకు చేసిన మార్పులను కలిగి ఉంటుంది. ఈ సంజ్ఞలతో అనుబంధించబడిన చర్యలను TalkBack సెట్టింగ్‌ల్లో అనుకూలీకరించవచ్చు. తాకడం ద్వారా విశ్లేషణని ప్రారంభించినప్పుడు, మీరు నిర్దిష్ట చర్యలను అమలు చేయడానికి క్రింది సంజ్ఞలను ఉపయోగించవచ్చు.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"వాల్యూమ్ పెంచే మరియు తగ్గించే కీలను ఎక్కువసేపు నొక్కి ఉంచడం"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"ఈ ScreenSpeak సంస్కరణ డిఫాల్ట్ ప్రాప్యత సంజ్ఞలకు చేసిన మార్పులను కలిగి ఉంటుంది. ఈ సంజ్ఞలతో అనుబంధించబడిన చర్యలను ScreenSpeak సెట్టింగ్‌ల్లో అనుకూలీకరించవచ్చు. తాకడం ద్వారా విశ్లేషణని ప్రారంభించినప్పుడు, మీరు నిర్దిష్ట చర్యలను అమలు చేయడానికి క్రింది సంజ్ఞలను ఉపయోగించవచ్చు.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"వాల్యూమ్ పెంచే మరియు తగ్గించే కీలను ఎక్కువసేపు నొక్కి ఉంచడం"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"స్క్రీన్‌ను కాంతిహీనం చేయాలా?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"మీరు ఖచ్చితంగా స్క్రీన్‌ను కాంతిహీనం చేయాలనుకుంటున్నారా?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"ఈ TalkBack సంస్కరణ డిఫాల్ట్ ప్రాప్యత సంజ్ఞలకు చేసిన మార్పులను కలిగి ఉంది.\n\nపైకి ఆపై క్రిందికి సంజ్ఞ స్క్రీన్‌పై ఉన్న మొదటి అంశానికి వెళ్లడానికి, అదే విధంగా క్రిందికి ఆపై పైకి సంజ్ఞ చివరి అంశానికి వెళ్లడానికి మిమ్మల్ని అనుమతిస్తుంది.\n\nపఠన కణికీయత ఇప్పుడు అంశాన్ని కేంద్రీకరించి, ఆపై స్థానిక సందర్భ మెను నుండి కణికీయతను ఎంచుకోవడం ద్వారా మార్చబడుతుంది.\n\nమీరు ఈ సంజ్ఞలు తీసుకునే చర్యలను TalkBack సెట్టింగ్‌ల్లో మార్చవచ్చు."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"ఈ ScreenSpeak సంస్కరణ డిఫాల్ట్ ప్రాప్యత సంజ్ఞలకు చేసిన మార్పులను కలిగి ఉంది.\n\nపైకి ఆపై క్రిందికి సంజ్ఞ స్క్రీన్‌పై ఉన్న మొదటి అంశానికి వెళ్లడానికి, అదే విధంగా క్రిందికి ఆపై పైకి సంజ్ఞ చివరి అంశానికి వెళ్లడానికి మిమ్మల్ని అనుమతిస్తుంది.\n\nపఠన కణికీయత ఇప్పుడు అంశాన్ని కేంద్రీకరించి, ఆపై స్థానిక సందర్భ మెను నుండి కణికీయతను ఎంచుకోవడం ద్వారా మార్చబడుతుంది.\n\nమీరు ఈ సంజ్ఞలు తీసుకునే చర్యలను ScreenSpeak సెట్టింగ్‌ల్లో మార్చవచ్చు."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"సంజ్ఞలను ఆమోదించు"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"సంజ్ఞలను అనుకూలీకరించు"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"తాకడం ద్వారా విశ్లేషణను నిలిపివేయాలా?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"బిందుసూచిత వృక్ష పటం డీబగ్గింగ్‌ను ప్రారంభించాలా?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"మీరు ఖచ్చితంగా బిందుసూచిత వృక్ష పటం డీబగ్గింగ్‌ను ఆన్ చేయాలనుకుంటున్నారా?\n\nబిందుసూచిత వృక్ష పటం డీబగ్గింగ్ మీ స్క్రీన్ కంటెంట్‌ను మీ పరికర లాగ్‌లకు బహిర్గతం చేస్తుంది, ఇది ఇతర అనువర్తనాల ద్వారా చదవబడవచ్చు."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"వెబ్ కంటెంట్‌లో తాకడం ద్వారా విశ్లేషణ అందుబాటులో లేదు. వెబ్ కంటెంట్‌ను విశ్లేషించడానికి ప్రాప్యత సెట్టింగ్‌ల్లో <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g>ని ఆన్ చేయండి."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"TalkBack సార్వజనీన సందర్భ మెను"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"TalkBack నియంత్రణ"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"TalkBackకు సంజ్ఞలను పంపడానికి మరియు చదివి వినిపించే అభిప్రాయాన్ని పునఃప్రారంభించడానికి అనుమతి."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"TalkBack అనుకూల లేబుల్‌లను నిర్వహించండి"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"TalkBack ద్వారా చదివి వినిపించే అనుకూల లేబుల్‌లను ప్రాప్యత చేయడానికి, సవరించడానికి మరియు తొలగించడానికి అనుమతి."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"ScreenSpeak సార్వజనీన సందర్భ మెను"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"ScreenSpeak నియంత్రణ"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"ScreenSpeakకు సంజ్ఞలను పంపడానికి మరియు చదివి వినిపించే అభిప్రాయాన్ని పునఃప్రారంభించడానికి అనుమతి."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"ScreenSpeak అనుకూల లేబుల్‌లను నిర్వహించండి"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"ScreenSpeak ద్వారా చదివి వినిపించే అనుకూల లేబుల్‌లను ప్రాప్యత చేయడానికి, సవరించడానికి మరియు తొలగించడానికి అనుమతి."</string>
     <string name="links" msgid="3448225474115458693">"లింక్‌లు"</string>
     <string name="end_of_text" msgid="3595733062526019550">"చివరికి"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

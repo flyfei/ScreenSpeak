@@ -20,7 +20,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Handler;
 import android.preference.PreferenceManager;
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 import com.android.utils.SharedPreferencesUtils;
 
 /**

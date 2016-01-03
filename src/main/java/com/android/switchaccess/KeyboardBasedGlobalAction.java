@@ -16,7 +16,7 @@
 
 package com.android.switchaccess;
 
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 
 import android.accessibilityservice.AccessibilityService;
 

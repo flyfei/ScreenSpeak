@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"Wanneer TalkBack is ingeschakeld, levert je apparaat gesproken feedback om blinde en slechtziende gebruikers te helpen. Er wordt bijvoorbeeld beschreven wat je aanraakt, selecteert en inschakelt."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack aan"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"Instellingen voor TalkBack"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"Wanneer ScreenSpeak is ingeschakeld, levert je apparaat gesproken feedback om blinde en slechtziende gebruikers te helpen. Er wordt bijvoorbeeld beschreven wat je aanraakt, selecteert en inschakelt."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak aan"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"Instellingen voor ScreenSpeak"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Instellingen tekst-naar-spraak"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Versie <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Versie <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Aangepaste labels beheren"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"Labels beheren voor <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Er zijn momenteel geen aangepaste labels. Je kunt er een maken door naar een niet-gelabelde afbeelding te navigeren en vervolgens een label toe te voegen via het lokale contextmenu."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Verkennen via aanraking"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Selecteren met één tik"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Contextmenu als lijst weergeven"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"Scherm dimmen wanneer TalkBack is ingeschakeld"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"Scherm dimmen wanneer ScreenSpeak is ingeschakeld"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Experimenteel) Tik op momenteel geselecteerd item om dit te selecteren"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Schudden voor doorlopend lezen"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Gebaren beheren"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Aangepaste labels beheren"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Sneltoetsen beheren"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Open TalkBack in de Play Store"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Huidige TalkBack-versie: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Open ScreenSpeak in de Play Store"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Huidige ScreenSpeak-versie: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Servicevoorwaarden"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Privacybeleid"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Snelgebaren"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Start"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Recente apps"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Meldingen"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"TalkBack onderbreken"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"ScreenSpeak onderbreken"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Navigatie-instellingen"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Volgende navigatie-instelling"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Vorige navigatie-instelling"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Spraakaudio centraal"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Overig audiovolume verlagen tijdens spreken"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Geluidsvolume"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Snelkoppeling voor TalkBack opschorten en hervatten"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Snelkoppeling voor ScreenSpeak opschorten en hervatten"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Diversen"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Ontwikkelaarsinstellingen"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Niveau van logoutput"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Foutopsporing voor knooppuntstructuren inschakelen"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Webtoegankelijkheid verbeteren"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Toegankelijkheidsscripts downloaden voor webinhoud"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Hervatten na opschorten"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Hervatten na opschorten"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Scherm gedimd"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Helderheid van scherm hersteld"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"De TalkBack-toegankelijkheidsservice heeft het scherm gedimd."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"De ScreenSpeak-toegankelijkheidsservice heeft het scherm gedimd."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Je kunt dit ongedaan maken door drie keer achter elkaar op beide volumeknoppen tegelijk te drukken."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Via de TalkBack-instellingen kun je het dimmen van het scherm beheren."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Via de ScreenSpeak-instellingen kun je het dimmen van het scherm beheren."</string>
     <string name="axis_character" msgid="8528412412593489695">"Navigeren op teken."</string>
     <string name="axis_word" msgid="8823389407337076750">"Navigeren op woord."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Navigeren op zin."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Knop \'Startpagina\'"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Knop \'Overzicht\'"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Meldingen openen"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Algemene contextmenu openen"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Algemene contextmenu openen"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Lokale contextmenu openen"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Laatste uiting herhalen"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Laatste uiting spellen"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Getypte toetsen altijd uitspreken"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Alleen voor schermtoetsenbord"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Getypte toetsen nooit uitspreken"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBack-gebaren gewijzigd"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Tik om wijzigingen in de gebaren voor toegankelijkheid te bekijken"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack is opgeschort"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Tik om te hervatten."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"TalkBack opschorten?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Weet je het zeker? Je apparaat geeft geen feedback en de functie \'Verkennen via aanraking\' wordt uitgeschakeld. Je kunt TalkBack hervatten via meldingen, door terug te gaan naar het vergrendelingsscherm of via de volumetoets."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"Je kunt TalkBack hervatten via het meldingenpaneel."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"Je kunt TalkBack hervatten via het meldingenpaneel of door het scherm in te schakelen."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"Je kunt TalkBack hervatten via het meldingenpaneel of door terug te keren naar het vergrendelingsscherm."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeak-gebaren gewijzigd"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Tik om wijzigingen in de gebaren voor toegankelijkheid te bekijken"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak is opgeschort"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Tik om te hervatten."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"ScreenSpeak opschorten?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Weet je het zeker? Je apparaat geeft geen feedback en de functie \'Verkennen via aanraking\' wordt uitgeschakeld. Je kunt ScreenSpeak hervatten via meldingen, door terug te gaan naar het vergrendelingsscherm of via de volumetoets."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"Je kunt ScreenSpeak hervatten via het meldingenpaneel."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"Je kunt ScreenSpeak hervatten via het meldingenpaneel of door het scherm in te schakelen."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"Je kunt ScreenSpeak hervatten via het meldingenpaneel of door terug te keren naar het vergrendelingsscherm."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Deze waarschuwing altijd weergeven"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"Dit item kan niet worden gelabeld."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Label toevoegen"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Weet je zeker dat je het label \'<xliff:g id="LABEL">%1$s</xliff:g>\' wilt verwijderen?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Weet je zeker dat je het label \'<xliff:g id="LABEL">%1$s</xliff:g>\' in <xliff:g id="APP_NAME">%2$s</xliff:g> wilt verwijderen?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Labeltekst"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"Deze versie van TalkBack omvat wijzigingen in de standaardgebaren voor toegankelijkheid. De acties die horen bij deze gebaren, kunnen worden aangepast in de TalkBack-instellingen. Wanneer \'Verkennen via aanraking\' is ingeschakeld, kun je de volgende gebaren gebruiken om bepaalde acties uit te voeren.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Toetsen voor volume omhoog en volume omlaag lang indrukken"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"Deze versie van ScreenSpeak omvat wijzigingen in de standaardgebaren voor toegankelijkheid. De acties die horen bij deze gebaren, kunnen worden aangepast in de ScreenSpeak-instellingen. Wanneer \'Verkennen via aanraking\' is ingeschakeld, kun je de volgende gebaren gebruiken om bepaalde acties uit te voeren.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Toetsen voor volume omhoog en volume omlaag lang indrukken"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Scherm dimmen?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Weet je zeker dat je het scherm wilt dimmen?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"In deze versie van TalkBack zijn de standaard toegangsgebaren gewijzigd.\n\nMet de beweging \'omhoog en dan omlaag\' ga je naar het eerste item op het scherm, en met de beweging \'omlaag en dan omhoog\' naar het laatste item.\n\nHet leesniveau kan nu worden aangepast door de focus op een item te plaatsen en een leesniveau te selecteren in het lokale contextmenu.\n\nIn de instellingen voor TalkBack kun je de acties wijzigen die door deze gebaren worden uitgevoerd."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"In deze versie van ScreenSpeak zijn de standaard toegangsgebaren gewijzigd.\n\nMet de beweging \'omhoog en dan omlaag\' ga je naar het eerste item op het scherm, en met de beweging \'omlaag en dan omhoog\' naar het laatste item.\n\nHet leesniveau kan nu worden aangepast door de focus op een item te plaatsen en een leesniveau te selecteren in het lokale contextmenu.\n\nIn de instellingen voor ScreenSpeak kun je de acties wijzigen die door deze gebaren worden uitgevoerd."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Gebaren accepteren"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Gebaren aanpassen"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"\'Verkennen via aanraking\' uitschakelen?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Foutopsporing voor knooppuntstructuren inschakelen?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Weet je zeker dat je foutopsporing voor knooppuntstructuren wilt inschakelen?\n\nMet foutopsporing voor knooppuntstructuren wordt de inhoud van je scherm aan logboeken van apparaten getoond, wat door andere applicaties kan worden gelezen."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"\'Verkennen via aanraking\' is niet beschikbaar in webinhoud. Schakel <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> in via de Instellingen voor toegankelijkheid om webinhoud te verkennen."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"Menu voor algemene context van TalkBack"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"TalkBack beheren"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Toestemming om gebaren naar TalkBack te verzenden en gesproken feedback te hervatten."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"Aangepaste TalkBack-labels beheren"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"Toestemming voor het openen, aanpassen en verwijderen van aangepaste labels die worden uitgesproken door TalkBack."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"Menu voor algemene context van ScreenSpeak"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"ScreenSpeak beheren"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Toestemming om gebaren naar ScreenSpeak te verzenden en gesproken feedback te hervatten."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"Aangepaste ScreenSpeak-labels beheren"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"Toestemming voor het openen, aanpassen en verwijderen van aangepaste labels die worden uitgesproken door ScreenSpeak."</string>
     <string name="links" msgid="3448225474115458693">"Links"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Einde"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

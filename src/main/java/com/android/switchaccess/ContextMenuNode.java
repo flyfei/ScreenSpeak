@@ -28,7 +28,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

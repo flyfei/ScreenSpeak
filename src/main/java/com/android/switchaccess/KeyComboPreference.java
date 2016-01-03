@@ -21,7 +21,7 @@ import android.support.annotation.NonNull;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 
 import android.app.AlertDialog;
 import android.content.Context;

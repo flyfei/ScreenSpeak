@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"TalkBackをONにすると、音声で応答が行われ、目の不自由なユーザーや低視力のユーザーを支援します。たとえば、タップ、選択、および有効にしたアイテムがわかるようになります。"</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack ON"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"TalkBackの設定"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"ScreenSpeakをONにすると、音声で応答が行われ、目の不自由なユーザーや低視力のユーザーを支援します。たとえば、タップ、選択、および有効にしたアイテムがわかるようになります。"</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak ON"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"ScreenSpeakの設定"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"テキスト読み上げの設定"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"バージョン<xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"バージョン<xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"カスタムラベルの管理"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"<xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>のラベルの管理"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"現在、カスタムラベルがありません。ラベルのない画像に移動してローカルコンテキストメニューからラベルを追加するとラベルを作成できます。"</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"タッチガイド"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"シングルタップで選択"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"コンテキストメニューをリストとして表示"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"TalkBackの有効時に画面を暗くする"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"ScreenSpeakの有効時に画面を暗くする"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"（試験運用）現在フォーカスのあるアイテムをタップして選択"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"シェイクして連続読み上げを開始"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"ジェスチャーの管理"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"カスタムラベルを管理"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"キーボードショートカットを管理"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"PlayストアでTalkBackを起動"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"TalkBackの現在のバージョン: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"PlayストアでScreenSpeakを起動"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"ScreenSpeakの現在のバージョン: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"利用規約"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"プライバシーポリシー"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"ショートカット操作"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"ホーム"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"最近使ったアプリ"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"通知"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"TalkBackを一時停止"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"ScreenSpeakを一時停止"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"ナビゲーションの設定"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"次のナビゲーション設定"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"前のナビゲーション設定"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"音声出力の優先"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"読み上げ時に他の音声の音量を下げる"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"音量"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"TalkBackを一時停止してショートカットを再開"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"ScreenSpeakを一時停止してショートカットを再開"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"その他"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"デベロッパー向けの設定"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"ログ出力レベル"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"ノードツリーのデバッグを有効にする"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"ウェブでのユーザー補助の拡張"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"ウェブコンテンツのユーザー補助スクリプトをダウンロードします"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"停止状態から再開"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"停止状態から再開"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"画面を暗くしました"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"画面の明るさを復元しました"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"TalkBackユーザー補助機能サービスで画面が暗くなりました。"</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"ScreenSpeakユーザー補助機能サービスで画面が暗くなりました。"</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"音量大キーと音量小キーを同時にすばやく3回押すと元に戻ります。"</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"画面を暗くするには、TalkBackから設定します。"</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"画面を暗くするには、ScreenSpeakから設定します。"</string>
     <string name="axis_character" msgid="8528412412593489695">"1文字ずつ移動します。"</string>
     <string name="axis_word" msgid="8823389407337076750">"1語ずつ移動します。"</string>
     <string name="axis_sentence" msgid="4398740201672273541">"1文ずつ移動します。"</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"ホームボタン"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"最近ボタン"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"通知を開く"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"グローバルコンテキストメニューを開く"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"グローバルコンテキストメニューを開く"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"ローカルコンテキストメニューを開く"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"最後の音声を再度読み上げる"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"最後の音声のスペルを読み上げる"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"入力したキーをすべて読み上げる"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"画面キーボードの入力のみ読み上げる"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"入力したキーを読み上げない"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBackジェスチャーを変更しました"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"ユーザー補助ジェスチャーの変更内容を見るにはタップします"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBackが停止しました"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"再開するにはタップします。"</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"TalkBackを停止しますか？"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"停止してもよろしいですか？端末からの音声応答がなくなり、タッチガイドが無効になります。TalkBackの再開は通知から行えます。またはロック画面に戻るか音量ボタンのショートカットを使用しても再開できます。"</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"TalkBackは通知シェードから再開できます。"</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"TalkBackは通知シェードから、または画面をONにすると再開できます。"</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"TalkBackは通知シェードから、またはロック画面に戻ると再開できます。"</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeakジェスチャーを変更しました"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"ユーザー補助ジェスチャーの変更内容を見るにはタップします"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeakが停止しました"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"再開するにはタップします。"</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"ScreenSpeakを停止しますか？"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"停止してもよろしいですか？端末からの音声応答がなくなり、タッチガイドが無効になります。ScreenSpeakの再開は通知から行えます。またはロック画面に戻るか音量ボタンのショートカットを使用しても再開できます。"</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"ScreenSpeakは通知シェードから再開できます。"</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"ScreenSpeakは通知シェードから、または画面をONにすると再開できます。"</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"ScreenSpeakは通知シェードから、またはロック画面に戻ると再開できます。"</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"この警告を常に表示"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"このアイテムにはラベルは付けられません。"</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"ラベルを追加"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"「<xliff:g id="LABEL">%1$s</xliff:g>」ラベルを削除してもよろしいですか？"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"<xliff:g id="APP_NAME">%2$s</xliff:g>内の「<xliff:g id="LABEL">%1$s</xliff:g>」ラベルを削除してもよろしいですか？"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"ラベルテキスト"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"このバージョンのTalkBackでは、デフォルトのユーザー補助ジェスチャーが変更されています。これらのジェスチャーに関連付けられている操作はTalkBackの設定でカスタマイズできます。タッチガイドが有効のときは次のジェスチャーを使用して特定の操作を行うことができます。\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"音量大ボタンと音量小ボタンを押し続ける"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"このバージョンのScreenSpeakでは、デフォルトのユーザー補助ジェスチャーが変更されています。これらのジェスチャーに関連付けられている操作はScreenSpeakの設定でカスタマイズできます。タッチガイドが有効のときは次のジェスチャーを使用して特定の操作を行うことができます。\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"音量大ボタンと音量小ボタンを押し続ける"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"画面を暗くしますか？"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"画面を暗くしてもよろしいですか？"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"このバージョンのTalkBackでは、デフォルトのユーザー補助ジェスチャーが変更されています。\n\n上から下へのジェスチャーをすると画面上の最初のアイテムに移動し、下から上へのジェスチャーをすると画面上の最後のアイテムに移動するようになりました。\n\n読み上げ単位の変更は、アイテムをフォーカスしてローカルコンテキストメニューから単位を選択することで行えるようになりました。\n\nこれらのジェスチャーによる操作はTalkBackの設定で変更できます。"</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"このバージョンのScreenSpeakでは、デフォルトのユーザー補助ジェスチャーが変更されています。\n\n上から下へのジェスチャーをすると画面上の最初のアイテムに移動し、下から上へのジェスチャーをすると画面上の最後のアイテムに移動するようになりました。\n\n読み上げ単位の変更は、アイテムをフォーカスしてローカルコンテキストメニューから単位を選択することで行えるようになりました。\n\nこれらのジェスチャーによる操作はScreenSpeakの設定で変更できます。"</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"ジェスチャーを有効にする"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"ジェスチャーをカスタマイズ"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"タッチガイドを無効にしますか？"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"ノードツリーのデバッグを有効にしますか？"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"ノードツリーのデバッグをONにしてもよろしいですか？\n\nノードツリーのデバッグを有効にすると、画面の内容がデバイスのログに記録され、他のアプリケーションで読み取られることがあります。"</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"ウェブコンテンツでタッチガイドを利用できない設定になっています。タッチガイドを利用するには[ユーザー補助]設定で<xliff:g id="PREFERENCE_NAME">%1$s</xliff:g>を有効にしてください。"</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"TalkBackグローバルコンテキストメニュー"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"TalkBackの管理"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"TalkBackへのジェスチャーの送信と音声応答の再開を許可します。"</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"TalkBackカスタムラベルの管理"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"TalkBackによって音声応答されるカスタムラベルに対するアクセス、変更、削除を許可します。"</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"ScreenSpeakグローバルコンテキストメニュー"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"ScreenSpeakの管理"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"ScreenSpeakへのジェスチャーの送信と音声応答の再開を許可します。"</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"ScreenSpeakカスタムラベルの管理"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"ScreenSpeakによって音声応答されるカスタムラベルに対するアクセス、変更、削除を許可します。"</string>
     <string name="links" msgid="3448225474115458693">"リンク"</string>
     <string name="end_of_text" msgid="3595733062526019550">"終了"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g>個の<xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

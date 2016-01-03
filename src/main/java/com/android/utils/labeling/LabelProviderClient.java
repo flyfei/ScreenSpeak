@@ -36,7 +36,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * A client for storing and retrieving custom TalkBack view labels using the
+ * A client for storing and retrieving custom ScreenSpeak view labels using the
  * {@link Label} model class and a connection to a
  * {@link android.content.ContentProvider} for labels.
  */

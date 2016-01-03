@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"When TalkBack is on, your device provides spoken feedback to help blind and low-vision users. For example, it describes what you touch, select and activate."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack on"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"TalkBack Settings"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"When ScreenSpeak is on, your device provides spoken feedback to help blind and low-vision users. For example, it describes what you touch, select and activate."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak on"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"ScreenSpeak Settings"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Text-to-speech Settings"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Version <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Version <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Manage Customised Labels"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"Manage Labels for <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"There are currently no customised labels. You can create one by navigating to an unlabelled image and then adding a label from the Local Context Menu."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Touch exploration"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Single-tap selection"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Show Context Menu as list"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"Dim screen when TalkBack is enabled"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"Dim screen when ScreenSpeak is enabled"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(Experimental) Tap on currently focused item to select"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Shake to start continuous reading"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Manage gestures"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Manage customised labels"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Manage keyboard shortcuts"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Open TalkBack at the Play Store"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Current TalkBack Version: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Open ScreenSpeak at the Play Store"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Current ScreenSpeak Version: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Terms of Service"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Privacy Policy"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Shortcut gestures"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Home"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Recent apps"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Notifications"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Pause TalkBack"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Pause ScreenSpeak"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Navigation settings"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Next navigation setting"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Previous navigation setting"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"Focus speech audio"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Decrease other audio volume while speaking"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Sound volume"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Talkback suspend and resume shortcut"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Screenspeak suspend and resume shortcut"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Miscellaneous"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Developer settings"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Log output level"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Enable node tree debugging"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Enhance web accessibility"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Download accessibility scripts for web content"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Resume from suspend"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Resume from suspend"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Screen dimmed"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Screen brightness restored"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"TalkBack accessibility service has dimmed the screen."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"ScreenSpeak accessibility service has dimmed the screen."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Undo by pressing Volume Up and Volume Down keys together three times quickly."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Screen dim can be controlled from TalkBack Settings."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Screen dim can be controlled from ScreenSpeak Settings."</string>
     <string name="axis_character" msgid="8528412412593489695">"Navigate by character."</string>
     <string name="axis_word" msgid="8823389407337076750">"Navigate by word."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Navigate by sentence."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Home button"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Overview button"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Open notifications"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Open global context menu"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Open global context menu"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Open local context menu"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Repeat last utterance"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Spell last utterance"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Always speak typed keys"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Only for on-screen keyboard"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Never speak typed keys"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBack gestures changed"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Tap to review changes to accessibility gestures"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack is suspended"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Tap to resume."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"Suspend TalkBack?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Are you sure? Your device will not provide feedback and Explore by Touch will be disabled. You can resume TalkBack from notifications, by returning to the lock screen, or through the volume key shortcut."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"You can resume TalkBack from the notifications shade."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"You can resume TalkBack from the notifications shade or by turning the screen on."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"You can resume TalkBack from the notifications shade or by returning to the lock screen."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeak gestures changed"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Tap to review changes to accessibility gestures"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak is suspended"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Tap to resume."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"Suspend ScreenSpeak?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Are you sure? Your device will not provide feedback and Explore by Touch will be disabled. You can resume ScreenSpeak from notifications, by returning to the lock screen, or through the volume key shortcut."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"You can resume ScreenSpeak from the notifications shade."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"You can resume ScreenSpeak from the notifications shade or by turning the screen on."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"You can resume ScreenSpeak from the notifications shade or by returning to the lock screen."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Always show this warning"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"This item cannot be labelled."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Add label"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Are you sure that you want to remove the \"<xliff:g id="LABEL">%1$s</xliff:g>\" label?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Are you sure that you want to remove the \"<xliff:g id="LABEL">%1$s</xliff:g>\" label within <xliff:g id="APP_NAME">%2$s</xliff:g>?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Label text"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"This version of TalkBack includes changes to the default accessibility gestures. The actions associated with these gestures can be customised within TalkBack settings. When Explore by touch is enabled, you can use the following gestures to perform certain actions.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Long press volume up and down keys"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"This version of ScreenSpeak includes changes to the default accessibility gestures. The actions associated with these gestures can be customised within ScreenSpeak settings. When Explore by touch is enabled, you can use the following gestures to perform certain actions.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Long press volume up and down keys"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Dim the screen?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Are you sure you want to dim the screen?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"This version of TalkBack includes changes to the default accessibility gestures.\n\nThe up-then-down gesture will allow you to move to the first item on the screen, and the down-then-up gesture will move to the last item.\n\nThe reading granularity can now be changed by focusing an item, then selecting a granularity from the local context menu.\n\nYou can change the actions performed by these gestures in TalkBack Settings."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"This version of ScreenSpeak includes changes to the default accessibility gestures.\n\nThe up-then-down gesture will allow you to move to the first item on the screen, and the down-then-up gesture will move to the last item.\n\nThe reading granularity can now be changed by focusing an item, then selecting a granularity from the local context menu.\n\nYou can change the actions performed by these gestures in ScreenSpeak Settings."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Accept gestures"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Customise gestures"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"Disable Explore by touch?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Enable Node Tree Debugging?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Are you sure that you want to turn on node tree debugging?\n\nNode tree debugging exposes the content of your screen to your device\'s logs, which may be read by other applications."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"Explore by touch is not available in web content. Turn on <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> in Accessibility settings to explore web content."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"TalkBack global context menu"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"Control TalkBack"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Permission to send gestures to TalkBack and resume spoken feedback."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"Manage TalkBack customised labels"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"Permission to access, modify and delete customised labels spoken by TalkBack."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"ScreenSpeak global context menu"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"Control ScreenSpeak"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Permission to send gestures to ScreenSpeak and resume spoken feedback."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"Manage ScreenSpeak customised labels"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"Permission to access, modify and delete customised labels spoken by ScreenSpeak."</string>
     <string name="links" msgid="3448225474115458693">"Links"</string>
     <string name="end_of_text" msgid="3595733062526019550">"End"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

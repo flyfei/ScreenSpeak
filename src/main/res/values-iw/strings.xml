@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"‏כאשר Talkback מופעל, המכשיר מספק משוב בדיבור המסייע למשתמשים עיוורים ובעלי לקויי ראייה. לדוגמה, המשוב מתאר את הפריטים שבהם אתה נוגע ושאותם אתה בוחר ומפעיל."</string>
-    <string name="talkback_on" msgid="315529674405160699">"‏TalkBack מופעל"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"‏הגדרות TalkBack"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"‏כאשר Screenspeak מופעל, המכשיר מספק משוב בדיבור המסייע למשתמשים עיוורים ובעלי לקויי ראייה. לדוגמה, המשוב מתאר את הפריטים שבהם אתה נוגע ושאותם אתה בוחר ומפעיל."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"‏ScreenSpeak מופעל"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"‏הגדרות ScreenSpeak"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"הגדרות של המרת טקסט לדיבור"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"גרסה <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"גרסה <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"ניהול תוויות בהתאמה אישית"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"ניהול תוויות עבור <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"אין כרגע תוויות המותאמות אישית. ניתן ליצור תווית על ידי ניווט אל תמונה ללא תווית ולהוסיף תווית באמצעות תפריט ההקשר המקומי."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"גילוי באמצעות מגע"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"בחירה בהקשה אחת"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"הצג את תפריט ההקשר כרשימה"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"‏עמעם את המסך כש-TalkBack פועל"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"‏עמעם את המסך כש-ScreenSpeak פועל"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(ניסיוני) הקש על הפריט הנוכחי שנמצא במיקוד כדי לבחור בו"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"נער כדי להתחיל בקריאה רציפה"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"ניהול תנועות"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"ניהול תוויות בהתאמה אישית"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"נהל את מקשי הקיצור"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"‏פתח את TalkBack בחנות Play"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"‏גרסת TalkBack נוכחית: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"‏פתח את ScreenSpeak בחנות Play"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"‏גרסת ScreenSpeak נוכחית: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"תנאים והגבלות"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"מדיניות פרטיות"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"תנועות קיצור דרך"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"בית"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"אפליקציות אחרונות"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"הודעות"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"‏השהה את TalkBack"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"‏השהה את ScreenSpeak"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"הגדרות ניווט"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"הגדרת הניווט \'הבא\'"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"הגדרת הניווט \'הקודם\'"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"מיקוד אודיו לדיבור"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"הפחת את עוצמת הקול של פלט אודיו אחר בזמן דיבור"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"עוצמת הצליל"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"‏מקש קיצור להשעיה והמשך הפעלה של Talkback"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"‏מקש קיצור להשעיה והמשך הפעלה של Screenspeak"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"שונות"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"הגדרות למפתחים"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"רמה של פלט רישום ביומן"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"הפעל ניקוי שגיאות בעץ צמתים"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"שיפור נגישות האינטרנט"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"הורד סקריפטים של נגישות עבור תוכן אינטרנט"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"יציאה ממצב השהיה"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"יציאה ממצב השהיה"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"המסך עומעם"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"בהירות המסך שוחזרה"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"‏שירות הנגישות TalkBack עמעם את המסך."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"‏שירות הנגישות ScreenSpeak עמעם את המסך."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"תוכל לבטל את הפעולה על ידי שלוש לחיצות מהירות ובו זמניות על לחצני ההגברה וההחלשה של עוצמת הקול."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"‏אפשר לשלוט בעמעום המסך באמצעות ההגדרות של TalkBack."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"‏אפשר לשלוט בעמעום המסך באמצעות ההגדרות של ScreenSpeak."</string>
     <string name="axis_character" msgid="8528412412593489695">"נווט לפי תו."</string>
     <string name="axis_word" msgid="8823389407337076750">"נווט לפי מילה."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"נווט לפי משפט."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"לחצן \'דף הבית\'"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"לחצן סקירה"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"פתיחת הודעות"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"פותח את תפריט ההקשר הגלובלי"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"פותח את תפריט ההקשר הגלובלי"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"פותח את תפריט ההקשר המקומי"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"חזור על הביטוי האחרון"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"איית את הביטוי האחרון"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"יש להגות תמיד מקשים"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"רק למקלדת שמופיעה במסך"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"לעולם אין להגות מקשים"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"‏תנועות TalkBack שונו"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"הקש כדי לסקור את שינויי תנועות הנגישות"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"‏TalkBack מושהה"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"הקש כדי להמשיך."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"‏האם להשהות את TalkBack?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"‏האם אתה בטוח? המכשיר לא יספק משוב והתכונה \'גילוי באמצעות מגע\' תושבת. תוכל להמשיך את ההפעלה של TalkBack דרך ההודעות, על ידי חזרה למסך הנעילה או באמצעות מקש עוצמת הקול המשמש כמקש קיצור."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"‏ניתן להפעיל מחדש את TalkBack מלוח ההודעות."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"‏ניתן להפעיל מחדש את TalkBack מלוח ההודעות או על ידי הפעלת המסך."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"‏ניתן להפעיל מחדש את TalkBack מלוח ההודעות או על ידי חזרה למסך הנעילה."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"‏תנועות ScreenSpeak שונו"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"הקש כדי לסקור את שינויי תנועות הנגישות"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"‏ScreenSpeak מושהה"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"הקש כדי להמשיך."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"‏האם להשהות את ScreenSpeak?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"‏האם אתה בטוח? המכשיר לא יספק משוב והתכונה \'גילוי באמצעות מגע\' תושבת. תוכל להמשיך את ההפעלה של ScreenSpeak דרך ההודעות, על ידי חזרה למסך הנעילה או באמצעות מקש עוצמת הקול המשמש כמקש קיצור."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"‏ניתן להפעיל מחדש את ScreenSpeak מלוח ההודעות."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"‏ניתן להפעיל מחדש את ScreenSpeak מלוח ההודעות או על ידי הפעלת המסך."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"‏ניתן להפעיל מחדש את ScreenSpeak מלוח ההודעות או על ידי חזרה למסך הנעילה."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"הצג תמיד את האזהרה הזו"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"לא ניתן לתייג את הפריט הזה."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"הוספת תווית"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"האם אתה בטוח שברצונך להסיר את התווית \"<xliff:g id="LABEL">%1$s</xliff:g>\"?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"האם אתה בטוח שברצונך להסיר את התווית \"<xliff:g id="LABEL">%1$s</xliff:g>\" ב-<xliff:g id="APP_NAME">%2$s</xliff:g>?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"טקסט תווית"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"‏גרסה זו של TalkBack כוללת שינויים בתנועות הנגישות המוגדרות כברירת מחדל. ניתן להתאים אישית את הפעולות המשויכות לתנועות אלה בתוך הגדרות TalkBack. כש\'גילוי באמצעות מגע\' מופעל, ניתן להשתמש בתנועות הבאות כדי לבצע פעולות מסוימות.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"לחיצה ארוכה על מקשי ההגברה וההחלשה של עוצמת הקול"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"‏גרסה זו של ScreenSpeak כוללת שינויים בתנועות הנגישות המוגדרות כברירת מחדל. ניתן להתאים אישית את הפעולות המשויכות לתנועות אלה בתוך הגדרות ScreenSpeak. כש\'גילוי באמצעות מגע\' מופעל, ניתן להשתמש בתנועות הבאות כדי לבצע פעולות מסוימות.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"לחיצה ארוכה על מקשי ההגברה וההחלשה של עוצמת הקול"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"האם לעמעם את המסך?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"האם אתה בטוח שברצונך לעמעם את המסך?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"‏גרסה זו של TalkBack כוללת שינויים בתנועות הנגישות המוגדרות כברירת מחדל.\n\nהתנועה \'למעלה ואחר כך למטה\' תאפשר לך לעבור לפריט הראשון במסך, והתנועה \'למטה ואחר כך למעלה\' תעביר לפריט האחרון.\n\nכעת ניתן לשנות את רמת פירוט הקריאה על ידי התמקדות בפריט ולאחר מכן בחירת רמת פירוט מתפריט ההקשר המקומי.\n\nניתן לשנות את הפעולות המתבצעות על ידי תנועות אלה ב\'הגדרות TalkBack\'."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"‏גרסה זו של ScreenSpeak כוללת שינויים בתנועות הנגישות המוגדרות כברירת מחדל.\n\nהתנועה \'למעלה ואחר כך למטה\' תאפשר לך לעבור לפריט הראשון במסך, והתנועה \'למטה ואחר כך למעלה\' תעביר לפריט האחרון.\n\nכעת ניתן לשנות את רמת פירוט הקריאה על ידי התמקדות בפריט ולאחר מכן בחירת רמת פירוט מתפריט ההקשר המקומי.\n\nניתן לשנות את הפעולות המתבצעות על ידי תנועות אלה ב\'הגדרות ScreenSpeak\'."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"אשר תנועות"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"התאם אישית תנועות"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"האם להשבית את \'גילוי באמצעות מגע\'?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"האם להפעיל ניקוי שגיאות בעץ צמתים?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"האם אתה בטוח שברצונך להפעיל ניפוי באגים בעץ צמתים?\n\nניפוי באגים בעץ צמתים חושף את תוכן המסך ליומני המכשיר, וייתכן שהוא ייקרא על ידי אפליקציות אחרות."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"\'גילוי באמצעות מגע\' אינו זמין בתוכן אינטרנט. הפעל את <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> בהגדרות \'נגישות\' כדי להשתמש בתכונה הזו עבור תוכן אינטרנט."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"‏תפריט הקשר גלובלי של TalkBack"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"‏שליטה ב-TalkBack"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"‏הרשאה לשלוח תנועות אל TalkBack ולחדש משוב בדיבור."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"‏ניהול תוויות מותאמות אישית ב-TalkBack"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"‏הרשאת גישה, שינוי ומחיקה עבור תוויות מותאמות אישית הנאמרות על ידי TalkBack."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"‏תפריט הקשר גלובלי של ScreenSpeak"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"‏שליטה ב-ScreenSpeak"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"‏הרשאה לשלוח תנועות אל ScreenSpeak ולחדש משוב בדיבור."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"‏ניהול תוויות מותאמות אישית ב-ScreenSpeak"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"‏הרשאת גישה, שינוי ומחיקה עבור תוויות מותאמות אישית הנאמרות על ידי ScreenSpeak."</string>
     <string name="links" msgid="3448225474115458693">"קישורים"</string>
     <string name="end_of_text" msgid="3595733062526019550">"סיום"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

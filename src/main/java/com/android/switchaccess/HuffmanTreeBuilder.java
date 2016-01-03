@@ -192,7 +192,7 @@ public class HuffmanTreeBuilder {
     private PriorityQueue<HuffmanNode> getOptionScanNodeProbabilities(String userContext,
              SwitchAccessNodeCompat windowRoot) {
         LinkedList<SwitchAccessNodeCompat> talkBackOrderList = TreeBuilderUtils.
-                getNodesInTalkBackOrder(windowRoot);
+                getNodesInScreenSpeakOrder(windowRoot);
         Set<SwitchAccessNodeCompat> talkBackOrderSet = new HashSet<>(talkBackOrderList);
         Map<SwitchAccessNodeCompat, Double> probabilityDistribution =
                 mProbabilityModelReader.getProbabilityDistribution(userContext, talkBackOrderSet);

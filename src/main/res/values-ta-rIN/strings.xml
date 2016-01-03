@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"TalkBack இயக்கப்பட்டிருக்கும்போது, கண்பார்வை இல்லாத மற்றும் பார்வை குறைபாடு உள்ளவர்களுக்கு உதவ பேசப்படும் அறிவிப்பை உங்கள் சாதனம் வழங்குகிறது. எடுத்துக்காட்டாக, இது நீங்கள் தொடுவதை, தேர்ந்தெடுப்பதை மற்றும் செயற்படுத்துவதை விவரிக்கிறது."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack இயக்கத்தில்"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"TalkBack அமைப்புகள்"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"ScreenSpeak இயக்கப்பட்டிருக்கும்போது, கண்பார்வை இல்லாத மற்றும் பார்வை குறைபாடு உள்ளவர்களுக்கு உதவ பேசப்படும் அறிவிப்பை உங்கள் சாதனம் வழங்குகிறது. எடுத்துக்காட்டாக, இது நீங்கள் தொடுவதை, தேர்ந்தெடுப்பதை மற்றும் செயற்படுத்துவதை விவரிக்கிறது."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak இயக்கத்தில்"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"ScreenSpeak அமைப்புகள்"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"உரை வடிவத்திலிருந்து பேச்சுக்கான அமைப்புகள்"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"பதிப்பு <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"பதிப்பு <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"தனிப்பயன் லேபிள்களை நிர்வகி"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"<xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>க்கான லேபிள்களை நிர்வகி"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"தற்போது தனிப்பயன் லேபிள்கள் எதுவும் இல்லை. லேபிளிடப்படாத படத்திற்குச் சென்று, அகச் சூழல் மெனுவிலிருந்து லேபிளைச் சேர்ப்பதன் மூலம் புதிய தனிப்பயன் லேபிளை உருவாக்கலாம்."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"தொட்டு கண்டறிதல்"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"ஒற்றை தட்டுதல் மூலம் தேர்ந்தெடுத்தல்"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"சூழல் மெனுவை பட்டியலாகக் காட்டு"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"TalkBack இயக்கப்படும் போது திரையை மங்கலாக்கு"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"ScreenSpeak இயக்கப்படும் போது திரையை மங்கலாக்கு"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(சோதனைரீதியிலானது) தற்போது தேர்வுசெய்த உருப்படியைத் தேர்ந்தெடுக்க தட்டவும்"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"தொடர்ச்சியாகப் படிப்பதைத் தொடங்க குலுக்கவும்"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"சைகைகளை நிர்வகி"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"தனிப்பயன் லேபிள்களை நிர்வகி"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"விசைப்பலகை குறுக்குவழிகளை நிர்வகி"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Play Store இல் TalkBackஐத் திற"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"நடப்பு TalkBack பதிப்பு: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Play Store இல் ScreenSpeakஐத் திற"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"நடப்பு ScreenSpeak பதிப்பு: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"சேவை விதிமுறைகள்"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"தனியுரிமைக் கொள்கை"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"குறுக்குவழி சைகைகள்"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"முகப்பு"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"சமீபத்திய பயன்பாடுகள்"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"அறிவிப்புகள்"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"TalkBackஐ இடைநிறுத்து"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"ScreenSpeakஐ இடைநிறுத்து"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"வழிசெலுத்தல் அமைப்புகள்"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"அடுத்த வழிசெலுத்தல் அமைப்பு"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"முந்தைய வழிசெலுத்தல் அமைப்பு"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"பேச்சு ஆடியோவை மையப்படுத்து"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"பேசும்போது வேறு சத்தங்களைக் குறை"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"ஒலியளவு"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Talkback இடைநிறுத்து மற்றும் மீண்டும் துவங்கு என்பதன் குறுக்குவழி"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Screenspeak இடைநிறுத்து மற்றும் மீண்டும் துவங்கு என்பதன் குறுக்குவழி"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"இதர அமைப்பு"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"டெவெலப்பர் அமைப்புகள்"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"வெளியீட்டு நிலையைப் பதிவுசெய்"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"நோடு ட்ரீ பிழைத்திருத்தத்தை இயக்கு"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"இணைய அணுகல்தன்மையை அதிகப்படுத்து"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"இணைய உள்ளடக்கத்திற்கான அணுகல்தன்மை ஸ்கிரிப்ட்களை இறக்கு"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"இடைநீக்கத்தில் இருந்து மீண்டும் தொடங்கு"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"இடைநீக்கத்தில் இருந்து மீண்டும் தொடங்கு"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"திரை மங்கலாகி விட்டது"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"திரையின் பிரகாசம் மீட்டமைக்கப்பட்டது"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"TalkBack அணுகல்தன்மை சேவை, திரையை மங்கலாக்கிவிட்டது."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"ScreenSpeak அணுகல்தன்மை சேவை, திரையை மங்கலாக்கிவிட்டது."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"இதைச் செயல்தவிர்க்க, ஒலியளவு அதிகரி மற்றும் ஒலியளவு குறை விசைகளை ஒன்றாக மூன்று முறை உடனுக்குடன் அழுத்தவும்."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"TalkBack அமைப்புகளில் திரையை மங்கலாக்குவதைக் கட்டுப்படுத்தலாம்."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"ScreenSpeak அமைப்புகளில் திரையை மங்கலாக்குவதைக் கட்டுப்படுத்தலாம்."</string>
     <string name="axis_character" msgid="8528412412593489695">"எழுத்துக்குறியின்படி செல்."</string>
     <string name="axis_word" msgid="8823389407337076750">"வார்த்தையின்படி செல்."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"சொற்றொடரின்படி செல்."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"முகப்பு பட்டன்"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"மேலோட்டப் பார்வை பட்டன்"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"அறிவிப்புகளைத் திற"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"மொத்த சூழல் மெனுவைத் திற"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"மொத்த சூழல் மெனுவைத் திற"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"அகச் சூழல் மெனுவைத் திற"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"கடைசியாகக் கூறியதை மீண்டும் கூறு"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"கடைசியாகக் கூறியதை உச்சரி"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"உள்ளிட்ட விசைகளை எப்போதும் கூறு"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"திரை விசைப்பலகைக்காக மட்டுமே"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"உள்ளிட்ட விசைகளை எப்போதும் கூறாதே"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBack சைகைகள் மாற்றப்பட்டன"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"அணுகல்தன்மை சைகைகளில் செய்யப்பட்ட மாற்றங்களைப் பார்க்க, தட்டவும்"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack இடைநீக்கப்பட்டது"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"மீண்டும் தொடங்க தட்டவும்."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"TalkBackஐ இடைநிறுத்தவா?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"நிச்சயமாகவா? சாதனம் ஃபீட்பேக் வழங்காது மற்றும் தொடுவதன் மூலம் அறிக எனும் அம்சம் முடக்கப்படும். பூட்டுத் திரைக்குத் திரும்புவது அல்லது ஒலியளவு விசைக் குறுக்குவழி மூலமாக அறிவிப்புகளிலிருந்து TalkBackஐ மீண்டும் தொடங்கலாம்."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"அறிவிப்புகள் விவரத்திலிருந்து TalkBackஐ மீண்டும் தொடங்கலாம்."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"அறிவிப்புகள் விவரத்திலிருந்து அல்லது திரையை இயக்குவதன் மூலம் TalkBackஐ மீண்டும் தொடங்கலாம்."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"அறிவிப்புகள் விவரத்திலிருந்து அல்லது பூட்டுத் திரைக்குத் திரும்புவதன் மூலம் TalkBackஐ மீண்டும் தொடங்கலாம்."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeak சைகைகள் மாற்றப்பட்டன"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"அணுகல்தன்மை சைகைகளில் செய்யப்பட்ட மாற்றங்களைப் பார்க்க, தட்டவும்"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak இடைநீக்கப்பட்டது"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"மீண்டும் தொடங்க தட்டவும்."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"ScreenSpeakஐ இடைநிறுத்தவா?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"நிச்சயமாகவா? சாதனம் ஃபீட்பேக் வழங்காது மற்றும் தொடுவதன் மூலம் அறிக எனும் அம்சம் முடக்கப்படும். பூட்டுத் திரைக்குத் திரும்புவது அல்லது ஒலியளவு விசைக் குறுக்குவழி மூலமாக அறிவிப்புகளிலிருந்து ScreenSpeakஐ மீண்டும் தொடங்கலாம்."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"அறிவிப்புகள் விவரத்திலிருந்து ScreenSpeakஐ மீண்டும் தொடங்கலாம்."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"அறிவிப்புகள் விவரத்திலிருந்து அல்லது திரையை இயக்குவதன் மூலம் ScreenSpeakஐ மீண்டும் தொடங்கலாம்."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"அறிவிப்புகள் விவரத்திலிருந்து அல்லது பூட்டுத் திரைக்குத் திரும்புவதன் மூலம் ScreenSpeakஐ மீண்டும் தொடங்கலாம்."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"இந்த எச்சரிக்கையை எப்போதும் காட்டு"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"இதற்கு லேபிளிட முடியாது."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"லேபிளைச் சேர்"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"\"<xliff:g id="LABEL">%1$s</xliff:g>\" லேபிளை நிச்சயமாக அகற்ற விரும்புகிறீர்களா?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"<xliff:g id="APP_NAME">%2$s</xliff:g> பயன்பாட்டிற்குள்ளாக \"<xliff:g id="LABEL">%1$s</xliff:g>\" லேபிளை அகற்ற விரும்புகிறீர்களா?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"லேபிள் உரை"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"TalkBack இன் இந்தப் பதிப்பில், இயல்புநிலை அணுகல்தன்மை சைகைகளுக்கான மாற்றங்கள் அடங்கியுள்ளன. TalkBack அமைப்புகளிலேயே, இந்த சைகைகளுடன் தொடர்புடைய செயல்களைத் தனிப்பயனாக்கலாம். தொடுவதன் மூலம் அறிக அம்சம் இயக்கப்பட்டிருக்கும்போது, நீங்கள் குறிப்பிட்ட செயல்களைச் செய்ய பின்வரும் சைகைகளைப் பயன்படுத்தலாம்.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"ஒலியளவு அதிகரி மற்றும் ஒலியளவு குறை விசைகளை நீண்டநேரம் அழுத்து"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"ScreenSpeak இன் இந்தப் பதிப்பில், இயல்புநிலை அணுகல்தன்மை சைகைகளுக்கான மாற்றங்கள் அடங்கியுள்ளன. ScreenSpeak அமைப்புகளிலேயே, இந்த சைகைகளுடன் தொடர்புடைய செயல்களைத் தனிப்பயனாக்கலாம். தொடுவதன் மூலம் அறிக அம்சம் இயக்கப்பட்டிருக்கும்போது, நீங்கள் குறிப்பிட்ட செயல்களைச் செய்ய பின்வரும் சைகைகளைப் பயன்படுத்தலாம்.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"ஒலியளவு அதிகரி மற்றும் ஒலியளவு குறை விசைகளை நீண்டநேரம் அழுத்து"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"திரையை மங்கலாக்கவா?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"திரையை நிச்சயமாக மங்கலாக்க விரும்புகிறீர்களா?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"TalkBack இன் இந்தப் பதிப்பில், இயல்புநிலை அணுகல்தன்மை சைகைகளுக்கான மாற்றங்கள் அடங்கியுள்ளன.\n\nமுதலில் மேலே சென்று பின்னர் கீழிறங்கும் சைகையானது, திரையில் முதல் உருப்படிக்கு நீங்கள் நகர்வதை அனுமதிக்கும் மற்றும் முதலில் கீழே இறங்கி பின்னர் மேல் செல்லும் சைகையானது கடைசி உருப்படிக்கு நகரும்.\n\nஉருப்படியைத் தேர்வுசெய்து, அகச் சூழல் மெனுவிலிருந்து படிக்கும்தன்மையைத் தேர்ந்தெடுப்பதன் மூலம் படித்தலின் படிக்கும்தன்மையை இப்போது மாற்றலாம்.\n\nTalkBack அமைப்புகளில் இந்தச் சைகைகளால் செயற்படுத்தப்படும் செயல்களை நீங்கள் மாற்றலாம்."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"ScreenSpeak இன் இந்தப் பதிப்பில், இயல்புநிலை அணுகல்தன்மை சைகைகளுக்கான மாற்றங்கள் அடங்கியுள்ளன.\n\nமுதலில் மேலே சென்று பின்னர் கீழிறங்கும் சைகையானது, திரையில் முதல் உருப்படிக்கு நீங்கள் நகர்வதை அனுமதிக்கும் மற்றும் முதலில் கீழே இறங்கி பின்னர் மேல் செல்லும் சைகையானது கடைசி உருப்படிக்கு நகரும்.\n\nஉருப்படியைத் தேர்வுசெய்து, அகச் சூழல் மெனுவிலிருந்து படிக்கும்தன்மையைத் தேர்ந்தெடுப்பதன் மூலம் படித்தலின் படிக்கும்தன்மையை இப்போது மாற்றலாம்.\n\nScreenSpeak அமைப்புகளில் இந்தச் சைகைகளால் செயற்படுத்தப்படும் செயல்களை நீங்கள் மாற்றலாம்."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"சைகைகளை ஏற்கவும்"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"சைகைகளைத் தனிப்பயனாக்கு"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"தொடுவதன் மூலம் அறிவதை முடக்கவா?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"நோடு ட்ரீ பிழைத்திருத்தத்தை இயக்கவா?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"நோடு ட்ரீ பிழைத்திருத்தத்தை நிச்சயமாக இயக்க விரும்புகிறீர்களா?\n\nநோடு ட்ரீ பிழைத்திருத்தம் உங்கள் திரையின் உள்ளடக்கத்தை, உங்கள் சாதனத்தின் பதிவுகளில் சேர்க்கும், இதனைப் பிற பயன்பாடுகள் படிக்கக்கூடும்."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"இணைய உள்ளடக்கத்தில், தொடுவதன் மூலம் அறிக அம்சம் செயல்படாது. இணைய உள்ளடக்கத்தை ஆராய அணுகல்தன்மை அமைப்புகளில், <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g>ஐ இயக்கவும்."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"TalkBack மொத்த சூழல் மெனு"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"TalkBackஐக் கட்டுப்படுத்து"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"சைகைகளை TalkBackக்கு அனுப்புவதற்கும், கூறப்பட்ட அறிவிப்பை மீண்டும் தொடங்குவதற்குமான அனுமதி."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"TalkBack தனிப்பயன் லேபிள்களை நிர்வகி"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"TalkBack ஆல் கூறப்பட்ட தனிப்பயன் லேபிள்களை அணுக, மாற்ற மற்றும் நீக்குவதற்கான அனுமதி."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"ScreenSpeak மொத்த சூழல் மெனு"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"ScreenSpeakஐக் கட்டுப்படுத்து"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"சைகைகளை ScreenSpeakக்கு அனுப்புவதற்கும், கூறப்பட்ட அறிவிப்பை மீண்டும் தொடங்குவதற்குமான அனுமதி."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"ScreenSpeak தனிப்பயன் லேபிள்களை நிர்வகி"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"ScreenSpeak ஆல் கூறப்பட்ட தனிப்பயன் லேபிள்களை அணுக, மாற்ற மற்றும் நீக்குவதற்கான அனுமதி."</string>
     <string name="links" msgid="3448225474115458693">"இணைப்புகள்"</string>
     <string name="end_of_text" msgid="3595733062526019550">"முடிவு"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g> <xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

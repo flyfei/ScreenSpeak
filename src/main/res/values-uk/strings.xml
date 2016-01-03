@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"Коли функцію TalkBack увімкнено, ваш пристрій надає голосові підказки для незрячих користувачів і користувачів із вадами зору. Наприклад, він описує елемент, який ви натискаєте, вибираєте й активуєте."</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack увімкнено"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"Налаштування TalkBack"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"Коли функцію ScreenSpeak увімкнено, ваш пристрій надає голосові підказки для незрячих користувачів і користувачів із вадами зору. Наприклад, він описує елемент, який ви натискаєте, вибираєте й активуєте."</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak увімкнено"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"Налаштування ScreenSpeak"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"Налаштування синтезу мовлення"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"Версія <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"Версія <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"Спеціальні мітки"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"Керування мітками додатка <xliff:g id="APPLICATIONLABEL">%1$s</xliff:g>"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"Зараз немає спеціальних міток. Щоб створити спеціальну мітку, перейдіть до зображення без мітки та додайте мітку в локальному контекстному меню."</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"Вивчення дотиком"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"Вибір одним дотиком"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"Показувати контекстне меню як список"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"Зменшити яскравість екрана, коли ввімкнено TalkBack"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"Зменшити яскравість екрана, коли ввімкнено ScreenSpeak"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"Швидко торкніться виділеного елемента, щоб вибрати (експериментальна функція)"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"Струсити, щоб читати"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"Керувати жестами"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"Керувати спеціальними мітками"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"Керувати комбінаціями клавіш"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Відкрити TalkBack у Google Play"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"Поточна версія TalkBack: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Відкрити ScreenSpeak у Google Play"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"Поточна версія ScreenSpeak: <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"Умови використання"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"Політика конфіденційності"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"Жести швидкого доступу"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"Головний екран"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"Останні додатки"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"Сповіщення"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Призупинити TalkBack"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"Призупинити ScreenSpeak"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"Налаштування навігації"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"Наступне налаштування навігації"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"Попереднє налаштування навігації"</string>
@@ -156,10 +156,10 @@
     <string name="title_pref_category_feedback_settings" msgid="3417629010416895022">"Інший відгук"</string>
     <string name="title_pref_vibration" msgid="4156396276749836864">"Вібровідгук"</string>
     <string name="title_pref_soundback" msgid="3131811048184077738">"Звуковий відгук"</string>
-    <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"TalkBack голосніше"</string>
-    <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Зменшувати гучність інших додатків під час роботи TalkBack"</string>
+    <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"ScreenSpeak голосніше"</string>
+    <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"Зменшувати гучність інших додатків під час роботи ScreenSpeak"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"Гучність звуку"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Ярлик призупинення та відновлення функції Talkback"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Ярлик призупинення та відновлення функції Screenspeak"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"Інше"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"Налаштування розробника"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"Рівень виводу журналу"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"Увімкнути налагодження дерева вузлів"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"Покращити веб-доступність"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"Завантажити сценарії доступності для веб-вмісту"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"Відновити після призупинення"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"Відновити після призупинення"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"Яскравість екрана зменшено"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"Яскравість екрана відновлено"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Сервіс спеціальних можливостей TalkBack зменшив яскравість екрана."</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"Сервіс спеціальних можливостей ScreenSpeak зменшив яскравість екрана."</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"Щоб відмінити, тричі швидко натисніть кнопки збільшення та зменшення гучності одночасно."</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Яскравість екрана можна змінювати в налаштуваннях TalkBack."</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"Яскравість екрана можна змінювати в налаштуваннях ScreenSpeak."</string>
     <string name="axis_character" msgid="8528412412593489695">"Переміщатися за символами."</string>
     <string name="axis_word" msgid="8823389407337076750">"Переміщатися за словами."</string>
     <string name="axis_sentence" msgid="4398740201672273541">"Переміщатися за реченнями."</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"Кнопка \"Головний екран\""</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"Кнопка огляду"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"Відкрити сповіщення"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"Відкрити глобальне контекстне меню"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"Відкрити глобальне контекстне меню"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"Відкрити локальне контекстне меню"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"Повторити останнє висловлювання"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"Вимовити останнє висловлювання"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"Завжди озвучувати натиснені клавіші"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"Лише для екранної клавіатури"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"Ніколи не озвучувати натиснені клавіші"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"Жести TalkBack змінено"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"Торкніться, щоб переглянути зміни в жестах доступності"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack призупинено"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"Торкніться, щоб відновити."</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"Призупинити TalkBack?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"Ви впевнені? На пристрої буде вимкнено голосові підказки та функцію дослідження дотиком. Відновити TalkBack можна на панелі сповіщень, на екрані блокування або за допомогою ярлика клавіші гучності."</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"Відновити TalkBack можна на панелі сповіщень."</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"Відновити TalkBack можна на панелі сповіщень або ввімкнувши екран."</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"Відновити TalkBack можна на панелі сповіщень або повернувшись на екран блокування."</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"Жести ScreenSpeak змінено"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"Торкніться, щоб переглянути зміни в жестах доступності"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak призупинено"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"Торкніться, щоб відновити."</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"Призупинити ScreenSpeak?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"Ви впевнені? На пристрої буде вимкнено голосові підказки та функцію дослідження дотиком. Відновити ScreenSpeak можна на панелі сповіщень, на екрані блокування або за допомогою ярлика клавіші гучності."</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"Відновити ScreenSpeak можна на панелі сповіщень."</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"Відновити ScreenSpeak можна на панелі сповіщень або ввімкнувши екран."</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"Відновити ScreenSpeak можна на панелі сповіщень або повернувшись на екран блокування."</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"Завжди показувати це застереження"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"Неможливо позначити цей елемент."</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"Додавання мітки"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"Видалити мітку \"<xliff:g id="LABEL">%1$s</xliff:g>\"?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"Видалити мітку \"<xliff:g id="LABEL">%1$s</xliff:g>\" з додатка <xliff:g id="APP_NAME">%2$s</xliff:g>?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"Текст мітки"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"У цій версії TalkBack змінено жести доступності за умовчанням. Дії, пов’язані з цими жестами, можна вказати в налаштуваннях TalkBack. Якщо функцію дослідження дотиком увімкнено, можна виконувати певні дії за допомогою вказаних нижче жестів.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"Натисніть і утримуйте кнопки збільшення та зменшення гучності"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"У цій версії ScreenSpeak змінено жести доступності за умовчанням. Дії, пов’язані з цими жестами, можна вказати в налаштуваннях ScreenSpeak. Якщо функцію дослідження дотиком увімкнено, можна виконувати певні дії за допомогою вказаних нижче жестів.\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"Натисніть і утримуйте кнопки збільшення та зменшення гучності"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"Зменшити яскравість екрана?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"Зменшити яскравість екрана?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"У цій версії TalkBack змінено жести доступності за умовчанням.\n\nРух пальцем \"угору, а потім униз\" дає змогу перейти до першого елемента на екрані, а рух пальцем \"униз, а потім угору\" – до останнього елемента.\n\nТепер, щоб змінити деталізацію читання, потрібно перейти до елемента й вибрати деталізацію в локальному контекстному меню.\n\nДії, які відповідають цим жестам, можна змінити в налаштуваннях TalkBack."</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"У цій версії ScreenSpeak змінено жести доступності за умовчанням.\n\nРух пальцем \"угору, а потім униз\" дає змогу перейти до першого елемента на екрані, а рух пальцем \"униз, а потім угору\" – до останнього елемента.\n\nТепер, щоб змінити деталізацію читання, потрібно перейти до елемента й вибрати деталізацію в локальному контекстному меню.\n\nДії, які відповідають цим жестам, можна змінити в налаштуваннях ScreenSpeak."</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"Прийняти жести"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"Налаштувати жести"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"Вимкнути функцію дослідження дотиком?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Увімкнути налагодження дерева вузлів?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"Увімкнути налагодження дерева вузлів?\n\nНалагодження дерева вузлів відкриває вміст вашого екрана для журналів пристрою, які можуть бути зчитані іншими додатками."</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"Функція дослідження дотиком недоступна для веб-вмісту. Увімкніть опцію <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g> у налаштуваннях доступності, щоб досліджувати веб-вміст дотиком."</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"Глобальне контекстне меню TalkBack"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"Керування TalkBack"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"Дозвіл на надсилання жестів у TalkBack і відновлення голосових підказок."</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"Керування спеціальними мітками TalkBack"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"Дозвіл на доступ до спеціальних міток, продиктованих TalkBack, а також їх змінення та видалення."</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"Глобальне контекстне меню ScreenSpeak"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"Керування ScreenSpeak"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"Дозвіл на надсилання жестів у ScreenSpeak і відновлення голосових підказок."</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"Керування спеціальними мітками ScreenSpeak"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"Дозвіл на доступ до спеціальних міток, продиктованих ScreenSpeak, а також їх змінення та видалення."</string>
     <string name="links" msgid="3448225474115458693">"Посилання"</string>
     <string name="end_of_text" msgid="3595733062526019550">"Кінець"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="CHARACTER">%2$s</xliff:g>: <xliff:g id="NUMBER">%1$d</xliff:g>"</string>

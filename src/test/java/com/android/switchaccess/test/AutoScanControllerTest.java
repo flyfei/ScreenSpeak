@@ -33,7 +33,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.preference.PreferenceManager;
 
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 
 import com.android.switchaccess.AutoScanController;
 import com.android.switchaccess.OptionManager;

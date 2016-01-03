@@ -53,7 +53,7 @@ public abstract class BaseAccessibilityInstrumentationTestCase
     // Used to obtain nodes from views.
     private static final int NODE_INFO_EVENT_TYPE = AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED;
 
-    // Used to synchronize with the TalkBack event queue.
+    // Used to synchronize with the ScreenSpeak event queue.
     private static final int SYNC_EVENT_TYPE = AccessibilityEvent.TYPE_NOTIFICATION_STATE_CHANGED;
     private static final Bundle SYNC_PARCELABLE = new Bundle();
     private static final String SYNC_KEY = "key";
@@ -122,7 +122,7 @@ public abstract class BaseAccessibilityInstrumentationTestCase
 
         AccessibilityService service = getService();
 
-        // Ensure the TalkBack and system accessibility states are in sync.
+        // Ensure the ScreenSpeak and system accessibility states are in sync.
         if ((service == null) || !mManager.isEnabled()) {
             disableAllServices();
             obtainNullTargetServiceSync();
@@ -583,7 +583,7 @@ public abstract class BaseAccessibilityInstrumentationTestCase
         }
     }
 
-    /** Event filter used to synchronize with the TalkBack event queue. */
+    /** Event filter used to synchronize with the ScreenSpeak event queue. */
     private final EventFilter mNodeInfoEventFilter = new EventFilter() {
         @Override
         public boolean accept(AccessibilityEvent event) {
@@ -597,7 +597,7 @@ public abstract class BaseAccessibilityInstrumentationTestCase
         }
     };
 
-    /** Event filter used to synchronize with the TalkBack event queue. */
+    /** Event filter used to synchronize with the ScreenSpeak event queue. */
     private final EventFilter mSyncEventFilter = new EventFilter() {
         @Override
         public boolean accept(AccessibilityEvent event) {

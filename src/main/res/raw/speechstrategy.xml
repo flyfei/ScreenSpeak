@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <ss:speechstrategy
-      xmlns:ss="http://www.google.android.marvin.talkback.com/speechstrategy"
+      xmlns:ss="http://www.google.android.marvin.screenspeak.com/speechstrategy"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.google.android.marvin.talkback.com/speechstrategy ../../schema/speechstrategy.xsd">
+      xsi:schemaLocation="http://www.google.android.marvin.screenspeak.com/speechstrategy ../../schema/speechstrategy.xsd">
 
   <!-- This file contains only generic speech strategy rules that could apply to any app. -->
   <!-- Rules specific to just one app should go in speechstrategy_apps.xml or -->
@@ -14,14 +14,14 @@
       <ss:eventType>TYPE_TOUCH_INTERACTION_START||TYPE_TOUCH_INTERACTION_END||TYPE_GESTURE_DETECTION_START||TYPE_GESTURE_DETECTION_END||TYPE_TOUCH_EXPLORATION_GESTURE_START||TYPE_TOUCH_EXPLORATION_GESTURE_END</ss:eventType>
     </ss:filter>
     <ss:formatter>
-      <ss:custom>com.android.talkback.formatter.DropEventFormatter</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.DropEventFormatter</ss:custom>
     </ss:formatter>
   </ss:rule>
 
   <!-- Live updates -->
   <ss:rule>
     <ss:filter>
-        <ss:custom>com.android.talkback.formatter.LiveViewFormatter</ss:custom>
+        <ss:custom>com.android.screenspeak.formatter.LiveViewFormatter</ss:custom>
     </ss:filter>
     <ss:metadata>
       <!-- TODO: Need to add vibration / earcon
@@ -29,7 +29,7 @@
       <ss:customEarcon>@id/sounds_notification</ss:customEarcon> -->
     </ss:metadata>
     <ss:formatter>
-      <ss:custom>com.android.talkback.formatter.LiveViewFormatter</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.LiveViewFormatter</ss:custom>
     </ss:formatter>
   </ss:rule>
 
@@ -54,7 +54,7 @@
       <ss:eventType>TYPE_VIEW_ACCESSIBILITY_FOCUSED</ss:eventType>
     </ss:filter>
     <ss:formatter>
-      <ss:custom>com.android.talkback.formatter.TouchExplorationFormatter</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.TouchExplorationFormatter</ss:custom>
     </ss:formatter>
   </ss:rule>
 
@@ -65,7 +65,7 @@
       <ss:eventType>TYPE_VIEW_SCROLLED</ss:eventType>
     </ss:filter>
     <ss:formatter>
-      <ss:custom>com.android.talkback.formatter.ScrollFormatter</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.ScrollFormatter</ss:custom>
     </ss:formatter>
   </ss:rule>
 
@@ -74,13 +74,13 @@
   <!-- Checkable views -->
   <ss:rule>
     <ss:filter>
-      <ss:custom>com.android.talkback.formatter.CheckableClickedFormatter</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.CheckableClickedFormatter</ss:custom>
     </ss:filter>
     <ss:metadata>
       <ss:customVibration>@array/view_clicked_pattern</ss:customVibration>
     </ss:metadata>
     <ss:formatter>
-      <ss:custom>com.android.talkback.formatter.CheckableClickedFormatter</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.CheckableClickedFormatter</ss:custom>
     </ss:formatter>
   </ss:rule>
 
@@ -119,7 +119,7 @@
       <ss:eventType>TYPE_VIEW_FOCUSED||TYPE_VIEW_HOVER_ENTER</ss:eventType>
     </ss:filter>
     <ss:formatter>
-      <ss:custom>com.android.talkback.formatter.FallbackFormatter</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.FallbackFormatter</ss:custom>
     </ss:formatter>
   </ss:rule>
 
@@ -152,7 +152,7 @@
       <ss:customEarcon>@raw/focus_actionable</ss:customEarcon>
     </ss:metadata>
     <ss:formatter>
-      <ss:custom>com.android.talkback.formatter.WebContentFormatter</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.WebContentFormatter</ss:custom>
     </ss:formatter>
   </ss:rule>
 
@@ -163,7 +163,7 @@
       <ss:className>android.widget.SeekBar</ss:className>
     </ss:filter>
     <ss:formatter>
-      <ss:custom>com.android.talkback.speechrules.RuleSeekBar</ss:custom>
+      <ss:custom>com.android.screenspeak.speechrules.RuleSeekBar</ss:custom>
     </ss:formatter>
   </ss:rule>
 
@@ -174,7 +174,7 @@
       <ss:className>android.widget.ProgressBar</ss:className>
     </ss:filter>
     <ss:formatter>
-      <ss:custom>com.android.talkback.formatter.ProgressBarFormatter</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.ProgressBarFormatter</ss:custom>
     </ss:formatter>
   </ss:rule>
 
@@ -198,7 +198,7 @@
       <!--<ss:eventType>TYPE_VIEW_SELECTED</ss:eventType>-->
     <!--</ss:filter>-->
     <!--<ss:formatter>-->
-      <!--<ss:custom>com.android.talkback.formatter.FallbackFormatter</ss:custom>-->
+      <!--<ss:custom>com.android.screenspeak.formatter.FallbackFormatter</ss:custom>-->
     <!--</ss:formatter>-->
   <!--</ss:rule>-->
 
@@ -230,7 +230,7 @@
       <ss:queuing>UNINTERRUPTIBLE</ss:queuing>
     </ss:metadata>
     <ss:formatter>
-      <ss:custom>com.android.talkback.formatter.DialogFormatter</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.DialogFormatter</ss:custom>
     </ss:formatter>
   </ss:rule>
 
@@ -355,7 +355,7 @@
       <ss:eventType>TYPE_VIEW_TEXT_CHANGED</ss:eventType>
     </ss:filter>
     <ss:formatter>
-      <ss:custom>com.android.talkback.formatter.TextFormatters$ChangedTextFormatter</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.TextFormatters$ChangedTextFormatter</ss:custom>
     </ss:formatter>
   </ss:rule>
 
@@ -366,7 +366,7 @@
       <ss:eventType>TYPE_VIEW_TEXT_SELECTION_CHANGED||TYPE_VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY</ss:eventType>
     </ss:filter>
     <ss:formatter>
-      <ss:custom>com.android.talkback.formatter.TextFormatters$SelectedTextFormatter</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.TextFormatters$SelectedTextFormatter</ss:custom>
     </ss:formatter>
   </ss:rule>
 
@@ -397,7 +397,7 @@
       <ss:queuing>QUEUE</ss:queuing>
     </ss:metadata>
     <ss:formatter>
-      <ss:custom>com.android.talkback.formatter.NotificationFormatter</ss:custom>
+      <ss:custom>com.android.screenspeak.formatter.NotificationFormatter</ss:custom>
     </ss:formatter>
   </ss:rule>
 

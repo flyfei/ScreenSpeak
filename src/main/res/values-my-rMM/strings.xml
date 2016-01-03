@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="talkback_service_description" msgid="7512754982950145749">"TalkBack ကို ဖွင့်ထားလျှင်၊ သင်၏ ကိရိယာသည် မျက်မမြင် နှင့် မျက်စိ ပြဿနာ ရှိသူများအား ကူညီပေးရန် နှုတ်ပြော တုံ့ပြန်ချက်များကို စီမံပေးပါသည်။ ဥပမာ၊ သင်က တို့ထိလိုက်သော၊ ရွေးလိုက်သော၊ နှင့် စဖွင့်ပေးလိုက်သော အရာများကို ၎င်းက ဖေါ်ပြပေးသည်။"</string>
-    <string name="talkback_on" msgid="315529674405160699">"TalkBack ဖွင့်ထား"</string>
-    <string name="talkback_preferences_title" msgid="4249486159144445549">"TalkBack ဆက်တင်များ"</string>
+    <string name="screenspeak_service_description" msgid="7512754982950145749">"ScreenSpeak ကို ဖွင့်ထားလျှင်၊ သင်၏ ကိရိယာသည် မျက်မမြင် နှင့် မျက်စိ ပြဿနာ ရှိသူများအား ကူညီပေးရန် နှုတ်ပြော တုံ့ပြန်ချက်များကို စီမံပေးပါသည်။ ဥပမာ၊ သင်က တို့ထိလိုက်သော၊ ရွေးလိုက်သော၊ နှင့် စဖွင့်ပေးလိုက်သော အရာများကို ၎င်းက ဖေါ်ပြပေးသည်။"</string>
+    <string name="screenspeak_on" msgid="315529674405160699">"ScreenSpeak ဖွင့်ထား"</string>
+    <string name="screenspeak_preferences_title" msgid="4249486159144445549">"ScreenSpeak ဆက်တင်များ"</string>
     <string name="tts_preferences_title" msgid="6233811187483633874">"စာသားမှစကားပြောပြောင်း ချိန်ညှိချက်များ"</string>
-    <string name="talkback_preferences_subtitle" msgid="1318051290124952165">"ဗားရှင်း <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
+    <string name="screenspeak_preferences_subtitle" msgid="1318051290124952165">"ဗားရှင်း <xliff:g id="VERSION_NAME">%1$s</xliff:g>"</string>
     <string name="label_manager_summary_title" msgid="6786694853113585661">"စိတ်ကြိုက် တံဆိပ်များကို စီမံကွပ်ကဲပါ"</string>
     <string name="label_manager_package_title" msgid="6984665343963494151">"<xliff:g id="APPLICATIONLABEL">%1$s</xliff:g> အတွက် တံဆိပ်များကို စီမံကွပ်ကဲပါ"</string>
     <string name="label_manager_no_packages_message" msgid="4478523067360108574">"လောလောဆယ်တွင် စိတ်ကြိုက် တံဆိပ်များ မရှိပါ။ သင်သည် တံဆိပ် မပါသည့် ပုံတစ်ပုံဆီ သွားကာ ဒေန္တရ ဆက်စပ် မီနူး အထဲမှ တံဆိပ် တစ်ခုကို တပ်ပေးလျက် တစ်ကို ဖန်တီးနိုင်သည်။"</string>
@@ -109,14 +109,14 @@
     <string name="title_pref_category_touch_exploration" msgid="802401622203667328">"တို့ထိလျက် စူးစမ်းမှု"</string>
     <string name="title_pref_single_tap" msgid="3366282780861635094">"တစ်ကြိမ်ပုတ် ရွေးချယ်မှု"</string>
     <string name="title_pref_show_context_menu_as_list" msgid="8048703987011256280">"ဆက်စပ် မီနူးအား စာရင်းပုံစံဖြင့်ပြရန်"</string>
-    <string name="title_dim_screen_when_talkback_enabled" msgid="4738051430500766039">"TalkBack ဖွင့်ထားစဉ်တွင် မျက်နှာပြင် မိန်မည်"</string>
+    <string name="title_dim_screen_when_screenspeak_enabled" msgid="4738051430500766039">"ScreenSpeak ဖွင့်ထားစဉ်တွင် မျက်နှာပြင် မိန်မည်"</string>
     <string name="summary_pref_single_tap" msgid="7244030788179833364">"(စမ်းသပ်နေဆဲl) လက်ရှိ အချိန်မှာ ဆုံချက် အရာကို ရွေးရန် ပုတ်ပါ"</string>
     <string name="title_pref_shake_to_read_threshold" msgid="1335607796304866893">"ဆက်တိုက် ဖတ်ကြားမှုကို စတင်ရန် လှုပ်ခါပါ"</string>
     <string name="title_pref_category_manage_gestures" msgid="6578504997140953627">"လက်ဟန်များကို စီမံကွပ်ကဲရန်"</string>
     <string name="title_pref_manage_labels" msgid="8796338627297226539">"စိတ်ကြိုက် တံဆိပ်များကို စီမံကွပ်ကဲရန်"</string>
     <string name="title_pref_manage_keyboard_shortcuts" msgid="1365850439559496078">"လက်ကွက်ဖြတ်လမ်းများအား စီမံရန်"</string>
-    <string name="title_pref_play_store" msgid="5158596411034985043">"Play Store တွင် TalkBack အား ဖွင့်ပါ"</string>
-    <string name="summary_pref_play_store" msgid="3575108337945375864">"လတ်တလော TalkBack ဗားရှင်း- <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="title_pref_play_store" msgid="5158596411034985043">"Play Store တွင် ScreenSpeak အား ဖွင့်ပါ"</string>
+    <string name="summary_pref_play_store" msgid="3575108337945375864">"လတ်တလော ScreenSpeak ဗားရှင်း- <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
     <string name="title_pref_show_tos" msgid="6167834013879233992">"ဝန်ဆောင်မှု စည်းကမ်းချက်များ"</string>
     <string name="title_pref_show_privacy_policy" msgid="4420464510142864819">"ကိုယ်ရေး မူဝါဒ"</string>
     <string name="title_pref_category_touch_shortcuts" msgid="4974406968544300731">"လက်ဟန် ဖြတ်လမ်းများ"</string>
@@ -133,7 +133,7 @@
     <string name="keycombo_menu_global_home" msgid="7189369064773623371">"ပင်မ"</string>
     <string name="keycombo_menu_global_recent" msgid="927586811460340459">"လတ်တလော သုံးခဲ့ အပ်ပလီကေးရှင်း"</string>
     <string name="keycombo_menu_global_notifications" msgid="7376426148339964566">"အကြောင်းကြားချက်များ"</string>
-    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"TalkBack ခဏရပ်ရန်"</string>
+    <string name="keycombo_menu_global_suspend" msgid="7018282755432635786">"ScreenSpeak ခဏရပ်ရန်"</string>
     <string name="keycombo_menu_category_granularity" msgid="1510641633727773395">"ရွှေ့လျားရန် ကြိုတင်ပြင်ဆင်ချက်များ"</string>
     <string name="keycombo_menu_granularity_increase" msgid="4418197063118287013">"နောက်ထပ် ရွှေ့လျားရန် ကြိုတင်ပြင်ဆင်ချက်"</string>
     <string name="keycombo_menu_granularity_decrease" msgid="4124885036136489177">"ပြီးခဲ့သည့် ရွှေ့လျားရန် ကြိုတင်ပြင်ဆင်ချက်"</string>
@@ -159,7 +159,7 @@
     <string name="title_pref_use_audio_focus" msgid="3150034317307025609">"နှုတ်ပြောသံကို အာရုံစိုက်ပေးရန်"</string>
     <string name="summary_pref_use_audio_focus" msgid="4049484318410744029">"စကား ပြောစဉ် အခြား အသံ ပမာဏကို နှိမ့်ချပါ"</string>
     <string name="title_pref_soundback_volume" msgid="8633886470832131926">"အသံ ပမာဏ"</string>
-    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Talkback ရပ်ဆိုင်းရန်နှင့် ပြန်သုံးရန် အတိုကောက်"</string>
+    <string name="title_pref_two_volume_button_long_click" msgid="7862634164410787395">"Screenspeak ရပ်ဆိုင်းရန်နှင့် ပြန်သုံးရန် အတိုကောက်"</string>
     <string name="title_pref_category_miscellaneous_settings" msgid="611512059219131263">"အထွေထွေများ"</string>
     <string name="title_pref_category_developer_settings" msgid="3576441094143356231">"ပြုစုပေးသူ ဆက်တင်များ"</string>
     <string name="title_pref_log_level" msgid="267415170405921603">"လော့ဂ် ထုတ်ပေးမှု အဆင့်"</string>
@@ -167,12 +167,12 @@
     <string name="title_pref_tree_debug" msgid="1525763448981997023">"node tree အမှားရှာပြင်ရန် ဖွင့်ပါ"</string>
     <string name="title_pref_web_scripts" msgid="3016793641076890473">"ဝက်ဘ် အသုံးချမှုကို မြှင့်တင်ပေးရန်"</string>
     <string name="summary_pref_web_scripts" msgid="3996491708050765411">"ဝက်ဘ် အကြောင်းအရာ အတွက် ရယူနိုင်သည့် စာသားများကို ဒေါင်းလုဒ် လုပ်ရန်"</string>
-    <string name="title_pref_resume_talkback" msgid="4098949311311089235">"ဆိုင်းငံ့မှ ဆက်လုပ်ရန်"</string>
+    <string name="title_pref_resume_screenspeak" msgid="4098949311311089235">"ဆိုင်းငံ့မှ ဆက်လုပ်ရန်"</string>
     <string name="screen_dimmed" msgid="8072279323762069231">"မျက်နှာပြင်ကို မိန်လိုက်ပါပြီ"</string>
     <string name="screen_brightness_restored" msgid="378010604065368658">"မျက်နှာပြင် တောက်ပမှု ပြန်လည်သိုလှောင်ခဲ့ပါသည်"</string>
-    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"TalkBack အသုံးပြုနိုင်စွမ်းရှိသော ဝန်ဆောင်မှုသည် ဖန်မျက်နှာပြင်အား မှိန်ထား၏။"</string>
+    <string name="screen_dimming_exit_instruction_line1" msgid="176693707001658416">"ScreenSpeak အသုံးပြုနိုင်စွမ်းရှိသော ဝန်ဆောင်မှုသည် ဖန်မျက်နှာပြင်အား မှိန်ထား၏။"</string>
     <string name="screen_dimming_exit_instruction_line2" msgid="2111548310775079127">"အသံအတိုးအကျယ် ခလုတ်များအား သုံးကြိမ်မြန်မြန် အတူတူနှိပ်ခြင်းဖြင့် လုပ်ပြီးသားအား ပျက်ပြေစေနိုင်သည်။"</string>
-    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"မျက်နှာပြင်မှိန်ခြင်းအား TalkBack ဆက်တင်များမှ ထိန်းချုပ်နိုင်၏။"</string>
+    <string name="screen_dimming_exit_instruction_line3" msgid="7006494712728198438">"မျက်နှာပြင်မှိန်ခြင်းအား ScreenSpeak ဆက်တင်များမှ ထိန်းချုပ်နိုင်၏။"</string>
     <string name="axis_character" msgid="8528412412593489695">"အက္ခရာအလိုက် သွားရန်"</string>
     <string name="axis_word" msgid="8823389407337076750">"စာလုံး အလိုက် သွားလာရန်"</string>
     <string name="axis_sentence" msgid="4398740201672273541">"ဝါကျ အလိုက် သွားလာရန်"</string>
@@ -201,7 +201,7 @@
     <string name="shortcut_home" msgid="6670249804418900175">"ပင်မ ခလုတ်"</string>
     <string name="shortcut_overview" msgid="3649651004283936027">"ခြုံငုံသုံးသပ်ရန် ခလုတ်"</string>
     <string name="shortcut_notifications" msgid="5291839248233515759">"အကြောင်းကြားစာများ ဖွင့်ရန်"</string>
-    <string name="shortcut_talkback_breakout" msgid="2673085935736432213">"ကမ္ဘာလုံးဆိုင်ရာ ဆက်စပ် မီနူး ဖွင့်ရန်"</string>
+    <string name="shortcut_screenspeak_breakout" msgid="2673085935736432213">"ကမ္ဘာလုံးဆိုင်ရာ ဆက်စပ် မီနူး ဖွင့်ရန်"</string>
     <string name="shortcut_local_breakout" msgid="8164203174881196072">"ဒေသန္တရ ဆက်စပ် မီနူး ဖွင့်ရန်"</string>
     <string name="shortcut_repeat_last_utterance" msgid="9059705754075010951">"နောက်ဆုံး ပြောစကား ထပ်ဖွင့်ပေးရန်"</string>
     <string name="shortcut_spell_last_utterance" msgid="642984322649148879">"နောက်ဆုံး ပြောစကား အသံထွက်ပြောပေးရန်"</string>
@@ -290,15 +290,15 @@
     <string name="value_keyboard_echo_always" msgid="6889426165608387394">"ရိုက်ထည့် ခလုတ်များကို အမြဲတမ်း ပြောပါ"</string>
     <string name="value_keyboard_echo_softkeys" msgid="1595001302535254665">"မျက်နှာပြင် ပေါ်က ကီးဘုတ် အတွက်သာ"</string>
     <string name="value_keyboard_echo_never" msgid="7181327459690946870">"ရိုက်ထည့် ခလုတ်များကို ဘယ်တော့မှ မပြောပါနှင့်"</string>
-    <string name="notification_title_talkback_gestures_changed" msgid="8680063755043078528">"TalkBack လက်ဟန်များပြောင်းပြီး"</string>
-    <string name="notification_message_talkback_gestures_changed" msgid="7419188718124788690">"ရယူအသုံးချမှု လက်ဟန်များ ဆိုင်ရာ အပြောင်းအလဲများကို ဆန်းစစ်ရန် ပုတ်ပါ"</string>
-    <string name="notification_title_talkback_suspended" msgid="4350835042954222637">"TalkBack ရွှေ့ဆိုင်းထား"</string>
-    <string name="notification_message_talkback_suspended" msgid="1542127125162503034">"ဆက်လုပ်ရန် ပုတ်ပါ။"</string>
-    <string name="dialog_title_suspend_talkback" msgid="5117432568615750164">"TalkBack ကို ရွှေ့ဆိုင်းမလား?"</string>
-    <string name="dialog_message_suspend_talkback" msgid="5767155087369798907">"သေချာသလား? သင့်စက်ပစ္စည်းသည် တုံ့ပြန်မှုမရှိသည့်အတွက် တို့ထိခြင်းဖြင့် ရှာဖွေမှုကို ပိတ်လိုက်ပါမည်။ TalkBack အချက်ပြမှုများမှ ပြန်လည်အသုံးပြုနိုင်ပါသည်၊ သော့ခတ်ခြင်း မျက်နှာပြင်မှ ပြန်သွားခြင်းဖြင့်၊ သို့မဟုတ် အသံခလုတ်အတိုကောက်မှ ဖြစ်သည်။"</string>
-    <string name="message_resume_manual" msgid="6522293510722570646">"သင်သည် ကြောင်းကြားစာများ အရိပ်နေရာမှ TalkBack ကို ပြန်ဆက်နိုင်ပါသည်။"</string>
-    <string name="message_resume_screen_on" msgid="9016720947126938212">"သင်သည် ကြောင်းကြားစာများ အရိပ်နေရာမှ သို့မဟုတ် မျက်နှာပြင်ကို ဖွင့်ပေးလျက် TalkBack ကို ပြန်ဆက်နိုင်ပါသည်။"</string>
-    <string name="message_resume_keyguard" msgid="6721228114050709276">"သင်သည် ကြောင်းကြားစာများ အရိပ်နေရာမှ သို့မဟုတ် သော့ခတ် မျက်နှာပြင်ဆီကို ပြန်လာပြီး TalkBack ကို ပြန်ဆက်နိုင်ပါသည်။"</string>
+    <string name="notification_title_screenspeak_gestures_changed" msgid="8680063755043078528">"ScreenSpeak လက်ဟန်များပြောင်းပြီး"</string>
+    <string name="notification_message_screenspeak_gestures_changed" msgid="7419188718124788690">"ရယူအသုံးချမှု လက်ဟန်များ ဆိုင်ရာ အပြောင်းအလဲများကို ဆန်းစစ်ရန် ပုတ်ပါ"</string>
+    <string name="notification_title_screenspeak_suspended" msgid="4350835042954222637">"ScreenSpeak ရွှေ့ဆိုင်းထား"</string>
+    <string name="notification_message_screenspeak_suspended" msgid="1542127125162503034">"ဆက်လုပ်ရန် ပုတ်ပါ။"</string>
+    <string name="dialog_title_suspend_screenspeak" msgid="5117432568615750164">"ScreenSpeak ကို ရွှေ့ဆိုင်းမလား?"</string>
+    <string name="dialog_message_suspend_screenspeak" msgid="5767155087369798907">"သေချာသလား? သင့်စက်ပစ္စည်းသည် တုံ့ပြန်မှုမရှိသည့်အတွက် တို့ထိခြင်းဖြင့် ရှာဖွေမှုကို ပိတ်လိုက်ပါမည်။ ScreenSpeak အချက်ပြမှုများမှ ပြန်လည်အသုံးပြုနိုင်ပါသည်၊ သော့ခတ်ခြင်း မျက်နှာပြင်မှ ပြန်သွားခြင်းဖြင့်၊ သို့မဟုတ် အသံခလုတ်အတိုကောက်မှ ဖြစ်သည်။"</string>
+    <string name="message_resume_manual" msgid="6522293510722570646">"သင်သည် ကြောင်းကြားစာများ အရိပ်နေရာမှ ScreenSpeak ကို ပြန်ဆက်နိုင်ပါသည်။"</string>
+    <string name="message_resume_screen_on" msgid="9016720947126938212">"သင်သည် ကြောင်းကြားစာများ အရိပ်နေရာမှ သို့မဟုတ် မျက်နှာပြင်ကို ဖွင့်ပေးလျက် ScreenSpeak ကို ပြန်ဆက်နိုင်ပါသည်။"</string>
+    <string name="message_resume_keyguard" msgid="6721228114050709276">"သင်သည် ကြောင်းကြားစာများ အရိပ်နေရာမှ သို့မဟုတ် သော့ခတ် မျက်နှာပြင်ဆီကို ပြန်လာပြီး ScreenSpeak ကို ပြန်ဆက်နိုင်ပါသည်။"</string>
     <string name="show_suspend_warning_label" msgid="3193206799395252518">"ဒီသတိပေးချက်ကို အမြဲတမ်း ပြရန်"</string>
     <string name="cannot_add_label" msgid="2754406023113433479">"ဤအရာကို လေဘယ်တပ်မရပါ။"</string>
     <string name="label_dialog_title_add" msgid="1255044087558866043">"တံဆိပ် ထည့်ရန်"</string>
@@ -308,11 +308,11 @@
     <string name="label_remove_dialog_text" msgid="372916461303485723">"သင်သည် \"<xliff:g id="LABEL">%1$s</xliff:g>\" တံဆိပ်ကို ဖယ်ရှား ချင်တာ သေချာလား?"</string>
     <string name="label_remove_dialog_text_app_name" msgid="8329270316487665017">"သင်သည် \"<xliff:g id="LABEL">%1$s</xliff:g>\"အထဲက \"<xliff:g id="APP_NAME">%2$s</xliff:g>\" တံဆိပ်ကို ဖယ်ရှား ချင်တာ သေချာလား?"</string>
     <string name="label_dialog_edit_hint" msgid="4342585248215824717">"တံဆိပ် စာသား"</string>
-    <string name="talkback_gesture_change_details" msgid="1242896734553682887">"TalkBack ၏ လက်ရှိ ဗားရှင်းထဲမှာ အသုံးပြုရေး ပုံသေ လက်ဟန်များ ထဲက အပြောင်းအလဲများ ပါရှိပါသည်။ ယင်း လက်ဟန်များဖြင့် ဆက်စပ်ကြသည့် လုပ်ဆောင်ချက်များကို TalkBack ဆက်တင်များထဲမှာ စိတ်ကြိုက် ပြုလုပ်နိုင်ပါသည်။ တို့ထိ စူးစမ်းမှုကို ဖွင့်ထားလျှင်၊ သင်သည် အချို့သော လုပ်ဆောင်ချက်များ အတွက် အောက်ပါ လက်ဟန်များကို အသုံးပြုနိုင်သည်။\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
-    <string name="value_long_volume_pressed_suspend_talkback" formatted="false" msgid="541929774635348126">"အသံအတိုးချဲ့ခလုတ်များကို ကြာရှည်စွာနှိပ်ခြင်း"</string>
+    <string name="screenspeak_gesture_change_details" msgid="1242896734553682887">"ScreenSpeak ၏ လက်ရှိ ဗားရှင်းထဲမှာ အသုံးပြုရေး ပုံသေ လက်ဟန်များ ထဲက အပြောင်းအလဲများ ပါရှိပါသည်။ ယင်း လက်ဟန်များဖြင့် ဆက်စပ်ကြသည့် လုပ်ဆောင်ချက်များကို ScreenSpeak ဆက်တင်များထဲမှာ စိတ်ကြိုက် ပြုလုပ်နိုင်ပါသည်။ တို့ထိ စူးစမ်းမှုကို ဖွင့်ထားလျှင်၊ သင်သည် အချို့သော လုပ်ဆောင်ချက်များ အတွက် အောက်ပါ လက်ဟန်များကို အသုံးပြုနိုင်သည်။\n\n<xliff:g id="MAPPINGS">%1$s</xliff:g>"</string>
+    <string name="value_long_volume_pressed_suspend_screenspeak" formatted="false" msgid="541929774635348126">"အသံအတိုးချဲ့ခလုတ်များကို ကြာရှည်စွာနှိပ်ခြင်း"</string>
     <string name="dialog_title_dim_screen" msgid="603850602120147151">"မျက်နှာပြင်မှိန်မည်လား?"</string>
     <string name="dialog_message_dim_screen" msgid="7595558180210850775">"သင့် ဖန်မျက်နှာပြင်အား မီးမှိန်လိုသည်မှာ သေချာပါသလား?"</string>
-    <string name="talkback_built_in_gesture_change_details" msgid="6065419331469295927">"TalkBack ၏ လက်ရှိ ဗားရှင်းထဲမှာ အသုံးပြုရေး ပုံသေ လက်ဟန်များ ထဲက အပြောင်းအလဲများ ပါရှိပါသည်။\n\nအပေါ်မှအောက်သို့ လက်ဟန်က သင့်ကို မျက်နှာပြင် ပေါ်က ပထမ အရာဆီသို့ ပို့ပေးမည်၊ ၎င်း နောက်မှာ အောက်မှအပေါ်သို့ လက်ဟန်က နောက်ဆုံး အရာဆီသို့ ပို့ပေးမည်။\n\nယခုတော့ ဖတ်ကြားမှု အသေးစိတ်မှုကို ထိုအရာဆီ ဆုံချက်ကို ညှိပေးကာ ဒေသန္တရ ဆက်စပ် မီနူးထဲမှ အသေးစိတ်မှုကို ရွေးနိုင်ပါသည်။ \n\nသင်သည် ယင်း လက်ဟန်များဖြင့် လုပ်ကိုင် ရနိုင်သည့် လုပ်ဆောင်ချက်များကို TalkBack ဆက်တင်များထဲမှာ ပြောင်းလဲနိုင်ပါသည်။"</string>
+    <string name="screenspeak_built_in_gesture_change_details" msgid="6065419331469295927">"ScreenSpeak ၏ လက်ရှိ ဗားရှင်းထဲမှာ အသုံးပြုရေး ပုံသေ လက်ဟန်များ ထဲက အပြောင်းအလဲများ ပါရှိပါသည်။\n\nအပေါ်မှအောက်သို့ လက်ဟန်က သင့်ကို မျက်နှာပြင် ပေါ်က ပထမ အရာဆီသို့ ပို့ပေးမည်၊ ၎င်း နောက်မှာ အောက်မှအပေါ်သို့ လက်ဟန်က နောက်ဆုံး အရာဆီသို့ ပို့ပေးမည်။\n\nယခုတော့ ဖတ်ကြားမှု အသေးစိတ်မှုကို ထိုအရာဆီ ဆုံချက်ကို ညှိပေးကာ ဒေသန္တရ ဆက်စပ် မီနူးထဲမှ အသေးစိတ်မှုကို ရွေးနိုင်ပါသည်။ \n\nသင်သည် ယင်း လက်ဟန်များဖြင့် လုပ်ကိုင် ရနိုင်သည့် လုပ်ဆောင်ချက်များကို ScreenSpeak ဆက်တင်များထဲမှာ ပြောင်းလဲနိုင်ပါသည်။"</string>
     <string name="button_accept_changed_gesture_mappings" msgid="7776830309528651093">"လက်ဟန်များကို လက်ခံရန်"</string>
     <string name="button_customize_gesture_mappings" msgid="5895884645531139464">"လက်ဟန်များကို စိတ်ကြိုက် ပြုလုပ်ရန်"</string>
     <string name="dialog_title_disable_exploration" msgid="2662971136340460644">"တို့ထိလျက် စူးစမ်းမှုကို ပိတ်ရမလား?"</string>
@@ -320,11 +320,11 @@
     <string name="dialog_title_enable_tree_debug" msgid="2107489862179537135">"Node Tree အမှားရှာပြင်ရန် ဖွင့်မည်လား?"</string>
     <string name="dialog_message_enable_tree_debug" msgid="1939098607233562642">"node tree အမှားရှာဖွင့်ရန် ဖွင့်လိုသည်မှာ သေချာပါသလား?\n\nNode tree အမှားရှာခြင်းသည် တစ်ခြား app များဖြင့် ဖတ်နိုင်သည့် သင့်စက်ကိရိယာ၏ မှတ်တမ်းများကို ထုတ်ဖော်ပြသလိုဖြစ်မည်။"</string>
     <string name="hint_script_injection" msgid="6139951755594105602">"ထိခြင်းဖြင့် စူးစမ်းမှုကို ဝက်ဘ် အကြောင်းအရာ ထဲတွင် မရနိုင်ပါ။ ဆက်တင်များထဲက <xliff:g id="PREFERENCE_NAME">%1$s</xliff:g>ကို ဖွင့်ပေးလျက် ဝက်ဘ် အကြောင်းအရာကို စူးစမ်းကြည့်ပါ။"</string>
-    <string name="label_talkback_context_menu" msgid="6758073806811666684">"TalkBack ကမ္ဘာလုံးဆိုင်ရာ ဆက်စပ် မီနူး"</string>
-    <string name="permission_talkback_label" msgid="2235244838320678938">"TalkBack ထိန်းချုပ်ရန်"</string>
-    <string name="permission_talkback_desc" msgid="8320433482567759963">"TalkBack ထံသို့ လက်ဟန်များ ပို့ရန် နှင့် ထုတ်ပြောခဲ့သည့် တုံ့ပြန်ချက်များကို ဆက်လုပ်ရန် ခွင့်ပြုချက်။"</string>
-    <string name="permission_labeling_label" msgid="2956001661481169498">"TalkBack စိတ်ကြိုက် တံဆိပ်များ စီမံကွပ်ကဲရန်"</string>
-    <string name="permission_labeling_desc" msgid="8065967887484901473">"TalkBack ထဲက စိတ်ကြိုက် တံဆိပ်များ ရယူအသုံးပြုရေး၊ မွမ်းမံရေး၊ နှင့် ဖျက်ရေး ခွင့်ပြုချက်။"</string>
+    <string name="label_screenspeak_context_menu" msgid="6758073806811666684">"ScreenSpeak ကမ္ဘာလုံးဆိုင်ရာ ဆက်စပ် မီနူး"</string>
+    <string name="permission_screenspeak_label" msgid="2235244838320678938">"ScreenSpeak ထိန်းချုပ်ရန်"</string>
+    <string name="permission_screenspeak_desc" msgid="8320433482567759963">"ScreenSpeak ထံသို့ လက်ဟန်များ ပို့ရန် နှင့် ထုတ်ပြောခဲ့သည့် တုံ့ပြန်ချက်များကို ဆက်လုပ်ရန် ခွင့်ပြုချက်။"</string>
+    <string name="permission_labeling_label" msgid="2956001661481169498">"ScreenSpeak စိတ်ကြိုက် တံဆိပ်များ စီမံကွပ်ကဲရန်"</string>
+    <string name="permission_labeling_desc" msgid="8065967887484901473">"ScreenSpeak ထဲက စိတ်ကြိုက် တံဆိပ်များ ရယူအသုံးပြုရေး၊ မွမ်းမံရေး၊ နှင့် ဖျက်ရေး ခွင့်ပြုချက်။"</string>
     <string name="links" msgid="3448225474115458693">"လင့်များ"</string>
     <string name="end_of_text" msgid="3595733062526019550">"ပြီးပြီ"</string>
     <string name="character_collapse_template" msgid="3556846822411648601">" <xliff:g id="NUMBER">%1$d</xliff:g><xliff:g id="CHARACTER">%2$s</xliff:g>"</string>

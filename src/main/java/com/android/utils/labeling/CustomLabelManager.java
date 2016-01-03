@@ -31,7 +31,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.Pair;
 import android.view.accessibility.AccessibilityNodeInfo;
-import com.android.talkback.BuildConfig;
+import com.android.screenspeak.BuildConfig;
 import com.android.utils.AccessibilityEventListener;
 import com.android.utils.LogUtils;
 import com.android.utils.StringBuilderUtils;
@@ -81,7 +81,7 @@ public class CustomLabelManager {
 
     private final NavigableSet<Label> mLabelCache = new TreeSet<>(new Comparator<Label>() {
         // Note this comparator is not consistent with equals in Label, we should just implement
-        // compareTo there, but will wait for BrailleBack to be merged with TalkBack
+        // compareTo there, but will wait for BrailleBack to be merged with ScreenSpeak
         @Override
         public int compare(Label first, Label second) {
             if (first == null) {

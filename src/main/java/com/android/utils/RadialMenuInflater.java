@@ -20,8 +20,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import com.android.talkback.contextmenu.RadialMenu;
-import com.android.talkback.contextmenu.RadialMenuItem;
+import com.android.screenspeak.contextmenu.RadialMenu;
+import com.android.screenspeak.contextmenu.RadialMenuItem;
 
 import java.util.ArrayList;
 import java.util.List;

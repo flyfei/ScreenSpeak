@@ -19,7 +19,7 @@ package com.android.switchaccess;
 import android.os.Build;
 import android.support.annotation.NonNull;
 import android.test.suitebuilder.annotation.MediumTest;
-import com.android.talkback.R;
+import com.android.screenspeak.R;
 
 import android.content.Context;
 import android.os.Bundle;

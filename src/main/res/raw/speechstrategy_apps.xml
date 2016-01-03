@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <ss:speechstrategy
-      xmlns:ss="http://www.google.android.marvin.talkback.com/speechstrategy"
+      xmlns:ss="http://www.google.android.marvin.screenspeak.com/speechstrategy"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.google.android.marvin.talkback.com/speechstrategy ../../schema/speechstrategy.xsd">
+      xsi:schemaLocation="http://www.google.android.marvin.screenspeak.com/speechstrategy ../../schema/speechstrategy.xsd">
 
   <!-- This file contains speech strategy rules for built-in Android apps. -->
   <!-- They override the default handlers to work around apps in current -->

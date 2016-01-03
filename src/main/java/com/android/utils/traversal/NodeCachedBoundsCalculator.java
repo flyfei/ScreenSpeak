@@ -135,7 +135,7 @@ public class NodeCachedBoundsCalculator {
     }
 
     /**
-     * If node is not supposed to be accessibility focused by TalkBack
+     * If node is not supposed to be accessibility focused by ScreenSpeak
      * NodeBoundsCalculator calculates useful bounds of focusable children.
      * The method checks if the node uses its children useful bounds or uses its own bounds
      */
