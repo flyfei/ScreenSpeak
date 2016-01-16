@@ -8,7 +8,7 @@
 
     <!-- Permission used to restrict sending gestures and resuming feedback. -->
     <permission
-        android:name="com.google.android.marvin.feedback.permission.TALKBACK"
+        android:name="com.google.android.marvin.feedback.permission.SCREENSPEAK"
         android:description="@string/permission_screenspeak_desc"
         android:icon="@drawable/icon"
         android:label="@string/permission_screenspeak_label"
@@ -35,7 +35,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <!-- Required for shortcuts and widgets. -->
-    <uses-permission android:name="com.google.android.marvin.feedback.permission.TALKBACK" />
+    <uses-permission android:name="com.google.android.marvin.feedback.permission.SCREENSPEAK" />
 
     <!-- Required for labeling. -->
     <uses-permission android:name="com.google.android.marvin.screenspeak.permission.LABELING" />

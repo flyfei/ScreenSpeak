@@ -45,7 +45,7 @@ public class TraceAspect {
             "execution(@com.google.android.marvin.utils.DebugTrace *.new(..))";
 
     // Define the point cut the under the package of screenspeak
-    private static final String POINTCUT_TALKBACK_METHOD =
+    private static final String POINTCUT_SCREENSPEAK_METHOD =
             "execution(* com.google.android.marvin.screenspeak..*.*(..))";
 
     @Pointcut(POINTCUT_METHOD)
@@ -54,7 +54,7 @@ public class TraceAspect {
     @Pointcut(POINTCUT_CONSTRUCTOR)
     public void constructorAnnotatedDebugTrace() {}
 
-    @Pointcut(POINTCUT_TALKBACK_METHOD)
+    @Pointcut(POINTCUT_SCREENSPEAK_METHOD)
     public void screenspeakAllMethods() {}
 
 

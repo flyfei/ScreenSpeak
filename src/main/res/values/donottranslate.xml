@@ -265,7 +265,7 @@
     <string name="shortcut_value_home">HOME</string>
     <string name="shortcut_value_overview">OVERVIEW</string>
     <string name="shortcut_value_notifications">NOTIFICATIONS</string>
-    <string name="shortcut_value_screenspeak_breakout">TALKBACK_BREAKOUT</string>
+    <string name="shortcut_value_screenspeak_breakout">SCREENSPEAK_BREAKOUT</string>
     <string name="shortcut_value_local_breakout">LOCAL_BREAKOUT</string>
     <string name="shortcut_value_read_from_top">READ_FROM_TOP</string>
     <string name="shortcut_value_read_from_current">READ_FROM_CURRENT</string>

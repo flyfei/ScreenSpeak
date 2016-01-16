@@ -37,7 +37,7 @@ public class ShortcutProxyActivity extends Activity {
         intent.putExtra(ScreenSpeakService.EXTRA_GESTURE_ACTION,
                 R.string.shortcut_value_screenspeak_breakout);
 
-        sendBroadcast(intent, ScreenSpeakService.PERMISSION_TALKBACK);
+        sendBroadcast(intent, ScreenSpeakService.PERMISSION_SCREENSPEAK);
         finish();
     }
 }

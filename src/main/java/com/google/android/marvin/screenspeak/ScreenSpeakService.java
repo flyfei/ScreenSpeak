@@ -127,8 +127,8 @@ public class ScreenSpeakService extends AccessibilityService
     public static final String PREF_FIRST_TIME_USER = "first_time_user";
 
     /** Permission required to perform gestures. */
-    public static final String PERMISSION_TALKBACK =
-            "com.google.android.marvin.feedback.permission.TALKBACK";
+    public static final String PERMISSION_SCREENSPEAK =
+            "com.google.android.marvin.feedback.permission.SCREENSPEAK";
 
     /** The intent action used to perform a custom gesture action. */
     public static final String ACTION_PERFORM_GESTURE_ACTION = "performCustomGestureAction";
@@ -474,7 +474,7 @@ public class ScreenSpeakService extends AccessibilityService
         final IntentFilter filter = new IntentFilter();
         filter.addAction(ACTION_RESUME_FEEDBACK);
         filter.addAction(Intent.ACTION_SCREEN_ON);
-        registerReceiver(mSuspendedReceiver, filter, PERMISSION_TALKBACK, null);
+        registerReceiver(mSuspendedReceiver, filter, PERMISSION_SCREENSPEAK, null);
 
         // Suspending infrastructure sets sIsScreenSpeakSuspended to true.
         suspendInfrastructure();
@@ -1032,7 +1032,7 @@ public class ScreenSpeakService extends AccessibilityService
         // Add the broadcast listener for gestures.
         final IntentFilter filter = new IntentFilter();
         filter.addAction(ACTION_PERFORM_GESTURE_ACTION);
-        registerReceiver(mActiveReceiver, filter, PERMISSION_TALKBACK, null);
+        registerReceiver(mActiveReceiver, filter, PERMISSION_SCREENSPEAK, null);
 
         // Enable the proxy activity for long-press search.
         final PackageManager packageManager = getPackageManager();
